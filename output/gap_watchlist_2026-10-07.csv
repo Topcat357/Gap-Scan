@@ -1,0 +1,3 @@
+symbol,name,description,close,premarket_close,premarket_change,premarket_volume,premarket_high,premarket_low,float_shares_outstanding,relative_volume_10d_calc,average_volume_30d_calc,market_cap_basic,sector,earnings_release_next_date
+NASDAQ:PENG,PENG,"Penguin Solutions, Inc.",75.49,67.3,4.8123345273321965,663050,70.8,65.3,48988277.4135,3.0236412785279363,2271676,3868311267.8110886,Electronic Technology,1799150400
+NASDAQ:NEOG,NEOG,Neogen Corporation,11.5,12.62,5.5183946488294175,278942,13.8847,12.5,216015453.99,0.4403740287204803,3840374.8,2508219040.384615,Health Technology,1799928000

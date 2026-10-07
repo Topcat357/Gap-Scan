@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-07",
+  "run_at": "2026-10-07 10:36",
+  "profile": "standard",
+  "data": "MAY BE DELAYED - TV_SESSIONID not set",
+  "total_matches": 2,
+  "rows": [
+    {
+      "name": "PENG",
+      "description": "Penguin Solutions, Inc.",
+      "close": 75.49,
+      "premarket_close": 67.3,
+      "premarket_change": 4.8123345273321965,
+      "premarket_volume": 663050,
+      "premarket_high": 70.8,
+      "premarket_low": 65.3,
+      "float_shares_outstanding": 48988277.4135,
+      "relative_volume_10d_calc": 3.0236412785279363,
+      "average_volume_30d_calc": 2271676,
+      "market_cap_basic": 3868311267.8110886,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1799150400,
+      "symbol": "NASDAQ:PENG"
+    },
+    {
+      "name": "NEOG",
+      "description": "Neogen Corporation",
+      "close": 11.5,
+      "premarket_close": 12.62,
+      "premarket_change": 5.5183946488294175,
+      "premarket_volume": 278942,
+      "premarket_high": 13.8847,
+      "premarket_low": 12.5,
+      "float_shares_outstanding": 216015453.99,
+      "relative_volume_10d_calc": 0.4403740287204803,
+      "average_volume_30d_calc": 3840374.8,
+      "market_cap_basic": 2508219040.384615,
+      "sector": "Health Technology",
+      "earnings_release_next_date": 1799928000,
+      "symbol": "NASDAQ:NEOG"
+    }
+  ]
+}
