@@ -1,0 +1,70 @@
+name: Premarket gap scan
+
+# GitHub schedules run in UTC and can start a few minutes late.
+# Each time runs twice (EDT and EST hours); the "Pick mode" step uses
+# New York time to decide whether to scan, check holding, or skip.
+on:
+  schedule:
+    - cron: "40 12,13 * * 1-5"   # 8:40 ET scan (both summer and winter time)
+    - cron: "45 13,14 * * 1-5"   # 9:45 ET holding check (both summer and winter time)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "scan, lowfloat, or holding"
+        required: true
+        default: scan
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gap-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pick mode
+        id: mode
+        run: |
+          if [ -n "${{ github.event.inputs.mode }}" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          hm=$(TZ=America/New_York date +%H%M)
+          if   [ "$hm" -ge 0800 ] && [ "$hm" -lt 0930 ]; then echo "mode=scan"    >> "$GITHUB_OUTPUT"
+          elif [ "$hm" -ge 0930 ] && [ "$hm" -lt 1030 ]; then echo "mode=holding" >> "$GITHUB_OUTPUT"
+          else echo "mode=skip" >> "$GITHUB_OUTPUT"; fi
+          echo "New York time: $hm"
+
+      - uses: actions/setup-python@v5
+        if: steps.mode.outputs.mode != 'skip'
+        with:
+          python-version: "3.12"
+
+      - name: Run
+        if: steps.mode.outputs.mode != 'skip'
+        env:
+          GAP_SCAN_DIR: output
+          TV_SESSIONID: ${{ secrets.TV_SESSIONID }}
+        run: |
+          pip install requests
+          case "${{ steps.mode.outputs.mode }}" in
+            scan)     python premarket_gap_scan.py ;;
+            lowfloat) python premarket_gap_scan.py --lowfloat ;;
+            holding)  python premarket_gap_scan.py --holding ;;
+          esac
+
+      - name: Save results to the repo
+        if: steps.mode.outputs.mode != 'skip'
+        run: |
+          git config user.name "gap-scan-bot"
+          git config user.email "gap-scan-bot@users.noreply.github.com"
+          git add output
+          git diff --cached --quiet && echo "Nothing new" && exit 0
+          git commit -m "Gap scan ${{ steps.mode.outputs.mode }} $(TZ=America/New_York date '+%Y-%m-%d %H:%M') ET"
+          git pull --rebase
+          git push
