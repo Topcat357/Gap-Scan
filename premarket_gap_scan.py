@@ -170,6 +170,14 @@ def earnings_str(ts):
     tag = " (EARNINGS SOON)" if 0 <= days <= 2 else ""
     return f"{d.isoformat()}{tag}"
 
+def prev_close(r):
+    """Yesterday's close, worked out from the premarket price and % change.
+    (TradingView's "close" field turns into the live price once the market opens.)"""
+    pm, chg = r.get("premarket_close"), r.get("premarket_change")
+    if pm is None or chg is None or chg <= -100:
+        return r.get("close")
+    return pm / (1 + chg / 100)
+
 # ----------------------------------------------------------------------------
 # Premarket gap scan
 # ----------------------------------------------------------------------------
@@ -242,7 +250,7 @@ def run_scan(profile_name):
         lines += [
             f"**{r.get('name')}** ({r['symbol']}) - {r.get('description') or ''}",
             f"- Gap {num(r.get('premarket_change'), 1)}% | PM ${num(r.get('premarket_close'))}"
-            f" (prev close ${num(r.get('close'))})",
+            f" (prev close ${num(prev_close(r))})",
             f"- PM vol {big(r.get('premarket_volume'))} | PM high ${num(r.get('premarket_high'))}"
             f" / low ${num(r.get('premarket_low'))}",
             f"- Float {big(r.get('float_shares_outstanding'))} | Mkt cap {big(r.get('market_cap_basic'))}"
