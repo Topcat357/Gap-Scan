@@ -1,6 +1,7 @@
 name: Premarket gap scan
 
-# GitHub schedules run in UTC and can start a few minutes late.
+# The briefs start this workflow on demand (workflow_dispatch), because GitHub
+# often starts scheduled runs hours late. The schedule below is only a backup.
 # Each time runs twice (EDT and EST hours); the "Pick mode" step uses
 # New York time to decide whether to scan, check holding, or skip.
 on:
@@ -10,9 +11,25 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "scan, lowfloat, or holding"
+        description: "scan, lowfloat, holding, or custom"
         required: true
         default: scan
+      preset:
+        description: "custom mode: preset name from presets.json (e.g. trending), or a name for an ad-hoc scan"
+        required: false
+        default: ""
+      filters:
+        description: 'custom mode, optional: JSON list of [field, operation, value] for an ad-hoc scan'
+        required: false
+        default: ""
+      sort:
+        description: "custom mode, optional: field to sort by (descending)"
+        required: false
+        default: ""
+      limit:
+        description: "custom mode, optional: max rows (1-100)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -30,10 +47,14 @@ jobs:
 
       - name: Pick mode
         id: mode
+        env:
+          INPUT_MODE: ${{ github.event.inputs.mode }}
         run: |
-          if [ -n "${{ github.event.inputs.mode }}" ]; then
-            echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"; exit 0
-          fi
+          case "$INPUT_MODE" in
+            scan|lowfloat|holding|custom) echo "mode=$INPUT_MODE" >> "$GITHUB_OUTPUT"; exit 0 ;;
+            "") ;;
+            *) echo "Unknown mode: $INPUT_MODE"; exit 1 ;;
+          esac
           hm=$(TZ=America/New_York date +%H%M)
           if   [ "$hm" -ge 0800 ] && [ "$hm" -lt 0930 ]; then echo "mode=scan"    >> "$GITHUB_OUTPUT"
           elif [ "$hm" -ge 0930 ] && [ "$hm" -lt 1030 ]; then echo "mode=holding" >> "$GITHUB_OUTPUT"
@@ -50,21 +71,36 @@ jobs:
         env:
           GAP_SCAN_DIR: output
           TV_SESSIONID: ${{ secrets.TV_SESSIONID }}
+          MODE: ${{ steps.mode.outputs.mode }}
+          PRESET: ${{ github.event.inputs.preset }}
+          FILTERS: ${{ github.event.inputs.filters }}
+          SORT: ${{ github.event.inputs.sort }}
+          LIMIT: ${{ github.event.inputs.limit }}
         run: |
           pip install requests
-          case "${{ steps.mode.outputs.mode }}" in
+          case "$MODE" in
             scan)     python premarket_gap_scan.py ;;
             lowfloat) python premarket_gap_scan.py --lowfloat ;;
             holding)  python premarket_gap_scan.py --holding ;;
+            custom)
+              args=(--custom "${PRESET:-adhoc}")
+              [ -n "$FILTERS" ] && args+=(--filters "$FILTERS")
+              [ -n "$SORT" ]    && args+=(--sort "$SORT")
+              [ -n "$LIMIT" ]   && args+=(--limit "$LIMIT")
+              python premarket_gap_scan.py "${args[@]}" ;;
           esac
 
       - name: Save results to the repo
         if: steps.mode.outputs.mode != 'skip'
+        env:
+          MODE: ${{ steps.mode.outputs.mode }}
+          PRESET: ${{ github.event.inputs.preset }}
         run: |
           git config user.name "gap-scan-bot"
           git config user.email "gap-scan-bot@users.noreply.github.com"
           git add output
           git diff --cached --quiet && echo "Nothing new" && exit 0
-          git commit -m "Gap scan ${{ steps.mode.outputs.mode }} $(TZ=America/New_York date '+%Y-%m-%d %H:%M') ET"
+          label="$MODE"; [ "$MODE" = custom ] && label="custom ${PRESET:-adhoc}"
+          git commit -m "Gap scan $label $(TZ=America/New_York date '+%Y-%m-%d %H:%M') ET"
           git pull --rebase
           git push

@@ -10,6 +10,12 @@ USAGE
   python premarket_gap_scan.py --lowfloat   Premarket gap scan, low-float momentum filters
   python premarket_gap_scan.py --holding    After the open (~9:40-10:00 ET): re-check today's
                                             gappers - are they holding above the open and premarket low?
+  python premarket_gap_scan.py --custom trending
+                                            Any time: run a named scan from presets.json
+  python premarket_gap_scan.py --custom adhoc --filters '[["change_from_open","greater",3]]'
+                                            Any time: one-off scan with your own filters
+                                            (optional --sort FIELD, --limit N)
+  Custom scans save output/custom_<name>_latest.json and .md (they never touch the gap files).
 
 REAL-TIME DATA
   Set the environment variable TV_SESSIONID to your TradingView "sessionid" cookie.
@@ -315,13 +321,114 @@ def run_holding():
     print(f"Saved to {out}")
 
 # ----------------------------------------------------------------------------
+# Custom scans (presets.json or one-off filters) - any time of day
+# ----------------------------------------------------------------------------
+PRESETS_PATH = Path(__file__).with_name("presets.json")
+
+# Always returned for custom scans, so the brief has what it needs without extra calls
+CUSTOM_COLUMNS = [
+    "name", "description", "close", "open", "high", "low", "change", "change_from_open",
+    "VWAP", "RSI", "relative_volume_intraday|5", "relative_volume_10d_calc", "volume",
+    "average_volume_30d_calc", "market_cap_basic", "float_shares_outstanding",
+    "EMA20", "EMA50", "SMA200", "price_52_week_high", "premarket_high", "premarket_low",
+    "sector", "earnings_release_next_date",
+]
+
+
+def base_filters():
+    return [
+        f("type", "equal", "stock"),
+        f("is_primary", "equal", True),
+        f("exchange", "in_range", EXCHANGES),
+        f("active_symbol", "equal", True),
+    ]
+
+
+def safe_name(s):
+    s = "".join(ch if ch.isalnum() or ch in "-_" else "-" for ch in (s or "adhoc"))
+    return s[:40] or "adhoc"
+
+
+def run_custom(name, filters_json=None, sort=None, limit=None):
+    presets = json.loads(PRESETS_PATH.read_text(encoding="utf-8")) if PRESETS_PATH.exists() else {}
+    if filters_json:
+        try:
+            spec = {"title": f"Custom scan: {name}", "filters": json.loads(filters_json)}
+        except json.JSONDecodeError as e:
+            sys.exit(f"--filters is not valid JSON: {e}")
+    elif name in presets and not name.startswith("_"):
+        spec = presets[name]
+    else:
+        names = [k for k in presets if not k.startswith("_")]
+        sys.exit(f"Unknown preset '{name}'. Available: {', '.join(names) or 'none'}")
+
+    flt = base_filters()
+    extra_cols = []
+    for item in spec.get("filters", []):
+        if not (isinstance(item, list) and len(item) == 3):
+            sys.exit(f"Each filter must be [field, operation, value]; got {item!r}")
+        field, op, value = item
+        flt.append(f(field, op, value))
+        extra_cols.append(field)
+    columns = CUSTOM_COLUMNS + [c for c in dict.fromkeys(extra_cols) if c not in CUSTOM_COLUMNS]
+
+    sort_field, sort_order = (sort, "desc") if sort else tuple(spec.get("sort") or ("relative_volume_intraday|5", "desc"))
+    n = int(limit or spec.get("limit") or ROW_LIMIT)
+    payload = {
+        "markets": ["america"],
+        "symbols": {"query": {"types": []}, "tickers": []},
+        "options": {"lang": "en"},
+        "columns": columns,
+        "filter": flt,
+        "sort": {"sortBy": sort_field, "sortOrder": sort_order},
+        "range": [0, max(1, min(n, 100))],
+    }
+    resp = post_scan(payload)
+    rows = rows_to_dicts(resp, columns)
+    total = resp.get("totalCount", len(rows))
+
+    key = safe_name(name)
+    stamp = now_et().strftime("%Y-%m-%d %H:%M")
+    live_note = ("live (logged-in session)" if os.environ.get("TV_SESSIONID")
+                 else "MAY BE DELAYED - TV_SESSIONID not set")
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    (OUT_DIR / f"custom_{key}_latest.json").write_text(json.dumps({
+        "name": name, "title": spec.get("title"), "description": spec.get("description"),
+        "date": today_et().isoformat(), "run_at": stamp, "data": live_note,
+        "filters": spec.get("filters"), "sort": [sort_field, sort_order],
+        "total_matches": total, "rows": rows,
+    }, indent=2), encoding="utf-8")
+
+    lines = [f"# {spec.get('title') or name} - {stamp} ET",
+             f"Data: {live_note}. {total} matches, top {len(rows)} by {sort_field}.", ""]
+    for r in rows:
+        lines += [
+            f"**{r.get('name')}** ({r['symbol']}) - {r.get('description') or ''}",
+            f"- ${num(r.get('close'))} | day {num(r.get('change'), 1)}% | from open "
+            f"{num(r.get('change_from_open'), 1)}% | VWAP ${num(r.get('VWAP'))}",
+            f"- Intraday RVOL {num(r.get('relative_volume_intraday|5'), 1)} | RSI {num(r.get('RSI'), 0)}"
+            f" | Float {big(r.get('float_shares_outstanding'))} | Mkt cap {big(r.get('market_cap_basic'))}",
+            f"- Sector: {r.get('sector') or '-'} | Next earnings: "
+            f"{earnings_str(r.get('earnings_release_next_date'))}",
+            "",
+        ]
+    (OUT_DIR / f"custom_{key}_latest.md").write_text("\n".join(lines), encoding="utf-8")
+    print("\n".join(lines))
+
+# ----------------------------------------------------------------------------
 if __name__ == "__main__":
-    ap = argparse.ArgumentParser(description="Premarket gap scan / gappers-holding check")
+    ap = argparse.ArgumentParser(description="Premarket gap scan / gappers-holding check / custom scans")
     ap.add_argument("--lowfloat", action="store_true", help="use the low-float profile")
     ap.add_argument("--holding", action="store_true", help="after-open check of today's list")
+    ap.add_argument("--custom", metavar="NAME", help="run a preset from presets.json (or name an ad-hoc scan)")
+    ap.add_argument("--filters", help="JSON list of [field, operation, value] for an ad-hoc scan")
+    ap.add_argument("--sort", help="field to sort by (descending)")
+    ap.add_argument("--limit", type=int, help="max rows (1-100)")
     args = ap.parse_args()
 
-    if args.holding:
+    if args.custom or args.filters:
+        run_custom(args.custom or "adhoc", args.filters, args.sort, args.limit)
+    elif args.holding:
         run_holding()
     else:
         run_scan("lowfloat" if args.lowfloat else "standard")

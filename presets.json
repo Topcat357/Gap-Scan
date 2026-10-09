@@ -1,0 +1,35 @@
+{
+  "_help": "Named scans for --custom. Each filter is [field, operation, value]. A value that is a TradingView field name (e.g. \"VWAP\", \"EMA20\") compares the two fields. Operations: greater, less, egreater, eless, equal, nequal, in_range, not_in_range. Base filters (US stocks on NASDAQ/NYSE/AMEX, primary listing, active) are always added.",
+
+  "trending": {
+    "title": "Trending after the open",
+    "description": "Up 3%+ from today's open on 2x+ intraday relative volume, above VWAP, RSI under 70 (not overbought).",
+    "filters": [
+      ["close", "in_range", [5, 100]],
+      ["average_volume_30d_calc", "greater", 1000000],
+      ["market_cap_basic", "greater", 300000000],
+      ["change_from_open", "greater", 3],
+      ["relative_volume_intraday|5", "greater", 2],
+      ["close", "greater", "VWAP"],
+      ["RSI", "less", 70]
+    ],
+    "sort": ["relative_volume_intraday|5", "desc"],
+    "limit": 25
+  },
+
+  "trending_loose": {
+    "title": "Trending after the open (loosened)",
+    "description": "Fallback when 'trending' finds fewer than 3 names: up 2%+ from the open on 1.5x+ intraday relative volume, above VWAP, RSI under 72.",
+    "filters": [
+      ["close", "in_range", [5, 100]],
+      ["average_volume_30d_calc", "greater", 1000000],
+      ["market_cap_basic", "greater", 300000000],
+      ["change_from_open", "greater", 2],
+      ["relative_volume_intraday|5", "greater", 1.5],
+      ["close", "greater", "VWAP"],
+      ["RSI", "less", 72]
+    ],
+    "sort": ["relative_volume_intraday|5", "desc"],
+    "limit": 25
+  }
+}
