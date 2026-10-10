@@ -1,6 +1,24 @@
 {
   "_help": "Named scans for --custom. Each filter is [field, operation, value]. A value that is a TradingView field name (e.g. \"VWAP\", \"EMA20\") compares the two fields. Operations: greater, less, egreater, eless, equal, nequal, in_range, not_in_range. Base filters (US stocks on NASDAQ/NYSE/AMEX, primary listing, active) are always added.",
 
+  "breakout": {
+    "type": "bars",
+    "kind": "breakout",
+    "title": "Breaking out now",
+    "description": "Latest daily bar prints a new 20-day high on volume >= 1.5x the 20-day average, close above the 50-day SMA, 20-day average volume >= 1M shares. Modifiers via params: vol_mult, sectors, mcap_min/mcap_max, price_min/price_max, lookback.",
+    "params": {},
+    "limit": 25
+  },
+
+  "coil": {
+    "type": "bars",
+    "kind": "coil",
+    "title": "Coiling for a breakout",
+    "description": "Last 15 daily bars span <= 8% of price; average true range of the last 5 bars <= 85% of the 20 before them (contraction test); close within 10% of the 52-week high; close above the 50-day SMA; 20-day average volume >= 1M shares.",
+    "params": {},
+    "limit": 25
+  },
+
   "trending": {
     "title": "Trending after the open",
     "description": "Up 3%+ from today's open on 2x+ intraday relative volume, above VWAP, RSI under 70 (not overbought).",

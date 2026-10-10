@@ -349,8 +349,60 @@ def safe_name(s):
     return s[:40] or "adhoc"
 
 
-def run_custom(name, filters_json=None, sort=None, limit=None):
+def run_bar_preset(name, spec, params_json=None, limit=None):
+    """Presets with "type": "bars" - screener prefilter + exact daily-bar rules (bar_scans.py)."""
+    from bar_scans import run_bar_scan
+    params = dict(spec.get("params") or {})
+    if params_json:
+        try:
+            params.update(json.loads(params_json))
+        except json.JSONDecodeError as e:
+            sys.exit(f"--params is not valid JSON: {e}")
+    hits, n_cands, p = run_bar_scan(spec["kind"], params, post_scan, rows_to_dicts, f,
+                                    base_filters, now_et())
+    n = int(limit or spec.get("limit") or ROW_LIMIT)
+    rows = hits[:max(1, min(n, 100))]
+
+    key = safe_name(name)
+    stamp = now_et().strftime("%Y-%m-%d %H:%M")
+    live_note = ("live (logged-in session)" if os.environ.get("TV_SESSIONID")
+                 else "MAY BE DELAYED - TV_SESSIONID not set")
+    partial = any(r.get("partial_bar") for r in rows)
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    (OUT_DIR / f"custom_{key}_latest.json").write_text(json.dumps({
+        "name": name, "title": spec.get("title"), "description": spec.get("description"),
+        "date": today_et().isoformat(), "run_at": stamp, "data": live_note,
+        "params": p, "candidates_checked": n_cands, "total_matches": len(hits),
+        "partial_bar": partial, "rows": rows,
+    }, indent=2, default=str), encoding="utf-8")
+
+    lines = [f"# {spec.get('title') or name} - {stamp} ET",
+             f"Checked {n_cands} candidates on daily bars; {len(hits)} passed. Settings: "
+             + ", ".join(f"{k}={v}" for k, v in p.items()), ""]
+    if partial:
+        lines += ["Note: today's bar is still forming; volume is paced to a full day.", ""]
+    for r in rows:
+        head = (f"**{r.get('name')}** ({r['symbol']}) - {r.get('description') or ''} | "
+                f"${num(r.get('last_close'))} | {r.get('sector') or '-'} | Mkt cap {big(r.get('market_cap_basic'))}")
+        if spec["kind"] == "breakout":
+            detail = (f"- New 20-day high ${num(r['new_high'])} vs prior ${num(r['prior_20d_high'])}"
+                      f" ({'closed above' if r['closed_above_prior_high'] else 'did NOT close above'});"
+                      f" close in top {100 - r['close_in_range_pct']}% of day's range"
+                      f" | Volume {r['vol_ratio']}x 20-day avg")
+        else:
+            detail = (f"- 15-day range ${num(r['range_low'])}-${num(r['range_high'])}"
+                      f" ({r['range_span_pct']}% wide) | ATR contraction {r['atr_ratio']}"
+                      f" | {r['pct_below_52w_high']}% below 52-wk high ${num(r['high_52w'])}")
+        lines += [head, detail,
+                  f"- RSI {num(r.get('RSI'), 0)} | Next earnings: {earnings_str(r.get('earnings_release_next_date'))}", ""]
+    (OUT_DIR / f"custom_{key}_latest.md").write_text("\n".join(lines), encoding="utf-8")
+    print("\n".join(lines))
+
+
+def run_custom(name, filters_json=None, sort=None, limit=None, params_json=None):
     presets = json.loads(PRESETS_PATH.read_text(encoding="utf-8")) if PRESETS_PATH.exists() else {}
+    if name in presets and presets[name].get("type") == "bars":
+        return run_bar_preset(name, presets[name], params_json, limit)
     if filters_json:
         try:
             spec = {"title": f"Custom scan: {name}", "filters": json.loads(filters_json)}
@@ -424,10 +476,11 @@ if __name__ == "__main__":
     ap.add_argument("--filters", help="JSON list of [field, operation, value] for an ad-hoc scan")
     ap.add_argument("--sort", help="field to sort by (descending)")
     ap.add_argument("--limit", type=int, help="max rows (1-100)")
+    ap.add_argument("--params", help='JSON modifiers for bar scans, e.g. {"vol_mult": 2, "sectors": ["tech"]}')
     args = ap.parse_args()
 
     if args.custom or args.filters:
-        run_custom(args.custom or "adhoc", args.filters, args.sort, args.limit)
+        run_custom(args.custom or "adhoc", args.filters, args.sort, args.limit, args.params)
     elif args.holding:
         run_holding()
     else:

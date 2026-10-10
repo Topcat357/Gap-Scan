@@ -30,6 +30,10 @@ on:
         description: "custom mode, optional: max rows (1-100)"
         required: false
         default: ""
+      params:
+        description: 'custom bar scans, optional JSON modifiers, e.g. {"vol_mult": 2, "sectors": ["tech"], "mcap_min": 10000000000}'
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -76,8 +80,10 @@ jobs:
           FILTERS: ${{ github.event.inputs.filters }}
           SORT: ${{ github.event.inputs.sort }}
           LIMIT: ${{ github.event.inputs.limit }}
+          PARAMS: ${{ github.event.inputs.params }}
         run: |
           pip install requests
+          [ "$MODE" = custom ] && pip install yfinance
           case "$MODE" in
             scan)     python premarket_gap_scan.py ;;
             lowfloat) python premarket_gap_scan.py --lowfloat ;;
@@ -87,6 +93,7 @@ jobs:
               [ -n "$FILTERS" ] && args+=(--filters "$FILTERS")
               [ -n "$SORT" ]    && args+=(--sort "$SORT")
               [ -n "$LIMIT" ]   && args+=(--limit "$LIMIT")
+              [ -n "$PARAMS" ]  && args+=(--params "$PARAMS")
               python premarket_gap_scan.py "${args[@]}" ;;
           esac
 
