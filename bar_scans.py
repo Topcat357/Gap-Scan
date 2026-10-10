@@ -22,6 +22,7 @@ Modifiers (params, all optional) - e.g. "in tech", "large caps only", "on 2x vol
   mcap_min / mcap_max   market cap limits, $
   price_min / price_max price limits, $
   range_bars / range_max_pct            coil: tight-range window and max span (15, 8)
+  range_min_pct   coil: minimum span (2) - filters out buyout-pinned, near-flat stocks
   atr_recent / atr_prior / atr_ratio_max coil: contraction test (5, 20, 0.85)
   near_high_pct   coil: max % below the 52-week high (10)
 """
@@ -31,7 +32,7 @@ from datetime import datetime, time as dtime
 
 DEFAULTS = {
     "breakout": {"vol_mult": 1.5, "lookback": 20, "min_avg_vol": 1_000_000},
-    "coil": {"min_avg_vol": 1_000_000, "range_bars": 15, "range_max_pct": 8.0,
+    "coil": {"min_avg_vol": 1_000_000, "range_bars": 15, "range_max_pct": 8.0, "range_min_pct": 2.0,
              "atr_recent": 5, "atr_prior": 20, "atr_ratio_max": 0.85, "near_high_pct": 10.0},
 }
 
@@ -166,8 +167,8 @@ def check_coil(df, p, high_52w, now_et):
         return None
     span = max(H[-rb:]) - min(L[-rb:])
     span_pct = span / C[-1] * 100
-    if span_pct > p["range_max_pct"]:
-        return None
+    if span_pct > p["range_max_pct"] or span_pct < p.get("range_min_pct", 0):
+        return None  # min: a near-flat range usually means a buyout-pinned stock, not a coil
     trs = [true_range(H[i], L[i], C[i - 1]) for i in range(1, len(C))]
     recent = sum(trs[-ar:]) / ar
     prior = sum(trs[-ar - ap:-ar]) / ap
