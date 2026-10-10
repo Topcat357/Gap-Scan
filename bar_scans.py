@@ -179,11 +179,17 @@ def check_coil(df, p, high_52w, now_et):
     below_high = (1 - C[-1] / hi) * 100 if hi else 100
     if below_high > p["near_high_pct"]:
         return None
+    r_hi, r_lo, lo5 = max(H[-rb:]), min(L[-rb:]), min(L[-5:])
+    mm_target = r_hi + (r_hi - r_lo)          # measured move: range height added to the breakout
+    risk = r_hi - lo5
     return {
         "bar_date": str(df.index[-1].date()),
         "partial_bar": session_fraction(now_et, df.index[-1].date()) < 1.0,
-        "range_high": round(max(H[-rb:]), 2),
-        "range_low": round(min(L[-rb:]), 2),
+        "range_high": round(r_hi, 2),
+        "range_low": round(r_lo, 2),
+        "low_5d": round(lo5, 2),
+        "mm_target": round(mm_target, 2),
+        "rr_5d_stop": round((mm_target - r_hi) / risk, 2) if risk > 0 else None,
         "range_span_pct": round(span_pct, 2),
         "atr_ratio": round(ratio, 2),
         "atr_recent": round(recent, 3),
