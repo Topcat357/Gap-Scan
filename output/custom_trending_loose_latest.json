@@ -1,0 +1,163 @@
+{
+  "name": "trending_loose",
+  "title": "Trending after the open (loosened)",
+  "description": "Fallback when 'trending' finds fewer than 3 names: up 2%+ from the open on 1.5x+ intraday relative volume, above VWAP, RSI under 72.",
+  "date": "2026-10-12",
+  "run_at": "2026-10-12 10:47",
+  "data": "MAY BE DELAYED - TV_SESSIONID not set",
+  "filters": [
+    [
+      "close",
+      "in_range",
+      [
+        5,
+        100
+      ]
+    ],
+    [
+      "average_volume_30d_calc",
+      "greater",
+      1000000
+    ],
+    [
+      "market_cap_basic",
+      "greater",
+      300000000
+    ],
+    [
+      "change_from_open",
+      "greater",
+      2
+    ],
+    [
+      "relative_volume_intraday|5",
+      "greater",
+      1.5
+    ],
+    [
+      "close",
+      "greater",
+      "VWAP"
+    ],
+    [
+      "RSI",
+      "less",
+      72
+    ]
+  ],
+  "sort": [
+    "relative_volume_intraday|5",
+    "desc"
+  ],
+  "total_matches": 4,
+  "rows": [
+    {
+      "name": "SHAK",
+      "description": "Shake Shack, Inc.",
+      "close": 68.26,
+      "open": 66.8,
+      "high": 69.46,
+      "low": 66.7,
+      "change": 2.032884902840059,
+      "change_from_open": 2.185628742514982,
+      "VWAP": 68.14,
+      "RSI": 64.38378075077536,
+      "relative_volume_intraday|5": 2.391037063567155,
+      "relative_volume_10d_calc": 0.2030796236666325,
+      "volume": 316897,
+      "average_volume_30d_calc": 1387928.0333333334,
+      "market_cap_basic": 2921455623.993423,
+      "float_shares_outstanding": 38464632.0224,
+      "EMA20": 62.91690662205941,
+      "EMA50": 63.73522347654453,
+      "SMA200": 76.4315,
+      "price_52_week_high": 107.46,
+      "premarket_high": 66.71,
+      "premarket_low": 66.71,
+      "sector": "Consumer Services",
+      "earnings_release_next_date": 1793275200,
+      "symbol": "NYSE:SHAK"
+    },
+    {
+      "name": "GMRS",
+      "description": "GMR Solutions Inc.",
+      "close": 10.645,
+      "open": 10.41,
+      "high": 10.75,
+      "low": 10.26,
+      "change": 2.552986512524073,
+      "change_from_open": 2.25744476464937,
+      "VWAP": 10.551666666666666,
+      "RSI": 44.26383948741678,
+      "relative_volume_intraday|5": 2.3389535092285,
+      "relative_volume_10d_calc": 0.2026867254697451,
+      "volume": 218233,
+      "average_volume_30d_calc": 1063617.6333333333,
+      "market_cap_basic": 575061103.155106,
+      "float_shares_outstanding": 35277311.08591,
+      "EMA20": 10.84022447230836,
+      "EMA50": 11.744737571906217,
+      "SMA200": null,
+      "price_52_week_high": 15.98,
+      "premarket_high": null,
+      "premarket_low": null,
+      "sector": "Health Services",
+      "earnings_release_next_date": 1796212800,
+      "symbol": "NYSE:GMRS"
+    },
+    {
+      "name": "VFC",
+      "description": "V.F. Corporation",
+      "close": 15.575,
+      "open": 15.25,
+      "high": 15.605,
+      "low": 15.105,
+      "change": 3.833333333333329,
+      "change_from_open": 2.131147540983602,
+      "VWAP": 15.428333333333333,
+      "RSI": 70.54558111410648,
+      "relative_volume_intraday|5": 2.1427010620135993,
+      "relative_volume_10d_calc": 0.2571265915947178,
+      "volume": 2572060,
+      "average_volume_30d_calc": 8004528.266666667,
+      "market_cap_basic": 6123070647.400001,
+      "float_shares_outstanding": 367820644.21500003,
+      "EMA20": 14.244158414401602,
+      "EMA50": 14.390410970206386,
+      "SMA200": 17.073975000000004,
+      "price_52_week_high": 22.2699,
+      "premarket_high": 15.1,
+      "premarket_low": 14.98,
+      "sector": "Consumer Non-Durables",
+      "earnings_release_next_date": 1793181600,
+      "symbol": "NYSE:VFC"
+    },
+    {
+      "name": "LW",
+      "description": "Lamb Weston Holdings, Inc.",
+      "close": 49.655,
+      "open": 48.01,
+      "high": 49.93,
+      "low": 47.81,
+      "change": 3.7288489659494544,
+      "change_from_open": 3.4263695063528496,
+      "VWAP": 49.13166666666667,
+      "RSI": 58.627296222957085,
+      "relative_volume_intraday|5": 1.990576208565205,
+      "relative_volume_10d_calc": 0.20457744897983582,
+      "volume": 770060,
+      "average_volume_30d_calc": 2210853.1,
+      "market_cap_basic": 6841488417.458533,
+      "float_shares_outstanding": 136135320.14000002,
+      "EMA20": 46.8345278160704,
+      "EMA50": 47.86872110371287,
+      "SMA200": 45.766375000000046,
+      "price_52_week_high": 67.07,
+      "premarket_high": null,
+      "premarket_low": null,
+      "sector": "Consumer Non-Durables",
+      "earnings_release_next_date": 1798804800,
+      "symbol": "NYSE:LW"
+    }
+  ]
+}
