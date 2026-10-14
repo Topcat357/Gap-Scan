@@ -1,0 +1,5 @@
+symbol,name,description,close,premarket_close,premarket_change,premarket_volume,premarket_high,premarket_low,float_shares_outstanding,relative_volume_10d_calc,average_volume_30d_calc,market_cap_basic,sector,earnings_release_next_date
+NASDAQ:VSTM,VSTM,"Verastem, Inc.",7.45,8.05,8.053691275167791,2620016,9.24,7.09,81995106.1626,1.2098686533496699,2646384.799999998,674697598.9999999,Health Technology,1794398400
+NASDAQ:LQDA,LQDA,Liquidia Corporation,26.81,36.5,36.143230138008214,2049915,43.54,36.02,77454288.8925,0.8713585658421701,3963138.1,2399733246,Health Technology,1794312000
+NASDAQ:ENVX,ENVX,Enovix Corporation,2.51,2.7,7.569721115537866,338037,2.8,2.68,189855863.452,0.9564304460413916,6812223,550815813,Producer Manufacturing,1803470400
+NYSE:BORR,BORR,Borr Drilling Limited,4.8,5,4.1666666666666705,102135,5.06,4.93,259336008.84344003,1.6860031581426818,7293262.766666667,1480861289,Industrial Services,1795003200
