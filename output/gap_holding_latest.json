@@ -1,0 +1,378 @@
+{
+  "date": "2026-10-14",
+  "run_at": "2026-10-14 09:13",
+  "enrich": "enriched 7/7 daily, 7/7 intraday, no news (MASSIVE_API_KEY not set) for top 0; 2s",
+  "rows": [
+    {
+      "name": "VSTM",
+      "close": 7.45,
+      "open": 8.15,
+      "high": 8.2,
+      "low": 7.445,
+      "change": -9.696969696969694,
+      "premarket_high": 9.24,
+      "premarket_low": 7.09,
+      "relative_volume_intraday|5": 1.266714968986973,
+      "volume": 3429243,
+      "symbol": "NASDAQ:VSTM",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-13",
+          "close": 7.45,
+          "prior_day_high": 8.2,
+          "prior_day_low": 7.45,
+          "ema20": 7.87,
+          "ema50": 7.36,
+          "sma200": 6.04,
+          "rsi14": 45.3,
+          "atr14": 0.52,
+          "atr_pct": 7.0,
+          "perf_1m_pct": -0.8,
+          "perf_3m_pct": 30.0,
+          "high_52w": 10.82,
+          "pct_below_52w_high": 31.1,
+          "high_20d": 8.65,
+          "low_20d": 7.2,
+          "resistance_above": [
+            7.86,
+            8.4,
+            8.54
+          ],
+          "support_below": [
+            7.39,
+            7.2,
+            6.62
+          ],
+          "squeeze_sessions_last10": 9,
+          "squeeze_fired": true
+        },
+        "intraday": {
+          "date": "2026-10-14",
+          "premarket_high": 9.24,
+          "premarket_low": 7.27,
+          "premarket_last": 7.97,
+          "bars_5m": 0
+        },
+        "news": null
+      },
+      "verdict": "failing"
+    },
+    {
+      "name": "LQDA",
+      "close": 26.81,
+      "open": 27.04,
+      "high": 27.4,
+      "low": 26.13,
+      "change": -3.1080592699674843,
+      "premarket_high": 43.54,
+      "premarket_low": 36.02,
+      "relative_volume_intraday|5": 0.32081089256711737,
+      "volume": 7651927,
+      "symbol": "NASDAQ:LQDA",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-13",
+          "close": 26.81,
+          "prior_day_high": 27.4,
+          "prior_day_low": 26.13,
+          "ema20": 43.01,
+          "ema50": 56.88,
+          "sma200": 53.93,
+          "rsi14": 22.5,
+          "atr14": 4.74,
+          "atr_pct": 17.7,
+          "perf_1m_pct": -58.9,
+          "perf_3m_pct": -65.5,
+          "high_52w": 93.61,
+          "pct_below_52w_high": 71.4,
+          "high_20d": 74.74,
+          "low_20d": 22.31,
+          "resistance_above": [
+            69.94,
+            70.75,
+            74.74
+          ],
+          "support_below": [
+            24.59,
+            22.31
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-10-14",
+          "premarket_high": 43.5,
+          "premarket_low": 35.33,
+          "premarket_last": 35.69,
+          "bars_5m": 0
+        },
+        "news": null
+      },
+      "verdict": "failing"
+    },
+    {
+      "name": "CRML",
+      "close": 6.54,
+      "open": 6.71,
+      "high": 6.82,
+      "low": 6.48,
+      "change": -4.105571847507335,
+      "premarket_high": 7.02,
+      "premarket_low": 6.71,
+      "relative_volume_intraday|5": 0.7639261935382525,
+      "volume": 3644942,
+      "symbol": "NASDAQ:CRML",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-13",
+          "close": 6.54,
+          "prior_day_high": 6.82,
+          "prior_day_low": 6.48,
+          "ema20": 7.14,
+          "ema50": 7.31,
+          "sma200": 9.56,
+          "rsi14": 42.2,
+          "atr14": 0.51,
+          "atr_pct": 7.8,
+          "perf_1m_pct": 1.2,
+          "perf_3m_pct": -12.4,
+          "high_52w": 32.15,
+          "pct_below_52w_high": 79.7,
+          "high_20d": 9.64,
+          "low_20d": 6.4,
+          "resistance_above": [
+            7.1,
+            7.15,
+            7.44
+          ],
+          "support_below": [
+            6.06,
+            5.68,
+            5.11
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-10-14",
+          "premarket_high": 7.02,
+          "premarket_low": 6.63,
+          "premarket_last": 6.81,
+          "bars_5m": 0
+        },
+        "news": null
+      },
+      "verdict": "failing"
+    },
+    {
+      "name": "ENVX",
+      "close": 2.51,
+      "open": 2.54,
+      "high": 2.58,
+      "low": 2.48,
+      "change": -3.0888030888030915,
+      "premarket_high": 2.8,
+      "premarket_low": 2.66,
+      "relative_volume_intraday|5": 0.7873374584484676,
+      "volume": 7227042,
+      "symbol": "NASDAQ:ENVX",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-13",
+          "close": 2.51,
+          "prior_day_high": 2.58,
+          "prior_day_low": 2.48,
+          "ema20": 2.78,
+          "ema50": 3.34,
+          "sma200": 5.49,
+          "rsi14": 35.6,
+          "atr14": 0.21,
+          "atr_pct": 8.2,
+          "perf_1m_pct": -16.9,
+          "perf_3m_pct": -50.9,
+          "high_52w": 14.21,
+          "pct_below_52w_high": 82.3,
+          "high_20d": 3.08,
+          "low_20d": 2.4,
+          "resistance_above": [
+            3.08,
+            3.55,
+            3.59
+          ],
+          "support_below": [
+            2.48,
+            2.4
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-10-14",
+          "premarket_high": 2.8,
+          "premarket_low": 2.64,
+          "premarket_last": 2.66,
+          "bars_5m": 0
+        },
+        "news": null
+      },
+      "verdict": "failing"
+    },
+    {
+      "name": "GFS",
+      "close": 46.7,
+      "open": 47.04,
+      "high": 48.44,
+      "low": 46.22,
+      "change": -3.392635498551925,
+      "premarket_high": 53.57,
+      "premarket_low": 46.03,
+      "relative_volume_intraday|5": 1.1457568492705117,
+      "volume": 4959307,
+      "symbol": "NASDAQ:GFS",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-13",
+          "close": 46.7,
+          "prior_day_high": 48.44,
+          "prior_day_low": 46.22,
+          "ema20": 47.86,
+          "ema50": 49.85,
+          "sma200": 54.67,
+          "rsi14": 45.2,
+          "atr14": 2.17,
+          "atr_pct": 4.6,
+          "perf_1m_pct": 7.3,
+          "perf_3m_pct": -24.0,
+          "high_52w": 92.55,
+          "pct_below_52w_high": 49.5,
+          "high_20d": 51.45,
+          "low_20d": 42.56,
+          "resistance_above": [
+            47.33,
+            49.42,
+            50.99
+          ],
+          "support_below": [
+            46.39,
+            45.39,
+            42.7
+          ],
+          "squeeze_sessions_last10": 1,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-10-14",
+          "premarket_high": 53.0,
+          "premarket_low": 46.03,
+          "premarket_last": 48.2,
+          "bars_5m": 0
+        },
+        "news": null
+      },
+      "verdict": "failing"
+    },
+    {
+      "name": "BORR",
+      "close": 4.8,
+      "open": 4.98,
+      "high": 5.125,
+      "low": 4.8,
+      "change": -2.636916835699795,
+      "premarket_high": 5.06,
+      "premarket_low": 4.93,
+      "relative_volume_intraday|5": 1.6240509588508367,
+      "volume": 15254703,
+      "symbol": "NYSE:BORR",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-13",
+          "close": 4.8,
+          "prior_day_high": 5.12,
+          "prior_day_low": 4.8,
+          "ema20": 4.4,
+          "ema50": 4.37,
+          "sma200": 4.88,
+          "rsi14": 62.6,
+          "atr14": 0.24,
+          "atr_pct": 5.0,
+          "perf_1m_pct": 16.5,
+          "perf_3m_pct": 11.1,
+          "high_52w": 6.66,
+          "pct_below_52w_high": 27.9,
+          "high_20d": 5.23,
+          "low_20d": 3.86,
+          "resistance_above": [
+            4.93,
+            5.23
+          ],
+          "support_below": [
+            4.31,
+            4.08,
+            3.98
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-10-14",
+          "premarket_high": 5.06,
+          "premarket_low": 4.85,
+          "premarket_last": 5.01,
+          "bars_5m": 0
+        },
+        "news": null
+      },
+      "verdict": "failing"
+    },
+    {
+      "name": "ARWR",
+      "close": 58.13,
+      "open": 60.04,
+      "high": 60.73,
+      "low": 58.08,
+      "change": -4.281244854273003,
+      "premarket_high": 64,
+      "premarket_low": 58.77,
+      "relative_volume_intraday|5": 1.4027965574915573,
+      "volume": 2260925,
+      "symbol": "NASDAQ:ARWR",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-13",
+          "close": 58.13,
+          "prior_day_high": 60.73,
+          "prior_day_low": 58.08,
+          "ema20": 65.85,
+          "ema50": 72.62,
+          "sma200": 72.26,
+          "rsi14": 26.3,
+          "atr14": 2.91,
+          "atr_pct": 5.0,
+          "perf_1m_pct": -27.9,
+          "perf_3m_pct": -19.1,
+          "high_52w": 95.49,
+          "pct_below_52w_high": 39.1,
+          "high_20d": 72.49,
+          "low_20d": 58.08,
+          "resistance_above": [
+            72.49,
+            87.2,
+            90.0
+          ],
+          "support_below": [],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-10-14",
+          "premarket_high": 64.07,
+          "premarket_low": 59.01,
+          "premarket_last": 59.5,
+          "bars_5m": 0
+        },
+        "news": null
+      },
+      "verdict": "failing"
+    }
+  ]
+}
