@@ -251,7 +251,7 @@ def run_scan(profile_name):
     tv_path.write_text(",".join(r["symbol"] for r in rows), encoding="utf-8")
 
     # JSON for --holding and the live brief (with per-stock detail for the brief)
-    enrich_note = try_enrich(rows, intraday=True, news_top=6, ref_key="premarket_close")
+    enrich_note = try_enrich(rows, intraday=True, news_top=5, ref_key="premarket_close")
     json_path = OUT_DIR / "gap_watchlist_latest.json"
     json_path.write_text(json.dumps({
         "date": today, "run_at": stamp, "profile": profile_name,
@@ -463,7 +463,7 @@ def run_custom(name, filters_json=None, sort=None, limit=None, params_json=None)
     resp = post_scan(payload)
     rows = rows_to_dicts(resp, columns)
     total = resp.get("totalCount", len(rows))
-    enrich_note = try_enrich(rows[:12], intraday=True, news_top=6)
+    enrich_note = try_enrich(rows[:12], intraday=True, news_top=5)
 
     key = safe_name(name)
     stamp = now_et().strftime("%Y-%m-%d %H:%M")

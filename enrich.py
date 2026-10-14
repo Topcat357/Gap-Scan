@@ -67,8 +67,14 @@ def _daily_block(df, ref_price):
     swing_lo = [ls[i] for i in range(3, len(ls) - 3)
                 if ls[i] == min(ls[i - 3:i + 4])]
     ref = ref_price if ref_price else float(c.iloc[-1])
-    above = sorted(x for x in swing_hi + [float(w["High"].max())] if x > ref * 1.002)
-    below = sorted((x for x in swing_lo + [float(w["Low"].min())] if x < ref * 0.998), reverse=True)
+    def distinct(levels, reverse=False):
+        out = []
+        for x in sorted(levels, reverse=reverse):  # drop levels within 0.5% of one already kept
+            if all(abs(x - y) > y * 0.005 for y in out):
+                out.append(x)
+        return out
+    above = distinct([x for x in swing_hi + [float(w["High"].max())] if x > ref * 1.002])
+    below = distinct([x for x in swing_lo + [float(w["Low"].min())] if x < ref * 0.998], reverse=True)
 
     def perf(n):
         return _r((c.iloc[-1] / c.iloc[-1 - n] - 1) * 100, 1) if len(c) > n else None
@@ -190,7 +196,7 @@ def enrich_rows(rows, intraday=False, news_top=6, ref_key="close"):
     daily, five = {}, {}
     try:
         data = yf.download(tick, period="14mo", interval="1d", group_by="ticker",
-                           auto_adjust=False, progress=False, threads=False)
+                           auto_adjust=False, progress=False, threads=True)
         for s, t in zip(syms, tick):
             try:
                 df = (data[t] if len(tick) > 1 else data).dropna(subset=["Close"])
@@ -203,7 +209,7 @@ def enrich_rows(rows, intraday=False, news_top=6, ref_key="close"):
     if intraday:
         try:
             data = yf.download(tick, period="5d", interval="5m", prepost=True, group_by="ticker",
-                               auto_adjust=False, progress=False, threads=False)
+                               auto_adjust=False, progress=False, threads=True)
             for s, t in zip(syms, tick):
                 try:
                     df = (data[t] if len(tick) > 1 else data).dropna(subset=["Close"])
