@@ -75,6 +75,7 @@ jobs:
         env:
           GAP_SCAN_DIR: output
           TV_SESSIONID: ${{ secrets.TV_SESSIONID }}
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
           MODE: ${{ steps.mode.outputs.mode }}
           PRESET: ${{ github.event.inputs.preset }}
           FILTERS: ${{ github.event.inputs.filters }}
@@ -82,8 +83,7 @@ jobs:
           LIMIT: ${{ github.event.inputs.limit }}
           PARAMS: ${{ github.event.inputs.params }}
         run: |
-          pip install requests
-          [ "$MODE" = custom ] && pip install yfinance
+          pip install requests yfinance pandas
           case "$MODE" in
             scan)     python premarket_gap_scan.py ;;
             lowfloat) python premarket_gap_scan.py --lowfloat ;;

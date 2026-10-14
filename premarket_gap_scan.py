@@ -184,6 +184,18 @@ def prev_close(r):
         return r.get("close")
     return pm / (1 + chg / 100)
 
+def try_enrich(rows, **kw):
+    """Add chart/news detail to each row (enrich.py). Never lets a failure stop the scan."""
+    if os.environ.get("ENRICH", "1") == "0" or not rows:
+        return "enrichment off"
+    try:
+        from enrich import enrich_rows
+        msg = enrich_rows(rows, **kw)
+    except Exception as e:  # noqa: BLE001
+        msg = f"enrichment failed: {e}"
+    print(msg)
+    return msg
+
 # ----------------------------------------------------------------------------
 # Premarket gap scan
 # ----------------------------------------------------------------------------
@@ -238,12 +250,13 @@ def run_scan(profile_name):
     tv_path = OUT_DIR / f"gap_watchlist_{today}_tv.txt"
     tv_path.write_text(",".join(r["symbol"] for r in rows), encoding="utf-8")
 
-    # JSON for --holding and the live brief
+    # JSON for --holding and the live brief (with per-stock detail for the brief)
+    enrich_note = try_enrich(rows, intraday=True, news_top=6, ref_key="premarket_close")
     json_path = OUT_DIR / "gap_watchlist_latest.json"
     json_path.write_text(json.dumps({
         "date": today, "run_at": stamp, "profile": profile_name,
-        "data": live_note, "total_matches": total, "rows": rows,
-    }, indent=2), encoding="utf-8")
+        "data": live_note, "enrich": enrich_note, "total_matches": total, "rows": rows,
+    }, indent=2, default=str), encoding="utf-8")
 
     # Mobile-friendly markdown
     lines = [
@@ -314,6 +327,17 @@ def run_holding():
     lines += ["## Failing (below open or PM low) - skip"] + ([line(r) for r in failing] or ["- none"])
     lines += ["", "Confirm the 5-minute opening range on the chart before entering."]
 
+    hold_rows = [dict(r) for r in rows]
+    enrich_note = try_enrich(hold_rows, intraday=True, news_top=0)
+    verdict = {id(r): v for v, grp in (("above_pm_high", strong), ("holding", holding),
+                                        ("failing", failing)) for r in grp}
+    for src, dst in zip(rows, hold_rows):
+        dst["verdict"] = verdict.get(id(src), "no_data")
+    (OUT_DIR / "gap_holding_latest.json").write_text(json.dumps({
+        "date": today_et().isoformat(), "run_at": now_et().strftime("%Y-%m-%d %H:%M"),
+        "enrich": enrich_note, "rows": hold_rows,
+    }, indent=2, default=str), encoding="utf-8")
+
     out = OUT_DIR / f"gap_holding_{today_et().isoformat()}.md"
     out.write_text("\n".join(lines), encoding="utf-8")
     (OUT_DIR / "gap_holding_latest.md").write_text("\n".join(lines), encoding="utf-8")
@@ -362,6 +386,7 @@ def run_bar_preset(name, spec, params_json=None, limit=None):
                                     base_filters, now_et())
     n = int(limit or spec.get("limit") or ROW_LIMIT)
     rows = hits[:max(1, min(n, 100))]
+    enrich_note = try_enrich(rows, intraday=False, news_top=8, ref_key="last_close")
 
     key = safe_name(name)
     stamp = now_et().strftime("%Y-%m-%d %H:%M")
@@ -372,7 +397,7 @@ def run_bar_preset(name, spec, params_json=None, limit=None):
     (OUT_DIR / f"custom_{key}_latest.json").write_text(json.dumps({
         "name": name, "title": spec.get("title"), "description": spec.get("description"),
         "date": today_et().isoformat(), "run_at": stamp, "data": live_note,
-        "params": p, "candidates_checked": n_cands, "total_matches": len(hits),
+        "params": p, "enrich": enrich_note, "candidates_checked": n_cands, "total_matches": len(hits),
         "partial_bar": partial, "rows": rows,
     }, indent=2, default=str), encoding="utf-8")
 
@@ -438,6 +463,7 @@ def run_custom(name, filters_json=None, sort=None, limit=None, params_json=None)
     resp = post_scan(payload)
     rows = rows_to_dicts(resp, columns)
     total = resp.get("totalCount", len(rows))
+    enrich_note = try_enrich(rows[:12], intraday=True, news_top=6)
 
     key = safe_name(name)
     stamp = now_et().strftime("%Y-%m-%d %H:%M")
@@ -447,9 +473,9 @@ def run_custom(name, filters_json=None, sort=None, limit=None, params_json=None)
     (OUT_DIR / f"custom_{key}_latest.json").write_text(json.dumps({
         "name": name, "title": spec.get("title"), "description": spec.get("description"),
         "date": today_et().isoformat(), "run_at": stamp, "data": live_note,
-        "filters": spec.get("filters"), "sort": [sort_field, sort_order],
+        "enrich": enrich_note, "filters": spec.get("filters"), "sort": [sort_field, sort_order],
         "total_matches": total, "rows": rows,
-    }, indent=2), encoding="utf-8")
+    }, indent=2, default=str), encoding="utf-8")
 
     lines = [f"# {spec.get('title') or name} - {stamp} ET",
              f"Data: {live_note}. {total} matches, top {len(rows)} by {sort_field}.", ""]
