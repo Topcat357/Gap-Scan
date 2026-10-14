@@ -1,18 +1,18 @@
 {
   "date": "2026-10-14",
-  "run_at": "2026-10-14 09:06",
+  "run_at": "2026-10-14 09:09",
   "profile": "standard",
   "data": "MAY BE DELAYED - TV_SESSIONID not set",
-  "enrich": "enriched 7/7 daily, 7/7 intraday, no news (MASSIVE_API_KEY not set) for top 6; 65s",
+  "enrich": "enriched 6/7 daily, 7/7 intraday, no news (MASSIVE_API_KEY not set) for top 5; 53s",
   "total_matches": 7,
   "rows": [
     {
       "name": "VSTM",
       "description": "Verastem, Inc.",
       "close": 7.45,
-      "premarket_close": 8.03,
-      "premarket_change": 7.785234899328848,
-      "premarket_volume": 2893679,
+      "premarket_close": 8.0046,
+      "premarket_change": 7.444295302013419,
+      "premarket_volume": 2923926,
       "premarket_high": 9.24,
       "premarket_low": 7.09,
       "float_shares_outstanding": 81995106.1626,
@@ -47,8 +47,8 @@
           ],
           "support_below": [
             7.52,
-            7.52,
-            7.39
+            7.39,
+            7.2
           ],
           "squeeze_sessions_last10": 9,
           "squeeze_fired": true
@@ -57,7 +57,7 @@
           "date": "2026-10-14",
           "premarket_high": 9.24,
           "premarket_low": 7.27,
-          "premarket_last": 8.01,
+          "premarket_last": 7.98,
           "bars_5m": 0
         },
         "news": null
@@ -67,9 +67,9 @@
       "name": "LQDA",
       "description": "Liquidia Corporation",
       "close": 26.81,
-      "premarket_close": 36.76,
-      "premarket_change": 37.1130175307721,
-      "premarket_volume": 2136503,
+      "premarket_close": 36.9,
+      "premarket_change": 37.63521074226035,
+      "premarket_volume": 2181739,
       "premarket_high": 43.54,
       "premarket_low": 36.02,
       "float_shares_outstanding": 77454288.8925,
@@ -100,11 +100,10 @@
           "resistance_above": [
             69.94,
             70.75,
-            70.81
+            74.74
           ],
           "support_below": [
             24.59,
-            22.31,
             22.31
           ],
           "squeeze_sessions_last10": 0,
@@ -113,7 +112,7 @@
         "intraday": {
           "date": "2026-10-14",
           "premarket_high": 43.5,
-          "premarket_low": 35.37,
+          "premarket_low": 35.33,
           "premarket_last": 36.0,
           "bars_5m": 0
         },
@@ -124,9 +123,9 @@
       "name": "CRML",
       "description": "Critical Metals Corp.",
       "close": 6.54,
-      "premarket_close": 6.83,
-      "premarket_change": 4.434250764525995,
-      "premarket_volume": 724902,
+      "premarket_close": 6.85,
+      "premarket_change": 4.740061162079505,
+      "premarket_volume": 730217,
       "premarket_high": 7.02,
       "premarket_low": 6.71,
       "float_shares_outstanding": 82670025.5928,
@@ -171,7 +170,7 @@
           "date": "2026-10-14",
           "premarket_high": 7.02,
           "premarket_low": 6.63,
-          "premarket_last": 6.85,
+          "premarket_last": 6.84,
           "bars_5m": 0
         },
         "news": null
@@ -181,9 +180,9 @@
       "name": "ENVX",
       "description": "Enovix Corporation",
       "close": 2.51,
-      "premarket_close": 2.68,
-      "premarket_change": 6.772908366533879,
-      "premarket_volume": 402741,
+      "premarket_close": 2.69,
+      "premarket_change": 7.171314741035864,
+      "premarket_volume": 409144,
       "premarket_high": 2.8,
       "premarket_low": 2.66,
       "float_shares_outstanding": 189855863.452,
@@ -237,9 +236,9 @@
       "name": "GFS",
       "description": "GlobalFoundries Inc.",
       "close": 46.7,
-      "premarket_close": 49.01,
-      "premarket_change": 4.946466809421831,
-      "premarket_volume": 277085,
+      "premarket_close": 49.53,
+      "premarket_change": 6.0599571734475335,
+      "premarket_volume": 297713,
       "premarket_high": 53.57,
       "premarket_low": 46.03,
       "float_shares_outstanding": 148470646.3671,
@@ -268,9 +267,9 @@
           "high_20d": 51.45,
           "low_20d": 42.56,
           "resistance_above": [
-            49.42,
             50.99,
-            51.45
+            51.45,
+            53.24
           ],
           "support_below": [
             47.55,
@@ -284,7 +283,7 @@
           "date": "2026-10-14",
           "premarket_high": 53.0,
           "premarket_low": 46.03,
-          "premarket_last": 47.72,
+          "premarket_last": 48.33,
           "bars_5m": 0
         },
         "news": null
@@ -307,39 +306,12 @@
       "earnings_release_next_date": 1795003200,
       "symbol": "NYSE:BORR",
       "enrich": {
-        "daily": {
-          "as_of": "2026-10-13",
-          "close": 4.8,
-          "prior_day_high": 5.12,
-          "prior_day_low": 4.8,
-          "ema20": 4.4,
-          "ema50": 4.37,
-          "sma200": 4.88,
-          "rsi14": 62.6,
-          "atr14": 0.24,
-          "atr_pct": 5.0,
-          "perf_1m_pct": 16.5,
-          "perf_3m_pct": 11.1,
-          "high_52w": 6.66,
-          "pct_below_52w_high": 27.9,
-          "high_20d": 5.23,
-          "low_20d": 3.86,
-          "resistance_above": [
-            5.23
-          ],
-          "support_below": [
-            4.31,
-            4.08,
-            3.98
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
+        "daily": null,
         "intraday": {
           "date": "2026-10-14",
           "premarket_high": 5.06,
           "premarket_low": 4.85,
-          "premarket_last": 4.96,
+          "premarket_last": 5.0,
           "bars_5m": 0
         },
         "news": null
@@ -349,9 +321,9 @@
       "name": "ARWR",
       "description": "Arrowhead Pharmaceuticals, Inc.",
       "close": 58.13,
-      "premarket_close": 60.9682,
-      "premarket_change": 4.882504730775848,
-      "premarket_volume": 103449,
+      "premarket_close": 60.82,
+      "premarket_change": 4.62755891966282,
+      "premarket_volume": 104049,
       "premarket_high": 64,
       "premarket_low": 58.77,
       "float_shares_outstanding": 132966627.82000001,
