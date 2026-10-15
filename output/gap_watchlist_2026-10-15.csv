@@ -1,0 +1,4 @@
+symbol,name,description,close,premarket_close,premarket_change,premarket_volume,premarket_high,premarket_low,float_shares_outstanding,relative_volume_10d_calc,average_volume_30d_calc,market_cap_basic,sector,earnings_release_next_date
+NASDAQ:OPK,OPK,"Opko Health, Inc.",1.37,1.66,21.167883211678816,18891275,1.87,1.3531,383714838.936,0.8727640282511719,2518793.7,1022469701.9999999,Health Services,1794398400
+NASDAQ:ASPI,ASPI,ASP Isotopes Inc.,2.07,2.17,4.83091787439614,137867,2.19,2.06,136843501.58583,1.0738973136042484,4654785.366666666,317350390,Industrial Services,1796212800
+NASDAQ:VSTM,VSTM,"Verastem, Inc.",7.71,8.154,5.7587548638132295,121279,8.47,7.8,81995106.1626,11.602202172801057,3702325.366666665,698244114,Health Technology,1794398400
