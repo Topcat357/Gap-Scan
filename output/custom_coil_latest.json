@@ -2,8 +2,8 @@
   "name": "coil",
   "title": "Coiling for a breakout",
   "description": "Last 15 daily bars span <= 8% of price; average true range of the last 5 bars <= 85% of the 20 before them (contraction test); close within 10% of the 52-week high; close above the 50-day SMA; 20-day average volume >= 1M shares.",
-  "date": "2026-10-16",
-  "run_at": "2026-10-16 16:53",
+  "date": "2026-10-19",
+  "run_at": "2026-10-19 16:51",
   "data": "MAY BE DELAYED - TV_SESSIONID not set",
   "params": {
     "min_avg_vol": 1000000,
@@ -17,166 +17,9 @@
     "price_min": 5,
     "price_max": 100
   },
-  "enrich": "enriched 2/2 daily, with news for top 2; 13s",
-  "candidates_checked": 155,
-  "total_matches": 2,
+  "enrich": "enrichment off",
+  "candidates_checked": 153,
+  "total_matches": 0,
   "partial_bar": false,
-  "rows": [
-    {
-      "name": "CNO",
-      "description": "CNO Financial Group, Inc.",
-      "close": 54.71,
-      "SMA50": 54.43640000000003,
-      "price_52_week_high": 57.59,
-      "average_volume_30d_calc": 1050490.7666666666,
-      "market_cap_basic": 5061844318.493954,
-      "sector": "Finance",
-      "float_shares_outstanding": 89582827.81459999,
-      "earnings_release_next_date": 1793304000,
-      "relative_volume_10d_calc": 0.7637127000498765,
-      "change": 0.23818248442653453,
-      "RSI": 56.61005328043656,
-      "EMA20": 53.924300112749485,
-      "SMA200": 47.904574999999994,
-      "symbol": "NYSE:CNO",
-      "bar_date": "2026-10-16",
-      "partial_bar": false,
-      "range_high": 55.16,
-      "range_low": 51.94,
-      "low_5d": 52.82,
-      "mm_target": 58.38,
-      "rr_5d_stop": 1.38,
-      "range_span_pct": 5.89,
-      "atr_ratio": 0.73,
-      "atr_recent": 0.808,
-      "pct_below_52w_high": 5.0,
-      "high_52w": 57.59,
-      "avg_vol_20d": 1061730,
-      "last_close": 54.71,
-      "enrich": {
-        "daily": {
-          "as_of": "2026-10-16",
-          "close": 54.71,
-          "prior_day_high": 55.16,
-          "prior_day_low": 54.32,
-          "ema20": 53.92,
-          "ema50": 53.84,
-          "sma200": 47.9,
-          "rsi14": 56.6,
-          "atr14": 0.99,
-          "atr_pct": 1.8,
-          "perf_1m_pct": -1.5,
-          "perf_3m_pct": 3.2,
-          "high_52w": 57.59,
-          "pct_below_52w_high": 5.0,
-          "high_20d": 56.13,
-          "low_20d": 51.94,
-          "resistance_above": [
-            54.82,
-            55.6,
-            56.35
-          ],
-          "support_below": [
-            54.45,
-            53.14,
-            52.83
-          ],
-          "squeeze_sessions_last10": 3,
-          "squeeze_fired": false
-        },
-        "intraday": null,
-        "news": {
-          "hours": 48,
-          "count": 0,
-          "tone": "none",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 0,
-          "top": []
-        }
-      }
-    },
-    {
-      "name": "PAGP",
-      "description": "Plains GP Holdings, L.P.",
-      "close": 27.45,
-      "SMA50": 26.909900000000015,
-      "price_52_week_high": 28.7,
-      "average_volume_30d_calc": 1800781.2,
-      "market_cap_basic": 5432468357.285608,
-      "sector": "Industrial Services",
-      "float_shares_outstanding": 192366646.08,
-      "earnings_release_next_date": 1793275200,
-      "relative_volume_10d_calc": 1.7255221312179745,
-      "change": 1.0305483989694426,
-      "RSI": 63.72761937593829,
-      "EMA20": 26.840825912572576,
-      "SMA200": 24.23827500000003,
-      "symbol": "NASDAQ:PAGP",
-      "bar_date": "2026-10-16",
-      "partial_bar": false,
-      "range_high": 27.54,
-      "range_low": 25.62,
-      "low_5d": 26.63,
-      "mm_target": 29.46,
-      "rr_5d_stop": 2.11,
-      "range_span_pct": 6.99,
-      "atr_ratio": 0.83,
-      "atr_recent": 0.413,
-      "pct_below_52w_high": 4.36,
-      "high_52w": 28.7,
-      "avg_vol_20d": 1758740,
-      "last_close": 27.45,
-      "enrich": {
-        "daily": {
-          "as_of": "2026-10-16",
-          "close": 27.45,
-          "prior_day_high": 27.54,
-          "prior_day_low": 27.01,
-          "ema20": 26.84,
-          "ema50": 26.67,
-          "sma200": 24.24,
-          "rsi14": 63.7,
-          "atr14": 0.48,
-          "atr_pct": 1.8,
-          "perf_1m_pct": -1.0,
-          "perf_3m_pct": 5.9,
-          "high_52w": 28.7,
-          "pct_below_52w_high": 4.4,
-          "high_20d": 27.78,
-          "low_20d": 25.62,
-          "resistance_above": [
-            28.5,
-            28.7
-          ],
-          "support_below": [
-            27.38,
-            25.94,
-            25.62
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": null,
-        "news": {
-          "hours": 48,
-          "count": 1,
-          "tone": "positive",
-          "positive": 1,
-          "negative": 0,
-          "neutral": 0,
-          "top": [
-            {
-              "published_utc": "2026-10-15T15:43:00Z",
-              "title": "5 Value Stocks to Buy as Core Inflation Rises and Rate Hike Odds Climb",
-              "publisher": "Zacks Investment Research",
-              "sentiment": "positive",
-              "reason": "Zacks Rank #1 with exceptional EPS growth projections (236% for 2026, 12% for 2027), substantial upward earnings estimate revisions, Value Score of A, and positioned to benefit from elevated energy co",
-              "url": "https://www.zacks.com/stock/news/3008793/5-value-stocks-to-buy-as-core-inflation-rises-and-rate-hike-odds-climb?cid=CS-ZC-FT-analyst_blog|rw-3008793"
-            }
-          ]
-        }
-      }
-    }
-  ]
+  "rows": []
 }
