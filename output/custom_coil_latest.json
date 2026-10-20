@@ -2,8 +2,8 @@
   "name": "coil",
   "title": "Coiling for a breakout",
   "description": "Last 15 daily bars span <= 8% of price; average true range of the last 5 bars <= 85% of the 20 before them (contraction test); close within 10% of the 52-week high; close above the 50-day SMA; 20-day average volume >= 1M shares.",
-  "date": "2026-10-19",
-  "run_at": "2026-10-19 16:51",
+  "date": "2026-10-20",
+  "run_at": "2026-10-20 16:51",
   "data": "MAY BE DELAYED - TV_SESSIONID not set",
   "params": {
     "min_avg_vol": 1000000,
@@ -17,9 +17,55 @@
     "price_min": 5,
     "price_max": 100
   },
-  "enrich": "enrichment off",
-  "candidates_checked": 153,
-  "total_matches": 0,
+  "enrich": "enriched 0/1 daily, with news for top 1; 0s",
+  "candidates_checked": 184,
+  "total_matches": 1,
   "partial_bar": false,
-  "rows": []
+  "rows": [
+    {
+      "name": "ZIM",
+      "description": "ZIM Integrated Shipping Services Ltd.",
+      "close": 29.14,
+      "SMA50": 28.848,
+      "price_52_week_high": 30.98,
+      "average_volume_30d_calc": 1473589.9,
+      "market_cap_basic": 3515713866.0144925,
+      "sector": "Transportation",
+      "float_shares_outstanding": 120478281.66499999,
+      "earnings_release_next_date": 1795003200,
+      "relative_volume_10d_calc": 0.6988674811087434,
+      "change": 0.5521048999309873,
+      "RSI": 47.917654766733385,
+      "EMA20": 29.51184676300487,
+      "SMA200": 26.19367499999999,
+      "symbol": "NYSE:ZIM",
+      "bar_date": "2026-10-20",
+      "partial_bar": false,
+      "range_high": 30.98,
+      "range_low": 28.7,
+      "low_5d": 28.7,
+      "mm_target": 33.26,
+      "rr_5d_stop": 1.0,
+      "range_span_pct": 7.82,
+      "atr_ratio": 0.83,
+      "atr_recent": 0.731,
+      "pct_below_52w_high": 5.94,
+      "high_52w": 30.98,
+      "avg_vol_20d": 1637895,
+      "last_close": 29.14,
+      "enrich": {
+        "daily": null,
+        "intraday": null,
+        "news": {
+          "hours": 48,
+          "count": 0,
+          "tone": "none",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0,
+          "top": []
+        }
+      }
+    }
+  ]
 }
