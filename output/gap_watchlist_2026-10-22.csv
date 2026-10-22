@@ -1,0 +1,4 @@
+symbol,name,description,close,premarket_close,premarket_change,premarket_volume,premarket_high,premarket_low,float_shares_outstanding,relative_volume_10d_calc,average_volume_30d_calc,market_cap_basic,sector,earnings_release_next_date
+NYSE:BHVN,BHVN,Biohaven Ltd.,11.75,16.07,36.765957446808514,7877764,18.39,11.6,128559251.86542001,0.754220360982948,2569243.6666666665,1774764385,Health Technology,1794916800
+NASDAQ:QS,QS,QuantumScape Corporation,3.98,4.29,7.788944723618092,709798,4.4,4.23,503485681.133,1.3340174247072045,12783557.733333332,2464071822,Producer Manufacturing,1802865600
+NYSE:AVEX,AVEX,AEVEX Corp.,9.68,10.8201,11.777892561983474,350519,10.97,10.13,32444129.819819998,6.682332425504276,1981779.8,1227123726,Electronic Technology,1796212800
