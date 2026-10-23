@@ -1,21 +1,21 @@
-# Premarket Gappers - 2026-10-22 08:56 ET (standard)
+# Premarket Gappers - 2026-10-23 08:57 ET (standard)
 Data: MAY BE DELAYED - TV_SESSIONID not set. 3 matches, top 3 by premarket volume.
 No news check here - the brief grades catalysts.
 
-**BHVN** (NYSE:BHVN) - Biohaven Ltd.
-- Gap 36.8% | PM $16.07 (prev close $11.75)
-- PM vol 7.9M | PM high $18.39 / low $11.60
-- Float 128.6M | Mkt cap 1.8B | Avg vol 2.6M
-- Sector: Health Technology | Next earnings: 2026-11-17
+**AXTI** (NASDAQ:AXTI) - AXT Inc
+- Gap 4.2% | PM $53.74 (prev close $51.56)
+- PM vol 535.6K | PM high $56.39 / low $53.64
+- Float 62.8M | Mkt cap 3.4B | Avg vol 9.0M
+- Sector: Electronic Technology | Next earnings: 2026-10-29
 
-**QS** (NASDAQ:QS) - QuantumScape Corporation
-- Gap 7.8% | PM $4.29 (prev close $3.98)
-- PM vol 709.8K | PM high $4.40 / low $4.23
-- Float 503.5M | Mkt cap 2.5B | Avg vol 12.8M
-- Sector: Producer Manufacturing | Next earnings: 2027-02-17
+**RITM** (NYSE:RITM) - Rithm Capital Corp.
+- Gap 5.9% | PM $9.20 (prev close $8.68)
+- PM vol 195.4K | PM high $9.28 / low $8.70
+- Float 555.6M | Mkt cap 4.8B | Avg vol 6.8M
+- Sector: Finance | Next earnings: 2027-02-09
 
-**AVEX** (NYSE:AVEX) - AEVEX Corp.
-- Gap 11.8% | PM $10.82 (prev close $9.68)
-- PM vol 350.5K | PM high $10.97 / low $10.13
-- Float 32.4M | Mkt cap 1.2B | Avg vol 2.0M
-- Sector: Electronic Technology | Next earnings: 2026-12-02
+**CCI** (NYSE:CCI) - Crown Castle Inc.
+- Gap 12.3% | PM $88.54 (prev close $78.83)
+- PM vol 156.7K | PM high $89.30 / low $83.50
+- Float 425.0M | Mkt cap 33.5B | Avg vol 4.7M
+- Sector: Finance | Next earnings: 2027-01-27

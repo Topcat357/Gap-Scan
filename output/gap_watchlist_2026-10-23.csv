@@ -1,0 +1,4 @@
+symbol,name,description,close,premarket_close,premarket_change,premarket_volume,premarket_high,premarket_low,float_shares_outstanding,relative_volume_10d_calc,average_volume_30d_calc,market_cap_basic,sector,earnings_release_next_date
+NASDAQ:AXTI,AXTI,AXT Inc,51.56,53.74,4.228083785880527,535630,56.39,53.6401,62844895.8676,0.9634726757603073,8984944.566666666,3380954884.0000005,Electronic Technology,1793304300
+NYSE:RITM,RITM,Rithm Capital Corp.,8.68,9.195,5.933179723502311,195405,9.28,8.695,555565266.7770001,1.5544436103656438,6842228.666666667,4846972778,Finance,1802174400
+NYSE:CCI,CCI,Crown Castle Inc.,78.83,88.54,12.31764556640874,156666,89.3,83.5,425024439.54,0.9823480856047536,4685231.366666666,33538653456,Finance,1801051200
