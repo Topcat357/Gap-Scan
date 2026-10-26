@@ -1,0 +1,4 @@
+symbol,name,description,close,premarket_close,premarket_change,premarket_volume,premarket_high,premarket_low,float_shares_outstanding,relative_volume_10d_calc,average_volume_30d_calc,market_cap_basic,sector,earnings_release_next_date
+NASDAQ:XNCR,XNCR,"Xencor, Inc.",25.18,33.085,31.393963463065933,1389367,35.51,26.22,69987517.0588,1.131343704201213,1455878.8666666667,1872218665.0000002,Health Technology,1794225600
+NYSE:RRC,RRC,Range Resources Corporation,45.52,50.65,11.269771528998232,277088,52.78,45.99,230046276,1.2209672820105415,2846655.7666666666,10637091842,Energy Minerals,1793131200
+NASDAQ:SGRY,SGRY,"Surgery Partners, Inc.",15.75,19.47,23.619047619047613,104952,19.71,18.8,78002253.58,1.7588552651301637,2176117.1,2061962574,Health Services,1794312000

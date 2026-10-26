@@ -1,223 +1,191 @@
 {
-  "date": "2026-10-23",
-  "run_at": "2026-10-23 08:57",
+  "date": "2026-10-26",
+  "run_at": "2026-10-26 09:20",
   "profile": "standard",
   "data": "MAY BE DELAYED - TV_SESSIONID not set",
   "enrich": "enriched 3/3 daily, 3/3 intraday, with news for top 3; 27s",
   "total_matches": 3,
   "rows": [
     {
-      "name": "AXTI",
-      "description": "AXT Inc",
-      "close": 51.56,
-      "premarket_close": 53.74,
-      "premarket_change": 4.228083785880527,
-      "premarket_volume": 535630,
-      "premarket_high": 56.39,
-      "premarket_low": 53.6401,
-      "float_shares_outstanding": 62844895.8676,
-      "relative_volume_10d_calc": 0.9634726757603073,
-      "average_volume_30d_calc": 8984944.566666666,
-      "market_cap_basic": 3380954884.0000005,
-      "sector": "Electronic Technology",
-      "earnings_release_next_date": 1793304300,
-      "symbol": "NASDAQ:AXTI",
+      "name": "XNCR",
+      "description": "Xencor, Inc.",
+      "close": 25.18,
+      "premarket_close": 33.085,
+      "premarket_change": 31.393963463065933,
+      "premarket_volume": 1389367,
+      "premarket_high": 35.51,
+      "premarket_low": 26.22,
+      "float_shares_outstanding": 69987517.0588,
+      "relative_volume_10d_calc": 1.131343704201213,
+      "average_volume_30d_calc": 1455878.8666666667,
+      "market_cap_basic": 1872218665.0000002,
+      "sector": "Health Technology",
+      "earnings_release_next_date": 1794225600,
+      "symbol": "NASDAQ:XNCR",
       "enrich": {
         "daily": {
-          "as_of": "2026-10-22",
-          "close": 51.56,
-          "prior_day_high": 56.72,
-          "prior_day_low": 51.0,
-          "ema20": 64.53,
-          "ema50": 67.74,
-          "sma200": 63.82,
-          "rsi14": 36.6,
-          "atr14": 6.72,
-          "atr_pct": 13.0,
-          "perf_1m_pct": -29.4,
-          "perf_3m_pct": 9.2,
-          "high_52w": 143.16,
-          "pct_below_52w_high": 64.0,
-          "high_20d": 88.36,
-          "low_20d": 50.57,
-          "resistance_above": [
-            73.94,
-            81.5,
-            88.36
-          ],
-          "support_below": [
-            52.76,
-            50.57,
-            36.73
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-10-23",
-          "premarket_high": 56.39,
-          "premarket_low": 52.99,
-          "premarket_last": 53.95,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 0,
-          "tone": "none",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 0,
-          "top": []
-        }
-      }
-    },
-    {
-      "name": "RITM",
-      "description": "Rithm Capital Corp.",
-      "close": 8.68,
-      "premarket_close": 9.195,
-      "premarket_change": 5.933179723502311,
-      "premarket_volume": 195405,
-      "premarket_high": 9.28,
-      "premarket_low": 8.695,
-      "float_shares_outstanding": 555565266.7770001,
-      "relative_volume_10d_calc": 1.5544436103656438,
-      "average_volume_30d_calc": 6842228.666666667,
-      "market_cap_basic": 4846972778,
-      "sector": "Finance",
-      "earnings_release_next_date": 1802174400,
-      "symbol": "NYSE:RITM",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-10-22",
-          "close": 8.68,
-          "prior_day_high": 8.79,
-          "prior_day_low": 8.51,
-          "ema20": 8.77,
-          "ema50": 9.15,
-          "sma200": 9.77,
-          "rsi14": 43.6,
-          "atr14": 0.25,
-          "atr_pct": 2.9,
-          "perf_1m_pct": -7.9,
-          "perf_3m_pct": -4.8,
-          "high_52w": 12.15,
-          "pct_below_52w_high": 28.6,
-          "high_20d": 9.31,
-          "low_20d": 8.31,
-          "resistance_above": [
-            9.71,
-            10.14,
-            10.28
-          ],
-          "support_below": [
-            8.6,
-            8.31
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-10-23",
-          "premarket_high": 9.28,
-          "premarket_low": 8.7,
-          "premarket_last": 9.21,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 0,
-          "tone": "none",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 0,
-          "top": []
-        }
-      }
-    },
-    {
-      "name": "CCI",
-      "description": "Crown Castle Inc.",
-      "close": 78.83,
-      "premarket_close": 88.54,
-      "premarket_change": 12.31764556640874,
-      "premarket_volume": 156666,
-      "premarket_high": 89.3,
-      "premarket_low": 83.5,
-      "float_shares_outstanding": 425024439.54,
-      "relative_volume_10d_calc": 0.9823480856047536,
-      "average_volume_30d_calc": 4685231.366666666,
-      "market_cap_basic": 33538653456,
-      "sector": "Finance",
-      "earnings_release_next_date": 1801051200,
-      "symbol": "NYSE:CCI",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-10-22",
-          "close": 78.83,
-          "prior_day_high": 80.4,
-          "prior_day_low": 76.29,
-          "ema20": 76.3,
-          "ema50": 75.37,
-          "sma200": 82.22,
-          "rsi14": 59.7,
-          "atr14": 2.7,
-          "atr_pct": 3.4,
-          "perf_1m_pct": 12.2,
-          "perf_3m_pct": 5.2,
-          "high_52w": 100.5,
-          "pct_below_52w_high": 21.6,
-          "high_20d": 83.26,
-          "low_20d": 65.32,
+          "as_of": "2026-10-23",
+          "close": 25.18,
+          "prior_day_high": 25.81,
+          "prior_day_low": 24.42,
+          "ema20": 24.58,
+          "ema50": 23.88,
+          "sma200": 16.57,
+          "rsi14": 53.9,
+          "atr14": 1.35,
+          "atr_pct": 5.4,
+          "perf_1m_pct": 5.4,
+          "perf_3m_pct": 26.8,
+          "high_52w": 30.61,
+          "pct_below_52w_high": 17.7,
+          "high_20d": 26.35,
+          "low_20d": 21.97,
           "resistance_above": [],
           "support_below": [
-            74.78,
-            74.36,
-            73.29
+            25.81,
+            23.36,
+            22.56
+          ],
+          "squeeze_sessions_last10": 10,
+          "squeeze_fired": true
+        },
+        "intraday": {
+          "date": "2026-10-26",
+          "premarket_high": 35.51,
+          "premarket_low": 31.0,
+          "premarket_last": 32.6,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 0,
+          "tone": "none",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0,
+          "top": []
+        }
+      }
+    },
+    {
+      "name": "RRC",
+      "description": "Range Resources Corporation",
+      "close": 45.52,
+      "premarket_close": 50.65,
+      "premarket_change": 11.269771528998232,
+      "premarket_volume": 277088,
+      "premarket_high": 52.78,
+      "premarket_low": 45.99,
+      "float_shares_outstanding": 230046276,
+      "relative_volume_10d_calc": 1.2209672820105415,
+      "average_volume_30d_calc": 2846655.7666666666,
+      "market_cap_basic": 10637091842,
+      "sector": "Energy Minerals",
+      "earnings_release_next_date": 1793131200,
+      "symbol": "NYSE:RRC",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-23",
+          "close": 45.52,
+          "prior_day_high": 45.74,
+          "prior_day_low": 43.4,
+          "ema20": 41.84,
+          "ema50": 40.72,
+          "sma200": 39.88,
+          "rsi14": 71.9,
+          "atr14": 1.22,
+          "atr_pct": 2.7,
+          "perf_1m_pct": 16.3,
+          "perf_3m_pct": 20.2,
+          "high_52w": 48.31,
+          "pct_below_52w_high": 5.8,
+          "high_20d": 45.74,
+          "low_20d": 36.75,
+          "resistance_above": [],
+          "support_below": [
+            40.86,
+            40.27,
+            38.97
           ],
           "squeeze_sessions_last10": 0,
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-10-23",
-          "premarket_high": 89.63,
-          "premarket_low": 83.5,
-          "premarket_last": 89.4,
+          "date": "2026-10-26",
+          "premarket_high": 52.78,
+          "premarket_low": 45.99,
+          "premarket_last": 50.39,
           "bars_5m": 0
         },
         "news": {
           "hours": 48,
-          "count": 3,
-          "tone": "neutral",
+          "count": 0,
+          "tone": "none",
           "positive": 0,
           "negative": 0,
-          "neutral": 3,
-          "top": [
-            {
-              "published_utc": "2026-10-22T16:15:00Z",
-              "title": "Crown Castle's Q3 AFFO Beats Estimates on Lower Expenses",
-              "publisher": "Zacks Investment Research",
-              "sentiment": "neutral",
-              "reason": "Mixed results with positive AFFO beat and guidance raise offset by significant revenue decline from tenant losses (DISH, Sprint). Lower interest expenses helped earnings, but core business faced headw",
-              "url": "https://www.zacks.com/stock/news/3013246/crown-castle-s-q3-affo-beats-estimates-on-lower-expenses?cid=CS-ZC-FT-analyst_blog|earnings_article-3013246"
-            },
-            {
-              "published_utc": "2026-10-21T21:00:01Z",
-              "title": "Compared to Estimates, Crown Castle (CCI) Q3 Earnings: A Look at Key Metrics",
-              "publisher": "Zacks Investment Research",
-              "sentiment": "neutral",
-              "reason": "Mixed earnings results with revenue missing estimates by 1.38% and declining 7.2% year-over-year, offset by EPS beating expectations by 3.33%. Site rental revenue performed in line with estimates, but",
-              "url": "https://www.zacks.com/stock/news/3012257/compared-to-estimates-crown-castle-cci-q3-earnings-a-look-at-key-metrics?cid=CS-ZC-FT-fundamental_analysis|nfm-3012257"
-            },
-            {
-              "published_utc": "2026-10-21T20:50:02Z",
-              "title": "Crown Castle (CCI) Tops Q3 FFO Estimates",
-              "publisher": "Zacks Investment Research",
-              "sentiment": "neutral",
-              "reason": "While CCI beat FFO expectations by 3.33%, it missed revenue estimates and has significantly underperformed the market year-to-date (-8.7% vs S&P 500 +12.7%). The Zacks Rank #3 (Hold) with mixed estima",
-              "url": "https://www.zacks.com/stock/news/3012227/crown-castle-cci-tops-q3-ffo-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3012227"
-            }
-          ]
+          "neutral": 0,
+          "top": []
+        }
+      }
+    },
+    {
+      "name": "SGRY",
+      "description": "Surgery Partners, Inc.",
+      "close": 15.75,
+      "premarket_close": 19.47,
+      "premarket_change": 23.619047619047613,
+      "premarket_volume": 104952,
+      "premarket_high": 19.71,
+      "premarket_low": 18.8,
+      "float_shares_outstanding": 78002253.58,
+      "relative_volume_10d_calc": 1.7588552651301637,
+      "average_volume_30d_calc": 2176117.1,
+      "market_cap_basic": 2061962574,
+      "sector": "Health Services",
+      "earnings_release_next_date": 1794312000,
+      "symbol": "NASDAQ:SGRY",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-23",
+          "close": 15.75,
+          "prior_day_high": 16.16,
+          "prior_day_low": 15.66,
+          "ema20": 14.7,
+          "ema50": 14.52,
+          "sma200": 14.44,
+          "rsi14": 64.2,
+          "atr14": 0.62,
+          "atr_pct": 3.9,
+          "perf_1m_pct": 10.9,
+          "perf_3m_pct": 3.8,
+          "high_52w": 23.44,
+          "pct_below_52w_high": 32.8,
+          "high_20d": 16.16,
+          "low_20d": 13.11,
+          "resistance_above": [],
+          "support_below": [
+            14.57,
+            13.59,
+            13.52
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-10-26",
+          "premarket_high": 19.71,
+          "premarket_low": 18.91,
+          "premarket_last": 19.46,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 0,
+          "tone": "none",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0,
+          "top": []
         }
       }
     }

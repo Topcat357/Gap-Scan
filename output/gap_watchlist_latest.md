@@ -1,21 +1,21 @@
-# Premarket Gappers - 2026-10-23 08:57 ET (standard)
+# Premarket Gappers - 2026-10-26 09:20 ET (standard)
 Data: MAY BE DELAYED - TV_SESSIONID not set. 3 matches, top 3 by premarket volume.
 No news check here - the brief grades catalysts.
 
-**AXTI** (NASDAQ:AXTI) - AXT Inc
-- Gap 4.2% | PM $53.74 (prev close $51.56)
-- PM vol 535.6K | PM high $56.39 / low $53.64
-- Float 62.8M | Mkt cap 3.4B | Avg vol 9.0M
-- Sector: Electronic Technology | Next earnings: 2026-10-29
+**XNCR** (NASDAQ:XNCR) - Xencor, Inc.
+- Gap 31.4% | PM $33.09 (prev close $25.18)
+- PM vol 1.4M | PM high $35.51 / low $26.22
+- Float 70.0M | Mkt cap 1.9B | Avg vol 1.5M
+- Sector: Health Technology | Next earnings: 2026-11-09
 
-**RITM** (NYSE:RITM) - Rithm Capital Corp.
-- Gap 5.9% | PM $9.20 (prev close $8.68)
-- PM vol 195.4K | PM high $9.28 / low $8.70
-- Float 555.6M | Mkt cap 4.8B | Avg vol 6.8M
-- Sector: Finance | Next earnings: 2027-02-09
+**RRC** (NYSE:RRC) - Range Resources Corporation
+- Gap 11.3% | PM $50.65 (prev close $45.52)
+- PM vol 277.1K | PM high $52.78 / low $45.99
+- Float 230.0M | Mkt cap 10.6B | Avg vol 2.8M
+- Sector: Energy Minerals | Next earnings: 2026-10-27 (EARNINGS SOON)
 
-**CCI** (NYSE:CCI) - Crown Castle Inc.
-- Gap 12.3% | PM $88.54 (prev close $78.83)
-- PM vol 156.7K | PM high $89.30 / low $83.50
-- Float 425.0M | Mkt cap 33.5B | Avg vol 4.7M
-- Sector: Finance | Next earnings: 2027-01-27
+**SGRY** (NASDAQ:SGRY) - Surgery Partners, Inc.
+- Gap 23.6% | PM $19.47 (prev close $15.75)
+- PM vol 105.0K | PM high $19.71 / low $18.80
+- Float 78.0M | Mkt cap 2.1B | Avg vol 2.2M
+- Sector: Health Services | Next earnings: 2026-11-10
