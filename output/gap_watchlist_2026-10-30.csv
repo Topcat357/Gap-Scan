@@ -1,0 +1,3 @@
+symbol,name,description,close,premarket_close,premarket_change,premarket_volume,premarket_high,premarket_low,float_shares_outstanding,relative_volume_10d_calc,average_volume_30d_calc,market_cap_basic,sector,earnings_release_next_date
+NASDAQ:RIVN,RIVN,"Rivian Automotive, Inc.",11.45,12.14,6.026200873362457,1592712,12.79,11.9308,942870674.2861,1.7568779368245424,25769990.233333334,16578003823.999998,Consumer Durables,1803556800
+NYSE:CPRI,CPRI,Capri Holdings Limited,16.06,17.86,11.207970112079707,254793,17.9,15.78,110755351.476,1.5740250116159835,4192242.2666666666,1825244940,Retail Trade,1802260800

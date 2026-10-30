@@ -1,221 +1,151 @@
 {
-  "date": "2026-10-29",
-  "run_at": "2026-10-29 09:15",
+  "date": "2026-10-30",
+  "run_at": "2026-10-30 08:35",
   "profile": "standard",
   "data": "live (logged-in session)",
-  "enrich": "enriched 7/7 daily, 7/7 intraday, with news for top 5; 53s",
-  "total_matches": 7,
+  "enrich": "enriched 2/2 daily, 2/2 intraday, with news for top 2; 15s",
+  "total_matches": 2,
   "rows": [
     {
-      "name": "PURR",
-      "description": "Hyperliquid Strategies Inc",
-      "close": 9.97,
-      "premarket_close": 11.26,
-      "premarket_change": 12.938816449348034,
-      "premarket_volume": 5029634,
-      "premarket_high": 11.75,
-      "premarket_low": 9.5,
-      "float_shares_outstanding": 252909653.718,
-      "relative_volume_10d_calc": 0.8492384223558767,
-      "average_volume_30d_calc": 16757872.3,
-      "market_cap_basic": 2774364644.0000005,
-      "sector": "Finance",
-      "earnings_release_next_date": 1793912400,
-      "symbol": "NASDAQ:PURR",
+      "name": "RIVN",
+      "description": "Rivian Automotive, Inc.",
+      "close": 11.45,
+      "premarket_close": 12.14,
+      "premarket_change": 6.026200873362457,
+      "premarket_volume": 1592712,
+      "premarket_high": 12.79,
+      "premarket_low": 11.9308,
+      "float_shares_outstanding": 942870674.2861,
+      "relative_volume_10d_calc": 1.7568779368245424,
+      "average_volume_30d_calc": 25769990.233333334,
+      "market_cap_basic": 16578003823.999998,
+      "sector": "Consumer Durables",
+      "earnings_release_next_date": 1803556800,
+      "symbol": "NASDAQ:RIVN",
       "enrich": {
         "daily": {
-          "as_of": "2026-10-28",
-          "close": 9.97,
-          "prior_day_high": 9.98,
-          "prior_day_low": 9.42,
-          "ema20": 10.14,
-          "ema50": 10.37,
-          "sma200": 7.58,
-          "rsi14": 46.8,
-          "atr14": 0.82,
-          "atr_pct": 8.2,
-          "perf_1m_pct": -16.4,
-          "perf_3m_pct": 58.3,
-          "high_52w": 14.76,
-          "pct_below_52w_high": 32.5,
-          "high_20d": 13.05,
-          "low_20d": 8.47,
+          "as_of": "2026-10-29",
+          "close": 11.45,
+          "prior_day_high": 11.87,
+          "prior_day_low": 11.38,
+          "ema20": 12.79,
+          "ema50": 14.06,
+          "sma200": 15.49,
+          "rsi14": 24.3,
+          "atr14": 0.53,
+          "atr_pct": 4.6,
+          "perf_1m_pct": -23.4,
+          "perf_3m_pct": -24.8,
+          "high_52w": 22.69,
+          "pct_below_52w_high": 49.5,
+          "high_20d": 15.36,
+          "low_20d": 11.38,
           "resistance_above": [
-            12.93,
-            13.05,
-            14.14
+            15.36,
+            16.59,
+            16.81
           ],
           "support_below": [
-            10.93,
-            10.55,
-            8.47
+            11.38
           ],
           "squeeze_sessions_last10": 0,
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-10-29",
-          "premarket_high": 11.75,
-          "premarket_low": 9.5,
-          "premarket_last": 11.21,
+          "date": "2026-10-30",
+          "premarket_high": 12.75,
+          "premarket_low": 11.93,
+          "premarket_last": 12.13,
           "bars_5m": 0
         },
         "news": {
           "hours": 48,
-          "count": 1,
-          "tone": "neutral",
-          "positive": 0,
+          "count": 3,
+          "tone": "positive",
+          "positive": 1,
           "negative": 0,
-          "neutral": 1,
+          "neutral": 2,
           "top": [
             {
-              "published_utc": "2026-10-27T17:54:00Z",
-              "title": "MyPropCapital Introduces Blockchain-Based Transparency System for Trading Evaluations and Trader Rewards",
-              "publisher": "GlobeNewswire Inc.",
+              "published_utc": "2026-10-29T22:05:10Z",
+              "title": "Rivian Automotive (RIVN) Reports Q3 Loss, Beats Revenue Estimates",
+              "publisher": "Zacks Investment Research",
               "sentiment": "neutral",
-              "reason": "Hyperliquid is mentioned as a pricing source for live order books used by MyPropCapital's platform. This is a functional partnership reference with no positive or negative implications about Hyperliqu",
-              "url": "https://www.globenewswire.com/news-release/2026/10/27/3389510/0/en/mypropcapital-introduces-blockchain-based-transparency-system-for-trading-evaluations-and-trader-rewards.html"
+              "reason": "While RIVN delivered a significant earnings surprise (+26.15%) and revenue beat (+6.62%), the stock has significantly underperformed the market year-to-date (-40.8% vs S&P 500 +13.1%). The Zacks Rank ",
+              "url": "https://www.zacks.com/stock/news/3019171/rivian-automotive-rivn-reports-q3-loss-beats-revenue-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3019171"
+            },
+            {
+              "published_utc": "2026-10-29T21:30:03Z",
+              "title": "Rivian Automotive (RIVN) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
+              "publisher": "Zacks Investment Research",
+              "sentiment": "neutral",
+              "reason": "While Rivian beat revenue and EPS estimates with strong year-over-year growth (38.3% revenue increase), the company remains unprofitable with negative EPS of -$0.48 and negative automotive gross profi",
+              "url": "https://www.zacks.com/stock/news/3019142/rivian-automotive-rivn-q3-earnings-taking-a-look-at-key-metrics-versus-estimates?cid=CS-ZC-FT-fundamental_analysis|nfm-3019142"
+            },
+            {
+              "published_utc": "2026-10-29T13:45:00Z",
+              "title": "Rivian Just Made a Move That Could Help Unlock $950 Million and More",
+              "publisher": "The Motley Fool",
+              "sentiment": "positive",
+              "reason": "The acquisition of Third Dimension AI is presented as a strategic move that could accelerate autonomous driving development, unlock $950 million in Uber funding through milestone achievements, and enh",
+              "url": "https://www.fool.com/investing/2026/10/29/rivian-just-made-a-move-that-could-help-unlock-950/?source=iedfolrf0000001"
             }
           ]
         }
       }
     },
     {
-      "name": "NCLH",
-      "description": "Norwegian Cruise Line Holdings Ltd.",
+      "name": "CPRI",
+      "description": "Capri Holdings Limited",
       "close": 16.06,
-      "premarket_close": 17.85,
-      "premarket_change": 11.145703611457055,
-      "premarket_volume": 5022860,
-      "premarket_high": 18.34,
-      "premarket_low": 15.85,
-      "float_shares_outstanding": 454096064.268,
-      "relative_volume_10d_calc": 1.0748934785209723,
-      "average_volume_30d_calc": 20453278.766666666,
-      "market_cap_basic": 7374556396,
-      "sector": "Consumer Services",
-      "earnings_release_next_date": 1803988800,
-      "symbol": "NYSE:NCLH",
+      "premarket_close": 17.86,
+      "premarket_change": 11.207970112079707,
+      "premarket_volume": 254793,
+      "premarket_high": 17.9,
+      "premarket_low": 15.78,
+      "float_shares_outstanding": 110755351.476,
+      "relative_volume_10d_calc": 1.5740250116159835,
+      "average_volume_30d_calc": 4192242.2666666666,
+      "market_cap_basic": 1825244940,
+      "sector": "Retail Trade",
+      "earnings_release_next_date": 1802260800,
+      "symbol": "NYSE:CPRI",
       "enrich": {
         "daily": {
-          "as_of": "2026-10-28",
+          "as_of": "2026-10-29",
           "close": 16.06,
-          "prior_day_high": 16.15,
-          "prior_day_low": 15.67,
-          "ema20": 15.36,
-          "ema50": 15.8,
-          "sma200": 18.75,
-          "rsi14": 58.9,
-          "atr14": 0.64,
-          "atr_pct": 4.0,
-          "perf_1m_pct": 8.5,
-          "perf_3m_pct": -14.2,
-          "high_52w": 25.13,
-          "pct_below_52w_high": 36.1,
-          "high_20d": 16.15,
-          "low_20d": 14.34,
-          "resistance_above": [
-            19.6,
-            20.61
-          ],
+          "prior_day_high": 16.07,
+          "prior_day_low": 15.43,
+          "ema20": 15.45,
+          "ema50": 15.24,
+          "sma200": 17.88,
+          "rsi14": 58.1,
+          "atr14": 0.69,
+          "atr_pct": 4.3,
+          "perf_1m_pct": 13.7,
+          "perf_3m_pct": 0.8,
+          "high_52w": 28.27,
+          "pct_below_52w_high": 43.2,
+          "high_20d": 16.76,
+          "low_20d": 14.08,
+          "resistance_above": [],
           "support_below": [
-            16.42,
-            15.31,
-            14.8
+            14.78,
+            13.9,
+            13.83
           ],
-          "squeeze_sessions_last10": 5,
-          "squeeze_fired": true
+          "squeeze_sessions_last10": 1,
+          "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-10-29",
-          "premarket_high": 18.34,
-          "premarket_low": 15.85,
+          "date": "2026-10-30",
+          "premarket_high": 17.86,
+          "premarket_low": 15.78,
           "premarket_last": 17.86,
           "bars_5m": 0
         },
         "news": {
           "hours": 48,
-          "count": 2,
-          "tone": "neutral",
-          "positive": 1,
-          "negative": 1,
-          "neutral": 0,
-          "top": [
-            {
-              "published_utc": "2026-10-27T15:18:00Z",
-              "title": "Hyatt to Report Q3 Earnings: Can Fee Growth Drive Results?",
-              "publisher": "Zacks Investment Research",
-              "sentiment": "positive",
-              "reason": "Norwegian Cruise has a positive Earnings ESP of +2.26% and strong track record of beating earnings in all 4 trailing quarters with 20% average surprise, despite expected 23.33% earnings decline, indic",
-              "url": "https://www.zacks.com/stock/news/3016288/hyatt-to-report-q3-earnings-can-fee-growth-drive-results?cid=CS-ZC-FT-analyst_blog|earnings_preview-3016288"
-            },
-            {
-              "published_utc": "2026-10-27T15:06:00Z",
-              "title": "Norwegian Cruise to Post Q3 Earnings: What's in the Cards?",
-              "publisher": "Zacks Investment Research",
-              "sentiment": "negative",
-              "reason": "Company faces significant headwinds with EPS expected to decline 23.3% YoY, revenues down 2%, and net yields declining 8.9%. Weaker European demand, elevated airfare costs, and softer booking position",
-              "url": "https://www.zacks.com/stock/news/3016351/norwegian-cruise-to-post-q3-earnings-what-s-in-the-cards?cid=CS-ZC-FT-analyst_blog|earnings_preview-3016351"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "OPEN",
-      "description": "Opendoor Technologies Inc",
-      "close": 1.91,
-      "premarket_close": 2.02,
-      "premarket_change": 5.759162303664927,
-      "premarket_volume": 3913224,
-      "premarket_high": 2.05,
-      "premarket_low": 1.87,
-      "float_shares_outstanding": 815195935.224,
-      "relative_volume_10d_calc": 0.736920055496097,
-      "average_volume_30d_calc": 33263237.566666666,
-      "market_cap_basic": 1854783901,
-      "sector": "Finance",
-      "earnings_release_next_date": 1793912700,
-      "symbol": "NASDAQ:OPEN",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-10-28",
-          "close": 1.91,
-          "prior_day_high": 1.93,
-          "prior_day_low": 1.83,
-          "ema20": 2.14,
-          "ema50": 2.6,
-          "sma200": 4.26,
-          "rsi14": 32.3,
-          "atr14": 0.15,
-          "atr_pct": 8.1,
-          "perf_1m_pct": -19.4,
-          "perf_3m_pct": -50.0,
-          "high_52w": 9.45,
-          "pct_below_52w_high": 79.8,
-          "high_20d": 2.53,
-          "low_20d": 1.83,
-          "resistance_above": [
-            2.34,
-            2.4,
-            2.53
-          ],
-          "support_below": [
-            1.93,
-            1.83
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-10-29",
-          "premarket_high": 2.05,
-          "premarket_low": 1.87,
-          "premarket_last": 2.02,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
           "count": 0,
           "tone": "none",
           "positive": 0,
@@ -223,269 +153,6 @@
           "neutral": 0,
           "top": []
         }
-      }
-    },
-    {
-      "name": "CMG",
-      "description": "Chipotle Mexican Grill, Inc.",
-      "close": 28.73,
-      "premarket_close": 31.03,
-      "premarket_change": 8.005569091541945,
-      "premarket_volume": 646480,
-      "premarket_high": 31.34,
-      "premarket_low": 30.57,
-      "float_shares_outstanding": 1255628180.04,
-      "relative_volume_10d_calc": 1.4740712479252989,
-      "average_volume_30d_calc": 20962817.666666668,
-      "market_cap_basic": 36355457663,
-      "sector": "Consumer Services",
-      "earnings_release_next_date": 1802174400,
-      "symbol": "NYSE:CMG",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-10-28",
-          "close": 28.73,
-          "prior_day_high": 29.24,
-          "prior_day_low": 28.07,
-          "ema20": 29.93,
-          "ema50": 31.8,
-          "sma200": 34.14,
-          "rsi14": 37.8,
-          "atr14": 1.1,
-          "atr_pct": 3.8,
-          "perf_1m_pct": -9.9,
-          "perf_3m_pct": -25.4,
-          "high_52w": 41.42,
-          "pct_below_52w_high": 30.6,
-          "high_20d": 33.4,
-          "low_20d": 27.31,
-          "resistance_above": [
-            31.32,
-            32.55,
-            33.4
-          ],
-          "support_below": [
-            30.21,
-            29.83,
-            27.31
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-10-29",
-          "premarket_high": 31.34,
-          "premarket_low": 30.44,
-          "premarket_last": 31.03,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 4,
-          "tone": "positive",
-          "positive": 2,
-          "negative": 0,
-          "neutral": 2,
-          "top": [
-            {
-              "published_utc": "2026-10-29T11:30:02Z",
-              "title": "Breakfast News: Brace for an AI Optics Shake-up",
-              "publisher": "The Motley Fool",
-              "sentiment": "positive",
-              "reason": "Rose 7% after Q3 revenue climbed 9.6% year-over-year, despite 11.1% net income decline",
-              "url": "https://www.fool.com/investing/breakfast-news/2026/10/29/breakfast-news-brace-for-an-ai-optics-shake-up/?source=iedfolrf0000001"
-            },
-            {
-              "published_utc": "2026-10-29T07:20:09Z",
-              "title": "Chipotle: 3 Key Takeaways for Long-Term Investors",
-              "publisher": "The Motley Fool",
-              "sentiment": "positive",
-              "reason": "Strong Q3 earnings with multiple growth catalysts: HEEP equipment driving hundreds of basis points in comparable sales uplift and improved guest satisfaction, successful LTO campaigns boosting custome",
-              "url": "https://www.fool.com/earnings/takeaways/2026/10/29/chipotle-3-key-takeaways-for-long-term-investors/?source=iedfolrf0000001"
-            },
-            {
-              "published_utc": "2026-10-28T21:00:03Z",
-              "title": "Compared to Estimates, Chipotle (CMG) Q3 Earnings: A Look at Key Metrics",
-              "publisher": "Zacks Investment Research",
-              "sentiment": "neutral",
-              "reason": "Mixed results with revenue meeting expectations but EPS missing by 6.9%. Positive comparable sales growth of 2.1% exceeded estimates, but recent stock performance has been weak (-12.2% over past month",
-              "url": "https://www.zacks.com/stock/news/3017783/compared-to-estimates-chipotle-cmg-q3-earnings-a-look-at-key-metrics?cid=CS-ZC-FT-fundamental_analysis|nfm-3017783"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "INSM",
-      "description": "Insmed Incorporated",
-      "close": 96.98,
-      "premarket_close": 114,
-      "premarket_change": 17.55001031140441,
-      "premarket_volume": 534434,
-      "premarket_high": 118,
-      "premarket_low": 95.82,
-      "float_shares_outstanding": 215151911.838,
-      "relative_volume_10d_calc": 1.547996754469115,
-      "average_volume_30d_calc": 2921904.466666667,
-      "market_cap_basic": 21178638627,
-      "sector": "Health Technology",
-      "earnings_release_next_date": 1803556800,
-      "symbol": "NASDAQ:INSM",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-10-28",
-          "close": 96.98,
-          "prior_day_high": 97.92,
-          "prior_day_low": 93.86,
-          "ema20": 100.06,
-          "ema50": 107.81,
-          "sma200": 125.93,
-          "rsi14": 38.1,
-          "atr14": 3.71,
-          "atr_pct": 3.8,
-          "perf_1m_pct": -16.1,
-          "perf_3m_pct": -4.4,
-          "high_52w": 212.75,
-          "pct_below_52w_high": 54.4,
-          "high_20d": 116.19,
-          "low_20d": 92.63,
-          "resistance_above": [
-            122.9,
-            130.83,
-            137.7
-          ],
-          "support_below": [
-            92.63
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-10-29",
-          "premarket_high": 118.0,
-          "premarket_low": 95.82,
-          "premarket_last": 114.0,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 0,
-          "tone": "none",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 0,
-          "top": []
-        }
-      }
-    },
-    {
-      "name": "TDOC",
-      "description": "Teladoc Health, Inc.",
-      "close": 6.88,
-      "premarket_close": 7.8091,
-      "premarket_change": 13.50436046511628,
-      "premarket_volume": 279066,
-      "premarket_high": 7.95,
-      "premarket_low": 7.4,
-      "float_shares_outstanding": 180368971.208,
-      "relative_volume_10d_calc": 2.688676342853545,
-      "average_volume_30d_calc": 3721934,
-      "market_cap_basic": 1249986085,
-      "sector": "Health Services",
-      "earnings_release_next_date": 1803384000,
-      "symbol": "NYSE:TDOC",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-10-28",
-          "close": 6.88,
-          "prior_day_high": 6.92,
-          "prior_day_low": 6.4,
-          "ema20": 6.16,
-          "ema50": 6.31,
-          "sma200": 6.45,
-          "rsi14": 67.0,
-          "atr14": 0.27,
-          "atr_pct": 4.0,
-          "perf_1m_pct": 19.7,
-          "perf_3m_pct": 4.6,
-          "high_52w": 9.89,
-          "pct_below_52w_high": 30.4,
-          "high_20d": 6.92,
-          "low_20d": 5.42,
-          "resistance_above": [],
-          "support_below": [
-            6.12,
-            6.0,
-            5.57
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-10-29",
-          "premarket_high": 7.95,
-          "premarket_low": 7.23,
-          "premarket_last": 7.81,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "CVNA",
-      "description": "Carvana Co.",
-      "close": 59.05,
-      "premarket_close": 64.5999,
-      "premarket_change": 9.398645215918727,
-      "premarket_volume": 258456,
-      "premarket_high": 65.1,
-      "premarket_low": 63.46,
-      "float_shares_outstanding": 672575763.672,
-      "relative_volume_10d_calc": 2.0021322591435937,
-      "average_volume_30d_calc": 8574562.633333333,
-      "market_cap_basic": 64982386425,
-      "sector": "Retail Trade",
-      "earnings_release_next_date": 1803556800,
-      "symbol": "NYSE:CVNA",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-10-28",
-          "close": 59.05,
-          "prior_day_high": 60.45,
-          "prior_day_low": 57.94,
-          "ema20": 60.5,
-          "ema50": 63.74,
-          "sma200": 69.42,
-          "rsi14": 43.1,
-          "atr14": 2.92,
-          "atr_pct": 5.0,
-          "perf_1m_pct": -7.2,
-          "perf_3m_pct": -3.9,
-          "high_52w": 97.38,
-          "pct_below_52w_high": 39.4,
-          "high_20d": 66.02,
-          "low_20d": 55.92,
-          "resistance_above": [
-            65.09,
-            66.02,
-            69.2
-          ],
-          "support_below": [
-            58.92,
-            56.28,
-            55.92
-          ],
-          "squeeze_sessions_last10": 7,
-          "squeeze_fired": true
-        },
-        "intraday": {
-          "date": "2026-10-29",
-          "premarket_high": 65.1,
-          "premarket_low": 63.46,
-          "premarket_last": 64.6,
-          "bars_5m": 0
-        },
-        "news": null
       }
     }
   ]
