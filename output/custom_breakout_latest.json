@@ -3,7 +3,7 @@
   "title": "Breaking out now",
   "description": "Latest daily bar prints a new 20-day high on volume >= 1.5x the 20-day average, close above the 50-day SMA, 20-day average volume >= 1M shares. Modifiers via params: vol_mult, sectors, mcap_min/mcap_max, price_min/price_max, lookback.",
   "date": "2026-10-30",
-  "run_at": "2026-10-30 07:24",
+  "run_at": "2026-10-30 08:37",
   "data": "live (logged-in session)",
   "params": {
     "vol_mult": 1.5,
@@ -13,7 +13,7 @@
     "price_max": 100,
     "mcap_min": 1000000000
   },
-  "enrich": "enriched 25/25 daily, with news for top 8; 91s",
+  "enrich": "enriched 25/25 daily, with news for top 8; 89s",
   "candidates_checked": 192,
   "total_matches": 49,
   "partial_bar": false,

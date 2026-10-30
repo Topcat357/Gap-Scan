@@ -1,4 +1,4 @@
-# Breaking out now - 2026-10-30 07:24 ET
+# Breaking out now - 2026-10-30 08:37 ET
 Checked 192 candidates on daily bars; 49 passed. Settings: vol_mult=1.5, lookback=20, min_avg_vol=1000000, price_min=5, price_max=100, mcap_min=1000000000
 
 **ADT** (NYSE:ADT) - ADT Inc. | $9.87 | Commercial Services | Mkt cap 6.7B
