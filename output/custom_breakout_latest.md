@@ -1,102 +1,102 @@
-# Breaking out now - 2026-10-29 07:20 ET
-Checked 141 candidates on daily bars; 33 passed. Settings: vol_mult=1.5, lookback=20, min_avg_vol=1000000, price_min=5, price_max=100, mcap_min=1000000000
+# Breaking out now - 2026-10-30 07:24 ET
+Checked 192 candidates on daily bars; 49 passed. Settings: vol_mult=1.5, lookback=20, min_avg_vol=1000000, price_min=5, price_max=100, mcap_min=1000000000
 
-**AXGN** (NASDAQ:AXGN) - Axogen, Inc. | $49.25 | Health Technology | Mkt cap 2.9B
-- New 20-day high $49.97 vs prior $43.09 (closed above); close in top 11% of day's range | Volume 6.03x 20-day avg
-- RSI 74 | Next earnings: 2027-02-23
+**ADT** (NYSE:ADT) - ADT Inc. | $9.87 | Commercial Services | Mkt cap 6.7B
+- New 20-day high $9.99 vs prior $7.60 (closed above); close in top 21% of day's range | Volume 22.17x 20-day avg
+- RSI 89 | Next earnings: 2026-11-03
 
-**REPL** (NASDAQ:REPL) - Replimune Group, Inc. | $16.06 | Health Technology | Mkt cap 1.5B
-- New 20-day high $16.75 vs prior $13.83 (closed above); close in top 16% of day's range | Volume 3.61x 20-day avg
-- RSI 70 | Next earnings: 2027-02-02
+**TDOC** (NYSE:TDOC) - Teladoc Health, Inc. | $8.73 | Health Services | Mkt cap 1.6B
+- New 20-day high $8.99 vs prior $6.92 (closed above); close in top 24% of day's range | Volume 5.2x 20-day avg
+- RSI 82 | Next earnings: 2027-02-23
 
-**ADT** (NYSE:ADT) - ADT Inc. | $7.41 | Commercial Services | Mkt cap 5.0B
-- New 20-day high $7.60 vs prior $6.99 (closed above); close in top 32% of day's range | Volume 3.42x 20-day avg
-- RSI 70 | Next earnings: 2026-11-03
+**PRCH** (NASDAQ:PRCH) - Porch Group, Inc. | $20.89 | Finance | Mkt cap 2.4B
+- New 20-day high $21.30 vs prior $18.75 (closed above); close in top 16% of day's range | Volume 4.59x 20-day avg
+- RSI 68 | Next earnings: 2027-03-02
 
-**RRC** (NYSE:RRC) - Range Resources Corporation | $55.88 | Energy Minerals | Mkt cap 13.1B
-- New 20-day high $56.90 vs prior $56.47 (did NOT close above); close in top 41% of day's range | Volume 3.16x 20-day avg
-- RSI 85 | Next earnings: 2027-03-02
+**NCLH** (NYSE:NCLH) - Norwegian Cruise Line Holdings Ltd. | $18.22 | Consumer Services | Mkt cap 8.4B
+- New 20-day high $18.47 vs prior $16.15 (closed above); close in top 23% of day's range | Volume 3.44x 20-day avg
+- RSI 74 | Next earnings: 2027-03-02
 
-**BEAM** (NASDAQ:BEAM) - Beam Therapeutics Inc. | $28.78 | Health Technology | Mkt cap 3.0B
-- New 20-day high $28.86 vs prior $26.94 (closed above); close in top 2% of day's range | Volume 2.85x 20-day avg
-- RSI 66 | Next earnings: 2026-11-09
+**NEXT** (NASDAQ:NEXT) - NextDecade Corporation | $7.26 | Energy Minerals | Mkt cap 1.9B
+- New 20-day high $7.60 vs prior $6.93 (closed above); close in top 35% of day's range | Volume 3.13x 20-day avg
+- RSI 65 | Next earnings: 2027-03-08
 
-**GEHC** (NASDAQ:GEHC) - GE HealthCare Technologies Inc. | $75.82 | Health Technology | Mkt cap 34.2B
-- New 20-day high $77.88 vs prior $72.30 (closed above); close in top 64% of day's range | Volume 2.78x 20-day avg
-- RSI 73 | Next earnings: 2027-02-10
+**REAL** (NASDAQ:REAL) - The RealReal, Inc. | $11.35 | Retail Trade | Mkt cap 1.4B
+- New 20-day high $11.79 vs prior $11.25 (closed above); close in top 66% of day's range | Volume 2.98x 20-day avg
+- RSI 67 | Next earnings: 2027-02-24
 
-**FTV** (NYSE:FTV) - Fortive Corporation | $64.11 | Electronic Technology | Mkt cap 19.4B
-- New 20-day high $67.03 vs prior $61.73 (closed above); close in top 76% of day's range | Volume 2.77x 20-day avg
-- RSI 78 | Next earnings: 2027-02-04
+**UPBD** (NASDAQ:UPBD) - Upbound Group, Inc. | $19.98 | Finance | Mkt cap 1.2B
+- New 20-day high $20.13 vs prior $17.45 (closed above); close in top 6% of day's range | Volume 2.84x 20-day avg
+- RSI 76 | Next earnings: 2027-02-25
 
-**HAYW** (NYSE:HAYW) - Hayward Holdings, Inc. | $14.79 | Consumer Durables | Mkt cap 3.1B
-- New 20-day high $14.80 vs prior $13.12 (closed above); close in top 1% of day's range | Volume 2.62x 20-day avg
-- RSI 79 | Next earnings: 2027-03-03
+**ATEC** (NASDAQ:ATEC) - Alphatec Holdings, Inc. | $11.37 | Health Technology | Mkt cap 1.8B
+- New 20-day high $12.20 vs prior $11.60 (did NOT close above); close in top 91% of day's range | Volume 2.79x 20-day avg
+- RSI 60 | Next earnings: 2027-03-02
 
-**PNR** (NYSE:PNR) - Pentair plc. | $64.37 | Producer Manufacturing | Mkt cap 10.3B
-- New 20-day high $65.57 vs prior $62.67 (closed above); close in top 43% of day's range | Volume 2.6x 20-day avg
-- RSI 80 | Next earnings: 2027-02-02
+**AMRZ** (NYSE:AMRZ) - Amrize Ltd | $41.61 | Non-Energy Minerals | Mkt cap 22.8B
+- New 20-day high $41.83 vs prior $40.42 (closed above); close in top 7% of day's range | Volume 2.74x 20-day avg
+- RSI 69 | Next earnings: 2027-02-23
 
-**ETSY** (NYSE:ETSY) - Etsy, Inc. | $92.35 | Retail Trade | Mkt cap 8.5B
-- New 20-day high $94.49 vs prior $91.12 (closed above); close in top 37% of day's range | Volume 2.46x 20-day avg
-- RSI 68 | Next earnings: 2027-02-25
+**CVNA** (NYSE:CVNA) - Carvana Co. | $68.31 | Retail Trade | Mkt cap 75.4B
+- New 20-day high $69.23 vs prior $66.02 (closed above); close in top 17% of day's range | Volume 2.7x 20-day avg
+- RSI 63 | Next earnings: 2027-02-25
 
-**EXTR** (NASDAQ:EXTR) - Extreme Networks, Inc. | $24.44 | Electronic Technology | Mkt cap 3.2B
-- New 20-day high $26.30 vs prior $25.18 (did NOT close above); close in top 61% of day's range | Volume 2.4x 20-day avg
-- RSI 63 | Next earnings: 2027-02-03
+**STGW** (NASDAQ:STGW) - Stagwell Inc. | $9.95 | Commercial Services | Mkt cap 2.4B
+- New 20-day high $10.11 vs prior $9.64 (closed above); close in top 9% of day's range | Volume 2.69x 20-day avg
+- RSI 71 | Next earnings: 2027-03-04
 
-**TDOC** (NYSE:TDOC) - Teladoc Health, Inc. | $6.88 | Health Services | Mkt cap 1.2B
-- New 20-day high $6.92 vs prior $6.46 (closed above); close in top 8% of day's range | Volume 2.39x 20-day avg
-- RSI 67 | Next earnings: 2027-02-23
+**TXT** (NYSE:TXT) - Textron Inc. | $87.46 | Electronic Technology | Mkt cap 15.0B
+- New 20-day high $89.90 vs prior $78.67 (closed above); close in top 42% of day's range | Volume 2.66x 20-day avg
+- RSI 76 | Next earnings: 2027-01-27
 
-**AVPT** (NASDAQ:AVPT) - AvePoint, Inc. | $17.20 | Technology Services | Mkt cap 3.6B
-- New 20-day high $17.47 vs prior $17.06 (closed above); close in top 45% of day's range | Volume 2.37x 20-day avg
-- RSI 73 | Next earnings: 2026-11-05
+**FLS** (NYSE:FLS) - Flowserve Corporation | $80.35 | Producer Manufacturing | Mkt cap 10.2B
+- New 20-day high $80.35 vs prior $76.09 (closed above); close in top 0% of day's range | Volume 2.37x 20-day avg
+- RSI 68 | Next earnings: 2027-02-23
 
-**OCFC** (NASDAQ:OCFC) - OceanFirst Financial Corp. | $17.68 | Finance | Mkt cap 1.7B
-- New 20-day high $17.78 vs prior $17.03 (closed above); close in top 11% of day's range | Volume 2.2x 20-day avg
-- RSI 63 | Next earnings: 2027-01-28
+**KBR** (NYSE:KBR) - KBR, Inc. | $38.32 | Technology Services | Mkt cap 4.8B
+- New 20-day high $41.16 vs prior $40.52 (did NOT close above); close in top 76% of day's range | Volume 2.35x 20-day avg
+- RSI 57 | Next earnings: 2027-02-23
 
-**BANC** (NYSE:BANC) - Banc of California, Inc. | $18.48 | Finance | Mkt cap 2.9B
-- New 20-day high $18.52 vs prior $18.32 (closed above); close in top 6% of day's range | Volume 2.17x 20-day avg
-- RSI 64 | Next earnings: 2027-01-28
+**BLDR** (NYSE:BLDR) - Builders FirstSource, Inc. | $63.06 | Retail Trade | Mkt cap 6.8B
+- New 20-day high $63.15 vs prior $59.55 (closed above); close in top 1% of day's range | Volume 2.34x 20-day avg
+- RSI 65 | Next earnings: 2027-02-25
 
-**VSAT** (NASDAQ:VSAT) - ViaSat, Inc. | $78.26 | Electronic Technology | Mkt cap 10.8B
-- New 20-day high $79.12 vs prior $75.93 (closed above); close in top 9% of day's range | Volume 2.16x 20-day avg
-- RSI 64 | Next earnings: 2026-11-11
+**AM** (NYSE:AM) - Antero Midstream Corporation | $21.52 | Industrial Services | Mkt cap 10.2B
+- New 20-day high $21.92 vs prior $21.38 (closed above); close in top 29% of day's range | Volume 2.32x 20-day avg
+- RSI 58 | Next earnings: 2027-02-17
 
-**CBZ** (NYSE:CBZ) - CBIZ, Inc. | $54.95 | Commercial Services | Mkt cap 3.0B
-- New 20-day high $54.97 vs prior $54.96 (did NOT close above); close in top 67% of day's range | Volume 2.16x 20-day avg
-- RSI 67 | Next earnings: 2027-02-18
+**REPL** (NASDAQ:REPL) - Replimune Group, Inc. | $17.39 | Health Technology | Mkt cap 1.6B
+- New 20-day high $17.78 vs prior $16.75 (closed above); close in top 25% of day's range | Volume 2.31x 20-day avg
+- RSI 74 | Next earnings: 2027-02-02
 
-**BAX** (NYSE:BAX) - Baxter International Inc. | $25.46 | Health Technology | Mkt cap 13.2B
-- New 20-day high $26.03 vs prior $25.99 (did NOT close above); close in top 52% of day's range | Volume 2.1x 20-day avg
-- RSI 57 | Next earnings: 2026-10-29 (EARNINGS SOON)
+**INDV** (NASDAQ:INDV) - Indivior Pharmaceuticals, Inc. | $35.25 | Health Technology | Mkt cap 4.2B
+- New 20-day high $37.00 vs prior $36.35 (did NOT close above); close in top 71% of day's range | Volume 2.29x 20-day avg
+- RSI 51 | Next earnings: 2027-03-04
 
-**EQT** (NYSE:EQT) - EQT Corporation | $56.22 | Energy Minerals | Mkt cap 35.2B
-- New 20-day high $57.30 vs prior $56.40 (did NOT close above); close in top 55% of day's range | Volume 1.97x 20-day avg
-- RSI 64 | Next earnings: 2027-02-17
+**ORLY** (NASDAQ:ORLY) - O'Reilly Automotive, Inc. | $88.07 | Retail Trade | Mkt cap 71.2B
+- New 20-day high $92.59 vs prior $92.41 (did NOT close above); close in top 77% of day's range | Volume 2.25x 20-day avg
+- RSI 50 | Next earnings: 2027-02-10
 
-**FTRE** (NASDAQ:FTRE) - Fortrea Holdings Inc. | $25.88 | Commercial Services | Mkt cap 2.5B
-- New 20-day high $26.16 vs prior $24.83 (closed above); close in top 15% of day's range | Volume 1.94x 20-day avg
-- RSI 79 | Next earnings: 2027-03-15
+**CRH** (NYSE:CRH) - CRH PLC | $90.62 | Non-Energy Minerals | Mkt cap 60.3B
+- New 20-day high $91.09 vs prior $86.99 (closed above); close in top 6% of day's range | Volume 2.16x 20-day avg
+- RSI 66 | Next earnings: 2027-03-04
 
-**MAS** (NYSE:MAS) - Masco Corporation | $76.05 | Producer Manufacturing | Mkt cap 15.0B
-- New 20-day high $81.54 vs prior $78.11 (did NOT close above); close in top 98% of day's range | Volume 1.82x 20-day avg
-- RSI 64 | Next earnings: 2027-02-09
+**TPG** (NASDAQ:TPG) - TPG Inc. | $47.94 | Finance | Mkt cap 18.4B
+- New 20-day high $48.16 vs prior $46.20 (closed above); close in top 7% of day's range | Volume 2.14x 20-day avg
+- RSI 62 | Next earnings: 2027-02-16
 
-**KBR** (NYSE:KBR) - KBR, Inc. | $40.14 | Technology Services | Mkt cap 5.1B
-- New 20-day high $40.52 vs prior $40.31 (did NOT close above); close in top 40% of day's range | Volume 1.78x 20-day avg
-- RSI 74 | Next earnings: 2027-02-23
+**HAPN** (NASDAQ:HAPN) - Happen, Inc. | $16.04 | Finance | Mkt cap 1.9B
+- New 20-day high $16.06 vs prior $15.87 (closed above); close in top 1% of day's range | Volume 2.11x 20-day avg
+- RSI 60 | Next earnings: 2027-02-02
 
-**CWK** (NYSE:CWK) - Cushman & Wakefield Ltd. | $12.62 | Finance | Mkt cap 3.0B
-- New 20-day high $12.66 vs prior $12.56 (closed above); close in top 8% of day's range | Volume 1.7x 20-day avg
-- RSI 59 | Next earnings: 2026-11-04
+**PTEN** (NASDAQ:PTEN) - Patterson-UTI Energy, Inc. | $12.69 | Energy Minerals | Mkt cap 4.8B
+- New 20-day high $12.72 vs prior $12.64 (closed above); close in top 8% of day's range | Volume 2.1x 20-day avg
+- RSI 64 | Next earnings: 2027-02-10
 
-**EPD** (NYSE:EPD) - Enterprise Products Partners L.P. | $38.06 | Industrial Services | Mkt cap 82.2B
-- New 20-day high $38.13 vs prior $37.44 (closed above); close in top 7% of day's range | Volume 1.67x 20-day avg
-- RSI 61 | Next earnings: 2027-02-03
+**DRS** (NASDAQ:DRS) - Leonardo DRS, Inc. | $39.64 | Electronic Technology | Mkt cap 10.6B
+- New 20-day high $40.42 vs prior $37.26 (closed above); close in top 21% of day's range | Volume 2.1x 20-day avg
+- RSI 69 | Next earnings: 2027-02-23
 
-**AR** (NYSE:AR) - Antero Resources Corporation | $42.11 | Energy Minerals | Mkt cap 12.9B
-- New 20-day high $42.75 vs prior $42.10 (closed above); close in top 56% of day's range | Volume 1.65x 20-day avg
-- RSI 75 | Next earnings: 2027-02-17
+**ARHS** (NASDAQ:ARHS) - Arhaus, Inc. | $12.71 | Consumer Durables | Mkt cap 1.8B
+- New 20-day high $12.73 vs prior $11.75 (closed above); close in top 2% of day's range | Volume 2.09x 20-day avg
+- RSI 78 | Next earnings: 2026-11-05
