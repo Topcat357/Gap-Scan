@@ -1,44 +1,105 @@
 {
-  "date": "2026-10-30",
-  "run_at": "2026-10-30 08:35",
+  "date": "2026-11-02",
+  "run_at": "2026-11-02 09:11",
   "profile": "standard",
   "data": "live (logged-in session)",
-  "enrich": "enriched 2/2 daily, 2/2 intraday, with news for top 2; 15s",
-  "total_matches": 2,
+  "enrich": "enriched 9/9 daily, 9/9 intraday, with news for top 5; 53s",
+  "total_matches": 9,
   "rows": [
+    {
+      "name": "EVGO",
+      "description": "EVgo Inc.",
+      "close": 1.26,
+      "premarket_close": 1.87,
+      "premarket_change": 48.41269841269842,
+      "premarket_volume": 24169294,
+      "premarket_high": 1.93,
+      "premarket_low": 1.22,
+      "float_shares_outstanding": 133714006.06,
+      "relative_volume_10d_calc": 0.8114137832950183,
+      "average_volume_30d_calc": 3218257,
+      "market_cap_basic": 396289796,
+      "sector": "Retail Trade",
+      "earnings_release_next_date": 1794225600,
+      "symbol": "NASDAQ:EVGO",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-30",
+          "close": 1.26,
+          "prior_day_high": 1.27,
+          "prior_day_low": 1.18,
+          "ema20": 1.19,
+          "ema50": 1.3,
+          "sma200": 1.92,
+          "rsi14": 54.4,
+          "atr14": 0.08,
+          "atr_pct": 6.7,
+          "perf_1m_pct": 0.0,
+          "perf_3m_pct": -21.7,
+          "high_52w": 4.11,
+          "pct_below_52w_high": 69.3,
+          "high_20d": 1.4,
+          "low_20d": 0.98,
+          "resistance_above": [],
+          "support_below": [
+            1.44,
+            1.4,
+            1.32
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-02",
+          "premarket_high": 2.08,
+          "premarket_low": 1.23,
+          "premarket_last": 1.82,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 0,
+          "tone": "none",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0,
+          "top": []
+        }
+      }
+    },
     {
       "name": "RIVN",
       "description": "Rivian Automotive, Inc.",
-      "close": 11.45,
-      "premarket_close": 12.14,
-      "premarket_change": 6.026200873362457,
-      "premarket_volume": 1592712,
-      "premarket_high": 12.79,
-      "premarket_low": 11.9308,
+      "close": 12.16,
+      "premarket_close": 12.67,
+      "premarket_change": 4.1940789473684195,
+      "premarket_volume": 1550029,
+      "premarket_high": 12.77,
+      "premarket_low": 12.46,
       "float_shares_outstanding": 942870674.2861,
-      "relative_volume_10d_calc": 1.7568779368245424,
-      "average_volume_30d_calc": 25769990.233333334,
-      "market_cap_basic": 16578003823.999998,
+      "relative_volume_10d_calc": 2.3615356855032945,
+      "average_volume_30d_calc": 26618828.3,
+      "market_cap_basic": 17607048920,
       "sector": "Consumer Durables",
       "earnings_release_next_date": 1803556800,
       "symbol": "NASDAQ:RIVN",
       "enrich": {
         "daily": {
-          "as_of": "2026-10-29",
-          "close": 11.45,
-          "prior_day_high": 11.87,
-          "prior_day_low": 11.38,
-          "ema20": 12.79,
-          "ema50": 14.06,
-          "sma200": 15.49,
-          "rsi14": 24.3,
-          "atr14": 0.53,
-          "atr_pct": 4.6,
-          "perf_1m_pct": -23.4,
-          "perf_3m_pct": -24.8,
+          "as_of": "2026-10-30",
+          "close": 12.16,
+          "prior_day_high": 12.27,
+          "prior_day_low": 11.53,
+          "ema20": 12.73,
+          "ema50": 13.98,
+          "sma200": 15.46,
+          "rsi14": 37.4,
+          "atr14": 0.55,
+          "atr_pct": 4.5,
+          "perf_1m_pct": -17.6,
+          "perf_3m_pct": -20.8,
           "high_52w": 22.69,
-          "pct_below_52w_high": 49.5,
-          "high_20d": 15.36,
+          "pct_below_52w_high": 46.4,
+          "high_20d": 14.83,
           "low_20d": 11.38,
           "resistance_above": [
             15.36,
@@ -52,96 +113,178 @@
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-10-30",
+          "date": "2026-11-02",
           "premarket_high": 12.75,
-          "premarket_low": 11.93,
-          "premarket_last": 12.13,
+          "premarket_low": 12.25,
+          "premarket_last": 12.59,
           "bars_5m": 0
         },
         "news": {
           "hours": 48,
-          "count": 3,
+          "count": 2,
           "tone": "positive",
-          "positive": 1,
+          "positive": 2,
           "negative": 0,
-          "neutral": 2,
+          "neutral": 0,
           "top": [
             {
-              "published_utc": "2026-10-29T22:05:10Z",
-              "title": "Rivian Automotive (RIVN) Reports Q3 Loss, Beats Revenue Estimates",
-              "publisher": "Zacks Investment Research",
-              "sentiment": "neutral",
-              "reason": "While RIVN delivered a significant earnings surprise (+26.15%) and revenue beat (+6.62%), the stock has significantly underperformed the market year-to-date (-40.8% vs S&P 500 +13.1%). The Zacks Rank ",
-              "url": "https://www.zacks.com/stock/news/3019171/rivian-automotive-rivn-reports-q3-loss-beats-revenue-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3019171"
-            },
-            {
-              "published_utc": "2026-10-29T21:30:03Z",
-              "title": "Rivian Automotive (RIVN) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates",
-              "publisher": "Zacks Investment Research",
-              "sentiment": "neutral",
-              "reason": "While Rivian beat revenue and EPS estimates with strong year-over-year growth (38.3% revenue increase), the company remains unprofitable with negative EPS of -$0.48 and negative automotive gross profi",
-              "url": "https://www.zacks.com/stock/news/3019142/rivian-automotive-rivn-q3-earnings-taking-a-look-at-key-metrics-versus-estimates?cid=CS-ZC-FT-fundamental_analysis|nfm-3019142"
-            },
-            {
-              "published_utc": "2026-10-29T13:45:00Z",
-              "title": "Rivian Just Made a Move That Could Help Unlock $950 Million and More",
+              "published_utc": "2026-11-01T17:47:02Z",
+              "title": "You Won't Believe My Shocking Update for Rivian Stock Investors",
               "publisher": "The Motley Fool",
               "sentiment": "positive",
-              "reason": "The acquisition of Third Dimension AI is presented as a strategic move that could accelerate autonomous driving development, unlock $950 million in Uber funding through milestone achievements, and enh",
-              "url": "https://www.fool.com/investing/2026/10/29/rivian-just-made-a-move-that-could-help-unlock-950/?source=iedfolrf0000001"
+              "reason": "First-time buy rating from analyst since IPO; Q3 earnings beat and raised full-year guidance; stock surged on Friday; analyst suggests potential for significant growth similar to Tesla's historical pe",
+              "url": "https://www.fool.com/investing/2026/11/01/you-won-t-believe-my-shocking-update-for-rivian-stock-investors/?source=iedfolrf0000001"
+            },
+            {
+              "published_utc": "2026-10-31T16:43:00Z",
+              "title": "Could Rivian's Model 3 Moment Be Coming? Tesla Stock Climbed 1,364% in 3 Years.",
+              "publisher": "The Motley Fool",
+              "sentiment": "positive",
+              "reason": "Article highlights encouraging early signals for R2 demand with higher-than-expected reservation-to-order conversion, strong Q3 delivery growth (46% YoY, 58% sequentially), and production momentum. Su",
+              "url": "https://www.fool.com/investing/2026/10/31/could-rivians-model-3-moment-be-coming-tesla-stock/?source=iedfolrf0000001"
             }
           ]
         }
       }
     },
     {
-      "name": "CPRI",
-      "description": "Capri Holdings Limited",
-      "close": 16.06,
-      "premarket_close": 17.86,
-      "premarket_change": 11.207970112079707,
-      "premarket_volume": 254793,
-      "premarket_high": 17.9,
-      "premarket_low": 15.78,
-      "float_shares_outstanding": 110755351.476,
-      "relative_volume_10d_calc": 1.5740250116159835,
-      "average_volume_30d_calc": 4192242.2666666666,
-      "market_cap_basic": 1825244940,
-      "sector": "Retail Trade",
-      "earnings_release_next_date": 1802260800,
-      "symbol": "NYSE:CPRI",
+      "name": "FLNC",
+      "description": "Fluence Energy, Inc.",
+      "close": 5.72,
+      "premarket_close": 5.97,
+      "premarket_change": 4.370629370629371,
+      "premarket_volume": 1160817,
+      "premarket_high": 6.0813,
+      "premarket_low": 4.95,
+      "float_shares_outstanding": 110703966.07571,
+      "relative_volume_10d_calc": 0.9107119226118332,
+      "average_volume_30d_calc": 6344587.4,
+      "market_cap_basic": 1055891200.0000001,
+      "sector": "Producer Manufacturing",
+      "earnings_release_next_date": 1796040000,
+      "symbol": "NASDAQ:FLNC",
       "enrich": {
         "daily": {
-          "as_of": "2026-10-29",
-          "close": 16.06,
-          "prior_day_high": 16.07,
-          "prior_day_low": 15.43,
-          "ema20": 15.45,
-          "ema50": 15.24,
-          "sma200": 17.88,
-          "rsi14": 58.1,
-          "atr14": 0.69,
-          "atr_pct": 4.3,
-          "perf_1m_pct": 13.7,
-          "perf_3m_pct": 0.8,
-          "high_52w": 28.27,
-          "pct_below_52w_high": 43.2,
-          "high_20d": 16.76,
-          "low_20d": 14.08,
-          "resistance_above": [],
-          "support_below": [
-            14.78,
-            13.9,
-            13.83
+          "as_of": "2026-10-30",
+          "close": 5.72,
+          "prior_day_high": 5.8,
+          "prior_day_low": 5.51,
+          "ema20": 6.46,
+          "ema50": 8.31,
+          "sma200": 15.48,
+          "rsi14": 33.5,
+          "atr14": 0.47,
+          "atr_pct": 8.2,
+          "perf_1m_pct": -24.4,
+          "perf_3m_pct": -60.7,
+          "high_52w": 33.51,
+          "pct_below_52w_high": 82.9,
+          "high_20d": 8.16,
+          "low_20d": 5.32,
+          "resistance_above": [
+            8.06,
+            8.16,
+            11.37
           ],
-          "squeeze_sessions_last10": 1,
+          "support_below": [
+            5.32
+          ],
+          "squeeze_sessions_last10": 0,
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-10-30",
-          "premarket_high": 17.86,
-          "premarket_low": 15.78,
-          "premarket_last": 17.86,
+          "date": "2026-11-02",
+          "premarket_high": 5.87,
+          "premarket_low": 4.95,
+          "premarket_last": 5.35,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 3,
+          "tone": "negative",
+          "positive": 0,
+          "negative": 3,
+          "neutral": 0,
+          "top": [
+            {
+              "published_utc": "2026-11-02T12:00:00Z",
+              "title": "Lead Plaintiff Deadlines in Shareholder Class Action Lawsuits Against Tigo Energy, Inc. (TYGO), Fluence Energy, Inc.\u00a0(FLNC), and Anavex Life Sciences Corp. (AVXL) Announced by Holzer & Holzer, LLC",
+              "publisher": "GlobeNewswire Inc.",
+              "sentiment": "negative",
+              "reason": "Alleged material misstatements about backlog delivery capabilities, production problems at manufacturing facilities, and misleading fiscal 2026 guidance between November 2025-September 2026.",
+              "url": "https://www.globenewswire.com/news-release/2026/11/02/3392972/0/en/lead-plaintiff-deadlines-in-shareholder-class-action-lawsuits-against-tigo-energy-inc-tygo-fluence-energy-inc-flnc-and-anavex-life-sciences-corp-avxl-announced-by-holzer-holzer-llc.html"
+            },
+            {
+              "published_utc": "2026-11-01T22:32:00Z",
+              "title": "ENDAVA DEADLINE: ROSEN, TRUSTED INVESTOR COUNSEL, Encourages Endava plc Investors to Secure Counsel Before Important Deadline in Securities Class Action \u2013 DAVA",
+              "publisher": "GlobeNewswire Inc.",
+              "sentiment": "negative",
+              "reason": "Company is subject to securities class action lawsuit with an upcoming deadline, indicating alleged securities violations and investor harm.",
+              "url": "https://www.globenewswire.com/news-release/2026/11/01/3392802/673/en/endava-deadline-rosen-trusted-investor-counsel-encourages-endava-plc-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-dava.html"
+            },
+            {
+              "published_utc": "2026-11-01T19:49:00Z",
+              "title": "FLUENCE ENERGY DEADLINE: ROSEN, RECOGNIZED INVESTOR COUNSEL, Encourages Fluence Energy, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action \u2013 FLNC",
+              "publisher": "GlobeNewswire Inc.",
+              "sentiment": "negative",
+              "reason": "Company is subject to securities class action lawsuit alleging materially false and misleading statements regarding its ability to deliver backlog, meet revenue guidance, and resolve production proble",
+              "url": "https://www.globenewswire.com/news-release/2026/11/01/3392799/673/en/fluence-energy-deadline-rosen-recognized-investor-counsel-encourages-fluence-energy-inc-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-flnc.html"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "BRAI",
+      "description": "Braiin Limited",
+      "close": 2.45,
+      "premarket_close": 2.6205,
+      "premarket_change": 6.959183673469373,
+      "premarket_volume": 572962,
+      "premarket_high": 2.93,
+      "premarket_low": 2.58,
+      "float_shares_outstanding": 206088228,
+      "relative_volume_10d_calc": 0.13999041771754836,
+      "average_volume_30d_calc": 4061965.6,
+      "market_cap_basic": 504916202,
+      "sector": "Technology Services",
+      "earnings_release_next_date": null,
+      "symbol": "NASDAQ:BRAI",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-30",
+          "close": 2.45,
+          "prior_day_high": 3.08,
+          "prior_day_low": 2.45,
+          "ema20": 3.9,
+          "ema50": 4.69,
+          "sma200": null,
+          "rsi14": 31.7,
+          "atr14": 0.81,
+          "atr_pct": 33.2,
+          "perf_1m_pct": -53.9,
+          "perf_3m_pct": -56.8,
+          "high_52w": 33.0,
+          "pct_below_52w_high": 92.6,
+          "high_20d": 5.4,
+          "low_20d": 2.1,
+          "resistance_above": [
+            5.3,
+            5.81,
+            5.86
+          ],
+          "support_below": [
+            2.1
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-02",
+          "premarket_high": 3.05,
+          "premarket_low": 2.58,
+          "premarket_last": 2.66,
           "bars_5m": 0
         },
         "news": {
@@ -153,6 +296,290 @@
           "neutral": 0,
           "top": []
         }
+      }
+    },
+    {
+      "name": "QURE",
+      "description": "uniQure N.V.",
+      "close": 24.83,
+      "premarket_close": 26.37,
+      "premarket_change": 6.2021747885622345,
+      "premarket_volume": 497458,
+      "premarket_high": 33.94,
+      "premarket_low": 23.96,
+      "float_shares_outstanding": 64457339.87200001,
+      "relative_volume_10d_calc": 1.4471764471348354,
+      "average_volume_30d_calc": 2937754.533333333,
+      "market_cap_basic": 1722368126.9999998,
+      "sector": "Health Technology",
+      "earnings_release_next_date": 1793793900,
+      "symbol": "NASDAQ:QURE",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-30",
+          "close": 24.83,
+          "prior_day_high": 25.21,
+          "prior_day_low": 23.56,
+          "ema20": 25.11,
+          "ema50": 30.77,
+          "sma200": 29.65,
+          "rsi14": 42.4,
+          "atr14": 1.77,
+          "atr_pct": 7.1,
+          "perf_1m_pct": 6.2,
+          "perf_3m_pct": -43.6,
+          "high_52w": 69.99,
+          "pct_below_52w_high": 64.5,
+          "high_20d": 25.99,
+          "low_20d": 20.33,
+          "resistance_above": [
+            45.8,
+            46.98,
+            48.1
+          ],
+          "support_below": [
+            22.47,
+            21.45,
+            21.2
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-02",
+          "premarket_high": 33.94,
+          "premarket_low": 23.96,
+          "premarket_last": 26.25,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 0,
+          "tone": "none",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0,
+          "top": []
+        }
+      }
+    },
+    {
+      "name": "TE",
+      "description": "T1 Energy Inc.",
+      "close": 2.7,
+      "premarket_close": 2.8495,
+      "premarket_change": 5.537037037037027,
+      "premarket_volume": 413407,
+      "premarket_high": 2.89,
+      "premarket_low": 2.78,
+      "float_shares_outstanding": 254229127.15199998,
+      "relative_volume_10d_calc": 0.9465247414609355,
+      "average_volume_30d_calc": 18269600.733333334,
+      "market_cap_basic": 808646965.9999999,
+      "sector": "Producer Manufacturing",
+      "earnings_release_next_date": 1794481200,
+      "symbol": "NYSE:TE",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-30",
+          "close": 2.7,
+          "prior_day_high": 2.77,
+          "prior_day_low": 2.56,
+          "ema20": 2.88,
+          "ema50": 3.68,
+          "sma200": 6.08,
+          "rsi14": 41.1,
+          "atr14": 0.28,
+          "atr_pct": 10.5,
+          "perf_1m_pct": -27.6,
+          "perf_3m_pct": -45.3,
+          "high_52w": 12.49,
+          "pct_below_52w_high": 78.4,
+          "high_20d": 3.95,
+          "low_20d": 2.08,
+          "resistance_above": [
+            4.05,
+            4.52,
+            5.13
+          ],
+          "support_below": [
+            2.08
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-02",
+          "premarket_high": 2.89,
+          "premarket_low": 2.78,
+          "premarket_last": 2.78,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "JBLU",
+      "description": "JetBlue Airways Corporation",
+      "close": 2.85,
+      "premarket_close": 2.9795,
+      "premarket_change": 4.543859649122798,
+      "premarket_volume": 268463,
+      "premarket_high": 3,
+      "premarket_low": 2.88,
+      "float_shares_outstanding": 325484967.6,
+      "relative_volume_10d_calc": 0.4897150590286474,
+      "average_volume_30d_calc": 28214247.8,
+      "market_cap_basic": 1075452700,
+      "sector": "Transportation",
+      "earnings_release_next_date": 1801137600,
+      "symbol": "NASDAQ:JBLU",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-30",
+          "close": 2.85,
+          "prior_day_high": 3.03,
+          "prior_day_low": 2.8,
+          "ema20": 3.18,
+          "ema50": 3.85,
+          "sma200": 4.92,
+          "rsi14": 36.5,
+          "atr14": 0.26,
+          "atr_pct": 9.2,
+          "perf_1m_pct": -31.3,
+          "perf_3m_pct": -54.3,
+          "high_52w": 6.62,
+          "pct_below_52w_high": 56.9,
+          "high_20d": 4.18,
+          "low_20d": 2.16,
+          "resistance_above": [
+            4.72,
+            4.75,
+            5.23
+          ],
+          "support_below": [
+            2.16
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-02",
+          "premarket_high": 2.95,
+          "premarket_low": 2.88,
+          "premarket_last": 2.91,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "ECHO",
+      "description": "EchoStar Corporation",
+      "close": 96.94,
+      "premarket_close": 101.3,
+      "premarket_change": 4.497627398390756,
+      "premarket_volume": 213894,
+      "premarket_high": 104.5,
+      "premarket_low": 97.52,
+      "float_shares_outstanding": 132515801.264,
+      "relative_volume_10d_calc": 1.1576130701390803,
+      "average_volume_30d_calc": 4053061.6,
+      "market_cap_basic": 28191688793.000004,
+      "sector": "Communications",
+      "earnings_release_next_date": 1794398400,
+      "symbol": "NASDAQ:ECHO",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-30",
+          "close": 96.94,
+          "prior_day_high": 98.19,
+          "prior_day_low": 94.5,
+          "ema20": 91.76,
+          "ema50": 92.14,
+          "sma200": 106.75,
+          "rsi14": 58.9,
+          "atr14": 4.23,
+          "atr_pct": 4.4,
+          "perf_1m_pct": 9.8,
+          "perf_3m_pct": 13.2,
+          "high_52w": 147.25,
+          "pct_below_52w_high": 34.2,
+          "high_20d": 100.9,
+          "low_20d": 82.73,
+          "resistance_above": [],
+          "support_below": [
+            91.5,
+            87.71,
+            84.26
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-02",
+          "premarket_high": 104.5,
+          "premarket_low": 97.92,
+          "premarket_last": 101.47,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "USAS",
+      "description": "Americas Gold and Silver Corporation",
+      "close": 2.87,
+      "premarket_close": 2.999,
+      "premarket_change": 4.494773519163763,
+      "premarket_volume": 108743,
+      "premarket_high": 3.1,
+      "premarket_low": 2.91,
+      "float_shares_outstanding": 275734709.51600003,
+      "relative_volume_10d_calc": 1.1447521174140411,
+      "average_volume_30d_calc": 3587850.8666666704,
+      "market_cap_basic": 970512378.7275001,
+      "sector": "Non-Energy Minerals",
+      "earnings_release_next_date": 1794580200,
+      "symbol": "AMEX:USAS",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-10-30",
+          "close": 2.87,
+          "prior_day_high": 2.95,
+          "prior_day_low": 2.76,
+          "ema20": 3.61,
+          "ema50": 4.18,
+          "sma200": 5.7,
+          "rsi14": 25.4,
+          "atr14": 0.23,
+          "atr_pct": 8.2,
+          "perf_1m_pct": -34.8,
+          "perf_3m_pct": -29.8,
+          "high_52w": 10.5,
+          "pct_below_52w_high": 72.7,
+          "high_20d": 4.51,
+          "low_20d": 2.76,
+          "resistance_above": [
+            5.32,
+            5.68,
+            5.88
+          ],
+          "support_below": [
+            2.98,
+            2.76
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-02",
+          "premarket_high": 3.1,
+          "premarket_low": 2.91,
+          "premarket_last": 2.93,
+          "bars_5m": 0
+        },
+        "news": null
       }
     }
   ]
