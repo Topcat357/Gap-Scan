@@ -1,26 +1,14 @@
-# Coiling for a breakout - 2026-10-30 16:53 ET
-Checked 257 candidates on daily bars; 6 passed. Settings: min_avg_vol=1000000, range_bars=15, range_max_pct=8.0, range_min_pct=2.0, atr_recent=5, atr_prior=20, atr_ratio_max=0.85, near_high_pct=10.0, price_min=5, price_max=100
+# Coiling for a breakout - 2026-11-02 16:52 ET
+Checked 264 candidates on daily bars; 3 passed. Settings: min_avg_vol=1000000, range_bars=15, range_max_pct=8.0, range_min_pct=2.0, atr_recent=5, atr_prior=20, atr_ratio_max=0.85, near_high_pct=10.0, price_min=5, price_max=100
 
-**RAMP** (NYSE:RAMP) - LiveRamp Holdings, Inc. | $38.50 | Technology Services | Mkt cap 2.3B
-- 15-day range $37.43-$38.52 (2.83% wide) | ATR contraction 0.68 | 0.05% below 52-wk high $38.52
-- RSI 71 | Next earnings: 2026-11-11
+**VRNS** (NASDAQ:VRNS) - Varonis Systems, Inc. | $48.75 | Technology Services | Mkt cap 5.6B
+- 15-day range $45.65-$49.26 (7.42% wide) | ATR contraction 0.15 | 3.1% below 52-wk high $50.31
+- RSI 54 | Next earnings: 2026-11-03 (EARNINGS SOON)
 
-**RXO** (NYSE:RXO) - RXO, Inc. | $27.49 | Technology Services | Mkt cap 4.5B
-- 15-day range $27.26-$29.37 (7.68% wide) | ATR contraction 0.72 | 8.06% below 52-wk high $29.90
-- RSI 57 | Next earnings: 2027-02-11
+**RXO** (NYSE:RXO) - RXO, Inc. | $27.82 | Technology Services | Mkt cap 4.6B
+- 15-day range $27.25-$29.37 (7.6% wide) | ATR contraction 0.75 | 6.96% below 52-wk high $29.90
+- RSI 59 | Next earnings: 2027-02-11
 
-**DVN** (NYSE:DVN) - Devon Energy Corporation | $52.15 | Energy Minerals | Mkt cap 57.4B
-- 15-day range $48.40-$52.28 (7.44% wide) | ATR contraction 0.73 | 1.06% below 52-wk high $52.71
-- RSI 64 | Next earnings: 2026-11-05
-
-**OXY** (NYSE:OXY) - Occidental Petroleum Corporation | $64.00 | Energy Minerals | Mkt cap 64.0B
-- 15-day range $60.28-$64.96 (7.31% wide) | ATR contraction 0.78 | 5.11% below 52-wk high $67.45
-- RSI 64 | Next earnings: 2026-11-09
-
-**ET** (AMEX:ET) - Energy Transfer LP | $20.91 | Industrial Services | Mkt cap 72.0B
-- 15-day range $19.55-$21.07 (7.27% wide) | ATR contraction 0.8 | 4.26% below 52-wk high $21.84
-- RSI 57 | Next earnings: 2026-11-03
-
-**KMI** (NYSE:KMI) - Kinder Morgan, Inc. | $33.87 | Industrial Services | Mkt cap 75.5B
-- 15-day range $32.32-$34.75 (7.17% wide) | ATR contraction 0.85 | 2.7% below 52-wk high $34.81
-- RSI 59 | Next earnings: 2027-01-20
+**PPL** (NYSE:PPL) - PPL Corporation | $36.14 | Utilities | Mkt cap 27.2B
+- 15-day range $33.90-$36.21 (6.38% wide) | ATR contraction 0.83 | 9.89% below 52-wk high $40.10
+- RSI 69 | Next earnings: 2026-11-06
