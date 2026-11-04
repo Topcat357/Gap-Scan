@@ -1,153 +1,153 @@
-# Premarket Gappers - 2026-11-03 08:34 ET (standard)
-Data: live (logged-in session). 26 matches, top 25 by premarket volume.
+# Premarket Gappers - 2026-11-04 08:34 ET (standard)
+Data: live (logged-in session). 27 matches, top 25 by premarket volume.
 No news check here - the brief grades catalysts.
 
-**GRAB** (NASDAQ:GRAB) - Grab Holdings Limited
-- Gap 10.8% | PM $3.17 (prev close $2.86)
-- PM vol 7.6M | PM high $3.18 / low $2.94
-- Float 2.8B | Mkt cap 11.7B | Avg vol 68.8M
-- Sector: Transportation | Next earnings: 2027-02-25
+**RIOT** (NASDAQ:RIOT) - Riot Platforms, Inc.
+- Gap 21.0% | PM $16.97 (prev close $14.02)
+- PM vol 9.4M | PM high $17.10 / low $13.10
+- Float 347.4M | Mkt cap 5.3B | Avg vol 18.4M
+- Sector: Technology Services | Next earnings: 2027-03-03
 
-**INTC** (NASDAQ:INTC) - Intel Corporation
-- Gap 4.5% | PM $62.66 (prev close $59.97)
-- PM vol 4.7M | PM high $62.87 / low $60.52
-- Float 4.5B | Mkt cap 317.0B | Avg vol 115.5M
-- Sector: Electronic Technology | Next earnings: 2027-01-28
+**PLUG** (NASDAQ:PLUG) - Plug Power, Inc.
+- Gap 6.4% | PM $1.50 (prev close $1.41)
+- PM vol 5.4M | PM high $1.58 / low $1.48
+- Float 1.3B | Mkt cap 2.0B | Avg vol 48.9M
+- Sector: Electronic Technology | Next earnings: 2026-11-09
 
-**IREN** (NASDAQ:IREN) - IREN Limited
-- Gap 4.9% | PM $23.09 (prev close $22.02)
-- PM vol 1.5M | PM high $23.11 / low $22.03
-- Float 355.0M | Mkt cap 8.9B | Avg vol 49.1M
-- Sector: Technology Services | Next earnings: 2026-11-05 (EARNINGS SOON)
-
-**BRAI** (NASDAQ:BRAI) - Braiin Limited
-- Gap 17.5% | PM $2.94 (prev close $2.50)
-- PM vol 1.3M | PM high $3.09 / low $2.70
-- Float 206.1M | Mkt cap 515.2M | Avg vol 4.2M
-- Sector: Technology Services | Next earnings: -
-
-**CIFR** (NASDAQ:CIFR) - Cipher Digital Inc.
-- Gap 6.4% | PM $7.30 (prev close $6.86)
-- PM vol 688.1K | PM high $7.35 / low $6.85
-- Float 344.5M | Mkt cap 2.8B | Avg vol 44.0M
-- Sector: Technology Services | Next earnings: 2027-03-02
-
-**CRWV** (NASDAQ:CRWV) - CoreWeave, Inc.
-- Gap 4.2% | PM $52.27 (prev close $50.15)
-- PM vol 667.3K | PM high $52.45 / low $50.01
-- Float 349.3M | Mkt cap 27.7B | Avg vol 49.5M
-- Sector: Technology Services | Next earnings: 2026-11-10
-
-**SMCI** (NASDAQ:SMCI) - Super Micro Computer, Inc.
-- Gap 4.1% | PM $31.70 (prev close $30.44)
-- PM vol 614.6K | PM high $31.70 / low $30.70
-- Float 573.9M | Mkt cap 20.0B | Avg vol 35.1M
-- Sector: Electronic Technology | Next earnings: 2026-11-03 (EARNINGS SOON)
-
-**AXTI** (NASDAQ:AXTI) - AXT Inc
-- Gap 4.8% | PM $50.49 (prev close $48.20)
-- PM vol 586.4K | PM high $50.49 / low $48.00
-- Float 62.8M | Mkt cap 3.2B | Avg vol 9.3M
-- Sector: Electronic Technology | Next earnings: 2027-02-18
-
-**POET** (NASDAQ:POET) - POET Technologies Inc.
-- Gap 5.7% | PM $5.07 (prev close $4.79)
-- PM vol 439.6K | PM high $5.08 / low $4.77
-- Float 90.4M | Mkt cap 829.8M | Avg vol 8.1M
-- Sector: Producer Manufacturing | Next earnings: 2026-11-16
-
-**RXRX** (NASDAQ:RXRX) - Recursion Pharmaceuticals, Inc.
-- Gap 4.2% | PM $3.99 (prev close $3.83)
-- PM vol 400.5K | PM high $4.00 / low $3.78
-- Float 536.8M | Mkt cap 2.3B | Avg vol 28.4M
-- Sector: Health Technology | Next earnings: 2027-03-03
-
-**KEEL** (NASDAQ:KEEL) - Keel Infrastructure Corp.
-- Gap 4.8% | PM $1.98 (prev close $1.89)
-- PM vol 399.4K | PM high $1.98 / low $1.87
-- Float 601.2M | Mkt cap 1.2B | Avg vol 26.3M
-- Sector: Technology Services | Next earnings: 2026-11-05 (EARNINGS SOON)
-
-**FISV** (NASDAQ:FISV) - Fiserv, Inc.
-- Gap 9.1% | PM $56.63 (prev close $51.93)
-- PM vol 372.5K | PM high $57.40 / low $51.68
-- Float 529.4M | Mkt cap 27.6B | Avg vol 6.1M
-- Sector: Commercial Services | Next earnings: 2027-02-09
-
-**BLZE** (NASDAQ:BLZE) - Backblaze, Inc.
-- Gap 34.5% | PM $9.95 (prev close $7.40)
-- PM vol 361.3K | PM high $10.38 / low $9.62
-- Float 58.6M | Mkt cap 458.1M | Avg vol 2.1M
-- Sector: Electronic Technology | Next earnings: 2027-02-18
-
-**APLD** (NASDAQ:APLD) - Applied Digital Corporation
-- Gap 4.1% | PM $16.88 (prev close $16.22)
-- PM vol 355.1K | PM high $16.93 / low $16.10
-- Float 272.7M | Mkt cap 4.9B | Avg vol 24.6M
-- Sector: Technology Services | Next earnings: 2027-01-12
-
-**AAOI** (NASDAQ:AAOI) - Applied Optoelectronics, Inc.
-- Gap 5.6% | PM $66.01 (prev close $62.50)
-- PM vol 276.4K | PM high $66.14 / low $62.37
-- Float 80.5M | Mkt cap 5.3B | Avg vol 11.0M
-- Sector: Electronic Technology | Next earnings: 2026-11-05 (EARNINGS SOON)
-
-**WULF** (NASDAQ:WULF) - TeraWulf Inc.
-- Gap 4.0% | PM $11.38 (prev close $10.94)
-- PM vol 265.4K | PM high $11.42 / low $10.83
-- Float 348.8M | Mkt cap 5.5B | Avg vol 38.0M
-- Sector: Technology Services | Next earnings: 2026-11-06
-
-**AEHR** (NASDAQ:AEHR) - Aehr Test Systems
-- Gap 19.5% | PM $61.50 (prev close $51.47)
-- PM vol 216.8K | PM high $61.50 / low $57.50
-- Float 31.1M | Mkt cap 1.7B | Avg vol 2.5M
-- Sector: Electronic Technology | Next earnings: 2027-01-08
-
-**NVTS** (NASDAQ:NVTS) - Navitas Semiconductor Corporation
-- Gap 4.2% | PM $8.26 (prev close $7.93)
-- PM vol 216.7K | PM high $8.32 / low $7.92
-- Float 225.7M | Mkt cap 2.1B | Avg vol 15.3M
-- Sector: Electronic Technology | Next earnings: 2026-11-03 (EARNINGS SOON)
-
-**TE** (NYSE:TE) - T1 Energy Inc.
-- Gap 4.7% | PM $2.68 (prev close $2.56)
-- PM vol 210.8K | PM high $2.70 / low $2.54
-- Float 254.2M | Mkt cap 766.7M | Avg vol 18.3M
-- Sector: Producer Manufacturing | Next earnings: 2026-11-12
-
-**LSCC** (NASDAQ:LSCC) - Lattice Semiconductor Corporation
-- Gap 11.9% | PM $106.80 (prev close $95.44)
-- PM vol 170.8K | PM high $106.92 / low $102.00
-- Float 140.8M | Mkt cap 13.6B | Avg vol 2.0M
-- Sector: Electronic Technology | Next earnings: 2027-02-15
-
-**PENG** (NASDAQ:PENG) - Penguin Solutions, Inc.
-- Gap 6.5% | PM $50.60 (prev close $47.50)
-- PM vol 161.9K | PM high $52.59 / low $47.63
-- Float 57.4M | Mkt cap 2.9B | Avg vol 4.2M
-- Sector: Electronic Technology | Next earnings: 2027-01-05
-
-**ON** (NASDAQ:ON) - ON Semiconductor Corporation
-- Gap 4.3% | PM $73.15 (prev close $70.11)
-- PM vol 160.7K | PM high $73.35 / low $69.95
-- Float 386.7M | Mkt cap 27.3B | Avg vol 10.6M
-- Sector: Electronic Technology | Next earnings: 2027-02-08
-
-**EOSE** (NASDAQ:EOSE) - Eos Energy Enterprises, Inc.
-- Gap 4.5% | PM $1.84 (prev close $1.76)
-- PM vol 143.5K | PM high $1.84 / low $1.75
-- Float 356.6M | Mkt cap 640.9M | Avg vol 28.3M
+**ARRY** (NASDAQ:ARRY) - Array Technologies, Inc.
+- Gap 13.8% | PM $5.28 (prev close $4.64)
+- PM vol 3.2M | PM high $5.30 / low $4.82
+- Float 151.5M | Mkt cap 714.6M | Avg vol 7.5M
 - Sector: Producer Manufacturing | Next earnings: 2026-11-05 (EARNINGS SOON)
 
-**RIOT** (NASDAQ:RIOT) - Riot Platforms, Inc.
-- Gap 4.1% | PM $12.32 (prev close $11.84)
-- PM vol 112.8K | PM high $12.35 / low $11.74
-- Float 347.4M | Mkt cap 4.4B | Avg vol 17.7M
-- Sector: Technology Services | Next earnings: 2026-11-04 (EARNINGS SOON)
+**TE** (NYSE:TE) - T1 Energy Inc.
+- Gap 11.3% | PM $3.15 (prev close $2.83)
+- PM vol 2.6M | PM high $3.23 / low $3.00
+- Float 254.2M | Mkt cap 847.6M | Avg vol 18.7M
+- Sector: Producer Manufacturing | Next earnings: 2026-11-12
 
-**LUNR** (NASDAQ:LUNR) - Intuitive Machines, Inc.
-- Gap 4.4% | PM $10.29 (prev close $9.86)
-- PM vol 111.7K | PM high $10.43 / low $9.91
-- Float 152.7M | Mkt cap 2.3B | Avg vol 7.4M
+**NVTS** (NASDAQ:NVTS) - Navitas Semiconductor Corporation
+- Gap 12.4% | PM $9.62 (prev close $8.56)
+- PM vol 2.2M | PM high $10.07 / low $9.07
+- Float 225.7M | Mkt cap 2.2B | Avg vol 15.5M
+- Sector: Electronic Technology | Next earnings: 2027-03-03
+
+**OPEN** (NASDAQ:OPEN) - Opendoor Technologies Inc
+- Gap 5.7% | PM $1.84 (prev close $1.74)
+- PM vol 1.2M | PM high $1.84 / low $1.73
+- Float 815.2M | Mkt cap 1.7B | Avg vol 33.0M
+- Sector: Finance | Next earnings: 2026-11-05 (EARNINGS SOON)
+
+**ENPH** (NASDAQ:ENPH) - Enphase Energy, Inc.
+- Gap 4.4% | PM $31.75 (prev close $30.42)
+- PM vol 815.4K | PM high $32.80 / low $30.80
+- Float 128.3M | Mkt cap 4.0B | Avg vol 6.5M
+- Sector: Producer Manufacturing | Next earnings: 2027-02-09
+
+**RUN** (NASDAQ:RUN) - Sunrun Inc.
+- Gap 6.9% | PM $9.28 (prev close $8.68)
+- PM vol 761.1K | PM high $9.57 / low $9.03
+- Float 232.5M | Mkt cap 2.1B | Avg vol 8.7M
+- Sector: Electronic Technology | Next earnings: 2026-11-04 (EARNINGS SOON)
+
+**SHLS** (NASDAQ:SHLS) - Shoals Technologies Group, Inc.
+- Gap 6.3% | PM $9.00 (prev close $8.47)
+- PM vol 583.3K | PM high $9.33 / low $8.47
+- Float 165.0M | Mkt cap 1.4B | Avg vol 4.4M
+- Sector: Electronic Technology | Next earnings: 2026-11-10
+
+**FLNC** (NASDAQ:FLNC) - Fluence Energy, Inc.
+- Gap 6.0% | PM $5.83 (prev close $5.50)
+- PM vol 578.1K | PM high $6.00 / low $5.59
+- Float 110.7M | Mkt cap 1.0B | Avg vol 6.3M
+- Sector: Producer Manufacturing | Next earnings: 2026-11-23
+
+**JBLU** (NASDAQ:JBLU) - JetBlue Airways Corporation
+- Gap 4.4% | PM $3.32 (prev close $3.18)
+- PM vol 427.1K | PM high $3.34 / low $3.24
+- Float 325.5M | Mkt cap 1.2B | Avg vol 29.0M
+- Sector: Transportation | Next earnings: 2027-01-28
+
+**SLDP** (NASDAQ:SLDP) - Solid Power, Inc.
+- Gap 7.4% | PM $2.18 (prev close $2.03)
+- PM vol 416.0K | PM high $2.21 / low $2.12
+- Float 198.0M | Mkt cap 463.2M | Avg vol 2.9M
+- Sector: Producer Manufacturing | Next earnings: 2027-03-02
+
+**OSCR** (NYSE:OSCR) - Oscar Health, Inc.
+- Gap 9.2% | PM $35.40 (prev close $32.41)
+- PM vol 399.4K | PM high $35.70 / low $33.37
+- Float 253.3M | Mkt cap 8.9B | Avg vol 4.6M
+- Sector: Health Services | Next earnings: 2026-11-05 (EARNINGS SOON)
+
+**HL** (NYSE:HL) - Hecla Mining Company
+- Gap 8.9% | PM $14.39 (prev close $13.21)
+- PM vol 378.7K | PM high $15.10 / low $14.01
+- Float 666.2M | Mkt cap 8.9B | Avg vol 32.0M
+- Sector: Non-Energy Minerals | Next earnings: 2027-02-17
+
+**TLRY** (NASDAQ:TLRY) - Tilray Brands, Inc.
+- Gap 4.9% | PM $2.78 (prev close $2.65)
+- PM vol 337.5K | PM high $2.82 / low $2.69
+- Float 145.4M | Mkt cap 391.6M | Avg vol 4.3M
+- Sector: Process Industries | Next earnings: 2027-01-11
+
+**CSIQ** (NASDAQ:CSIQ) - Canadian Solar Inc.
+- Gap 7.7% | PM $10.88 (prev close $10.10)
+- PM vol 337.1K | PM high $11.10 / low $10.60
+- Float 47.6M | Mkt cap 685.8M | Avg vol 1.8M
 - Sector: Electronic Technology | Next earnings: 2026-11-12
+
+**KHC** (NYSE:KHC) - The Kraft Heinz Company
+- Gap 4.4% | PM $25.61 (prev close $24.52)
+- PM vol 267.9K | PM high $25.71 / low $24.64
+- Float 1.2B | Mkt cap 29.1B | Avg vol 13.5M
+- Sector: Consumer Non-Durables | Next earnings: 2027-02-17
+
+**USAS** (AMEX:USAS) - Americas Gold and Silver Corporation
+- Gap 7.7% | PM $2.92 (prev close $2.71)
+- PM vol 220.2K | PM high $2.99 / low $2.87
+- Float 275.7M | Mkt cap 916.4M | Avg vol 3.7M
+- Sector: Non-Energy Minerals | Next earnings: 2026-11-13
+
+**LAC** (NYSE:LAC) - Lithium Americas Corp.
+- Gap 4.3% | PM $1.96 (prev close $1.88)
+- PM vol 203.3K | PM high $1.96 / low $1.89
+- Float - | Mkt cap 682.5M | Avg vol 7.9M
+- Sector: Non-Energy Minerals | Next earnings: 2026-11-13
+
+**CDE** (NYSE:CDE) - Coeur Mining, Inc.
+- Gap 6.5% | PM $14.29 (prev close $13.41)
+- PM vol 193.3K | PM high $14.49 / low $13.95
+- Float 1.0B | Mkt cap 13.8B | Avg vol 36.0M
+- Sector: Non-Energy Minerals | Next earnings: 2026-11-04 (EARNINGS SOON)
+
+**MDLN** (NASDAQ:MDLN) - Medline Inc.
+- Gap 7.9% | PM $36.80 (prev close $34.09)
+- PM vol 190.5K | PM high $38.46 / low $34.22
+- Float 509.8M | Mkt cap 44.8B | Avg vol 9.2M
+- Sector: Health Technology | Next earnings: 2027-03-03
+
+**EQX** (AMEX:EQX) - Equinox Gold Corp.
+- Gap 6.3% | PM $10.63 (prev close $10.00)
+- PM vol 188.6K | PM high $10.71 / low $10.50
+- Float 1.1B | Mkt cap 11.7B | Avg vol 11.9M
+- Sector: Non-Energy Minerals | Next earnings: 2026-11-09
+
+**UWMC** (NYSE:UWMC) - UWM Holdings Corporation
+- Gap 6.3% | PM $1.69 (prev close $1.59)
+- PM vol 184.4K | PM high $1.71 / low $1.58
+- Float 308.3M | Mkt cap 2.6B | Avg vol 13.4M
+- Sector: Finance | Next earnings: 2026-11-04 (EARNINGS SOON)
+
+**TRLV** (NYSE:TRLV) - Trulieve Cannabis Corp. Subordinate Voting Shares
+- Gap 5.3% | PM $12.15 (prev close $11.54)
+- PM vol 135.9K | PM high $12.16 / low $11.63
+- Float 162.6M | Mkt cap 2.2B | Avg vol 1.7M
+- Sector: Process Industries | Next earnings: 2026-11-05 (EARNINGS SOON)
+
+**OUST** (NASDAQ:OUST) - Ouster, Inc.
+- Gap 14.7% | PM $33.24 (prev close $28.98)
+- PM vol 123.6K | PM high $33.50 / low $31.39
+- Float 69.2M | Mkt cap 2.1B | Avg vol 2.6M
+- Sector: Electronic Technology | Next earnings: 2027-03-25

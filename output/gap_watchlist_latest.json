@@ -1,1117 +1,260 @@
 {
-  "date": "2026-11-03",
-  "run_at": "2026-11-03 08:34",
+  "date": "2026-11-04",
+  "run_at": "2026-11-04 08:34",
   "profile": "standard",
   "data": "live (logged-in session)",
-  "enrich": "enriched 25/25 daily, 25/25 intraday, with news for top 5; 55s",
-  "total_matches": 26,
+  "enrich": "enriched 25/25 daily, 25/25 intraday, with news for top 5; 54s",
+  "total_matches": 27,
   "rows": [
     {
-      "name": "GRAB",
-      "description": "Grab Holdings Limited",
-      "close": 2.86,
-      "premarket_close": 3.17,
-      "premarket_change": 10.839160839160842,
-      "premarket_volume": 7605892,
-      "premarket_high": 3.18,
-      "premarket_low": 2.94,
-      "float_shares_outstanding": 2772909011.44,
-      "relative_volume_10d_calc": 1.3493290296668594,
-      "average_volume_30d_calc": 68827905.96666667,
-      "market_cap_basic": 11664558449,
-      "sector": "Transportation",
-      "earnings_release_next_date": 1803556800,
-      "symbol": "NASDAQ:GRAB",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 2.86,
-          "prior_day_high": 2.93,
-          "prior_day_low": 2.75,
-          "ema20": 2.88,
-          "ema50": 3.06,
-          "sma200": 3.62,
-          "rsi14": 45.6,
-          "atr14": 0.11,
-          "atr_pct": 3.9,
-          "perf_1m_pct": -7.1,
-          "perf_3m_pct": -23.1,
-          "high_52w": 6.24,
-          "pct_below_52w_high": 54.1,
-          "high_20d": 3.23,
-          "low_20d": 2.67,
-          "resistance_above": [
-            3.23,
-            3.26,
-            3.66
-          ],
-          "support_below": [
-            3.07,
-            3.0,
-            2.85
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 3.18,
-          "premarket_low": 2.94,
-          "premarket_last": 3.16,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 0,
-          "tone": "none",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 0,
-          "top": []
-        }
-      }
-    },
-    {
-      "name": "INTC",
-      "description": "Intel Corporation",
-      "close": 59.97,
-      "premarket_close": 62.6586,
-      "premarket_change": 4.483241620810407,
-      "premarket_volume": 4669562,
-      "premarket_high": 62.87,
-      "premarket_low": 60.52,
-      "float_shares_outstanding": 4546858088.719999,
-      "relative_volume_10d_calc": 1.7357255010196557,
-      "average_volume_30d_calc": 115477168.1,
-      "market_cap_basic": 317007751414,
-      "sector": "Electronic Technology",
-      "earnings_release_next_date": 1801137600,
-      "symbol": "NASDAQ:INTC",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 59.97,
-          "prior_day_high": 65.72,
-          "prior_day_low": 59.4,
-          "ema20": 91.03,
-          "ema50": 98.14,
-          "sma200": 86.92,
-          "rsi14": 23.0,
-          "atr14": 6.93,
-          "atr_pct": 11.6,
-          "perf_1m_pct": -49.7,
-          "perf_3m_pct": -40.5,
-          "high_52w": 142.35,
-          "pct_below_52w_high": 57.9,
-          "high_20d": 118.2,
-          "low_20d": 59.4,
-          "resistance_above": [
-            93.7,
-            95.68,
-            106.69
-          ],
-          "support_below": [
-            59.4
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 62.85,
-          "premarket_low": 60.01,
-          "premarket_last": 62.62,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 17,
-          "tone": "negative",
-          "positive": 1,
-          "negative": 12,
-          "neutral": 4,
-          "top": [
-            {
-              "published_utc": "2026-11-03T11:20:00Z",
-              "title": "The S&P 500's Record Profits Are Hiding a Problem Investors Haven't Seen Before",
-              "publisher": "The Motley Fool",
-              "sentiment": "negative",
-              "reason": "Shares tanked over 25% following weaker-than-expected Q4 outlook; warned it won't be free cash flow positive in 2027",
-              "url": "https://www.fool.com/investing/2026/11/03/sp-500-record-profits-hiding-problem-not-seen/?source=iedfolrf0000001"
-            },
-            {
-              "published_utc": "2026-11-03T08:41:02Z",
-              "title": "Intel Stock's October Was Its Worst Month Since at Least 1980. History Says What Can Come Next.",
-              "publisher": "The Motley Fool",
-              "sentiment": "negative",
-              "reason": "Stock fell 45% in October after disappointing Q3 earnings and weak Q4 guidance ($0.25 EPS vs. $0.52 prior quarter). Management expects PC slowdown to continue through H1 2027. Historical precedent sug",
-              "url": "https://www.fool.com/investing/2026/11/03/intel-stock-s-october-was-its-worst-month-since-at-least-1980-history-says-what-can-come-next/?source=iedfolrf0000001"
-            },
-            {
-              "published_utc": "2026-11-02T22:22:02Z",
-              "title": "AMD Reports Tuesday. Here's the Number That Will Show Whether It's Gaining on Nvidia",
-              "publisher": "The Motley Fool",
-              "sentiment": "negative",
-              "reason": "Intel's warning about a shrinking PC market is cited as a potential headwind for AMD's client business, which grew 23% last quarter. This suggests competitive pressure and market challenges.",
-              "url": "https://www.fool.com/investing/2026/11/02/amd-reports-tuesday-here-s-the-number-that-will-show-whether-it-s-gaining-on-nvidia/?source=iedfolrf0000001"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "IREN",
-      "description": "IREN Limited",
-      "close": 22.02,
-      "premarket_close": 23.09,
-      "premarket_change": 4.859218891916441,
-      "premarket_volume": 1491350,
-      "premarket_high": 23.11,
-      "premarket_low": 22.03,
-      "float_shares_outstanding": 354999818.95140004,
-      "relative_volume_10d_calc": 0.8897799900253474,
-      "average_volume_30d_calc": 49075745.36666667,
-      "market_cap_basic": 8909590058,
+      "name": "RIOT",
+      "description": "Riot Platforms, Inc.",
+      "close": 14.02,
+      "premarket_close": 16.97,
+      "premarket_change": 21.04136947218259,
+      "premarket_volume": 9445366,
+      "premarket_high": 17.1,
+      "premarket_low": 13.1,
+      "float_shares_outstanding": 347420035.826,
+      "relative_volume_10d_calc": 2.1181629770371533,
+      "average_volume_30d_calc": 18384414.533333335,
+      "market_cap_basic": 5261130534,
       "sector": "Technology Services",
-      "earnings_release_next_date": 1793912400,
-      "symbol": "NASDAQ:IREN",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 22.02,
-          "prior_day_high": 24.34,
-          "prior_day_low": 21.86,
-          "ema20": 29.5,
-          "ema50": 35.11,
-          "sma200": 44.21,
-          "rsi14": 27.6,
-          "atr14": 2.64,
-          "atr_pct": 12.0,
-          "perf_1m_pct": -47.3,
-          "perf_3m_pct": -46.1,
-          "high_52w": 76.87,
-          "pct_below_52w_high": 71.4,
-          "high_20d": 42.18,
-          "low_20d": 21.86,
-          "resistance_above": [
-            28.88,
-            43.91,
-            45.93
-          ],
-          "support_below": [
-            21.86
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 23.09,
-          "premarket_low": 21.96,
-          "premarket_last": 23.04,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 1,
-          "tone": "neutral",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 1,
-          "top": [
-            {
-              "published_utc": "2026-11-02T20:21:52Z",
-              "title": "Applied Digital vs. IREN: Which Technology Stock Is a Better Buy for 2027?",
-              "publisher": "The Motley Fool",
-              "sentiment": "neutral",
-              "reason": "Company shows growth potential with 41.1% revenue growth and strategic partnerships with Microsoft and NVIDIA, but faces headwinds including missed earnings estimates, recent 52-week low, financing co",
-              "url": "https://www.fool.com/coverage/better-buy/2026/11/02/applied-digital-vs-iren-which-technology-stock-is-a-better-buy-for-2027/?source=iedfolrf0000001"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "BRAI",
-      "description": "Braiin Limited",
-      "close": 2.5,
-      "premarket_close": 2.9369,
-      "premarket_change": 17.476000000000003,
-      "premarket_volume": 1251764,
-      "premarket_high": 3.09,
-      "premarket_low": 2.7,
-      "float_shares_outstanding": 206088228,
-      "relative_volume_10d_calc": 0.3286881220977577,
-      "average_volume_30d_calc": 4193732.6666666665,
-      "market_cap_basic": 515220604,
-      "sector": "Technology Services",
-      "earnings_release_next_date": null,
-      "symbol": "NASDAQ:BRAI",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 2.5,
-          "prior_day_high": 2.69,
-          "prior_day_low": 2.4,
-          "ema20": 3.77,
-          "ema50": 4.6,
-          "sma200": null,
-          "rsi14": 32.4,
-          "atr14": 0.78,
-          "atr_pct": 31.0,
-          "perf_1m_pct": -46.0,
-          "perf_3m_pct": -56.1,
-          "high_52w": 33.0,
-          "pct_below_52w_high": 92.4,
-          "high_20d": 5.4,
-          "low_20d": 2.1,
-          "resistance_above": [
-            5.3,
-            5.4,
-            5.81
-          ],
-          "support_below": [
-            2.1
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 3.09,
-          "premarket_low": 2.66,
-          "premarket_last": 2.93,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 0,
-          "tone": "none",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 0,
-          "top": []
-        }
-      }
-    },
-    {
-      "name": "CIFR",
-      "description": "Cipher Digital Inc.",
-      "close": 6.86,
-      "premarket_close": 7.3,
-      "premarket_change": 6.413994169096203,
-      "premarket_volume": 688101,
-      "premarket_high": 7.35,
-      "premarket_low": 6.85,
-      "float_shares_outstanding": 344498971.736,
-      "relative_volume_10d_calc": 1.1880444419888359,
-      "average_volume_30d_calc": 44040866.93333333,
-      "market_cap_basic": 2847110870.9999995,
-      "sector": "Technology Services",
-      "earnings_release_next_date": 1803988800,
-      "symbol": "NASDAQ:CIFR",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 6.86,
-          "prior_day_high": 7.39,
-          "prior_day_low": 6.62,
-          "ema20": 9.96,
-          "ema50": 13.2,
-          "sma200": 17.69,
-          "rsi14": 24.1,
-          "atr14": 1.06,
-          "atr_pct": 15.5,
-          "perf_1m_pct": -56.3,
-          "perf_3m_pct": -66.3,
-          "high_52w": 30.14,
-          "pct_below_52w_high": 77.2,
-          "high_20d": 15.78,
-          "low_20d": 6.62,
-          "resistance_above": [
-            8.9,
-            17.47,
-            18.23
-          ],
-          "support_below": [
-            6.62
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 7.35,
-          "premarket_low": 6.79,
-          "premarket_last": 7.32,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 0,
-          "tone": "none",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 0,
-          "top": []
-        }
-      }
-    },
-    {
-      "name": "CRWV",
-      "description": "CoreWeave, Inc.",
-      "close": 50.15,
-      "premarket_close": 52.27,
-      "premarket_change": 4.227318045862423,
-      "premarket_volume": 667330,
-      "premarket_high": 52.45,
-      "premarket_low": 50.01,
-      "float_shares_outstanding": 349311034.0363,
-      "relative_volume_10d_calc": 0.7068270984995221,
-      "average_volume_30d_calc": 49504116.166666664,
-      "market_cap_basic": 27659560609.000004,
-      "sector": "Technology Services",
-      "earnings_release_next_date": 1794344400,
-      "symbol": "NASDAQ:CRWV",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 50.15,
-          "prior_day_high": 55.74,
-          "prior_day_low": 49.46,
-          "ema20": 65.01,
-          "ema50": 75.07,
-          "sma200": 91.13,
-          "rsi14": 30.2,
-          "atr14": 5.92,
-          "atr_pct": 11.8,
-          "perf_1m_pct": -44.0,
-          "perf_3m_pct": -45.4,
-          "high_52w": 138.36,
-          "pct_below_52w_high": 63.8,
-          "high_20d": 93.21,
-          "low_20d": 49.46,
-          "resistance_above": [
-            91.12,
-            91.81,
-            93.21
-          ],
-          "support_below": [
-            51.24,
-            49.46
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 52.45,
-          "premarket_low": 49.69,
-          "premarket_last": 52.3,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "SMCI",
-      "description": "Super Micro Computer, Inc.",
-      "close": 30.44,
-      "premarket_close": 31.7,
-      "premarket_change": 4.1392904073587315,
-      "premarket_volume": 614554,
-      "premarket_high": 31.7,
-      "premarket_low": 30.7,
-      "float_shares_outstanding": 573856299.64,
-      "relative_volume_10d_calc": 1.0935010322953151,
-      "average_volume_30d_calc": 35137229.166666664,
-      "market_cap_basic": 19998026916,
-      "sector": "Electronic Technology",
-      "earnings_release_next_date": 1793739600,
-      "symbol": "NASDAQ:SMCI",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 30.44,
-          "prior_day_high": 33.5,
-          "prior_day_low": 30.27,
-          "ema20": 35.35,
-          "ema50": 36.43,
-          "sma200": 32.67,
-          "rsi14": 35.4,
-          "atr14": 2.46,
-          "atr_pct": 8.1,
-          "perf_1m_pct": -30.3,
-          "perf_3m_pct": -3.9,
-          "high_52w": 53.01,
-          "pct_below_52w_high": 42.6,
-          "high_20d": 45.77,
-          "low_20d": 30.27,
-          "resistance_above": [
-            36.4,
-            37.45,
-            39.47
-          ],
-          "support_below": [
-            30.92,
-            29.33
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 31.69,
-          "premarket_low": 30.48,
-          "premarket_last": 31.67,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "AXTI",
-      "description": "AXT Inc",
-      "close": 48.2,
-      "premarket_close": 50.49,
-      "premarket_change": 4.751037344398338,
-      "premarket_volume": 586350,
-      "premarket_high": 50.49,
-      "premarket_low": 48,
-      "float_shares_outstanding": 62844895.8676,
-      "relative_volume_10d_calc": 1.466033892848859,
-      "average_volume_30d_calc": 9330872.166666666,
-      "market_cap_basic": 3160628853.0000005,
-      "sector": "Electronic Technology",
-      "earnings_release_next_date": 1802952000,
-      "symbol": "NASDAQ:AXTI",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 48.2,
-          "prior_day_high": 56.89,
-          "prior_day_low": 47.23,
-          "ema20": 60.33,
-          "ema50": 64.96,
-          "sma200": 64.97,
-          "rsi14": 37.5,
-          "atr14": 6.82,
-          "atr_pct": 14.1,
-          "perf_1m_pct": -43.9,
-          "perf_3m_pct": -26.2,
-          "high_52w": 143.16,
-          "pct_below_52w_high": 66.3,
-          "high_20d": 88.36,
-          "low_20d": 47.23,
-          "resistance_above": [
-            61.2,
-            65.2,
-            73.94
-          ],
-          "support_below": [
-            47.23
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 50.49,
-          "premarket_low": 47.29,
-          "premarket_last": 50.03,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "POET",
-      "description": "POET Technologies Inc.",
-      "close": 4.795,
-      "premarket_close": 5.07,
-      "premarket_change": 5.73514077163713,
-      "premarket_volume": 439627,
-      "premarket_high": 5.08,
-      "premarket_low": 4.77,
-      "float_shares_outstanding": 90387900.82079999,
-      "relative_volume_10d_calc": 1.206715210446081,
-      "average_volume_30d_calc": 8126179.366666633,
-      "market_cap_basic": 829813555.9999999,
-      "sector": "Producer Manufacturing",
-      "earnings_release_next_date": 1794830400,
-      "symbol": "NASDAQ:POET",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 4.8,
-          "prior_day_high": 5.23,
-          "prior_day_low": 4.78,
-          "ema20": 5.93,
-          "ema50": 6.83,
-          "sma200": 8.25,
-          "rsi14": 29.0,
-          "atr14": 0.42,
-          "atr_pct": 8.8,
-          "perf_1m_pct": -38.4,
-          "perf_3m_pct": -44.0,
-          "high_52w": 20.81,
-          "pct_below_52w_high": 76.9,
-          "high_20d": 8.19,
-          "low_20d": 4.78,
-          "resistance_above": [
-            8.2,
-            8.42,
-            8.65
-          ],
-          "support_below": [
-            4.78
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 5.08,
-          "premarket_low": 4.78,
-          "premarket_last": 5.07,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "RXRX",
-      "description": "Recursion Pharmaceuticals, Inc.",
-      "close": 3.83,
-      "premarket_close": 3.9899,
-      "premarket_change": 4.174934725848562,
-      "premarket_volume": 400461,
-      "premarket_high": 3.9953,
-      "premarket_low": 3.78,
-      "float_shares_outstanding": 536802245.408,
-      "relative_volume_10d_calc": 1.0294509300097325,
-      "average_volume_30d_calc": 28364948.666666668,
-      "market_cap_basic": 2289616540.9999995,
-      "sector": "Health Technology",
       "earnings_release_next_date": 1804075200,
-      "symbol": "NASDAQ:RXRX",
+      "symbol": "NASDAQ:RIOT",
       "enrich": {
         "daily": {
-          "as_of": "2026-11-02",
-          "close": 3.83,
-          "prior_day_high": 4.17,
-          "prior_day_low": 3.78,
-          "ema20": 3.92,
-          "ema50": 3.78,
-          "sma200": 3.52,
-          "rsi14": 48.9,
-          "atr14": 0.36,
-          "atr_pct": 9.4,
-          "perf_1m_pct": -7.0,
-          "perf_3m_pct": 15.7,
-          "high_52w": 5.76,
-          "pct_below_52w_high": 33.5,
-          "high_20d": 5.19,
-          "low_20d": 3.44,
+          "as_of": "2026-11-03",
+          "close": 14.02,
+          "prior_day_high": 14.07,
+          "prior_day_low": 11.9,
+          "ema20": 14.78,
+          "ema50": 17.36,
+          "sma200": 19.36,
+          "rsi14": 42.8,
+          "atr14": 1.36,
+          "atr_pct": 9.7,
+          "perf_1m_pct": -27.4,
+          "perf_3m_pct": -34.8,
+          "high_52w": 30.32,
+          "pct_below_52w_high": 53.8,
+          "high_20d": 18.61,
+          "low_20d": 11.63,
           "resistance_above": [
-            4.16,
-            4.41,
-            5.19
+            21.85,
+            22.2,
+            22.87
           ],
           "support_below": [
-            3.79,
-            3.61,
-            3.45
+            11.79,
+            11.63
           ],
           "squeeze_sessions_last10": 0,
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 3.99,
-          "premarket_low": 3.8,
-          "premarket_last": 3.99,
+          "date": "2026-11-04",
+          "premarket_high": 17.1,
+          "premarket_low": 13.15,
+          "premarket_last": 17.02,
           "bars_5m": 0
         },
-        "news": null
+        "news": {
+          "hours": 48,
+          "count": 0,
+          "tone": "none",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0,
+          "top": []
+        }
       }
     },
     {
-      "name": "KEEL",
-      "description": "Keel Infrastructure Corp.",
-      "close": 1.89,
-      "premarket_close": 1.98,
-      "premarket_change": 4.761904761904766,
-      "premarket_volume": 399428,
-      "premarket_high": 1.98,
-      "premarket_low": 1.87,
-      "float_shares_outstanding": 601227100.839,
-      "relative_volume_10d_calc": 1.1016296872751414,
-      "average_volume_30d_calc": 26291720.233333334,
-      "market_cap_basic": 1167213304.0000002,
-      "sector": "Technology Services",
-      "earnings_release_next_date": 1793889000,
-      "symbol": "NASDAQ:KEEL",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 1.89,
-          "prior_day_high": 2.09,
-          "prior_day_low": 1.86,
-          "ema20": 2.52,
-          "ema50": 3.03,
-          "sma200": 3.44,
-          "rsi14": 26.8,
-          "atr14": 0.22,
-          "atr_pct": 11.9,
-          "perf_1m_pct": -47.8,
-          "perf_3m_pct": -54.0,
-          "high_52w": 7.37,
-          "pct_below_52w_high": 74.4,
-          "high_20d": 3.54,
-          "low_20d": 1.86,
-          "resistance_above": [
-            2.43,
-            3.75,
-            3.77
-          ],
-          "support_below": [
-            1.86
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 1.98,
-          "premarket_low": 1.87,
-          "premarket_last": 1.98,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "FISV",
-      "description": "Fiserv, Inc.",
-      "close": 51.93,
-      "premarket_close": 56.63,
-      "premarket_change": 9.050645099171968,
-      "premarket_volume": 372519,
-      "premarket_high": 57.4,
-      "premarket_low": 51.6834,
-      "float_shares_outstanding": 529433606.404,
-      "relative_volume_10d_calc": 1.8158780175822127,
-      "average_volume_30d_calc": 6130742.333333333,
-      "market_cap_basic": 27614646121.000004,
-      "sector": "Commercial Services",
-      "earnings_release_next_date": 1802174400,
-      "symbol": "NASDAQ:FISV",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 51.93,
-          "prior_day_high": 52.33,
-          "prior_day_low": 50.21,
-          "ema20": 48.39,
-          "ema50": 48.79,
-          "sma200": 54.63,
-          "rsi14": 65.4,
-          "atr14": 1.52,
-          "atr_pct": 2.9,
-          "perf_1m_pct": 17.1,
-          "perf_3m_pct": -6.9,
-          "high_52w": 70.41,
-          "pct_below_52w_high": 26.2,
-          "high_20d": 52.33,
-          "low_20d": 44.74,
-          "resistance_above": [],
-          "support_below": [
-            50.89,
-            50.63,
-            48.37
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 57.4,
-          "premarket_low": 51.68,
-          "premarket_last": 56.63,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "BLZE",
-      "description": "Backblaze, Inc.",
-      "close": 7.4,
-      "premarket_close": 9.95,
-      "premarket_change": 34.459459459459445,
-      "premarket_volume": 361271,
-      "premarket_high": 10.38,
-      "premarket_low": 9.62,
-      "float_shares_outstanding": 58570832.3,
-      "relative_volume_10d_calc": 3.032053173877806,
-      "average_volume_30d_calc": 2093635.2333333334,
-      "market_cap_basic": 458060017.00000006,
+      "name": "PLUG",
+      "description": "Plug Power, Inc.",
+      "close": 1.41,
+      "premarket_close": 1.5,
+      "premarket_change": 6.382978723404261,
+      "premarket_volume": 5398294,
+      "premarket_high": 1.58,
+      "premarket_low": 1.4792,
+      "float_shares_outstanding": 1333789475.2,
+      "relative_volume_10d_calc": 1.0897241983423391,
+      "average_volume_30d_calc": 48867741.43333333,
+      "market_cap_basic": 1970045172.0000002,
       "sector": "Electronic Technology",
-      "earnings_release_next_date": 1802952000,
-      "symbol": "NASDAQ:BLZE",
+      "earnings_release_next_date": 1794258060,
+      "symbol": "NASDAQ:PLUG",
       "enrich": {
         "daily": {
-          "as_of": "2026-11-02",
-          "close": 7.4,
-          "prior_day_high": 7.64,
-          "prior_day_low": 6.68,
-          "ema20": 9.82,
-          "ema50": 11.62,
-          "sma200": 9.21,
-          "rsi14": 26.5,
-          "atr14": 0.86,
-          "atr_pct": 11.6,
-          "perf_1m_pct": -48.5,
-          "perf_3m_pct": -62.6,
-          "high_52w": 23.99,
-          "pct_below_52w_high": 69.2,
-          "high_20d": 14.4,
-          "low_20d": 6.68,
+          "as_of": "2026-11-03",
+          "close": 1.41,
+          "prior_day_high": 1.43,
+          "prior_day_low": 1.32,
+          "ema20": 1.5,
+          "ema50": 1.75,
+          "sma200": 2.39,
+          "rsi14": 36.5,
+          "atr14": 0.09,
+          "atr_pct": 6.6,
+          "perf_1m_pct": -25.4,
+          "perf_3m_pct": -32.9,
+          "high_52w": 4.33,
+          "pct_below_52w_high": 67.4,
+          "high_20d": 1.82,
+          "low_20d": 1.3,
           "resistance_above": [
-            14.19,
-            14.61,
-            20.91
+            1.52,
+            2.04,
+            2.19
           ],
           "support_below": [
-            8.5,
-            8.11,
-            6.68
+            1.34,
+            1.3
           ],
           "squeeze_sessions_last10": 0,
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 10.33,
-          "premarket_low": 9.8,
-          "premarket_last": 9.9,
+          "date": "2026-11-04",
+          "premarket_high": 1.61,
+          "premarket_low": 1.42,
+          "premarket_last": 1.5,
           "bars_5m": 0
         },
-        "news": null
+        "news": {
+          "hours": 48,
+          "count": 4,
+          "tone": "positive",
+          "positive": 1,
+          "negative": 0,
+          "neutral": 3,
+          "top": [
+            {
+              "published_utc": "2026-11-03T23:55:04Z",
+              "title": "Flux Power Holdings, Inc. (FLUX) Reports Q1 Loss, Beats Revenue Estimates",
+              "publisher": "Zacks Investment Research",
+              "sentiment": "neutral",
+              "reason": "Expected to report a quarterly loss of $0.07 per share with a 41.7% year-over-year improvement in losses. Revenues expected to grow 10.4% year-over-year. Consensus EPS estimate remained unchanged over",
+              "url": "https://www.zacks.com/stock/news/3022390/flux-power-holdings-inc-flux-reports-q1-loss-beats-revenue-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3022390"
+            },
+            {
+              "published_utc": "2026-11-03T12:35:00Z",
+              "title": "FCEL's Fuel Cells Offer Reliable Power for Utilities and IPPs",
+              "publisher": "Zacks Investment Research",
+              "sentiment": "positive",
+              "reason": "Plug Power has deployed 320 megawatts of electrolyzer capacity globally and is expanding hydrogen infrastructure, positioning itself as a key player in hydrogen-based energy solutions with potential f",
+              "url": "https://www.zacks.com/stock/news/3021499/fcel-s-fuel-cells-offer-reliable-power-for-utilities-and-ipps?cid=CS-ZC-FT-analyst_blog|quick_take-3021499"
+            },
+            {
+              "published_utc": "2026-11-02T21:45:02Z",
+              "title": "Here's Why Plug Power (PLUG) Fell More Than Broader Market",
+              "publisher": "Zacks Investment Research",
+              "sentiment": "neutral",
+              "reason": "While the stock has experienced significant recent declines (down 28.16% in one month) and continues to report losses, positive factors include upward analyst estimate revisions (3.91% higher), expect",
+              "url": "https://www.zacks.com/stock/news/3021148/here-s-why-plug-power-plug-fell-more-than-broader-market?cid=CS-ZC-FT-fundamental_analysis|yseop_template_6-3021148"
+            }
+          ]
+        }
       }
     },
     {
-      "name": "APLD",
-      "description": "Applied Digital Corporation",
-      "close": 16.22,
-      "premarket_close": 16.88,
-      "premarket_change": 4.069050554870532,
-      "premarket_volume": 355115,
-      "premarket_high": 16.93,
-      "premarket_low": 16.103,
-      "float_shares_outstanding": 272682148.31975,
-      "relative_volume_10d_calc": 0.9428212752052265,
-      "average_volume_30d_calc": 24604249.133333337,
-      "market_cap_basic": 4904718805,
-      "sector": "Technology Services",
-      "earnings_release_next_date": 1799755200,
-      "symbol": "NASDAQ:APLD",
+      "name": "ARRY",
+      "description": "Array Technologies, Inc.",
+      "close": 4.64,
+      "premarket_close": 5.2805,
+      "premarket_change": 13.803879310344836,
+      "premarket_volume": 3236508,
+      "premarket_high": 5.3,
+      "premarket_low": 4.82,
+      "float_shares_outstanding": 151536633.62399998,
+      "relative_volume_10d_calc": 3.758754983970108,
+      "average_volume_30d_calc": 7450428.7,
+      "market_cap_basic": 714595662.9999999,
+      "sector": "Producer Manufacturing",
+      "earnings_release_next_date": 1793912700,
+      "symbol": "NASDAQ:ARRY",
       "enrich": {
         "daily": {
-          "as_of": "2026-11-02",
-          "close": 16.22,
-          "prior_day_high": 17.9,
-          "prior_day_low": 16.16,
-          "ema20": 20.29,
-          "ema50": 23.45,
-          "sma200": 31.24,
-          "rsi14": 32.8,
-          "atr14": 1.75,
-          "atr_pct": 10.8,
-          "perf_1m_pct": -36.1,
-          "perf_3m_pct": -48.1,
-          "high_52w": 50.72,
-          "pct_below_52w_high": 68.0,
-          "high_20d": 25.89,
-          "low_20d": 16.16,
+          "as_of": "2026-11-03",
+          "close": 4.64,
+          "prior_day_high": 4.69,
+          "prior_day_low": 3.83,
+          "ema20": 3.67,
+          "ema50": 4.08,
+          "sma200": 6.85,
+          "rsi14": 68.1,
+          "atr14": 0.28,
+          "atr_pct": 6.0,
+          "perf_1m_pct": 19.0,
+          "perf_3m_pct": -17.7,
+          "high_52w": 12.23,
+          "pct_below_52w_high": 62.1,
+          "high_20d": 4.69,
+          "low_20d": 3.09,
           "resistance_above": [
-            20.43,
-            21.56,
-            26.85
+            6.32
           ],
           "support_below": [
-            16.16
+            4.48,
+            4.31,
+            3.76
           ],
           "squeeze_sessions_last10": 0,
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 16.9,
-          "premarket_low": 16.07,
-          "premarket_last": 16.88,
+          "date": "2026-11-04",
+          "premarket_high": 5.3,
+          "premarket_low": 4.57,
+          "premarket_last": 5.29,
           "bars_5m": 0
         },
-        "news": null
-      }
-    },
-    {
-      "name": "AAOI",
-      "description": "Applied Optoelectronics, Inc.",
-      "close": 62.5,
-      "premarket_close": 66.01,
-      "premarket_change": 5.6160000000000085,
-      "premarket_volume": 276412,
-      "premarket_high": 66.14,
-      "premarket_low": 62.37,
-      "float_shares_outstanding": 80529634.9539,
-      "relative_volume_10d_calc": 1.3496629611807653,
-      "average_volume_30d_calc": 11025325.066666666,
-      "market_cap_basic": 5306643009,
-      "sector": "Electronic Technology",
-      "earnings_release_next_date": 1793880000,
-      "symbol": "NASDAQ:AAOI",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 62.5,
-          "prior_day_high": 71.57,
-          "prior_day_low": 61.88,
-          "ema20": 82.29,
-          "ema50": 96.05,
-          "sma200": 114.31,
-          "rsi14": 33.1,
-          "atr14": 8.41,
-          "atr_pct": 13.5,
-          "perf_1m_pct": -45.9,
-          "perf_3m_pct": -52.5,
-          "high_52w": 233.67,
-          "pct_below_52w_high": 73.3,
-          "high_20d": 131.15,
-          "low_20d": 61.88,
-          "resistance_above": [
-            110.74,
-            116.9,
-            118.9
-          ],
-          "support_below": [
-            61.88
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 66.1,
-          "premarket_low": 61.86,
-          "premarket_last": 66.08,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "WULF",
-      "description": "TeraWulf Inc.",
-      "close": 10.94,
-      "premarket_close": 11.38,
-      "premarket_change": 4.021937842778805,
-      "premarket_volume": 265450,
-      "premarket_high": 11.42,
-      "premarket_low": 10.83,
-      "float_shares_outstanding": 348786316.566,
-      "relative_volume_10d_calc": 0.8474580553154925,
-      "average_volume_30d_calc": 37964826.3,
-      "market_cap_basic": 5458717248,
-      "sector": "Technology Services",
-      "earnings_release_next_date": 1793975400,
-      "symbol": "NASDAQ:WULF",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 10.94,
-          "prior_day_high": 12.0,
-          "prior_day_low": 10.81,
-          "ema20": 12.75,
-          "ema50": 14.44,
-          "sma200": 18.07,
-          "rsi14": 37.2,
-          "atr14": 1.13,
-          "atr_pct": 10.4,
-          "perf_1m_pct": -29.4,
-          "perf_3m_pct": -42.1,
-          "high_52w": 29.84,
-          "pct_below_52w_high": 63.3,
-          "high_20d": 15.18,
-          "low_20d": 10.35,
-          "resistance_above": [
-            13.06,
-            13.44,
-            16.24
-          ],
-          "support_below": [
-            11.07,
-            10.35
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 11.42,
-          "premarket_low": 10.83,
-          "premarket_last": 11.4,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "AEHR",
-      "description": "Aehr Test Systems",
-      "close": 51.47,
-      "premarket_close": 61.5,
-      "premarket_change": 19.48707985234117,
-      "premarket_volume": 216841,
-      "premarket_high": 61.5,
-      "premarket_low": 57.5,
-      "float_shares_outstanding": 31068688.414499998,
-      "relative_volume_10d_calc": 1.9323315181702279,
-      "average_volume_30d_calc": 2545976.433333333,
-      "market_cap_basic": 1680986866.9999998,
-      "sector": "Electronic Technology",
-      "earnings_release_next_date": 1799409600,
-      "symbol": "NASDAQ:AEHR",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 51.47,
-          "prior_day_high": 57.29,
-          "prior_day_low": 50.52,
-          "ema20": 67.49,
-          "ema50": 79.06,
-          "sma200": 74.53,
-          "rsi14": 30.5,
-          "atr14": 7.04,
-          "atr_pct": 13.7,
-          "perf_1m_pct": -52.0,
-          "perf_3m_pct": -53.2,
-          "high_52w": 147.4,
-          "pct_below_52w_high": 65.1,
-          "high_20d": 107.93,
-          "low_20d": 50.52,
-          "resistance_above": [
-            65.34,
-            102.79,
-            109.48
-          ],
-          "support_below": [
-            53.0,
-            50.52
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 61.47,
-          "premarket_low": 56.48,
-          "premarket_last": 61.33,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "NVTS",
-      "description": "Navitas Semiconductor Corporation",
-      "close": 7.93,
-      "premarket_close": 8.26,
-      "premarket_change": 4.161412358133671,
-      "premarket_volume": 216723,
-      "premarket_high": 8.32,
-      "premarket_low": 7.92,
-      "float_shares_outstanding": 225742313.26500002,
-      "relative_volume_10d_calc": 1.0557043996338982,
-      "average_volume_30d_calc": 15279221.5,
-      "market_cap_basic": 2070471215,
-      "sector": "Electronic Technology",
-      "earnings_release_next_date": 1793739600,
-      "symbol": "NASDAQ:NVTS",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 7.93,
-          "prior_day_high": 8.74,
-          "prior_day_low": 7.91,
-          "ema20": 9.4,
-          "ema50": 10.74,
-          "sma200": 13.31,
-          "rsi14": 33.2,
-          "atr14": 0.74,
-          "atr_pct": 9.3,
-          "perf_1m_pct": -36.0,
-          "perf_3m_pct": -37.5,
-          "high_52w": 34.17,
-          "pct_below_52w_high": 76.8,
-          "high_20d": 12.75,
-          "low_20d": 7.91,
-          "resistance_above": [
-            9.27,
-            9.44,
-            12.52
-          ],
-          "support_below": [
-            8.13,
-            7.91
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 8.32,
-          "premarket_low": 7.9,
-          "premarket_last": 8.32,
-          "bars_5m": 0
-        },
-        "news": null
+        "news": {
+          "hours": 48,
+          "count": 0,
+          "tone": "none",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0,
+          "top": []
+        }
       }
     },
     {
       "name": "TE",
       "description": "T1 Energy Inc.",
-      "close": 2.56,
-      "premarket_close": 2.68,
-      "premarket_change": 4.687500000000004,
-      "premarket_volume": 210812,
-      "premarket_high": 2.7,
-      "premarket_low": 2.54,
+      "close": 2.83,
+      "premarket_close": 3.15,
+      "premarket_change": 11.307420494699642,
+      "premarket_volume": 2550764,
+      "premarket_high": 3.23,
+      "premarket_low": 3,
       "float_shares_outstanding": 254229127.15199998,
-      "relative_volume_10d_calc": 0.9981725558384821,
-      "average_volume_30d_calc": 18274609.633333333,
-      "market_cap_basic": 766717092,
+      "relative_volume_10d_calc": 1.4593192373648205,
+      "average_volume_30d_calc": 18719536.8,
+      "market_cap_basic": 847581781.9999999,
       "sector": "Producer Manufacturing",
       "earnings_release_next_date": 1794481200,
       "symbol": "NYSE:TE",
       "enrich": {
         "daily": {
-          "as_of": "2026-11-02",
-          "close": 2.56,
-          "prior_day_high": 2.82,
-          "prior_day_low": 2.49,
+          "as_of": "2026-11-03",
+          "close": 2.83,
+          "prior_day_high": 2.9,
+          "prior_day_low": 2.62,
           "ema20": 2.85,
-          "ema50": 3.64,
-          "sma200": 6.05,
-          "rsi14": 38.5,
+          "ema50": 3.6,
+          "sma200": 6.02,
+          "rsi14": 45.5,
           "atr14": 0.29,
-          "atr_pct": 11.2,
-          "perf_1m_pct": -34.7,
-          "perf_3m_pct": -52.9,
+          "atr_pct": 10.3,
+          "perf_1m_pct": -23.5,
+          "perf_3m_pct": -48.3,
           "high_52w": 12.49,
-          "pct_below_52w_high": 79.5,
-          "high_20d": 3.95,
+          "pct_below_52w_high": 77.3,
+          "high_20d": 3.73,
           "low_20d": 2.08,
           "resistance_above": [
             4.05,
@@ -1125,349 +268,1218 @@
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 2.7,
-          "premarket_low": 2.41,
-          "premarket_last": 2.68,
+          "date": "2026-11-04",
+          "premarket_high": 3.29,
+          "premarket_low": 2.82,
+          "premarket_last": 3.15,
           "bars_5m": 0
         },
-        "news": null
+        "news": {
+          "hours": 48,
+          "count": 0,
+          "tone": "none",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0,
+          "top": []
+        }
       }
     },
     {
-      "name": "LSCC",
-      "description": "Lattice Semiconductor Corporation",
-      "close": 95.44,
-      "premarket_close": 106.8,
-      "premarket_change": 11.90276613579212,
-      "premarket_volume": 170821,
-      "premarket_high": 106.9162,
-      "premarket_low": 102,
-      "float_shares_outstanding": 140849446.64,
-      "relative_volume_10d_calc": 3.245401538716218,
-      "average_volume_30d_calc": 2033418.0666666667,
-      "market_cap_basic": 13555368187.000002,
+      "name": "NVTS",
+      "description": "Navitas Semiconductor Corporation",
+      "close": 8.56,
+      "premarket_close": 9.6184,
+      "premarket_change": 12.364485981308396,
+      "premarket_volume": 2225183,
+      "premarket_high": 10.07,
+      "premarket_low": 9.07,
+      "float_shares_outstanding": 225742313.26500002,
+      "relative_volume_10d_calc": 1.7680575696153924,
+      "average_volume_30d_calc": 15535901.733333332,
+      "market_cap_basic": 2234960258.0000005,
       "sector": "Electronic Technology",
-      "earnings_release_next_date": 1802692800,
-      "symbol": "NASDAQ:LSCC",
+      "earnings_release_next_date": 1804075200,
+      "symbol": "NASDAQ:NVTS",
       "enrich": {
         "daily": {
-          "as_of": "2026-11-02",
-          "close": 95.44,
-          "prior_day_high": 97.62,
-          "prior_day_low": 90.25,
-          "ema20": 106.86,
-          "ema50": 114.3,
-          "sma200": 115.8,
-          "rsi14": 35.2,
-          "atr14": 6.12,
-          "atr_pct": 6.4,
-          "perf_1m_pct": -28.8,
-          "perf_3m_pct": -30.8,
-          "high_52w": 157.01,
-          "pct_below_52w_high": 39.2,
-          "high_20d": 136.14,
-          "low_20d": 90.25,
+          "as_of": "2026-11-03",
+          "close": 8.56,
+          "prior_day_high": 8.94,
+          "prior_day_low": 8.2,
+          "ema20": 9.32,
+          "ema50": 10.65,
+          "sma200": 13.3,
+          "rsi14": 40.2,
+          "atr14": 0.76,
+          "atr_pct": 8.9,
+          "perf_1m_pct": -30.6,
+          "perf_3m_pct": -30.7,
+          "high_52w": 34.17,
+          "pct_below_52w_high": 74.9,
+          "high_20d": 11.73,
+          "low_20d": 7.91,
           "resistance_above": [
-            110.99,
-            120.28,
-            122.25
+            12.52,
+            12.63,
+            13.19
           ],
           "support_below": [
-            103.82,
-            103.06,
-            94.31
+            8.27,
+            8.13,
+            7.91
           ],
           "squeeze_sessions_last10": 0,
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 107.5,
-          "premarket_low": 104.0,
-          "premarket_last": 107.5,
+          "date": "2026-11-04",
+          "premarket_high": 10.07,
+          "premarket_low": 8.65,
+          "premarket_last": 9.59,
           "bars_5m": 0
         },
-        "news": null
+        "news": {
+          "hours": 48,
+          "count": 3,
+          "tone": "neutral",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 3,
+          "top": [
+            {
+              "published_utc": "2026-11-03T23:55:06Z",
+              "title": "Navitas Semiconductor Corporation (NVTS) Reports Q3 Loss, Tops Revenue Estimates",
+              "publisher": "Zacks Investment Research",
+              "sentiment": "neutral",
+              "reason": "While the company beat EPS and revenue estimates with a 25% earnings surprise and 3.79% revenue beat, it remains unprofitable and carries a Zacks Rank #3 (Hold) rating. Mixed estimate revisions and mo",
+              "url": "https://www.zacks.com/stock/news/3022376/navitas-semiconductor-corporation-nvts-reports-q3-loss-tops-revenue-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3022376"
+            },
+            {
+              "published_utc": "2026-11-03T22:00:04Z",
+              "title": "Navitas Revenue Up 38%, Q4 Spending to Jump: Rapid Earnings Reaction",
+              "publisher": "The Motley Fool",
+              "sentiment": "neutral",
+              "reason": "While Q3 revenue growth of 38% is positive and represents the first year-over-year gain since 2024, the significant increase in Q4 operating expenses (50% jump) due to the Claros acquisition will wide",
+              "url": "https://www.fool.com/investing/2026/11/03/navitas-revenue-up-38-q4-spending-to-jump-rapid-earnings-reaction/?source=iedfolrf0000001"
+            },
+            {
+              "published_utc": "2026-11-02T21:55:05Z",
+              "title": "Ichor Holdings (ICHR) Beats Q3 Earnings Estimates",
+              "publisher": "Zacks Investment Research",
+              "sentiment": "neutral",
+              "reason": "Company is expected to report a quarterly loss of $0.04 per share with a 20% year-over-year improvement. Revenue growth is expected at 33.3%, which is positive, but the overall profitability remains n",
+              "url": "https://www.zacks.com/stock/news/3021168/ichor-holdings-ichr-beats-q3-earnings-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3021168"
+            }
+          ]
+        }
       }
     },
     {
-      "name": "PENG",
-      "description": "Penguin Solutions, Inc.",
-      "close": 47.5,
-      "premarket_close": 50.6,
-      "premarket_change": 6.526315789473687,
-      "premarket_volume": 161906,
-      "premarket_high": 52.59,
-      "premarket_low": 47.63,
-      "float_shares_outstanding": 57429271.2066,
-      "relative_volume_10d_calc": 0.7164020764354726,
-      "average_volume_30d_calc": 4188528.7,
-      "market_cap_basic": 2861467485.0000005,
-      "sector": "Electronic Technology",
-      "earnings_release_next_date": 1799150400,
-      "symbol": "NASDAQ:PENG",
+      "name": "OPEN",
+      "description": "Opendoor Technologies Inc",
+      "close": 1.74,
+      "premarket_close": 1.84,
+      "premarket_change": 5.747126436781615,
+      "premarket_volume": 1200493,
+      "premarket_high": 1.84,
+      "premarket_low": 1.73,
+      "float_shares_outstanding": 815195935.224,
+      "relative_volume_10d_calc": 0.9380576365394696,
+      "average_volume_30d_calc": 32990800.2,
+      "market_cap_basic": 1689698461,
+      "sector": "Finance",
+      "earnings_release_next_date": 1793912700,
+      "symbol": "NASDAQ:OPEN",
       "enrich": {
         "daily": {
-          "as_of": "2026-11-02",
-          "close": 47.5,
-          "prior_day_high": 53.79,
-          "prior_day_low": 47.26,
-          "ema20": 57.72,
-          "ema50": 57.66,
-          "sma200": 44.13,
-          "rsi14": 37.5,
-          "atr14": 5.34,
-          "atr_pct": 11.2,
-          "perf_1m_pct": -22.6,
-          "perf_3m_pct": -17.9,
-          "high_52w": 89.86,
-          "pct_below_52w_high": 47.1,
-          "high_20d": 80.47,
-          "low_20d": 47.26,
+          "as_of": "2026-11-03",
+          "close": 1.74,
+          "prior_day_high": 1.85,
+          "prior_day_low": 1.73,
+          "ema20": 2.03,
+          "ema50": 2.48,
+          "sma200": 4.16,
+          "rsi14": 26.9,
+          "atr14": 0.15,
+          "atr_pct": 8.7,
+          "perf_1m_pct": -24.7,
+          "perf_3m_pct": -53.7,
+          "high_52w": 9.45,
+          "pct_below_52w_high": 81.6,
+          "high_20d": 2.4,
+          "low_20d": 1.73,
           "resistance_above": [
-            53.24,
-            54.19,
-            57.5
+            2.01,
+            2.34,
+            2.4
           ],
           "support_below": [
-            50.07,
-            49.07,
-            46.19
+            1.73
           ],
           "squeeze_sessions_last10": 0,
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 52.59,
-          "premarket_low": 47.7,
-          "premarket_last": 51.2,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "ON",
-      "description": "ON Semiconductor Corporation",
-      "close": 70.11,
-      "premarket_close": 73.15,
-      "premarket_change": 4.336043360433614,
-      "premarket_volume": 160653,
-      "premarket_high": 73.35,
-      "premarket_low": 69.95,
-      "float_shares_outstanding": 386686869.184,
-      "relative_volume_10d_calc": 1.251934184665576,
-      "average_volume_30d_calc": 10607870.433333334,
-      "market_cap_basic": 27294643983,
-      "sector": "Electronic Technology",
-      "earnings_release_next_date": 1802088000,
-      "symbol": "NASDAQ:ON",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 70.11,
-          "prior_day_high": 74.77,
-          "prior_day_low": 69.88,
-          "ema20": 74.82,
-          "ema50": 76.88,
-          "sma200": 82.44,
-          "rsi14": 40.9,
-          "atr14": 3.7,
-          "atr_pct": 5.3,
-          "perf_1m_pct": -17.4,
-          "perf_3m_pct": -13.2,
-          "high_52w": 134.92,
-          "pct_below_52w_high": 48.0,
-          "high_20d": 86.92,
-          "low_20d": 69.64,
-          "resistance_above": [
-            74.98,
-            76.19,
-            77.68
-          ],
-          "support_below": [
-            71.0,
-            68.79,
-            65.8
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 73.3,
-          "premarket_low": 69.95,
-          "premarket_last": 73.28,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "EOSE",
-      "description": "Eos Energy Enterprises, Inc.",
-      "close": 1.76,
-      "premarket_close": 1.8397,
-      "premarket_change": 4.528409090909085,
-      "premarket_volume": 143538,
-      "premarket_high": 1.8397,
-      "premarket_low": 1.75,
-      "float_shares_outstanding": 356646474.128,
-      "relative_volume_10d_calc": 0.8452982381201674,
-      "average_volume_30d_calc": 28273297.6,
-      "market_cap_basic": 640935246,
-      "sector": "Producer Manufacturing",
-      "earnings_release_next_date": 1793889000,
-      "symbol": "NASDAQ:EOSE",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-02",
-          "close": 1.76,
-          "prior_day_high": 1.98,
-          "prior_day_low": 1.72,
-          "ema20": 2.14,
-          "ema50": 2.86,
-          "sma200": 6.18,
-          "rsi14": 33.0,
-          "atr14": 0.23,
-          "atr_pct": 13.1,
-          "perf_1m_pct": -45.2,
-          "perf_3m_pct": -59.5,
-          "high_52w": 19.86,
-          "pct_below_52w_high": 91.1,
-          "high_20d": 3.38,
-          "low_20d": 1.59,
-          "resistance_above": [
-            3.38,
-            4.35,
-            4.45
-          ],
-          "support_below": [
-            1.59
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-03",
+          "date": "2026-11-04",
           "premarket_high": 1.84,
-          "premarket_low": 1.75,
-          "premarket_last": 1.84,
+          "premarket_low": 1.72,
+          "premarket_last": 1.83,
           "bars_5m": 0
         },
         "news": null
       }
     },
     {
-      "name": "RIOT",
-      "description": "Riot Platforms, Inc.",
-      "close": 11.84,
-      "premarket_close": 12.32,
-      "premarket_change": 4.054054054054058,
-      "premarket_volume": 112834,
-      "premarket_high": 12.35,
-      "premarket_low": 11.74,
-      "float_shares_outstanding": 347420035.826,
-      "relative_volume_10d_calc": 0.9526975266364632,
-      "average_volume_30d_calc": 17673990.933333334,
-      "market_cap_basic": 4443065926,
-      "sector": "Technology Services",
-      "earnings_release_next_date": 1793802600,
-      "symbol": "NASDAQ:RIOT",
+      "name": "ENPH",
+      "description": "Enphase Energy, Inc.",
+      "close": 30.42,
+      "premarket_close": 31.75,
+      "premarket_change": 4.372123602892828,
+      "premarket_volume": 815380,
+      "premarket_high": 32.8,
+      "premarket_low": 30.8,
+      "float_shares_outstanding": 128278952.256,
+      "relative_volume_10d_calc": 1.0126083657071017,
+      "average_volume_30d_calc": 6540906.966666667,
+      "market_cap_basic": 4025000567.9999995,
+      "sector": "Producer Manufacturing",
+      "earnings_release_next_date": 1802174400,
+      "symbol": "NASDAQ:ENPH",
       "enrich": {
         "daily": {
-          "as_of": "2026-11-02",
-          "close": 11.84,
-          "prior_day_high": 12.94,
-          "prior_day_low": 11.63,
-          "ema20": 14.86,
-          "ema50": 17.5,
-          "sma200": 19.38,
-          "rsi14": 29.5,
-          "atr14": 1.3,
-          "atr_pct": 11.0,
-          "perf_1m_pct": -40.0,
-          "perf_3m_pct": -45.1,
-          "high_52w": 30.32,
-          "pct_below_52w_high": 60.9,
-          "high_20d": 19.73,
-          "low_20d": 11.63,
+          "as_of": "2026-11-03",
+          "close": 30.42,
+          "prior_day_high": 30.82,
+          "prior_day_low": 28.0,
+          "ema20": 30.03,
+          "ema50": 33.05,
+          "sma200": 40.87,
+          "rsi14": 48.8,
+          "atr14": 2.09,
+          "atr_pct": 6.9,
+          "perf_1m_pct": -9.1,
+          "perf_3m_pct": -21.9,
+          "high_52w": 73.74,
+          "pct_below_52w_high": 58.7,
+          "high_20d": 33.51,
+          "low_20d": 23.83,
           "resistance_above": [
-            14.48,
-            21.85,
-            22.2
+            32.92,
+            34.19,
+            39.39
           ],
           "support_below": [
-            11.79,
-            11.63
+            30.54,
+            28.59,
+            23.83
           ],
           "squeeze_sessions_last10": 0,
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 12.32,
-          "premarket_low": 11.74,
-          "premarket_last": 12.32,
+          "date": "2026-11-04",
+          "premarket_high": 32.8,
+          "premarket_low": 30.8,
+          "premarket_last": 31.78,
           "bars_5m": 0
         },
         "news": null
       }
     },
     {
-      "name": "LUNR",
-      "description": "Intuitive Machines, Inc.",
-      "close": 9.86,
-      "premarket_close": 10.2901,
-      "premarket_change": 4.362068965517254,
-      "premarket_volume": 111735,
-      "premarket_high": 10.43,
-      "premarket_low": 9.91,
-      "float_shares_outstanding": 152730796.76172,
-      "relative_volume_10d_calc": 1.0079639090369237,
-      "average_volume_30d_calc": 7417362.1,
-      "market_cap_basic": 2257191187.9999995,
+      "name": "RUN",
+      "description": "Sunrun Inc.",
+      "close": 8.68,
+      "premarket_close": 9.2825,
+      "premarket_change": 6.941244239631347,
+      "premarket_volume": 761147,
+      "premarket_high": 9.57,
+      "premarket_low": 9.03,
+      "float_shares_outstanding": 232460466.613,
+      "relative_volume_10d_calc": 1.4823607281167093,
+      "average_volume_30d_calc": 8703857.633333333,
+      "market_cap_basic": 2090551902,
       "sector": "Electronic Technology",
-      "earnings_release_next_date": 1794486600,
-      "symbol": "NASDAQ:LUNR",
+      "earnings_release_next_date": 1793826060,
+      "symbol": "NASDAQ:RUN",
       "enrich": {
         "daily": {
-          "as_of": "2026-11-02",
-          "close": 9.86,
-          "prior_day_high": 10.92,
-          "prior_day_low": 9.82,
-          "ema20": 11.69,
-          "ema50": 13.49,
-          "sma200": 19.72,
-          "rsi14": 32.7,
-          "atr14": 0.92,
-          "atr_pct": 9.3,
-          "perf_1m_pct": -33.0,
-          "perf_3m_pct": -29.4,
-          "high_52w": 46.75,
-          "pct_below_52w_high": 78.9,
-          "high_20d": 15.31,
-          "low_20d": 9.82,
+          "as_of": "2026-11-03",
+          "close": 8.68,
+          "prior_day_high": 8.89,
+          "prior_day_low": 8.21,
+          "ema20": 7.76,
+          "ema50": 8.3,
+          "sma200": 12.33,
+          "rsi14": 62.1,
+          "atr14": 0.47,
+          "atr_pct": 5.5,
+          "perf_1m_pct": 14.1,
+          "perf_3m_pct": -17.3,
+          "high_52w": 21.95,
+          "pct_below_52w_high": 60.5,
+          "high_20d": 8.89,
+          "low_20d": 6.78,
           "resistance_above": [
-            16.03,
-            16.26,
-            20.84
+            9.4,
+            10.45
           ],
           "support_below": [
-            10.16,
-            10.04,
-            9.82
+            8.9,
+            8.22,
+            7.26
+          ],
+          "squeeze_sessions_last10": 9,
+          "squeeze_fired": true
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 9.56,
+          "premarket_low": 9.01,
+          "premarket_last": 9.29,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "SHLS",
+      "description": "Shoals Technologies Group, Inc.",
+      "close": 8.47,
+      "premarket_close": 9,
+      "premarket_change": 6.257378984651704,
+      "premarket_volume": 583307,
+      "premarket_high": 9.33,
+      "premarket_low": 8.47,
+      "float_shares_outstanding": 165035484.9,
+      "relative_volume_10d_calc": 2.265635341998388,
+      "average_volume_30d_calc": 4413270.733333333,
+      "market_cap_basic": 1425500683,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1794312000,
+      "symbol": "NASDAQ:SHLS",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 8.47,
+          "prior_day_high": 8.49,
+          "prior_day_low": 7.78,
+          "ema20": 7.74,
+          "ema50": 7.88,
+          "sma200": 8.46,
+          "rsi14": 59.7,
+          "atr14": 0.53,
+          "atr_pct": 6.2,
+          "perf_1m_pct": 3.9,
+          "perf_3m_pct": -2.4,
+          "high_52w": 13.18,
+          "pct_below_52w_high": 35.7,
+          "high_20d": 8.84,
+          "low_20d": 6.97,
+          "resistance_above": [
+            9.05
+          ],
+          "support_below": [
+            7.26,
+            6.97,
+            6.78
           ],
           "squeeze_sessions_last10": 0,
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-11-03",
-          "premarket_high": 10.43,
-          "premarket_low": 9.9,
-          "premarket_last": 10.31,
+          "date": "2026-11-04",
+          "premarket_high": 9.33,
+          "premarket_low": 8.42,
+          "premarket_last": 9.0,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "FLNC",
+      "description": "Fluence Energy, Inc.",
+      "close": 5.5,
+      "premarket_close": 5.83,
+      "premarket_change": 6.000000000000001,
+      "premarket_volume": 578071,
+      "premarket_high": 5.9956,
+      "premarket_low": 5.59,
+      "float_shares_outstanding": 110703966.07571,
+      "relative_volume_10d_calc": 0.9417578391082899,
+      "average_volume_30d_calc": 6314063.266666667,
+      "market_cap_basic": 1015280037.9999999,
+      "sector": "Producer Manufacturing",
+      "earnings_release_next_date": 1795467600,
+      "symbol": "NASDAQ:FLNC",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 5.5,
+          "prior_day_high": 5.62,
+          "prior_day_low": 5.3,
+          "ema20": 6.26,
+          "ema50": 8.09,
+          "sma200": 15.27,
+          "rsi14": 34.4,
+          "atr14": 0.49,
+          "atr_pct": 8.9,
+          "perf_1m_pct": -28.1,
+          "perf_3m_pct": -61.3,
+          "high_52w": 33.51,
+          "pct_below_52w_high": 83.6,
+          "high_20d": 7.76,
+          "low_20d": 5.18,
+          "resistance_above": [
+            6.26,
+            8.06,
+            8.16
+          ],
+          "support_below": [
+            5.32,
+            5.18
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 6.0,
+          "premarket_low": 5.46,
+          "premarket_last": 5.87,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "JBLU",
+      "description": "JetBlue Airways Corporation",
+      "close": 3.18,
+      "premarket_close": 3.32,
+      "premarket_change": 4.40251572327043,
+      "premarket_volume": 427124,
+      "premarket_high": 3.34,
+      "premarket_low": 3.2446,
+      "float_shares_outstanding": 325484967.6,
+      "relative_volume_10d_calc": 0.5198248693034432,
+      "average_volume_30d_calc": 28950889.9,
+      "market_cap_basic": 1199978867,
+      "sector": "Transportation",
+      "earnings_release_next_date": 1801137600,
+      "symbol": "NASDAQ:JBLU",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 3.18,
+          "prior_day_high": 3.33,
+          "prior_day_low": 3.14,
+          "ema20": 3.18,
+          "ema50": 3.79,
+          "sma200": 4.9,
+          "rsi14": 45.9,
+          "atr14": 0.26,
+          "atr_pct": 8.3,
+          "perf_1m_pct": -21.7,
+          "perf_3m_pct": -50.0,
+          "high_52w": 6.62,
+          "pct_below_52w_high": 52.0,
+          "high_20d": 4.03,
+          "low_20d": 2.16,
+          "resistance_above": [
+            4.72,
+            4.75,
+            5.23
+          ],
+          "support_below": [
+            2.16
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 3.34,
+          "premarket_low": 3.24,
+          "premarket_last": 3.32,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "SLDP",
+      "description": "Solid Power, Inc.",
+      "close": 2.03,
+      "premarket_close": 2.1799,
+      "premarket_change": 7.384236453201979,
+      "premarket_volume": 416042,
+      "premarket_high": 2.205,
+      "premarket_low": 2.12,
+      "float_shares_outstanding": 197983298.27899998,
+      "relative_volume_10d_calc": 0.9674090266407783,
+      "average_volume_30d_calc": 2905531.933333333,
+      "market_cap_basic": 463207856.99999994,
+      "sector": "Producer Manufacturing",
+      "earnings_release_next_date": 1803988800,
+      "symbol": "NASDAQ:SLDP",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 2.03,
+          "prior_day_high": 2.06,
+          "prior_day_low": 1.98,
+          "ema20": 2.09,
+          "ema50": 2.22,
+          "sma200": 2.9,
+          "rsi14": 42.6,
+          "atr14": 0.11,
+          "atr_pct": 5.3,
+          "perf_1m_pct": -11.7,
+          "perf_3m_pct": -5.1,
+          "high_52w": 8.86,
+          "pct_below_52w_high": 77.1,
+          "high_20d": 2.47,
+          "low_20d": 1.91,
+          "resistance_above": [
+            2.43,
+            2.47,
+            2.49
+          ],
+          "support_below": [
+            1.91
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 2.2,
+          "premarket_low": 2.02,
+          "premarket_last": 2.17,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "OSCR",
+      "description": "Oscar Health, Inc.",
+      "close": 32.41,
+      "premarket_close": 35.4,
+      "premarket_change": 9.225547670472084,
+      "premarket_volume": 399376,
+      "premarket_high": 35.7,
+      "premarket_low": 33.37,
+      "float_shares_outstanding": 253298473.498,
+      "relative_volume_10d_calc": 1.0413993787801383,
+      "average_volume_30d_calc": 4642501.2,
+      "market_cap_basic": 8863130058,
+      "sector": "Health Services",
+      "earnings_release_next_date": 1793876400,
+      "symbol": "NYSE:OSCR",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 32.41,
+          "prior_day_high": 32.69,
+          "prior_day_low": 30.8,
+          "ema20": 31.79,
+          "ema50": 31.45,
+          "sma200": 23.75,
+          "rsi14": 53.3,
+          "atr14": 1.55,
+          "atr_pct": 4.8,
+          "perf_1m_pct": -0.0,
+          "perf_3m_pct": 7.6,
+          "high_52w": 35.01,
+          "pct_below_52w_high": 7.4,
+          "high_20d": 35.01,
+          "low_20d": 29.62,
+          "resistance_above": [],
+          "support_below": [
+            31.65,
+            30.5,
+            29.08
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 35.7,
+          "premarket_low": 32.7,
+          "premarket_last": 35.35,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "HL",
+      "description": "Hecla Mining Company",
+      "close": 13.21,
+      "premarket_close": 14.39,
+      "premarket_change": 8.932626797880392,
+      "premarket_volume": 378713,
+      "premarket_high": 15.1032,
+      "premarket_low": 14.01,
+      "float_shares_outstanding": 666207104.496,
+      "relative_volume_10d_calc": 0.9858534876928652,
+      "average_volume_30d_calc": 31957575.7,
+      "market_cap_basic": 8874061019.999998,
+      "sector": "Non-Energy Minerals",
+      "earnings_release_next_date": 1802865600,
+      "symbol": "NYSE:HL",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 13.21,
+          "prior_day_high": 13.62,
+          "prior_day_low": 13.16,
+          "ema20": 14.95,
+          "ema50": 16.28,
+          "sma200": 18.53,
+          "rsi14": 30.3,
+          "atr14": 0.75,
+          "atr_pct": 5.6,
+          "perf_1m_pct": -22.3,
+          "perf_3m_pct": -20.1,
+          "high_52w": 34.17,
+          "pct_below_52w_high": 61.3,
+          "high_20d": 17.38,
+          "low_20d": 13.16,
+          "resistance_above": [
+            14.93,
+            17.38,
+            19.29
+          ],
+          "support_below": [
+            13.5,
+            13.16
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 15.1,
+          "premarket_low": 13.59,
+          "premarket_last": 14.35,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "TLRY",
+      "description": "Tilray Brands, Inc.",
+      "close": 2.65,
+      "premarket_close": 2.78,
+      "premarket_change": 4.905660377358487,
+      "premarket_volume": 337515,
+      "premarket_high": 2.82,
+      "premarket_low": 2.69,
+      "float_shares_outstanding": 145441126.55999997,
+      "relative_volume_10d_calc": 1.1671405275286872,
+      "average_volume_30d_calc": 4342647.333333331,
+      "market_cap_basic": 391636946,
+      "sector": "Process Industries",
+      "earnings_release_next_date": 1799668800,
+      "symbol": "NASDAQ:TLRY",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 2.65,
+          "prior_day_high": 2.74,
+          "prior_day_low": 2.61,
+          "ema20": 2.99,
+          "ema50": 3.53,
+          "sma200": 5.4,
+          "rsi14": 26.9,
+          "atr14": 0.16,
+          "atr_pct": 5.9,
+          "perf_1m_pct": -28.8,
+          "perf_3m_pct": -40.2,
+          "high_52w": 15.7,
+          "pct_below_52w_high": 83.1,
+          "high_20d": 3.76,
+          "low_20d": 2.49,
+          "resistance_above": [
+            3.84,
+            4.29,
+            4.83
+          ],
+          "support_below": [
+            2.49
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 2.84,
+          "premarket_low": 2.65,
+          "premarket_last": 2.78,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "CSIQ",
+      "description": "Canadian Solar Inc.",
+      "close": 10.1,
+      "premarket_close": 10.88,
+      "premarket_change": 7.722772277227734,
+      "premarket_volume": 337118,
+      "premarket_high": 11.1,
+      "premarket_low": 10.6,
+      "float_shares_outstanding": 47577254.591,
+      "relative_volume_10d_calc": 1.5542934062968703,
+      "average_volume_30d_calc": 1752745.2666666666,
+      "market_cap_basic": 685757215,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1794484800,
+      "symbol": "NASDAQ:CSIQ",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 10.1,
+          "prior_day_high": 10.27,
+          "prior_day_low": 9.45,
+          "ema20": 10.01,
+          "ema50": 11.29,
+          "sma200": 15.26,
+          "rsi14": 47.5,
+          "atr14": 0.63,
+          "atr_pct": 6.3,
+          "perf_1m_pct": -9.7,
+          "perf_3m_pct": -34.4,
+          "high_52w": 34.59,
+          "pct_below_52w_high": 70.8,
+          "high_20d": 11.42,
+          "low_20d": 8.79,
+          "resistance_above": [
+            11.75,
+            14.23,
+            15.93
+          ],
+          "support_below": [
+            10.6,
+            10.34,
+            8.79
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 11.1,
+          "premarket_low": 10.25,
+          "premarket_last": 10.85,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "KHC",
+      "description": "The Kraft Heinz Company",
+      "close": 24.52,
+      "premarket_close": 25.61,
+      "premarket_change": 4.445350734094617,
+      "premarket_volume": 267863,
+      "premarket_high": 25.71,
+      "premarket_low": 24.64,
+      "float_shares_outstanding": 1181285424.32,
+      "relative_volume_10d_calc": 1.134630099250309,
+      "average_volume_30d_calc": 13515868.633333333,
+      "market_cap_basic": 29076398414.000004,
+      "sector": "Consumer Non-Durables",
+      "earnings_release_next_date": 1802865600,
+      "symbol": "NYSE:KHC",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 24.52,
+          "prior_day_high": 24.62,
+          "prior_day_low": 24.3,
+          "ema20": 23.94,
+          "ema50": 23.99,
+          "sma200": 23.88,
+          "rsi14": 56.2,
+          "atr14": 0.63,
+          "atr_pct": 2.6,
+          "perf_1m_pct": 12.3,
+          "perf_3m_pct": -4.7,
+          "high_52w": 28.09,
+          "pct_below_52w_high": 12.7,
+          "high_20d": 25.23,
+          "low_20d": 21.8,
+          "resistance_above": [
+            26.01,
+            26.44
+          ],
+          "support_below": [
+            24.25,
+            24.1,
+            23.75
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 25.71,
+          "premarket_low": 24.64,
+          "premarket_last": 25.62,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "USAS",
+      "description": "Americas Gold and Silver Corporation",
+      "close": 2.71,
+      "premarket_close": 2.92,
+      "premarket_change": 7.749077490774907,
+      "premarket_volume": 220207,
+      "premarket_high": 2.99,
+      "premarket_low": 2.87,
+      "float_shares_outstanding": 275734709.51600003,
+      "relative_volume_10d_calc": 0.9903014799770671,
+      "average_volume_30d_calc": 3657982.5333333374,
+      "market_cap_basic": 916407149.6279683,
+      "sector": "Non-Energy Minerals",
+      "earnings_release_next_date": 1794580200,
+      "symbol": "AMEX:USAS",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 2.71,
+          "prior_day_high": 2.9,
+          "prior_day_low": 2.67,
+          "ema20": 3.46,
+          "ema50": 4.07,
+          "sma200": 5.66,
+          "rsi14": 23.5,
+          "atr14": 0.23,
+          "atr_pct": 8.7,
+          "perf_1m_pct": -38.8,
+          "perf_3m_pct": -43.7,
+          "high_52w": 10.5,
+          "pct_below_52w_high": 74.2,
+          "high_20d": 4.47,
+          "low_20d": 2.67,
+          "resistance_above": [
+            3.21,
+            5.32,
+            5.68
+          ],
+          "support_below": [
+            2.67
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 2.99,
+          "premarket_low": 2.75,
+          "premarket_last": 2.92,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "LAC",
+      "description": "Lithium Americas Corp.",
+      "close": 1.88,
+      "premarket_close": 1.96,
+      "premarket_change": 4.255319148936175,
+      "premarket_volume": 203269,
+      "premarket_high": 1.96,
+      "premarket_low": 1.89,
+      "float_shares_outstanding": null,
+      "relative_volume_10d_calc": 1.5207008728781106,
+      "average_volume_30d_calc": 7919319.633333334,
+      "market_cap_basic": 682520748.4830188,
+      "sector": "Non-Energy Minerals",
+      "earnings_release_next_date": 1794571200,
+      "symbol": "NYSE:LAC",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 1.88,
+          "prior_day_high": 2.0,
+          "prior_day_low": 1.86,
+          "ema20": 2.18,
+          "ema50": 2.52,
+          "sma200": 3.92,
+          "rsi14": 26.0,
+          "atr14": 0.12,
+          "atr_pct": 6.3,
+          "perf_1m_pct": -26.3,
+          "perf_3m_pct": -39.2,
+          "high_52w": 6.96,
+          "pct_below_52w_high": 73.0,
+          "high_20d": 2.51,
+          "low_20d": 1.86,
+          "resistance_above": [
+            2.22,
+            2.31,
+            3.05
+          ],
+          "support_below": [
+            1.86
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 1.96,
+          "premarket_low": 1.87,
+          "premarket_last": 1.95,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "CDE",
+      "description": "Coeur Mining, Inc.",
+      "close": 13.41,
+      "premarket_close": 14.2877,
+      "premarket_change": 6.545115585384035,
+      "premarket_volume": 193288,
+      "premarket_high": 14.4886,
+      "premarket_low": 13.95,
+      "float_shares_outstanding": 1020733462.0699999,
+      "relative_volume_10d_calc": 1.3501286996433985,
+      "average_volume_30d_calc": 35994312.166666664,
+      "market_cap_basic": 13784608979,
+      "sector": "Non-Energy Minerals",
+      "earnings_release_next_date": 1793826000,
+      "symbol": "NYSE:CDE",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 13.41,
+          "prior_day_high": 13.49,
+          "prior_day_low": 13.22,
+          "ema20": 14.9,
+          "ema50": 16.51,
+          "sma200": 18.83,
+          "rsi14": 31.7,
+          "atr14": 0.78,
+          "atr_pct": 5.8,
+          "perf_1m_pct": -21.3,
+          "perf_3m_pct": -23.1,
+          "high_52w": 27.77,
+          "pct_below_52w_high": 51.7,
+          "high_20d": 17.5,
+          "low_20d": 12.71,
+          "resistance_above": [
+            14.43,
+            17.5,
+            20.63
+          ],
+          "support_below": [
+            13.12,
+            12.71
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 14.49,
+          "premarket_low": 13.38,
+          "premarket_last": 14.29,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "MDLN",
+      "description": "Medline Inc.",
+      "close": 34.09,
+      "premarket_close": 36.8,
+      "premarket_change": 7.9495453212085465,
+      "premarket_volume": 190525,
+      "premarket_high": 38.46,
+      "premarket_low": 34.22,
+      "float_shares_outstanding": 509792810.9208,
+      "relative_volume_10d_calc": 1.4067195719534165,
+      "average_volume_30d_calc": 9219179.4,
+      "market_cap_basic": 44818377863,
+      "sector": "Health Technology",
+      "earnings_release_next_date": 1804075200,
+      "symbol": "NASDAQ:MDLN",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 34.09,
+          "prior_day_high": 34.26,
+          "prior_day_low": 32.92,
+          "ema20": 34.07,
+          "ema50": 34.79,
+          "sma200": 39.55,
+          "rsi14": 48.8,
+          "atr14": 1.2,
+          "atr_pct": 3.5,
+          "perf_1m_pct": -4.8,
+          "perf_3m_pct": -7.0,
+          "high_52w": 50.88,
+          "pct_below_52w_high": 33.0,
+          "high_20d": 37.03,
+          "low_20d": 31.37,
+          "resistance_above": [
+            36.88
+          ],
+          "support_below": [
+            34.91,
+            33.1,
+            32.49
+          ],
+          "squeeze_sessions_last10": 3,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 38.46,
+          "premarket_low": 36.12,
+          "premarket_last": 37.0,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "EQX",
+      "description": "Equinox Gold Corp.",
+      "close": 10,
+      "premarket_close": 10.6343,
+      "premarket_change": 6.3429999999999955,
+      "premarket_volume": 188596,
+      "premarket_high": 10.71,
+      "premarket_low": 10.5,
+      "float_shares_outstanding": 1133677209.98,
+      "relative_volume_10d_calc": 1.0067824787832578,
+      "average_volume_30d_calc": 11880123.633333333,
+      "market_cap_basic": 11674598166.785461,
+      "sector": "Non-Energy Minerals",
+      "earnings_release_next_date": 1794258000,
+      "symbol": "AMEX:EQX",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 10.0,
+          "prior_day_high": 10.17,
+          "prior_day_low": 9.92,
+          "ema20": 10.58,
+          "ema50": 11.06,
+          "sma200": 12.72,
+          "rsi14": 39.8,
+          "atr14": 0.49,
+          "atr_pct": 4.9,
+          "perf_1m_pct": -11.0,
+          "perf_3m_pct": -3.1,
+          "high_52w": 18.96,
+          "pct_below_52w_high": 47.3,
+          "high_20d": 11.49,
+          "low_20d": 9.49,
+          "resistance_above": [
+            11.42,
+            11.58,
+            12.07
+          ],
+          "support_below": [
+            10.15,
+            9.81,
+            9.49
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 10.71,
+          "premarket_low": 10.19,
+          "premarket_last": 10.63,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "UWMC",
+      "description": "UWM Holdings Corporation",
+      "close": 1.59,
+      "premarket_close": 1.69,
+      "premarket_change": 6.28930817610062,
+      "premarket_volume": 184408,
+      "premarket_high": 1.7078,
+      "premarket_low": 1.58,
+      "float_shares_outstanding": 308270724.918,
+      "relative_volume_10d_calc": 0.6767745062222341,
+      "average_volume_30d_calc": 13447096.833333334,
+      "market_cap_basic": 2555068807,
+      "sector": "Finance",
+      "earnings_release_next_date": 1793802600,
+      "symbol": "NYSE:UWMC",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 1.59,
+          "prior_day_high": 1.64,
+          "prior_day_low": 1.57,
+          "ema20": 1.36,
+          "ema50": 1.39,
+          "sma200": 2.75,
+          "rsi14": 67.6,
+          "atr14": 0.12,
+          "atr_pct": 7.5,
+          "perf_1m_pct": 23.3,
+          "perf_3m_pct": -13.6,
+          "high_52w": 6.15,
+          "pct_below_52w_high": 74.1,
+          "high_20d": 1.64,
+          "low_20d": 0.99,
+          "resistance_above": [],
+          "support_below": [
+            1.35,
+            1.15,
+            0.99
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 1.71,
+          "premarket_low": 1.58,
+          "premarket_last": 1.7,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "TRLV",
+      "description": "Trulieve Cannabis Corp. Subordinate Voting Shares",
+      "close": 11.54,
+      "premarket_close": 12.15,
+      "premarket_change": 5.285961871750445,
+      "premarket_volume": 135937,
+      "premarket_high": 12.16,
+      "premarket_low": 11.63,
+      "float_shares_outstanding": 162614413.80504,
+      "relative_volume_10d_calc": 1.0593872800680253,
+      "average_volume_30d_calc": 1694207.8666666667,
+      "market_cap_basic": 2222203627,
+      "sector": "Process Industries",
+      "earnings_release_next_date": 1793877300,
+      "symbol": "NYSE:TRLV",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 11.54,
+          "prior_day_high": 12.0,
+          "prior_day_low": 11.25,
+          "ema20": 10.79,
+          "ema50": 10.73,
+          "sma200": 8.84,
+          "rsi14": 59.2,
+          "atr14": 0.7,
+          "atr_pct": 6.1,
+          "perf_1m_pct": 8.4,
+          "perf_3m_pct": 36.7,
+          "high_52w": 13.28,
+          "pct_below_52w_high": 13.1,
+          "high_20d": 12.0,
+          "low_20d": 9.79,
+          "resistance_above": [
+            12.76,
+            12.93
+          ],
+          "support_below": [
+            11.15,
+            10.87,
+            10.71
+          ],
+          "squeeze_sessions_last10": 6,
+          "squeeze_fired": true
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 12.16,
+          "premarket_low": 11.63,
+          "premarket_last": 12.15,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "OUST",
+      "description": "Ouster, Inc.",
+      "close": 28.98,
+      "premarket_close": 33.24,
+      "premarket_change": 14.699792960662531,
+      "premarket_volume": 123625,
+      "premarket_high": 33.5,
+      "premarket_low": 31.3916,
+      "float_shares_outstanding": 69213241.3154,
+      "relative_volume_10d_calc": 1.3450930592078476,
+      "average_volume_30d_calc": 2622846.033333333,
+      "market_cap_basic": 2089815441.0000005,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1805976000,
+      "symbol": "NASDAQ:OUST",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-03",
+          "close": 28.98,
+          "prior_day_high": 30.22,
+          "prior_day_low": 28.52,
+          "ema20": 32.28,
+          "ema50": 35.15,
+          "sma200": 32.44,
+          "rsi14": 39.3,
+          "atr14": 2.54,
+          "atr_pct": 8.8,
+          "perf_1m_pct": -34.3,
+          "perf_3m_pct": -35.8,
+          "high_52w": 63.79,
+          "pct_below_52w_high": 54.6,
+          "high_20d": 43.49,
+          "low_20d": 27.35,
+          "resistance_above": [
+            33.67,
+            38.1,
+            38.38
+          ],
+          "support_below": [
+            32.97,
+            32.24,
+            27.35
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-04",
+          "premarket_high": 33.5,
+          "premarket_low": 30.75,
+          "premarket_last": 33.24,
           "bars_5m": 0
         },
         "news": null
