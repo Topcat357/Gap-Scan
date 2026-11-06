@@ -1,275 +1,415 @@
 {
-  "date": "2026-11-05",
-  "run_at": "2026-11-05 08:34",
+  "date": "2026-11-06",
+  "run_at": "2026-11-06 08:34",
   "profile": "standard",
   "data": "live (logged-in session)",
-  "enrich": "enriched 10/10 daily, 10/10 intraday, with news for top 5; 54s",
-  "total_matches": 10,
+  "enrich": "enriched 25/25 daily, 25/25 intraday, with news for top 5; 54s",
+  "total_matches": 46,
   "rows": [
     {
-      "name": "U",
-      "description": "Unity Software Inc.",
-      "close": 42.46,
-      "premarket_close": 50.4,
-      "premarket_change": 18.69995289684408,
-      "premarket_volume": 4841917,
-      "premarket_high": 54.35,
-      "premarket_low": 40.68,
-      "float_shares_outstanding": 358185796.56600004,
-      "relative_volume_10d_calc": 3.3779267793472907,
-      "average_volume_30d_calc": 10812424.233333332,
-      "market_cap_basic": 18686175489,
+      "name": "IREN",
+      "description": "IREN Limited",
+      "close": 18.03,
+      "premarket_close": 20.86,
+      "premarket_change": 15.69606211869106,
+      "premarket_volume": 6116968,
+      "premarket_high": 21.66,
+      "premarket_low": 20.42,
+      "float_shares_outstanding": 354999818.95140004,
+      "relative_volume_10d_calc": 2.3532308395969292,
+      "average_volume_30d_calc": 54553153.6,
+      "market_cap_basic": 7295181591.030401,
       "sector": "Technology Services",
-      "earnings_release_next_date": 1793889000,
-      "symbol": "NYSE:U",
+      "earnings_release_next_date": 1802865600,
+      "symbol": "NASDAQ:IREN",
       "enrich": {
         "daily": {
-          "as_of": "2026-11-04",
-          "close": 42.46,
-          "prior_day_high": 43.03,
-          "prior_day_low": 39.0,
-          "ema20": 41.04,
-          "ema50": 41.05,
-          "sma200": 31.62,
-          "rsi14": 54.1,
-          "atr14": 2.24,
-          "atr_pct": 5.3,
-          "perf_1m_pct": -5.5,
-          "perf_3m_pct": 4.0,
-          "high_52w": 52.15,
-          "pct_below_52w_high": 18.6,
-          "high_20d": 47.77,
-          "low_20d": 37.1,
-          "resistance_above": [],
-          "support_below": [
-            40.79,
-            40.22,
-            38.44
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-05",
-          "premarket_high": 54.35,
-          "premarket_low": 40.68,
-          "premarket_last": 50.39,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 1,
-          "tone": "neutral",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 1,
-          "top": [
-            {
-              "published_utc": "2026-11-03T15:16:00Z",
-              "title": "Unity Software to Post Q3 Earnings: What's in the Cards for the Stock?",
-              "publisher": "Zacks Investment Research",
-              "sentiment": "neutral",
-              "reason": "While the company shows strong revenue growth (20.16% YoY) and significant EPS growth (70% YoY) driven by AI advertising platform momentum and improved profitability, the Zacks predictive model does n",
-              "url": "https://www.zacks.com/stock/news/3021966/unity-software-to-post-q3-earnings-what-s-in-the-cards-for-the-stock?cid=CS-ZC-FT-analyst_blog|earnings_preview-3021966"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "JOBY",
-      "description": "Joby Aviation, Inc.",
-      "close": 5.05,
-      "premarket_close": 5.86,
-      "premarket_change": 16.03960396039605,
-      "premarket_volume": 2495347,
-      "premarket_high": 5.86,
-      "premarket_low": 5.24,
-      "float_shares_outstanding": 641728539.816,
-      "relative_volume_10d_calc": 1.4685146361599435,
-      "average_volume_30d_calc": 20680351,
-      "market_cap_basic": 5019066165.999999,
-      "sector": "Electronic Technology",
-      "earnings_release_next_date": 1803470400,
-      "symbol": "NYSE:JOBY",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-04",
-          "close": 5.05,
-          "prior_day_high": 5.22,
-          "prior_day_low": 4.94,
-          "ema20": 5.07,
-          "ema50": 5.76,
-          "sma200": 8.47,
-          "rsi14": 44.6,
-          "atr14": 0.27,
-          "atr_pct": 5.3,
-          "perf_1m_pct": -12.6,
-          "perf_3m_pct": -38.6,
-          "high_52w": 17.1,
-          "pct_below_52w_high": 70.5,
-          "high_20d": 5.87,
-          "low_20d": 4.43,
+          "as_of": "2026-11-05",
+          "close": 18.03,
+          "prior_day_high": 20.98,
+          "prior_day_low": 17.16,
+          "ema20": 27.34,
+          "ema50": 33.55,
+          "sma200": 43.7,
+          "rsi14": 26.8,
+          "atr14": 2.83,
+          "atr_pct": 15.7,
+          "perf_1m_pct": -53.4,
+          "perf_3m_pct": -56.3,
+          "high_52w": 76.87,
+          "pct_below_52w_high": 76.5,
+          "high_20d": 36.69,
+          "low_20d": 17.16,
           "resistance_above": [
-            6.57,
-            7.18,
-            9.07
+            28.88,
+            43.91,
+            45.93
           ],
           "support_below": [
-            4.77,
-            4.47,
-            4.43
+            17.16
           ],
           "squeeze_sessions_last10": 0,
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-11-05",
-          "premarket_high": 5.86,
-          "premarket_low": 5.24,
-          "premarket_last": 5.86,
+          "date": "2026-11-06",
+          "premarket_high": 21.66,
+          "premarket_low": 20.17,
+          "premarket_last": 20.84,
           "bars_5m": 0
         },
         "news": {
           "hours": 48,
-          "count": 1,
-          "tone": "neutral",
+          "count": 3,
+          "tone": "negative",
           "positive": 0,
-          "negative": 0,
-          "neutral": 1,
+          "negative": 3,
+          "neutral": 0,
           "top": [
             {
-              "published_utc": "2026-11-04T23:45:20Z",
-              "title": "Joby Aviation, Inc. (JOBY) Reports Q3 Loss, Beats Revenue Estimates",
+              "published_utc": "2026-11-06T08:55:00Z",
+              "title": "The Biggest Stock Winners and Losers From the Midterm Elections",
+              "publisher": "The Motley Fool",
+              "sentiment": "negative",
+              "reason": "Neocloud company expected to struggle with tougher terrestrial data center permitting environment following election results.",
+              "url": "https://www.fool.com/investing/2026/11/06/biggest-stock-winners-losers-midterm-election/?source=iedfolrf0000001"
+            },
+            {
+              "published_utc": "2026-11-05T12:00:00Z",
+              "title": "As Democrats Take Control of Congress, Warren Buffett Has a Timely Warning for Investors",
+              "publisher": "The Motley Fool",
+              "sentiment": "negative",
+              "reason": "Data center operator facing steep losses due to investor concerns about tighter AI infrastructure oversight and electricity consumption regulations; stock declined 11.24%",
+              "url": "https://www.fool.com/investing/2026/11/05/as-democrats-take-control-of-congress-warren-buffe/?source=iedfolrf0000001"
+            },
+            {
+              "published_utc": "2026-11-04T17:49:00Z",
+              "title": "IREN to Report Q1 Earnings: Should You Buy, Sell or Hold the Stock?",
               "publisher": "Zacks Investment Research",
-              "sentiment": "neutral",
-              "reason": "While the company beat EPS and revenue estimates with a +15.39% earnings surprise and 46.47% revenue beat, the stock has severely underperformed the market (down 63.3% YTD vs S&P 500 up 10.6%), indica",
-              "url": "https://www.zacks.com/stock/news/3023628/joby-aviation-inc-joby-reports-q3-loss-beats-revenue-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3023628"
+              "sentiment": "negative",
+              "reason": "Expected 8.46% revenue decline, wider per-share loss, significant drop in mining revenues offsetting cloud growth, projected $40-50M increase in SG&A expenses, declining adjusted EBITDA, and Zacks Ran",
+              "url": "https://www.zacks.com/stock/news/3023380/iren-to-report-q1-earnings-should-you-buy-sell-or-hold-the-stock?cid=CS-ZC-FT-analyst_blog|most_popular_stocks-3023380"
             }
           ]
         }
       }
     },
     {
-      "name": "RUN",
-      "description": "Sunrun Inc.",
-      "close": 8.79,
-      "premarket_close": 10.6817,
-      "premarket_change": 21.52104664391354,
-      "premarket_volume": 2092676,
-      "premarket_high": 11.0868,
-      "premarket_low": 9.85,
-      "float_shares_outstanding": 232460466.613,
-      "relative_volume_10d_calc": 3.509231479577382,
-      "average_volume_30d_calc": 9484863.933333334,
-      "market_cap_basic": 2117044988.0000002,
+      "name": "INTC",
+      "description": "Intel Corporation",
+      "close": 52.25,
+      "premarket_close": 55.1,
+      "premarket_change": 5.454545454545457,
+      "premarket_volume": 4889845,
+      "premarket_high": 55.98,
+      "premarket_low": 54.08,
+      "float_shares_outstanding": 4571707880,
+      "relative_volume_10d_calc": 1.6512366978868829,
+      "average_volume_30d_calc": 125324610.06666666,
+      "market_cap_basic": 277708752181.6415,
       "sector": "Electronic Technology",
-      "earnings_release_next_date": 1803470400,
-      "symbol": "NASDAQ:RUN",
+      "earnings_release_next_date": 1801137600,
+      "symbol": "NASDAQ:INTC",
       "enrich": {
         "daily": {
-          "as_of": "2026-11-04",
-          "close": 8.79,
-          "prior_day_high": 9.93,
-          "prior_day_low": 8.73,
-          "ema20": 7.86,
-          "ema50": 8.32,
-          "sma200": 12.29,
-          "rsi14": 63.2,
-          "atr14": 0.53,
-          "atr_pct": 6.0,
-          "perf_1m_pct": 13.1,
-          "perf_3m_pct": -6.3,
-          "high_52w": 21.95,
-          "pct_below_52w_high": 60.0,
-          "high_20d": 9.93,
-          "low_20d": 6.78,
-          "resistance_above": [],
+          "as_of": "2026-11-05",
+          "close": 52.25,
+          "prior_day_high": 56.73,
+          "prior_day_low": 51.51,
+          "ema20": 82.14,
+          "ema50": 93.48,
+          "sma200": 87.03,
+          "rsi14": 20.6,
+          "atr14": 6.45,
+          "atr_pct": 12.3,
+          "perf_1m_pct": -53.8,
+          "perf_3m_pct": -48.6,
+          "high_52w": 142.35,
+          "pct_below_52w_high": 63.3,
+          "high_20d": 108.38,
+          "low_20d": 51.51,
+          "resistance_above": [
+            93.7,
+            95.68,
+            106.69
+          ],
           "support_below": [
+            51.51
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 55.98,
+          "premarket_low": 53.5,
+          "premarket_last": 55.13,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 8,
+          "tone": "negative",
+          "positive": 0,
+          "negative": 3,
+          "neutral": 5,
+          "top": [
+            {
+              "published_utc": "2026-11-06T00:00:00Z",
+              "title": "High Bandwidth Memory Market Outlook 2032: USD 15.99 Billion Valuation Driven by Advancements in Semiconductor Packaging | Mordor Intelligence",
+              "publisher": "GlobeNewswire Inc.",
+              "sentiment": "neutral",
+              "reason": "Intel is listed among key competitors in the HBM market but receives no specific mention of strategic initiatives, investments, or market position relative to competitors, warranting a neutral stance.",
+              "url": "https://www.globenewswire.com/news-release/2026/11/06/3397274/0/en/high-bandwidth-memory-market-outlook-2032-usd-15-99-billion-valuation-driven-by-advancements-in-semiconductor-packaging-mordor-intelligence.html"
+            },
+            {
+              "published_utc": "2026-11-05T20:00:02Z",
+              "title": "Advanced Micro Devices vs. Taiwan Semiconductor Manufacturing: The AI Sell-Off Is Exposing a Critical Difference Investors Shouldn't Ignore for 2027",
+              "publisher": "The Motley Fool",
+              "sentiment": "neutral",
+              "reason": "Mentioned as an established competitor to AMD in the semiconductor space, contributing to AMD's competitive challenges.",
+              "url": "https://www.fool.com/coverage/better-buy/2026/11/05/advanced-micro-devices-vs-taiwan-semiconductor-manufacturing-the-ai-sell-off-is-exposing-a-critical-difference-investors-shouldn-t-ignore-for-2027/?source=iedfolrf0000001"
+            },
+            {
+              "published_utc": "2026-11-05T15:53:19Z",
+              "title": "Why Micron Stock Keeps Going Down",
+              "publisher": "The Motley Fool",
+              "sentiment": "negative",
+              "reason": "Post-earnings rout last month initiated the decline in memory chip stocks. Stock is down 7.60% as of article publication, contributing to broader sector weakness.",
+              "url": "https://www.fool.com/investing/2026/11/05/why-micron-stock-keeps-going-down/?source=iedfolrf0000001"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "CRWV",
+      "description": "CoreWeave, Inc.",
+      "close": 43.66,
+      "premarket_close": 47.84,
+      "premarket_change": 9.573980760421454,
+      "premarket_volume": 3665176,
+      "premarket_high": 49.14,
+      "premarket_low": 45.14,
+      "float_shares_outstanding": 349311034.0363,
+      "relative_volume_10d_calc": 1.5227089884326332,
+      "average_volume_30d_calc": 52548258,
+      "market_cap_basic": 24080086415.907475,
+      "sector": "Technology Services",
+      "earnings_release_next_date": 1794344400,
+      "symbol": "NASDAQ:CRWV",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 43.66,
+          "prior_day_high": 47.29,
+          "prior_day_low": 40.58,
+          "ema20": 60.67,
+          "ema50": 72.06,
+          "sma200": 90.4,
+          "rsi14": 28.7,
+          "atr14": 5.91,
+          "atr_pct": 13.5,
+          "perf_1m_pct": -50.6,
+          "perf_3m_pct": -51.8,
+          "high_52w": 138.25,
+          "pct_below_52w_high": 68.4,
+          "high_20d": 83.45,
+          "low_20d": 40.58,
+          "resistance_above": [
+            64.39,
+            91.12,
+            91.81
+          ],
+          "support_below": [
+            40.58
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 49.14,
+          "premarket_low": 44.59,
+          "premarket_last": 47.8,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 9,
+          "tone": "negative",
+          "positive": 3,
+          "negative": 6,
+          "neutral": 0,
+          "top": [
+            {
+              "published_utc": "2026-11-06T08:55:00Z",
+              "title": "The Biggest Stock Winners and Losers From the Midterm Elections",
+              "publisher": "The Motley Fool",
+              "sentiment": "negative",
+              "reason": "As a neocloud company, faces similar permitting challenges and regulatory headwinds that will hamper data center expansion capabilities.",
+              "url": "https://www.fool.com/investing/2026/11/06/biggest-stock-winners-losers-midterm-election/?source=iedfolrf0000001"
+            },
+            {
+              "published_utc": "2026-11-06T03:00:02Z",
+              "title": "The Nasdaq Plunges 5%. What the Data Center Crash Means for Investors",
+              "publisher": "The Motley Fool",
+              "sentiment": "negative",
+              "reason": "Neocloud operator fell 9.83% as bond yields spiked to 15% weeks before election, with concerns about potential default and soaring capital expenditures despite rapid growth.",
+              "url": "https://www.fool.com/investing/2026/11/05/the-nasdaq-plunges-5-what-the-data-center-crash-means-for-investors/?source=iedfolrf0000001"
+            },
+            {
+              "published_utc": "2026-11-06T00:50:02Z",
+              "title": "The Nasdaq Composite Just Shattered Its Single-Session Point-Loss Record: 3 Reasons These Elevator-Down Moves May Be Just Beginning",
+              "publisher": "The Motley Fool",
+              "sentiment": "negative",
+              "reason": "2031 notes issued this year trading at $0.78 on the dollar, indicating mounting skepticism about AI data center build-out sustainability; down 9.83% on the day",
+              "url": "https://www.fool.com/investing/2026/11/05/nasdaq-composite-shattered-single-session-point-loss-record-3-reasons-elevator-down-moves-just-beginning/?source=iedfolrf0000001"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "WULF",
+      "description": "TeraWulf Inc.",
+      "close": 10.08,
+      "premarket_close": 11.25,
+      "premarket_change": 11.607142857142856,
+      "premarket_volume": 2593068,
+      "premarket_high": 11.48,
+      "premarket_low": 10.45,
+      "float_shares_outstanding": 348786316.566,
+      "relative_volume_10d_calc": 1.9710227958470505,
+      "average_volume_30d_calc": 42514948.06666667,
+      "market_cap_basic": 5029604303.015385,
+      "sector": "Technology Services",
+      "earnings_release_next_date": 1803643200,
+      "symbol": "NASDAQ:WULF",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 10.08,
+          "prior_day_high": 11.35,
+          "prior_day_low": 9.51,
+          "ema20": 12.39,
+          "ema50": 14.1,
+          "sma200": 18.04,
+          "rsi14": 36.9,
+          "atr14": 1.27,
+          "atr_pct": 12.6,
+          "perf_1m_pct": -30.0,
+          "perf_3m_pct": -41.0,
+          "high_52w": 29.84,
+          "pct_below_52w_high": 66.2,
+          "high_20d": 13.96,
+          "low_20d": 9.51,
+          "resistance_above": [
+            13.06,
+            13.44,
+            16.24
+          ],
+          "support_below": [
+            11.07,
+            10.35,
+            9.51
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 11.48,
+          "premarket_low": 10.2,
+          "premarket_last": 11.27,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 3,
+          "tone": "negative",
+          "positive": 0,
+          "negative": 2,
+          "neutral": 1,
+          "top": [
+            {
+              "published_utc": "2026-11-06T00:00:07Z",
+              "title": "Runway Growth Finance Corp. (RWAY) Q3 Earnings and Revenues Beat Estimates",
+              "publisher": "Zacks Investment Research",
+              "sentiment": "negative",
+              "reason": "Expected to report a quarterly loss of $0.12 per share with a -71.4% year-over-year deterioration. The consensus EPS estimate has been revised 28.8% lower over the last 30 days, indicating declining e",
+              "url": "https://www.zacks.com/stock/news/3025110/runway-growth-finance-corp-rway-q3-earnings-and-revenues-beat-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3025110"
+            },
+            {
+              "published_utc": "2026-11-05T14:31:00Z",
+              "title": "TeraWulf Set to Report Q3 Earnings: What's in Store for the Stock?",
+              "publisher": "Zacks Investment Research",
+              "sentiment": "negative",
+              "reason": "WULF has consistently missed earnings estimates (112.60% average negative surprise), faces widening per-share losses, elevated operating expenses, and a negative Earnings ESP of -89.25% with Zacks Ran",
+              "url": "https://www.zacks.com/stock/news/3024500/terawulf-set-to-report-q3-earnings-what-s-in-store-for-the-stock?cid=CS-ZC-FT-analyst_blog|earnings_preview-3024500"
+            },
+            {
+              "published_utc": "2026-11-04T17:49:00Z",
+              "title": "IREN to Report Q1 Earnings: Should You Buy, Sell or Hold the Stock?",
+              "publisher": "Zacks Investment Research",
+              "sentiment": "neutral",
+              "reason": "Mentioned as a peer comparison with positive YTD performance (+0.1%) and higher forward P/S multiple (8.51X), but no specific analysis or sentiment provided about the company itself.",
+              "url": "https://www.zacks.com/stock/news/3023380/iren-to-report-q1-earnings-should-you-buy-sell-or-hold-the-stock?cid=CS-ZC-FT-analyst_blog|most_popular_stocks-3023380"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "CIFR",
+      "description": "Cipher Digital Inc.",
+      "close": 5.55,
+      "premarket_close": 6.2,
+      "premarket_change": 11.711711711711718,
+      "premarket_volume": 1919880,
+      "premarket_high": 6.35,
+      "premarket_low": 5.93,
+      "float_shares_outstanding": 378808506.44,
+      "relative_volume_10d_calc": 1.5223526628782897,
+      "average_volume_30d_calc": 49681288.46666667,
+      "market_cap_basic": 2532826373.3076925,
+      "sector": "Technology Services",
+      "earnings_release_next_date": 1803988800,
+      "symbol": "NASDAQ:CIFR",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 5.55,
+          "prior_day_high": 6.31,
+          "prior_day_low": 5.07,
+          "ema20": 9.1,
+          "ema50": 12.46,
+          "sma200": 17.52,
+          "rsi14": 26.3,
+          "atr14": 1.16,
+          "atr_pct": 20.9,
+          "perf_1m_pct": -61.9,
+          "perf_3m_pct": -67.7,
+          "high_52w": 30.14,
+          "pct_below_52w_high": 81.6,
+          "high_20d": 13.68,
+          "low_20d": 5.07,
+          "resistance_above": [
             8.9,
-            8.22,
-            7.26
-          ],
-          "squeeze_sessions_last10": 8,
-          "squeeze_fired": true
-        },
-        "intraday": {
-          "date": "2026-11-05",
-          "premarket_high": 11.09,
-          "premarket_low": 9.71,
-          "premarket_last": 10.68,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 1,
-          "tone": "neutral",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 1,
-          "top": [
-            {
-              "published_utc": "2026-11-04T23:45:20Z",
-              "title": "Sunrun (RUN) Q3 Earnings and Revenues Top Estimates",
-              "publisher": "Zacks Investment Research",
-              "sentiment": "neutral",
-              "reason": "While Sunrun delivered strong earnings and revenue beats (115% EPS surprise, 36.74% revenue beat), the stock has significantly underperformed the broader market year-to-date (-52.8% vs S&P 500 +10.6%)",
-              "url": "https://www.zacks.com/stock/news/3023630/sunrun-run-q3-earnings-and-revenues-top-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3023630"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "FUN",
-      "description": "Six Flags Entertainment Corporation",
-      "close": 7.93,
-      "premarket_close": 9.26,
-      "premarket_change": 16.77175283732661,
-      "premarket_volume": 889686,
-      "premarket_high": 9.37,
-      "premarket_low": 7.9,
-      "float_shares_outstanding": 99269643.416,
-      "relative_volume_10d_calc": 1.5997229525045464,
-      "average_volume_30d_calc": 5356783.6,
-      "market_cap_basic": 811368358,
-      "sector": "Consumer Services",
-      "earnings_release_next_date": 1793889000,
-      "symbol": "NYSE:FUN",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-04",
-          "close": 7.93,
-          "prior_day_high": 7.99,
-          "prior_day_low": 7.36,
-          "ema20": 8.51,
-          "ema50": 10.94,
-          "sma200": 16.81,
-          "rsi14": 38.6,
-          "atr14": 0.67,
-          "atr_pct": 8.4,
-          "perf_1m_pct": -34.4,
-          "perf_3m_pct": -49.7,
-          "high_52w": 26.28,
-          "pct_below_52w_high": 69.8,
-          "high_20d": 12.05,
-          "low_20d": 6.6,
-          "resistance_above": [
-            12.05,
-            12.39,
-            16.04
+            17.47,
+            18.23
           ],
           "support_below": [
-            6.6
+            5.07
           ],
           "squeeze_sessions_last10": 0,
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-11-05",
-          "premarket_high": 9.33,
-          "premarket_low": 7.84,
-          "premarket_last": 9.2,
+          "date": "2026-11-06",
+          "premarket_high": 6.33,
+          "premarket_low": 5.86,
+          "premarket_last": 6.2,
           "bars_5m": 0
         },
         "news": {
@@ -281,359 +421,1115 @@
           "neutral": 0,
           "top": [
             {
-              "published_utc": "2026-11-03T22:55:00Z",
-              "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Six Flags Entertainment Corporation- FUN",
-              "publisher": "GlobeNewswire Inc.",
+              "published_utc": "2026-11-04T13:47:01Z",
+              "title": "Why Cipher Digital Stock Lost 53.9% in October",
+              "publisher": "The Motley Fool",
               "sentiment": "negative",
-              "reason": "Fatal accident at park facility resulted in immediate shutdown of nine roller coasters, triggering a 10.60% stock price decline and prompting securities fraud investigation by major law firm, indicati",
-              "url": "https://www.globenewswire.com/news-release/2026/11/03/3394942/1087/en/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-six-flags-entertainment-corporation-fun.html"
+              "reason": "Stock fell 53.9% in October due to convertible debt offering concerns, heavy debt load ($6.7B), construction cost overruns, and sector-wide AI financing fears. While the company has strong contracted ",
+              "url": "https://www.fool.com/investing/2026/11/04/why-cipher-digital-stock-lost-53-9-in-october/?source=iedfolrf0000001"
             }
           ]
         }
       }
     },
     {
-      "name": "PTON",
-      "description": "Peloton Interactive, Inc.",
-      "close": 5.46,
-      "premarket_close": 5.9899,
-      "premarket_change": 9.705128205128197,
-      "premarket_volume": 366195,
-      "premarket_high": 6.065,
-      "premarket_low": 5.47,
-      "float_shares_outstanding": 418850173.72800004,
-      "relative_volume_10d_calc": 3.0175717499487393,
-      "average_volume_30d_calc": 8086809.366666666,
-      "market_cap_basic": 2432999808,
-      "sector": "Consumer Services",
-      "earnings_release_next_date": 1801742400,
-      "symbol": "NASDAQ:PTON",
+      "name": "SMCI",
+      "description": "Super Micro Computer, Inc.",
+      "close": 27.08,
+      "premarket_close": 28.6615,
+      "premarket_change": 5.840103397341219,
+      "premarket_volume": 1843910,
+      "premarket_high": 28.88,
+      "premarket_low": 27.9,
+      "float_shares_outstanding": 573856299.64,
+      "relative_volume_10d_calc": 1.512923416095866,
+      "average_volume_30d_calc": 38788886.1,
+      "market_cap_basic": 17790623073.168915,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1801569600,
+      "symbol": "NASDAQ:SMCI",
       "enrich": {
         "daily": {
-          "as_of": "2026-11-04",
-          "close": 5.46,
-          "prior_day_high": 5.65,
-          "prior_day_low": 5.42,
-          "ema20": 5.25,
-          "ema50": 5.25,
-          "sma200": 5.21,
-          "rsi14": 58.2,
-          "atr14": 0.2,
-          "atr_pct": 3.7,
-          "perf_1m_pct": 12.1,
-          "perf_3m_pct": -0.8,
-          "high_52w": 7.92,
-          "pct_below_52w_high": 31.1,
-          "high_20d": 5.65,
-          "low_20d": 4.8,
-          "resistance_above": [],
-          "support_below": [
-            5.21,
-            5.08,
-            4.78
-          ],
-          "squeeze_sessions_last10": 1,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-05",
-          "premarket_high": 6.06,
-          "premarket_low": 5.47,
-          "premarket_last": 5.99,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 1,
-          "tone": "positive",
-          "positive": 1,
-          "negative": 0,
-          "neutral": 0,
-          "top": [
-            {
-              "published_utc": "2026-11-04T11:20:03Z",
-              "title": "Acushnet (GOLF) Q3 Earnings Lag Estimates",
-              "publisher": "Zacks Investment Research",
-              "sentiment": "positive",
-              "reason": "Expected to report significant year-over-year earnings growth of +266.7% with projected EPS of $0.11. Revenue expected to grow 0.9% year-over-year. Consensus estimates remained stable over the last 30",
-              "url": "https://www.zacks.com/stock/news/3022615/acushnet-golf-q3-earnings-lag-estimates?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3022615"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "CELH",
-      "description": "Celsius Holdings, Inc.",
-      "close": 30.75,
-      "premarket_close": 32,
-      "premarket_change": 4.0650406504065035,
-      "premarket_volume": 366109,
-      "premarket_high": 34.3925,
-      "premarket_low": 30.45,
-      "float_shares_outstanding": 186010583.13,
-      "relative_volume_10d_calc": 1.5217683512133768,
-      "average_volume_30d_calc": 5566155.866666671,
-      "market_cap_basic": 7780827770,
-      "sector": "Consumer Non-Durables",
-      "earnings_release_next_date": 1793876400,
-      "symbol": "NASDAQ:CELH",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-04",
-          "close": 30.75,
-          "prior_day_high": 31.49,
-          "prior_day_low": 30.59,
-          "ema20": 28.85,
-          "ema50": 28.89,
-          "sma200": 34.15,
-          "rsi14": 64.4,
-          "atr14": 1.17,
-          "atr_pct": 3.8,
-          "perf_1m_pct": 12.7,
-          "perf_3m_pct": 29.4,
-          "high_52w": 61.49,
-          "pct_below_52w_high": 50.0,
-          "high_20d": 31.49,
-          "low_20d": 26.69,
+          "as_of": "2026-11-05",
+          "close": 27.08,
+          "prior_day_high": 28.67,
+          "prior_day_low": 25.81,
+          "ema20": 33.76,
+          "ema50": 35.62,
+          "sma200": 32.63,
+          "rsi14": 31.0,
+          "atr14": 2.57,
+          "atr_pct": 9.5,
+          "perf_1m_pct": -39.7,
+          "perf_3m_pct": -13.0,
+          "high_52w": 51.4,
+          "pct_below_52w_high": 47.3,
+          "high_20d": 43.45,
+          "low_20d": 25.81,
           "resistance_above": [
-            36.15
+            36.4,
+            37.45,
+            39.47
           ],
           "support_below": [
-            27.85,
-            27.1,
-            26.81
+            25.81
           ],
           "squeeze_sessions_last10": 0,
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-11-05",
-          "premarket_high": 34.39,
-          "premarket_low": 30.49,
-          "premarket_last": 32.01,
+          "date": "2026-11-06",
+          "premarket_high": 28.88,
+          "premarket_low": 27.52,
+          "premarket_last": 28.67,
           "bars_5m": 0
         },
         "news": null
       }
     },
     {
-      "name": "WRBY",
-      "description": "Warby Parker Inc.",
-      "close": 21.29,
-      "premarket_close": 25.87,
-      "premarket_change": 21.51244715829029,
-      "premarket_volume": 257726,
-      "premarket_high": 26.2,
-      "premarket_low": 21.55,
-      "float_shares_outstanding": 102182619.57291,
-      "relative_volume_10d_calc": 3.3044784503086895,
-      "average_volume_30d_calc": 3368279.6666666665,
-      "market_cap_basic": 2631615447,
-      "sector": "Retail Trade",
-      "earnings_release_next_date": 1793889000,
-      "symbol": "NYSE:WRBY",
+      "name": "ONDS",
+      "description": "Ondas Inc",
+      "close": 4.52,
+      "premarket_close": 4.76,
+      "premarket_change": 5.309734513274342,
+      "premarket_volume": 1208241,
+      "premarket_high": 4.85,
+      "premarket_low": 4.62,
+      "float_shares_outstanding": 539316227.934,
+      "relative_volume_10d_calc": 1.546698846288727,
+      "average_volume_30d_calc": 49280233.1,
+      "market_cap_basic": 2632008073.6318784,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1794493800,
+      "symbol": "NASDAQ:ONDS",
       "enrich": {
         "daily": {
-          "as_of": "2026-11-04",
-          "close": 21.29,
-          "prior_day_high": 23.9,
-          "prior_day_low": 21.19,
-          "ema20": 24.42,
-          "ema50": 25.02,
-          "sma200": 25.08,
-          "rsi14": 31.2,
-          "atr14": 1.56,
-          "atr_pct": 7.3,
-          "perf_1m_pct": -18.8,
-          "perf_3m_pct": -21.0,
-          "high_52w": 31.0,
-          "pct_below_52w_high": 31.3,
-          "high_20d": 27.0,
-          "low_20d": 21.19,
-          "resistance_above": [
-            25.99,
-            26.62,
-            27.0
-          ],
-          "support_below": [
-            24.84,
-            24.16,
-            23.33
-          ],
-          "squeeze_sessions_last10": 3,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-05",
-          "premarket_high": 26.2,
-          "premarket_low": 21.55,
-          "premarket_last": 25.87,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "IRWD",
-      "description": "Ironwood Pharmaceuticals, Inc.",
-      "close": 3.77,
-      "premarket_close": 4.2331,
-      "premarket_change": 12.283819628647223,
-      "premarket_volume": 159819,
-      "premarket_high": 4.34,
-      "premarket_low": 3.78,
-      "float_shares_outstanding": 159102655.92,
-      "relative_volume_10d_calc": 1.8231704684433663,
-      "average_volume_30d_calc": 1749341.7333333334,
-      "market_cap_basic": 622954645,
-      "sector": "Health Technology",
-      "earnings_release_next_date": 1793880300,
-      "symbol": "NASDAQ:IRWD",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-04",
-          "close": 3.77,
-          "prior_day_high": 3.8,
-          "prior_day_low": 3.58,
-          "ema20": 3.64,
-          "ema50": 3.81,
-          "sma200": 3.97,
-          "rsi14": 53.4,
-          "atr14": 0.18,
-          "atr_pct": 4.8,
-          "perf_1m_pct": 3.9,
-          "perf_3m_pct": -11.5,
-          "high_52w": 5.78,
-          "pct_below_52w_high": 34.8,
-          "high_20d": 3.97,
-          "low_20d": 3.38,
-          "resistance_above": [
-            4.43,
-            4.48,
-            4.51
-          ],
-          "support_below": [
-            4.05,
-            4.02,
-            3.96
-          ],
-          "squeeze_sessions_last10": 3,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-05",
-          "premarket_high": 4.34,
-          "premarket_low": 4.05,
-          "premarket_last": 4.23,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "ULCC",
-      "description": "Frontier Group Holdings, Inc.",
-      "close": 7.09,
-      "premarket_close": 7.423,
-      "premarket_change": 4.696755994358254,
-      "premarket_volume": 109728,
-      "premarket_high": 7.5191,
-      "premarket_low": 7.15,
-      "float_shares_outstanding": 98408762.78400001,
-      "relative_volume_10d_calc": 1.1769226482614765,
-      "average_volume_30d_calc": 3473600.3333333335,
-      "market_cap_basic": 1633660404,
-      "sector": "Transportation",
-      "earnings_release_next_date": 1802260800,
-      "symbol": "NASDAQ:ULCC",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-04",
-          "close": 7.09,
-          "prior_day_high": 7.36,
-          "prior_day_low": 6.75,
-          "ema20": 5.98,
-          "ema50": 5.91,
-          "sma200": 5.45,
-          "rsi14": 62.6,
-          "atr14": 0.54,
-          "atr_pct": 7.6,
-          "perf_1m_pct": 13.4,
-          "perf_3m_pct": -6.5,
-          "high_52w": 8.4,
-          "pct_below_52w_high": 15.6,
-          "high_20d": 7.75,
-          "low_20d": 4.5,
-          "resistance_above": [
-            7.81
-          ],
-          "support_below": [
-            5.81,
-            5.7,
-            5.55
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-05",
-          "premarket_high": 7.52,
-          "premarket_low": 7.29,
-          "premarket_last": 7.42,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "ADMA",
-      "description": "ADMA Biologics Inc",
-      "close": 10.48,
-      "premarket_close": 12.5,
-      "premarket_change": 19.274809160305338,
-      "premarket_volume": 108572,
-      "premarket_high": 12.95,
-      "premarket_low": 12.3,
-      "float_shares_outstanding": 214343341.69,
-      "relative_volume_10d_calc": 4.8920885264155025,
-      "average_volume_30d_calc": 3288950.2666666666,
-      "market_cap_basic": 2347359346,
-      "sector": "Health Technology",
-      "earnings_release_next_date": 1805976000,
-      "symbol": "NASDAQ:ADMA",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-04",
-          "close": 10.48,
-          "prior_day_high": 11.49,
-          "prior_day_low": 10.25,
-          "ema20": 10.82,
-          "ema50": 10.29,
-          "sma200": 10.86,
-          "rsi14": 47.1,
+          "as_of": "2026-11-05",
+          "close": 4.52,
+          "prior_day_high": 5.16,
+          "prior_day_low": 4.38,
+          "ema20": 6.17,
+          "ema50": 6.85,
+          "sma200": 8.89,
+          "rsi14": 24.6,
           "atr14": 0.48,
-          "atr_pct": 4.6,
-          "perf_1m_pct": 2.9,
-          "perf_3m_pct": 4.2,
-          "high_52w": 20.46,
-          "pct_below_52w_high": 48.8,
-          "high_20d": 11.9,
-          "low_20d": 10.02,
-          "resistance_above": [],
+          "atr_pct": 10.5,
+          "perf_1m_pct": -37.1,
+          "perf_3m_pct": -50.4,
+          "high_52w": 15.28,
+          "pct_below_52w_high": 70.4,
+          "high_20d": 7.08,
+          "low_20d": 4.38,
+          "resistance_above": [
+            7.08,
+            7.91,
+            7.98
+          ],
           "support_below": [
-            10.57,
-            10.02,
-            9.62
+            4.38
           ],
           "squeeze_sessions_last10": 0,
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-11-05",
-          "premarket_high": 13.86,
-          "premarket_low": 12.3,
-          "premarket_last": 12.5,
+          "date": "2026-11-06",
+          "premarket_high": 4.85,
+          "premarket_low": 4.58,
+          "premarket_last": 4.77,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "AAOI",
+      "description": "Applied Optoelectronics, Inc.",
+      "close": 46.89,
+      "premarket_close": 49.03,
+      "premarket_change": 4.563872894007252,
+      "premarket_volume": 1054041,
+      "premarket_high": 50.49,
+      "premarket_low": 46.67,
+      "float_shares_outstanding": 80529634.9539,
+      "relative_volume_10d_calc": 2.3715119895799757,
+      "average_volume_30d_calc": 12280979.9,
+      "market_cap_basic": 3981255881.6927614,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1803556800,
+      "symbol": "NASDAQ:AAOI",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 46.89,
+          "prior_day_high": 56.89,
+          "prior_day_low": 45.88,
+          "ema20": 75.51,
+          "ema50": 91.58,
+          "sma200": 114.59,
+          "rsi14": 27.1,
+          "atr14": 8.41,
+          "atr_pct": 17.9,
+          "perf_1m_pct": -61.7,
+          "perf_3m_pct": -65.4,
+          "high_52w": 233.67,
+          "pct_below_52w_high": 79.9,
+          "high_20d": 117.16,
+          "low_20d": 45.88,
+          "resistance_above": [
+            83.31,
+            110.74,
+            116.9
+          ],
+          "support_below": [
+            45.88
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 50.49,
+          "premarket_low": 45.99,
+          "premarket_last": 49.16,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "HIMS",
+      "description": "Hims & Hers Health, Inc.",
+      "close": 24.06,
+      "premarket_close": 26,
+      "premarket_change": 8.063175394846224,
+      "premarket_volume": 977104,
+      "premarket_high": 26.24,
+      "premarket_low": 24.2,
+      "float_shares_outstanding": 211881389.368,
+      "relative_volume_10d_calc": 1.910539648567589,
+      "average_volume_30d_calc": 9933604.3,
+      "market_cap_basic": 5613520709.036758,
+      "sector": "Health Services",
+      "earnings_release_next_date": 1794258300,
+      "symbol": "NYSE:HIMS",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 24.06,
+          "prior_day_high": 26.57,
+          "prior_day_low": 22.88,
+          "ema20": 27.64,
+          "ema50": 28.55,
+          "sma200": 26.93,
+          "rsi14": 36.0,
+          "atr14": 2.06,
+          "atr_pct": 8.6,
+          "perf_1m_pct": -18.6,
+          "perf_3m_pct": -23.8,
+          "high_52w": 46.82,
+          "pct_below_52w_high": 48.6,
+          "high_20d": 31.79,
+          "low_20d": 22.88,
+          "resistance_above": [
+            29.44,
+            30.02,
+            31.03
+          ],
+          "support_below": [
+            22.88
+          ],
+          "squeeze_sessions_last10": 7,
+          "squeeze_fired": true
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 26.24,
+          "premarket_low": 23.97,
+          "premarket_last": 25.99,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "IONQ",
+      "description": "IonQ, Inc.",
+      "close": 26.43,
+      "premarket_close": 28.5397,
+      "premarket_change": 7.9822171774498685,
+      "premarket_volume": 833865,
+      "premarket_high": 29.1,
+      "premarket_low": 28.22,
+      "float_shares_outstanding": 422930809.728,
+      "relative_volume_10d_calc": 2.031296794688706,
+      "average_volume_30d_calc": 22775504.733333334,
+      "market_cap_basic": 11349245448.369669,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1804075200,
+      "symbol": "NYSE:IONQ",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 26.43,
+          "prior_day_high": 29.12,
+          "prior_day_low": 24.92,
+          "ema20": 32.19,
+          "ema50": 36.1,
+          "sma200": 41.62,
+          "rsi14": 31.1,
+          "atr14": 2.52,
+          "atr_pct": 9.5,
+          "perf_1m_pct": -36.1,
+          "perf_3m_pct": -40.5,
+          "high_52w": 73.65,
+          "pct_below_52w_high": 64.1,
+          "high_20d": 40.24,
+          "low_20d": 24.92,
+          "resistance_above": [
+            33.31,
+            44.43,
+            45.4
+          ],
+          "support_below": [
+            24.92
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 29.1,
+          "premarket_low": 27.78,
+          "premarket_last": 28.59,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "APLD",
+      "description": "Applied Digital Corporation",
+      "close": 14.17,
+      "premarket_close": 15.72,
+      "premarket_change": 10.938602681721953,
+      "premarket_volume": 787916,
+      "premarket_high": 15.84,
+      "premarket_low": 14.75,
+      "float_shares_outstanding": 272682148.31975,
+      "relative_volume_10d_calc": 1.9875290188695534,
+      "average_volume_30d_calc": 27003016.633333325,
+      "market_cap_basic": 4284825584.0704393,
+      "sector": "Technology Services",
+      "earnings_release_next_date": 1799755200,
+      "symbol": "NASDAQ:APLD",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 14.17,
+          "prior_day_high": 16.03,
+          "prior_day_low": 13.11,
+          "ema20": 19.19,
+          "ema50": 22.63,
+          "sma200": 30.94,
+          "rsi14": 31.4,
+          "atr14": 1.89,
+          "atr_pct": 13.3,
+          "perf_1m_pct": -40.5,
+          "perf_3m_pct": -51.5,
+          "high_52w": 50.72,
+          "pct_below_52w_high": 72.1,
+          "high_20d": 24.11,
+          "low_20d": 13.11,
+          "resistance_above": [
+            20.43,
+            21.56,
+            26.85
+          ],
+          "support_below": [
+            13.11
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 15.83,
+          "premarket_low": 14.53,
+          "premarket_last": 15.6,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "OKLO",
+      "description": "Oklo Inc.",
+      "close": 19.2,
+      "premarket_close": 21.18,
+      "premarket_change": 10.312500000000002,
+      "premarket_volume": 763472,
+      "premarket_high": 22,
+      "premarket_low": 19.5,
+      "float_shares_outstanding": 164079781.152,
+      "relative_volume_10d_calc": 2.25310560140782,
+      "average_volume_30d_calc": 9567106.5,
+      "market_cap_basic": 3571539100.470163,
+      "sector": "Producer Manufacturing",
+      "earnings_release_next_date": 1793975400,
+      "symbol": "NYSE:OKLO",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 19.2,
+          "prior_day_high": 22.09,
+          "prior_day_low": 18.53,
+          "ema20": 27.03,
+          "ema50": 32.83,
+          "sma200": 52.46,
+          "rsi14": 18.6,
+          "atr14": 2.07,
+          "atr_pct": 10.8,
+          "perf_1m_pct": -47.9,
+          "perf_3m_pct": -60.3,
+          "high_52w": 123.44,
+          "pct_below_52w_high": 84.4,
+          "high_20d": 35.13,
+          "low_20d": 18.53,
+          "resistance_above": [
+            27.73,
+            39.3,
+            41.29
+          ],
+          "support_below": [
+            18.53
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 22.0,
+          "premarket_low": 19.35,
+          "premarket_last": 21.28,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "MARA",
+      "description": "MARA Holdings, Inc.",
+      "close": 5.875,
+      "premarket_close": 6.2297,
+      "premarket_change": 6.0374468085106425,
+      "premarket_volume": 725633,
+      "premarket_high": 6.27,
+      "premarket_low": 5.96,
+      "float_shares_outstanding": 378118732.37600005,
+      "relative_volume_10d_calc": 1.1505735021396784,
+      "average_volume_30d_calc": 35974883.233333334,
+      "market_cap_basic": 2269508446.5065503,
+      "sector": "Technology Services",
+      "earnings_release_next_date": 1794258000,
+      "symbol": "NASDAQ:MARA",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 5.88,
+          "prior_day_high": 6.82,
+          "prior_day_low": 5.69,
+          "ema20": 7.7,
+          "ema50": 9.24,
+          "sma200": 10.71,
+          "rsi14": 28.1,
+          "atr14": 0.68,
+          "atr_pct": 11.5,
+          "perf_1m_pct": -43.2,
+          "perf_3m_pct": -41.7,
+          "high_52w": 18.04,
+          "pct_below_52w_high": 67.4,
+          "high_20d": 10.09,
+          "low_20d": 5.69,
+          "resistance_above": [
+            7.46,
+            12.32,
+            12.39
+          ],
+          "support_below": [
+            5.69
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 6.27,
+          "premarket_low": 5.92,
+          "premarket_last": 6.25,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "KEEL",
+      "description": "Keel Infrastructure Corp.",
+      "close": 1.65,
+      "premarket_close": 1.791,
+      "premarket_change": 8.545454545454547,
+      "premarket_volume": 674940,
+      "premarket_high": 1.82,
+      "premarket_low": 1.7095,
+      "float_shares_outstanding": 601227100.839,
+      "relative_volume_10d_calc": 2.421304834014092,
+      "average_volume_30d_calc": 28144463,
+      "market_cap_basic": 1018995703,
+      "sector": "Technology Services",
+      "earnings_release_next_date": 1805889600,
+      "symbol": "NASDAQ:KEEL",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 1.65,
+          "prior_day_high": 2.03,
+          "prior_day_low": 1.61,
+          "ema20": 2.38,
+          "ema50": 2.91,
+          "sma200": 3.43,
+          "rsi14": 28.8,
+          "atr14": 0.25,
+          "atr_pct": 14.9,
+          "perf_1m_pct": -50.5,
+          "perf_3m_pct": -57.5,
+          "high_52w": 7.37,
+          "pct_below_52w_high": 77.6,
+          "high_20d": 3.23,
+          "low_20d": 1.61,
+          "resistance_above": [
+            2.43,
+            3.75,
+            3.77
+          ],
+          "support_below": [
+            1.61
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 1.81,
+          "premarket_low": 1.68,
+          "premarket_last": 1.79,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "AXTI",
+      "description": "AXT Inc",
+      "close": 36.72,
+      "premarket_close": 40.3,
+      "premarket_change": 9.749455337690627,
+      "premarket_volume": 573757,
+      "premarket_high": 40.98,
+      "premarket_low": 38.05,
+      "float_shares_outstanding": 62844895.8676,
+      "relative_volume_10d_calc": 1.7411973115940502,
+      "average_volume_30d_calc": 10202462.2,
+      "market_cap_basic": 2407848379.027345,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1802952000,
+      "symbol": "NASDAQ:AXTI",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 36.72,
+          "prior_day_high": 44.02,
+          "prior_day_low": 36.56,
+          "ema20": 56.28,
+          "ema50": 62.7,
+          "sma200": 65.34,
+          "rsi14": 31.8,
+          "atr14": 7.13,
+          "atr_pct": 19.4,
+          "perf_1m_pct": -54.0,
+          "perf_3m_pct": -58.5,
+          "high_52w": 143.16,
+          "pct_below_52w_high": 74.4,
+          "high_20d": 75.49,
+          "low_20d": 36.56,
+          "resistance_above": [
+            61.2,
+            65.2,
+            73.94
+          ],
+          "support_below": [
+            36.56
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 40.98,
+          "premarket_low": 37.82,
+          "premarket_last": 40.26,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "TE",
+      "description": "T1 Energy Inc.",
+      "close": 2.28,
+      "premarket_close": 2.44,
+      "premarket_change": 7.0175438596491295,
+      "premarket_volume": 526358,
+      "premarket_high": 2.5,
+      "premarket_low": 2.34,
+      "float_shares_outstanding": 254229127.15199998,
+      "relative_volume_10d_calc": 1.631722952489625,
+      "average_volume_30d_calc": 19784392.633333333,
+      "market_cap_basic": 682857430.1978022,
+      "sector": "Producer Manufacturing",
+      "earnings_release_next_date": 1794481200,
+      "symbol": "NYSE:TE",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 2.28,
+          "prior_day_high": 2.63,
+          "prior_day_low": 2.07,
+          "ema20": 2.79,
+          "ema50": 3.52,
+          "sma200": 5.97,
+          "rsi14": 36.0,
+          "atr14": 0.34,
+          "atr_pct": 15.1,
+          "perf_1m_pct": -38.9,
+          "perf_3m_pct": -61.0,
+          "high_52w": 12.49,
+          "pct_below_52w_high": 81.7,
+          "high_20d": 3.54,
+          "low_20d": 2.07,
+          "resistance_above": [
+            2.91,
+            4.05,
+            4.52
+          ],
+          "support_below": [
+            2.08,
+            2.07
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 2.5,
+          "premarket_low": 2.29,
+          "premarket_last": 2.45,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "NVTS",
+      "description": "Navitas Semiconductor Corporation",
+      "close": 7.86,
+      "premarket_close": 8.42,
+      "premarket_change": 7.124681933842234,
+      "premarket_volume": 526341,
+      "premarket_high": 8.48,
+      "premarket_low": 8.13,
+      "float_shares_outstanding": 225742313.26500002,
+      "relative_volume_10d_calc": 1.5846318973846294,
+      "average_volume_30d_calc": 16663420.3,
+      "market_cap_basic": 2118329230.5337622,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1804075200,
+      "symbol": "NASDAQ:NVTS",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 7.86,
+          "prior_day_high": 8.87,
+          "prior_day_low": 7.47,
+          "ema20": 9.18,
+          "ema50": 10.49,
+          "sma200": 13.28,
+          "rsi14": 38.0,
+          "atr14": 0.86,
+          "atr_pct": 10.9,
+          "perf_1m_pct": -30.4,
+          "perf_3m_pct": -43.4,
+          "high_52w": 34.17,
+          "pct_below_52w_high": 77.0,
+          "high_20d": 11.29,
+          "low_20d": 7.47,
+          "resistance_above": [
+            9.27,
+            9.44,
+            12.52
+          ],
+          "support_below": [
+            8.27,
+            8.13,
+            7.47
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 8.48,
+          "premarket_low": 8.0,
+          "premarket_last": 8.42,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "SMR",
+      "description": "NuScale Power Corporation",
+      "close": 4.37,
+      "premarket_close": 4.67,
+      "premarket_change": 6.864988558352398,
+      "premarket_volume": 485592,
+      "premarket_high": 4.7,
+      "premarket_low": 4.42,
+      "float_shares_outstanding": 403358788.13,
+      "relative_volume_10d_calc": 1.524733305742814,
+      "average_volume_30d_calc": 30677213.933333334,
+      "market_cap_basic": 1877890759.6666667,
+      "sector": "Producer Manufacturing",
+      "earnings_release_next_date": 1805371200,
+      "symbol": "NYSE:SMR",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 4.37,
+          "prior_day_high": 5.09,
+          "prior_day_low": 4.28,
+          "ema20": 5.84,
+          "ema50": 7.04,
+          "sma200": 10.56,
+          "rsi14": 24.3,
+          "atr14": 0.49,
+          "atr_pct": 11.3,
+          "perf_1m_pct": -43.0,
+          "perf_3m_pct": -55.5,
+          "high_52w": 39.35,
+          "pct_below_52w_high": 88.9,
+          "high_20d": 7.42,
+          "low_20d": 4.28,
+          "resistance_above": [
+            6.11,
+            8.37,
+            9.26
+          ],
+          "support_below": [
+            4.28
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 4.7,
+          "premarket_low": 4.4,
+          "premarket_last": 4.67,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "FLY",
+      "description": "Firefly Aerospace Inc.",
+      "close": 15.175,
+      "premarket_close": 17.1886,
+      "premarket_change": 13.269192751235586,
+      "premarket_volume": 474706,
+      "premarket_high": 17.85,
+      "premarket_low": 15.21,
+      "float_shares_outstanding": 103342740.75195001,
+      "relative_volume_10d_calc": 1.9779791251724526,
+      "average_volume_30d_calc": 3203464.6666666665,
+      "market_cap_basic": 2540365508.0375876,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1794345000,
+      "symbol": "NASDAQ:FLY",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 15.18,
+          "prior_day_high": 16.87,
+          "prior_day_low": 14.44,
+          "ema20": 18.26,
+          "ema50": 20.23,
+          "sma200": 26.91,
+          "rsi14": 33.7,
+          "atr14": 1.53,
+          "atr_pct": 10.1,
+          "perf_1m_pct": -29.5,
+          "perf_3m_pct": -43.2,
+          "high_52w": 62.17,
+          "pct_below_52w_high": 75.6,
+          "high_20d": 20.96,
+          "low_20d": 14.44,
+          "resistance_above": [
+            20.74,
+            23.45,
+            25.58
+          ],
+          "support_below": [
+            15.99,
+            14.44
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 17.86,
+          "premarket_low": 15.21,
+          "premarket_last": 17.17,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "RDW",
+      "description": "Redwire Corporation",
+      "close": 6.19,
+      "premarket_close": 6.4904,
+      "premarket_change": 4.852988691437799,
+      "premarket_volume": 461674,
+      "premarket_high": 6.5282,
+      "premarket_low": 6.34,
+      "float_shares_outstanding": 241070499.837,
+      "relative_volume_10d_calc": 2.265842884301469,
+      "average_volume_30d_calc": 12833038.466666667,
+      "market_cap_basic": 1547454242.910622,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1806580800,
+      "symbol": "NYSE:RDW",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 6.19,
+          "prior_day_high": 7.44,
+          "prior_day_low": 6.06,
+          "ema20": 8.53,
+          "ema50": 9.58,
+          "sma200": 11.01,
+          "rsi14": 26.1,
+          "atr14": 0.71,
+          "atr_pct": 11.4,
+          "perf_1m_pct": -39.6,
+          "perf_3m_pct": -54.5,
+          "high_52w": 26.64,
+          "pct_below_52w_high": 76.8,
+          "high_20d": 9.9,
+          "low_20d": 6.06,
+          "resistance_above": [
+            9.45,
+            11.5,
+            12.07
+          ],
+          "support_below": [
+            6.06
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 6.53,
+          "premarket_low": 6.26,
+          "premarket_last": 6.49,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "RKLB",
+      "description": "Rocket Lab Corporation",
+      "close": 45.99,
+      "premarket_close": 48.6356,
+      "premarket_change": 5.752554903239822,
+      "premarket_volume": 458444,
+      "premarket_high": 49.16,
+      "premarket_low": 47.3668,
+      "float_shares_outstanding": 589338272.6800001,
+      "relative_volume_10d_calc": 2.340777431538646,
+      "average_volume_30d_calc": 20153183.766666666,
+      "market_cap_basic": 27523164621.28585,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1794258300,
+      "symbol": "NASDAQ:RKLB",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 45.99,
+          "prior_day_high": 50.83,
+          "prior_day_low": 43.89,
+          "ema20": 56.28,
+          "ema50": 62.66,
+          "sma200": 79.04,
+          "rsi14": 31.6,
+          "atr14": 4.35,
+          "atr_pct": 9.5,
+          "perf_1m_pct": -36.1,
+          "perf_3m_pct": -44.5,
+          "high_52w": 151.0,
+          "pct_below_52w_high": 69.5,
+          "high_20d": 69.25,
+          "low_20d": 43.89,
+          "resistance_above": [
+            61.13,
+            67.7,
+            75.46
+          ],
+          "support_below": [
+            43.89
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 49.16,
+          "premarket_low": 46.61,
+          "premarket_last": 48.64,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "U",
+      "description": "Unity Software Inc.",
+      "close": 48.8,
+      "premarket_close": 51.99,
+      "premarket_change": 6.53688524590165,
+      "premarket_volume": 447258,
+      "premarket_high": 53.05,
+      "premarket_low": 48.8,
+      "float_shares_outstanding": 358185796.56600004,
+      "relative_volume_10d_calc": 4.789221477955244,
+      "average_volume_30d_calc": 11452633.533333333,
+      "market_cap_basic": 21476339233.707016,
+      "sector": "Technology Services",
+      "earnings_release_next_date": 1801742400,
+      "symbol": "NYSE:U",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 48.8,
+          "prior_day_high": 49.49,
+          "prior_day_low": 44.82,
+          "ema20": 41.78,
+          "ema50": 41.36,
+          "sma200": 31.66,
+          "rsi14": 68.2,
+          "atr14": 2.58,
+          "atr_pct": 5.3,
+          "perf_1m_pct": 7.4,
+          "perf_3m_pct": 13.5,
+          "high_52w": 52.15,
+          "pct_below_52w_high": 6.4,
+          "high_20d": 49.49,
+          "low_20d": 37.1,
+          "resistance_above": [],
+          "support_below": [
+            40.79,
+            40.22,
+            38.44
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 53.05,
+          "premarket_low": 48.8,
+          "premarket_last": 51.79,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "QBTS",
+      "description": "D-Wave Quantum Inc.",
+      "close": 9.05,
+      "premarket_close": 9.4799,
+      "premarket_change": 4.750276243093922,
+      "premarket_volume": 413946,
+      "premarket_high": 9.6787,
+      "premarket_low": 9.15,
+      "float_shares_outstanding": 366222826.33,
+      "relative_volume_10d_calc": 2.083854094708185,
+      "average_volume_30d_calc": 14469843.733333332,
+      "market_cap_basic": 3435621012.4855494,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1794312000,
+      "symbol": "NASDAQ:QBTS",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 9.05,
+          "prior_day_high": 10.14,
+          "prior_day_low": 8.48,
+          "ema20": 11.85,
+          "ema50": 14.25,
+          "sma200": 18.94,
+          "rsi14": 22.6,
+          "atr14": 0.87,
+          "atr_pct": 9.6,
+          "perf_1m_pct": -40.5,
+          "perf_3m_pct": -56.4,
+          "high_52w": 32.39,
+          "pct_below_52w_high": 72.1,
+          "high_20d": 14.86,
+          "low_20d": 8.48,
+          "resistance_above": [
+            12.28,
+            18.48,
+            18.93
+          ],
+          "support_below": [
+            8.48
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 9.66,
+          "premarket_low": 9.14,
+          "premarket_last": 9.48,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "RGTI",
+      "description": "Rigetti Computing, Inc.",
+      "close": 9.85,
+      "premarket_close": 10.28,
+      "premarket_change": 4.365482233502535,
+      "premarket_volume": 392401,
+      "premarket_high": 10.4,
+      "premarket_low": 9.95,
+      "float_shares_outstanding": 326926067.962,
+      "relative_volume_10d_calc": 1.9457218109594752,
+      "average_volume_30d_calc": 14230750.633333333,
+      "market_cap_basic": 3287622078.104371,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1794344700,
+      "symbol": "NASDAQ:RGTI",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 9.85,
+          "prior_day_high": 10.89,
+          "prior_day_low": 9.19,
+          "ema20": 12.02,
+          "ema50": 13.65,
+          "sma200": 16.89,
+          "rsi14": 29.2,
+          "atr14": 0.89,
+          "atr_pct": 9.0,
+          "perf_1m_pct": -32.5,
+          "perf_3m_pct": -45.1,
+          "high_52w": 38.0,
+          "pct_below_52w_high": 74.1,
+          "high_20d": 14.38,
+          "low_20d": 9.19,
+          "resistance_above": [
+            12.59,
+            17.05,
+            17.66
+          ],
+          "support_below": [
+            9.19
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 10.4,
+          "premarket_low": 9.9,
+          "premarket_last": 10.29,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "PURR",
+      "description": "Hyperliquid Strategies Inc",
+      "close": 8.76,
+      "premarket_close": 9.13,
+      "premarket_change": 4.223744292237455,
+      "premarket_volume": 348740,
+      "premarket_high": 9.2,
+      "premarket_low": 8.78,
+      "float_shares_outstanding": 252909653.718,
+      "relative_volume_10d_calc": 1.441526725858988,
+      "average_volume_30d_calc": 16195020.566666666,
+      "market_cap_basic": 2437656226.390093,
+      "sector": "Finance",
+      "earnings_release_next_date": 1802865600,
+      "symbol": "NASDAQ:PURR",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-05",
+          "close": 8.76,
+          "prior_day_high": 9.15,
+          "prior_day_low": 7.99,
+          "ema20": 10.12,
+          "ema50": 10.34,
+          "sma200": 7.78,
+          "rsi14": 41.4,
+          "atr14": 1.04,
+          "atr_pct": 11.9,
+          "perf_1m_pct": -25.3,
+          "perf_3m_pct": 28.6,
+          "high_52w": 14.76,
+          "pct_below_52w_high": 40.7,
+          "high_20d": 12.33,
+          "low_20d": 7.99,
+          "resistance_above": [
+            9.85,
+            12.33,
+            12.93
+          ],
+          "support_below": [
+            8.47,
+            6.53
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-06",
+          "premarket_high": 9.2,
+          "premarket_low": 8.76,
+          "premarket_last": 9.13,
           "bars_5m": 0
         },
         "news": null
