@@ -1,461 +1,146 @@
 {
-  "date": "2026-11-09",
-  "run_at": "2026-11-09 08:35",
+  "date": "2026-11-10",
+  "run_at": "2026-11-10 08:35",
   "profile": "standard",
   "data": "live (logged-in session)",
-  "enrich": "enriched 7/7 daily, 7/7 intraday, with news for top 5; 53s",
-  "total_matches": 7,
+  "enrich": "enriched 2/2 daily, 2/2 intraday, with news for top 2; 14s",
+  "total_matches": 2,
   "rows": [
     {
-      "name": "PLUG",
-      "description": "Plug Power, Inc.",
-      "close": 1.45,
-      "premarket_close": 1.515,
-      "premarket_change": 4.482758620689651,
-      "premarket_volume": 2501847,
-      "premarket_high": 1.55,
-      "premarket_low": 1.45,
-      "float_shares_outstanding": 1333789475.2,
-      "relative_volume_10d_calc": 1.6419797755168857,
-      "average_volume_30d_calc": 53422185.46666667,
-      "market_cap_basic": 2025933093,
-      "sector": "Electronic Technology",
-      "earnings_release_next_date": 1794258060,
-      "symbol": "NASDAQ:PLUG",
+      "name": "SECZ",
+      "description": "Securitize Corp.",
+      "close": 6.97,
+      "premarket_close": 8.67,
+      "premarket_change": 24.39024390243903,
+      "premarket_volume": 610812,
+      "premarket_high": 8.96,
+      "premarket_low": 7.91,
+      "float_shares_outstanding": 139353307.24553,
+      "relative_volume_10d_calc": 1.3753230477366198,
+      "average_volume_30d_calc": 3007968.8,
+      "market_cap_basic": 1137961796.9999998,
+      "sector": "Technology Services",
+      "earnings_release_next_date": 1804248000,
+      "symbol": "NYSE:SECZ",
       "enrich": {
         "daily": {
-          "as_of": "2026-11-06",
-          "close": 1.45,
-          "prior_day_high": 1.48,
-          "prior_day_low": 1.37,
-          "ema20": 1.48,
-          "ema50": 1.72,
-          "sma200": 2.37,
-          "rsi14": 43.8,
-          "atr14": 0.11,
-          "atr_pct": 7.4,
-          "perf_1m_pct": -16.2,
-          "perf_3m_pct": -31.3,
-          "high_52w": 4.33,
-          "pct_below_52w_high": 66.5,
-          "high_20d": 1.68,
-          "low_20d": 1.3,
+          "as_of": "2026-11-09",
+          "close": 6.97,
+          "prior_day_high": 7.17,
+          "prior_day_low": 6.76,
+          "ema20": 8.55,
+          "ema50": 9.36,
+          "sma200": null,
+          "rsi14": 36.6,
+          "atr14": 1.0,
+          "atr_pct": 14.3,
+          "perf_1m_pct": -49.6,
+          "perf_3m_pct": -5.7,
+          "high_52w": 17.01,
+          "pct_below_52w_high": 59.0,
+          "high_20d": 11.68,
+          "low_20d": 6.7,
           "resistance_above": [
-            1.52,
-            2.04,
-            2.19
+            8.73,
+            13.87,
+            17.01
           ],
           "support_below": [
-            1.34,
-            1.3
+            7.43,
+            7.28,
+            6.01
           ],
           "squeeze_sessions_last10": 0,
           "squeeze_fired": false
         },
         "intraday": {
-          "date": "2026-11-09",
-          "premarket_high": 1.55,
-          "premarket_low": 1.44,
-          "premarket_last": 1.51,
+          "date": "2026-11-10",
+          "premarket_high": 8.96,
+          "premarket_low": 7.87,
+          "premarket_last": 8.71,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 0,
+          "tone": "none",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0,
+          "top": []
+        }
+      }
+    },
+    {
+      "name": "BW",
+      "description": "Babcock & Wilcox Enterprises, Inc.",
+      "close": 3.79,
+      "premarket_close": 3.95,
+      "premarket_change": 4.221635883905018,
+      "premarket_volume": 485345,
+      "premarket_high": 4.39,
+      "premarket_low": 3.93,
+      "float_shares_outstanding": 143611793.76000002,
+      "relative_volume_10d_calc": 2.2470239546653157,
+      "average_volume_30d_calc": 4833074.166666667,
+      "market_cap_basic": 564577561.9999999,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1804593600,
+      "symbol": "NYSE:BW",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-09",
+          "close": 3.79,
+          "prior_day_high": 3.91,
+          "prior_day_low": 3.28,
+          "ema20": 4.33,
+          "ema50": 5.72,
+          "sma200": 11.34,
+          "rsi14": 36.9,
+          "atr14": 0.41,
+          "atr_pct": 10.7,
+          "perf_1m_pct": -30.6,
+          "perf_3m_pct": -58.8,
+          "high_52w": 22.03,
+          "pct_below_52w_high": 82.8,
+          "high_20d": 5.0,
+          "low_20d": 3.07,
+          "resistance_above": [
+            4.68,
+            6.14,
+            7.6
+          ],
+          "support_below": [
+            3.07
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-10",
+          "premarket_high": 4.39,
+          "premarket_low": 3.93,
+          "premarket_last": 3.95,
           "bars_5m": 0
         },
         "news": {
           "hours": 48,
           "count": 1,
-          "tone": "neutral",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 1,
-          "top": [
-            {
-              "published_utc": "2026-11-09T10:08:00Z",
-              "title": "Is Plug Power Stock Dead Money, or Is a Comeback Coming?",
-              "publisher": "The Motley Fool",
-              "sentiment": "neutral",
-              "reason": "While the company is showing operational improvements (50% expense reduction, margin improvement), it has a deeply troubled history with $8.7B in cumulative losses, 95% stock decline over 10 years, an",
-              "url": "https://www.fool.com/investing/2026/11/09/is-plug-power-stock-dead-money-or-is-a-comeback-co/?source=iedfolrf0000001"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "AAL",
-      "description": "American Airlines Group, Inc.",
-      "close": 13.18,
-      "premarket_close": 13.7232,
-      "premarket_change": 4.121396054628229,
-      "premarket_volume": 731647,
-      "premarket_high": 13.75,
-      "premarket_low": 13.3,
-      "float_shares_outstanding": 652587951.334,
-      "relative_volume_10d_calc": 0.8088263919368001,
-      "average_volume_30d_calc": 61934472.1,
-      "market_cap_basic": 8733310821.999998,
-      "sector": "Transportation",
-      "earnings_release_next_date": 1801137600,
-      "symbol": "NASDAQ:AAL",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-06",
-          "close": 13.18,
-          "prior_day_high": 13.28,
-          "prior_day_low": 12.97,
-          "ema20": 12.78,
-          "ema50": 13.06,
-          "sma200": 13.48,
-          "rsi14": 54.4,
-          "atr14": 0.59,
-          "atr_pct": 4.5,
-          "perf_1m_pct": 3.0,
-          "perf_3m_pct": -12.1,
-          "high_52w": 18.79,
-          "pct_below_52w_high": 29.9,
-          "high_20d": 13.85,
-          "low_20d": 11.63,
-          "resistance_above": [
-            14.06,
-            14.16,
-            15.53
-          ],
-          "support_below": [
-            13.43,
-            13.1,
-            12.55
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-09",
-          "premarket_high": 13.75,
-          "premarket_low": 13.23,
-          "premarket_last": 13.72,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 0,
-          "tone": "none",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 0,
-          "top": []
-        }
-      }
-    },
-    {
-      "name": "TTD",
-      "description": "The Trade Desk, Inc.",
-      "close": 12.93,
-      "premarket_close": 13.7448,
-      "premarket_change": 6.301624129930394,
-      "premarket_volume": 625250,
-      "premarket_high": 13.8,
-      "premarket_low": 12.94,
-      "float_shares_outstanding": 418426078.37,
-      "relative_volume_10d_calc": 1.082127011831417,
-      "average_volume_30d_calc": 15669406.566666666,
-      "market_cap_basic": 6113245472.999999,
-      "sector": "Technology Services",
-      "earnings_release_next_date": 1794258060,
-      "symbol": "NASDAQ:TTD",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-06",
-          "close": 12.93,
-          "prior_day_high": 13.05,
-          "prior_day_low": 12.56,
-          "ema20": 12.76,
-          "ema50": 13.35,
-          "sma200": 19.5,
-          "rsi14": 51.5,
-          "atr14": 0.59,
-          "atr_pct": 4.6,
-          "perf_1m_pct": 4.8,
-          "perf_3m_pct": -3.4,
-          "high_52w": 47.96,
-          "pct_below_52w_high": 73.0,
-          "high_20d": 13.68,
-          "low_20d": 11.71,
-          "resistance_above": [
-            15.26
-          ],
-          "support_below": [
-            13.71,
-            12.97,
-            12.23
-          ],
-          "squeeze_sessions_last10": 2,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-09",
-          "premarket_high": 13.8,
-          "premarket_low": 12.94,
-          "premarket_last": 13.74,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 2,
           "tone": "negative",
           "positive": 0,
           "negative": 1,
-          "neutral": 1,
+          "neutral": 0,
           "top": [
             {
-              "published_utc": "2026-11-09T12:30:02Z",
-              "title": "Breakfast News: A Boulder Amid a Rocky Market",
-              "publisher": "The Motley Fool",
-              "sentiment": "neutral",
-              "reason": "Ad-tech platform recommended by Motley Fool reporting earnings this week. Exposed to tech sector weakness but no specific performance data provided.",
-              "url": "https://www.fool.com/investing/breakfast-news/2026/11/09/breakfast-news/?source=iedfolrf0000001"
-            },
-            {
-              "published_utc": "2026-11-08T09:22:02Z",
-              "title": "The Trade Desk Stock Has Lost About 89% Since the End of 2024. Its Nov. 9 Report Is the Next Test.",
-              "publisher": "The Motley Fool",
+              "published_utc": "2026-11-09T22:35:03Z",
+              "title": "Babcock & Wilcow Enterprises (BW) Reports Break-Even Earnings for Q3",
+              "publisher": "Zacks Investment Research",
               "sentiment": "negative",
-              "reason": "Stock has lost 89% since end of 2024, recently missed Q2 revenue guidance by $35 million, guidance credibility is questioned, EBITDA expected to be cut in half YoY for Q3, company announced 15% workfo",
-              "url": "https://www.fool.com/investing/2026/11/08/the-trade-desk-stock-has-lost-about-89-since-the-end-of-2024-its-nov-9-report-is-the-next-test/?source=iedfolrf0000001"
+              "reason": "Company missed EPS expectations significantly (break-even vs. $0.03 estimate, -100% surprise), stock has lost 48.7% year-to-date, and received a Hold rating. While revenue beat expectations, the earni",
+              "url": "https://www.zacks.com/stock/news/3026842/babcock-wilcow-enterprises-bw-reports-break-even-earnings-for-q3?cid=CS-ZC-FT-fundamental_analysis|yseop_template_4-3026842"
             }
           ]
         }
-      }
-    },
-    {
-      "name": "VIR",
-      "description": "Vir Biotechnology, Inc.",
-      "close": 12.21,
-      "premarket_close": 13.5,
-      "premarket_change": 10.565110565110556,
-      "premarket_volume": 317462,
-      "premarket_high": 15.28,
-      "premarket_low": 13.18,
-      "float_shares_outstanding": 135702637.61699998,
-      "relative_volume_10d_calc": 1.0437423264071954,
-      "average_volume_30d_calc": 1913634.6666666667,
-      "market_cap_basic": 2091216074.0000002,
-      "sector": "Health Technology",
-      "earnings_release_next_date": 1803556800,
-      "symbol": "NASDAQ:VIR",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-06",
-          "close": 12.21,
-          "prior_day_high": 12.44,
-          "prior_day_low": 11.3,
-          "ema20": 11.22,
-          "ema50": 10.88,
-          "sma200": 9.64,
-          "rsi14": 59.9,
-          "atr14": 0.71,
-          "atr_pct": 5.8,
-          "perf_1m_pct": 9.8,
-          "perf_3m_pct": 37.3,
-          "high_52w": 12.44,
-          "pct_below_52w_high": 1.9,
-          "high_20d": 12.44,
-          "low_20d": 9.91,
-          "resistance_above": [],
-          "support_below": [
-            10.33,
-            10.23,
-            10.03
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-09",
-          "premarket_high": 15.28,
-          "premarket_low": 13.18,
-          "premarket_last": 13.49,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 0,
-          "tone": "none",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 0,
-          "top": []
-        }
-      }
-    },
-    {
-      "name": "QXO",
-      "description": "QXO, Inc.",
-      "close": 11.56,
-      "premarket_close": 12.24,
-      "premarket_change": 5.8823529411764675,
-      "premarket_volume": 160866,
-      "premarket_high": 12.339,
-      "premarket_low": 11.74,
-      "float_shares_outstanding": 964771288.41,
-      "relative_volume_10d_calc": 0.8022719726784561,
-      "average_volume_30d_calc": 21544645.7,
-      "market_cap_basic": 11993393189,
-      "sector": "Distribution Services",
-      "earnings_release_next_date": 1794916800,
-      "symbol": "NYSE:QXO",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-06",
-          "close": 11.56,
-          "prior_day_high": 11.66,
-          "prior_day_low": 11.15,
-          "ema20": 11.35,
-          "ema50": 11.93,
-          "sma200": 16.98,
-          "rsi14": 51.3,
-          "atr14": 0.7,
-          "atr_pct": 6.1,
-          "perf_1m_pct": 4.0,
-          "perf_3m_pct": -24.8,
-          "high_52w": 27.61,
-          "pct_below_52w_high": 58.1,
-          "high_20d": 12.84,
-          "low_20d": 10.04,
-          "resistance_above": [
-            12.59,
-            12.84,
-            13.69
-          ],
-          "support_below": [
-            11.37,
-            11.14,
-            10.04
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-09",
-          "premarket_high": 12.34,
-          "premarket_low": 11.74,
-          "premarket_last": 12.24,
-          "bars_5m": 0
-        },
-        "news": {
-          "hours": 48,
-          "count": 0,
-          "tone": "none",
-          "positive": 0,
-          "negative": 0,
-          "neutral": 0,
-          "top": []
-        }
-      }
-    },
-    {
-      "name": "SGRY",
-      "description": "Surgery Partners, Inc.",
-      "close": 23.2,
-      "premarket_close": 25.22,
-      "premarket_change": 8.706896551724135,
-      "premarket_volume": 112845,
-      "premarket_high": 25.4,
-      "premarket_low": 23.3,
-      "float_shares_outstanding": 76785013.75,
-      "relative_volume_10d_calc": 0.29299147884805193,
-      "average_volume_30d_calc": 4709949.333333333,
-      "market_cap_basic": 2989895496,
-      "sector": "Health Services",
-      "earnings_release_next_date": 1794312000,
-      "symbol": "NASDAQ:SGRY",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-06",
-          "close": 23.2,
-          "prior_day_high": 23.23,
-          "prior_day_low": 23.17,
-          "ema20": 20.07,
-          "ema50": 17.38,
-          "sma200": 14.81,
-          "rsi14": 85.4,
-          "atr14": 0.63,
-          "atr_pct": 2.7,
-          "perf_1m_pct": 70.1,
-          "perf_3m_pct": 45.5,
-          "high_52w": 23.37,
-          "pct_below_52w_high": 0.7,
-          "high_20d": 23.37,
-          "low_20d": 13.68,
-          "resistance_above": [],
-          "support_below": [
-            23.12,
-            13.59,
-            13.52
-          ],
-          "squeeze_sessions_last10": 0,
-          "squeeze_fired": false
-        },
-        "intraday": {
-          "date": "2026-11-09",
-          "premarket_high": 25.25,
-          "premarket_low": 23.3,
-          "premarket_last": 25.25,
-          "bars_5m": 0
-        },
-        "news": null
-      }
-    },
-    {
-      "name": "STLN",
-      "description": "Starling Oncology, Inc.",
-      "close": 3.62,
-      "premarket_close": 3.86,
-      "premarket_change": 6.629834254143639,
-      "premarket_volume": 104411,
-      "premarket_high": 4.1599,
-      "premarket_low": 3.7,
-      "float_shares_outstanding": 70038821.3132,
-      "relative_volume_10d_calc": 16.885763977996817,
-      "average_volume_30d_calc": 2001120.7,
-      "market_cap_basic": 361938205.99999994,
-      "sector": "Health Services",
-      "earnings_release_next_date": 1804766400,
-      "symbol": "NASDAQ:STLN",
-      "enrich": {
-        "daily": {
-          "as_of": "2026-11-06",
-          "close": 3.62,
-          "prior_day_high": 6.43,
-          "prior_day_low": 3.35,
-          "ema20": 6.3,
-          "ema50": 6.31,
-          "sma200": 4.76,
-          "rsi14": 25.3,
-          "atr14": 0.59,
-          "atr_pct": 16.4,
-          "perf_1m_pct": -41.4,
-          "perf_3m_pct": -41.2,
-          "high_52w": 7.13,
-          "pct_below_52w_high": 49.2,
-          "high_20d": 7.04,
-          "low_20d": 3.35,
-          "resistance_above": [
-            6.8,
-            6.85,
-            6.96
-          ],
-          "support_below": [
-            3.35
-          ],
-          "squeeze_sessions_last10": 9,
-          "squeeze_fired": true
-        },
-        "intraday": {
-          "date": "2026-11-09",
-          "premarket_high": 4.16,
-          "premarket_low": 3.7,
-          "premarket_last": 3.86,
-          "bars_5m": 0
-        },
-        "news": null
       }
     }
   ]
