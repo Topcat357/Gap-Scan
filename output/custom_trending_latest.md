@@ -1,97 +1,62 @@
-# Trending after the open - 2026-11-10 10:35 ET
-Data: live (logged-in session). 19 matches, top 19 by relative_volume_intraday|5.
+# Trending after the open - 2026-11-11 10:35 ET
+Data: live (logged-in session). 12 matches, top 12 by relative_volume_intraday|5.
 
-**SECZ** (NYSE:SECZ) - Securitize Corp.
-- $9.86 | day 41.5% | from open 10.9% | VWAP $9.33
-- Intraday RVOL 9.5 | RSI 55 | Float 139.4M | Mkt cap 1.6B
-- Sector: Technology Services | Next earnings: 2027-03-05
+**ERAS** (NASDAQ:ERAS) - Erasca, Inc.
+- $16.61 | day 7.3% | from open 5.3% | VWAP $16.28
+- Intraday RVOL 6.0 | RSI 61 | Float 247.2M | Mkt cap 5.8B
+- Sector: Health Technology | Next earnings: 2026-11-11 (EARNINGS SOON)
 
-**AAON** (NASDAQ:AAON) - AAON, Inc.
-- $77.32 | day 23.0% | from open 7.9% | VWAP $75.08
-- Intraday RVOL 8.0 | RSI 55 | Float 68.9M | Mkt cap 6.4B
-- Sector: Producer Manufacturing | Next earnings: 2027-03-01
+**SONO** (NASDAQ:SONO) - Sonos, Inc.
+- $18.39 | day 8.9% | from open 5.1% | VWAP $18.14
+- Intraday RVOL 5.6 | RSI 62 | Float 116.2M | Mkt cap 2.2B
+- Sector: Consumer Durables | Next earnings: 2027-02-10
 
-**CSQR** (NYSE:CSQR) - Csquare, Inc.
-- $17.85 | day 16.9% | from open 4.4% | VWAP $17.68
-- Intraday RVOL 5.4 | RSI 62 | Float 58.8M | Mkt cap 3.0B
-- Sector: Technology Services | Next earnings: 2027-03-03
+**STUB** (NYSE:STUB) - StubHub Holdings, Inc.
+- $5.54 | day -2.0% | from open 3.5% | VWAP $5.40
+- Intraday RVOL 3.8 | RSI 42 | Float 270.4M | Mkt cap 2.1B
+- Sector: Technology Services | Next earnings: 2027-03-10
 
-**ACAD** (NASDAQ:ACAD) - ACADIA Pharmaceuticals Inc.
-- $17.37 | day 5.3% | from open 5.9% | VWAP $17.16
-- Intraday RVOL 4.5 | RSI 32 | Float 170.6M | Mkt cap 3.0B
-- Sector: Health Technology | Next earnings: 2027-03-01
+**CRWV** (NASDAQ:CRWV) - CoreWeave, Inc.
+- $59.14 | day 21.4% | from open 5.7% | VWAP $57.47
+- Intraday RVOL 3.8 | RSI 48 | Float 349.3M | Mkt cap 32.6B
+- Sector: Technology Services | Next earnings: 2027-03-04
 
-**JBS** (NYSE:JBS) - JBS N.V.
-- $12.81 | day -2.4% | from open 3.9% | VWAP $12.64
-- Intraday RVOL 4.4 | RSI 54 | Float 348.8M | Mkt cap 13.7B
-- Sector: Consumer Non-Durables | Next earnings: 2027-03-31
+**ASPN** (NYSE:ASPN) - Aspen Aerogels, Inc.
+- $6.29 | day 10.1% | from open 6.0% | VWAP $6.18
+- Intraday RVOL 3.7 | RSI 62 | Float 81.9M | Mkt cap 523.3M
+- Sector: Process Industries | Next earnings: 2027-02-18
 
-**TRVI** (NASDAQ:TRVI) - Trevi Therapeutics, Inc.
-- $14.56 | day -4.9% | from open 3.1% | VWAP $14.48
-- Intraday RVOL 4.4 | RSI 56 | Float 103.0M | Mkt cap 2.1B
-- Sector: Health Technology | Next earnings: 2027-03-23
+**BW** (NYSE:BW) - Babcock & Wilcox Enterprises, Inc.
+- $5.20 | day 16.0% | from open 8.2% | VWAP $5.09
+- Intraday RVOL 3.6 | RSI 56 | Float 140.2M | Mkt cap 755.6M
+- Sector: Electronic Technology | Next earnings: 2027-03-09
 
-**WTTR** (NYSE:WTTR) - Select Water Solutions, Inc.
-- $15.00 | day -0.5% | from open 3.3% | VWAP $14.78
-- Intraday RVOL 4.1 | RSI 30 | Float 118.0M | Mkt cap 1.9B
-- Sector: Energy Minerals | Next earnings: 2027-02-23
-
-**KLRA** (NASDAQ:KLRA) - Kailera Therapeutics, Inc.
-- $14.40 | day 5.1% | from open 3.7% | VWAP $14.23
-- Intraday RVOL 3.8 | RSI 62 | Float 56.8M | Mkt cap 1.9B
-- Sector: Health Technology | Next earnings: 2027-03-03
+**RUM** (NASDAQ:RUM) - RUM Group Inc.
+- $5.64 | day 10.4% | from open 5.2% | VWAP $5.48
+- Intraday RVOL 3.1 | RSI 46 | Float 132.4M | Mkt cap 2.8B
+- Sector: Technology Services | Next earnings: 2027-03-31
 
 **ZETA** (NYSE:ZETA) - Zeta Global Holdings Corp.
-- $34.73 | day 7.1% | from open 4.4% | VWAP $33.66
-- Intraday RVOL 3.7 | RSI 60 | Float 223.5M | Mkt cap 8.7B
+- $37.57 | day 7.1% | from open 4.4% | VWAP $37.15
+- Intraday RVOL 2.7 | RSI 67 | Float 223.5M | Mkt cap 9.4B
 - Sector: Technology Services | Next earnings: 2027-03-02
 
-**KVYO** (NYSE:KVYO) - Klaviyo, Inc. Series A
-- $20.46 | day -1.7% | from open 3.5% | VWAP $20.02
-- Intraday RVOL 3.6 | RSI 57 | Float 119.0M | Mkt cap 5.8B
-- Sector: Technology Services | Next earnings: 2027-03-02
+**GRPN** (NASDAQ:GRPN) - Groupon, Inc.
+- $13.20 | day 5.5% | from open 4.3% | VWAP $12.91
+- Intraday RVOL 2.4 | RSI 34 | Float 32.4M | Mkt cap 527.9M
+- Sector: Retail Trade | Next earnings: 2027-03-16
 
-**SBH** (NYSE:SBH) - Sally Beauty Holdings, Inc. (Name to be changed from Sally Holdings, Inc.)
-- $19.63 | day 0.7% | from open 7.0% | VWAP $19.47
-- Intraday RVOL 3.4 | RSI 66 | Float 92.3M | Mkt cap 1.8B
-- Sector: Retail Trade | Next earnings: 2027-02-04
+**CAPR** (NASDAQ:CAPR) - Capricor Therapeutics, Inc.
+- $10.25 | day 15.6% | from open 6.2% | VWAP $9.89
+- Intraday RVOL 2.3 | RSI 66 | Float 52.7M | Mkt cap 595.9M
+- Sector: Health Technology | Next earnings: 2027-03-11
 
-**TNGX** (NASDAQ:TNGX) - Tango Therapeutics, Inc.
-- $23.67 | day 4.1% | from open 4.1% | VWAP $23.55
-- Intraday RVOL 2.6 | RSI 52 | Float 124.2M | Mkt cap 4.0B
-- Sector: Health Technology | Next earnings: 2027-03-29
+**EQPT** (NASDAQ:EQPT) - EquipmentShare.com Inc
+- $14.58 | day 7.7% | from open 6.3% | VWAP $14.33
+- Intraday RVOL 2.3 | RSI 45 | Float 107.7M | Mkt cap 3.7B
+- Sector: Technology Services | Next earnings: 2027-03-24
 
-**MARA** (NASDAQ:MARA) - MARA Holdings, Inc.
-- $7.45 | day 12.1% | from open 13.5% | VWAP $7.17
-- Intraday RVOL 2.4 | RSI 46 | Float 378.1M | Mkt cap 2.9B
-- Sector: Technology Services | Next earnings: 2027-03-03
-
-**DHT** (NYSE:DHT) - DHT Holdings, Inc.
-- $20.57 | day 0.0% | from open 5.0% | VWAP $20.20
-- Intraday RVOL 2.2 | RSI 34 | Float 143.4M | Mkt cap 3.3B
-- Sector: Transportation | Next earnings: 2027-02-10
-
-**NAMS** (NASDAQ:NAMS) - NewAmsterdam Pharma Company N.V.
-- $19.62 | day 3.3% | from open 3.4% | VWAP $19.52
-- Intraday RVOL 2.2 | RSI 43 | Float 77.5M | Mkt cap 2.4B
-- Sector: Health Technology | Next earnings: 2027-03-03
-
-**QNT** (NASDAQ:QNT) - Quantinuum Inc.
-- $42.52 | day 6.2% | from open 8.5% | VWAP $41.47
-- Intraday RVOL 2.1 | RSI 57 | Float 33.7M | Mkt cap 11.0B
-- Sector: Electronic Technology | Next earnings: 2027-02-18
-
-**AVTX** (NASDAQ:AVTX) - Avalo Therapeutics, Inc.
-- $7.29 | day 0.3% | from open 3.2% | VWAP $7.28
-- Intraday RVOL 2.1 | RSI 30 | Float 51.8M | Mkt cap 421.8M
-- Sector: Health Technology | Next earnings: 2027-03-31
-
-**GRNT** (NYSE:GRNT) - Granite Ridge Resources, Inc.
-- $5.87 | day 3.5% | from open 5.6% | VWAP $5.75
-- Intraday RVOL 2.1 | RSI 62 | Float 66.8M | Mkt cap 774.5M
-- Sector: Energy Minerals | Next earnings: 2027-03-11
-
-**RKLB** (NASDAQ:RKLB) - Rocket Lab Corporation
-- $59.67 | day 1.4% | from open 8.5% | VWAP $58.19
-- Intraday RVOL 2.1 | RSI 52 | Float 589.3M | Mkt cap 35.7B
-- Sector: Electronic Technology | Next earnings: 2027-03-04
+**FLY** (NASDAQ:FLY) - Firefly Aerospace Inc.
+- $25.89 | day 9.2% | from open 8.8% | VWAP $25.30
+- Intraday RVOL 2.1 | RSI 66 | Float 103.3M | Mkt cap 4.3B
+- Sector: Electronic Technology | Next earnings: 2027-03-25
