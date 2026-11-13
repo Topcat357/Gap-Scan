@@ -1,13 +1,17 @@
-# Gappers Holding - 2026-11-12 10:35 ET
+# Gappers Holding - 2026-11-13 11:04 ET
 
 ## Above premarket high (strongest)
-- **AVEX** $14.55 (20.0%) | open $13.65 | PM high $14.34 / low $12.90 | intraday RVOL 6.2
+- **NU** $12.97 (9.7%) | open $12.36 | PM high $12.52 / low $12.17 | intraday RVOL 2.9
+- **NUAI** $3.00 (10.3%) | open $2.94 | PM high $2.98 / low $2.67 | intraday RVOL 1.9
 
 ## Holding above open and PM low
-- **FRMI** $1.94 (6.9%) | open $1.70 | PM high $2.22 / low $1.59 | intraday RVOL 3.9
-- **FIGR** $26.96 (11.5%) | open $25.34 | PM high $27.32 / low $23.91 | intraday RVOL 4.2
+- none
 
 ## Failing (below open or PM low) - skip
-- **LUNR** $13.76 (12.9%) | open $14.35 | PM high $14.65 / low $11.91 | intraday RVOL 3.8
+- **RZLT** $3.73 (-3.7%) | open $4.56 | PM high $4.62 / low $3.70 | intraday RVOL 10.7
+- **SLS** $8.20 (2.1%) | open $8.69 | PM high $9.81 / low $8.36 | intraday RVOL 1.5
+- **EOSE** $1.75 (-3.3%) | open $1.90 | PM high $1.93 / low $1.81 | intraday RVOL 0.7
+- **TMC** $2.29 (-0.4%) | open $2.55 | PM high $2.60 / low $2.32 | intraday RVOL 1.2
+- **VISN** $4.04 (1.1%) | open $4.21 | PM high $4.28 / low $4.08 | intraday RVOL 1.3
 
 Confirm the 5-minute opening range on the chart before entering.
