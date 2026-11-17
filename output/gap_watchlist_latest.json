@@ -1,30 +1,134 @@
 {
-  "date": "2026-11-16",
-  "run_at": "2026-11-16 08:35",
+  "date": "2026-11-17",
+  "run_at": "2026-11-17 08:34",
   "profile": "standard",
   "data": "live (logged-in session)",
-  "enrich": "enriched 0/1 daily, 0/1 intraday, with news for top 1; 1s",
-  "total_matches": 1,
+  "enrich": "enriched 6/6 daily, 6/6 intraday, with news for top 5; 53s",
+  "total_matches": 6,
   "rows": [
     {
-      "name": "CGON",
-      "description": "CG Oncology, Inc.",
-      "close": 74.4,
-      "premarket_close": 97.5,
-      "premarket_change": 31.04838709677418,
-      "premarket_volume": 170728,
-      "premarket_high": 107.5838,
-      "premarket_low": 72.8,
-      "float_shares_outstanding": 59547226.904520005,
-      "relative_volume_10d_calc": 2.4797790597512535,
-      "average_volume_30d_calc": 1099238.3333333333,
-      "market_cap_basic": 6645327511,
+      "name": "SLS",
+      "description": "SELLAS Life Sciences Group, Inc.",
+      "close": 7.47,
+      "premarket_close": 32.1,
+      "premarket_change": 329.7188755020081,
+      "premarket_volume": 5760629,
+      "premarket_high": 34.19,
+      "premarket_low": 7.46,
+      "float_shares_outstanding": 201593311.074,
+      "relative_volume_10d_calc": 1.115835349152012,
+      "average_volume_30d_calc": 6990564.066666666,
+      "market_cap_basic": 1522827893,
       "sector": "Health Technology",
-      "earnings_release_next_date": 1806062400,
-      "symbol": "NASDAQ:CGON",
+      "earnings_release_next_date": 1805976000,
+      "symbol": "NASDAQ:SLS",
       "enrich": {
-        "daily": null,
-        "intraday": null,
+        "daily": {
+          "as_of": "2026-11-16",
+          "close": 7.47,
+          "prior_day_high": 8.39,
+          "prior_day_low": 7.24,
+          "ema20": 9.22,
+          "ema50": 10.41,
+          "sma200": 8.8,
+          "rsi14": 32.6,
+          "atr14": 0.98,
+          "atr_pct": 13.1,
+          "perf_1m_pct": -25.2,
+          "perf_3m_pct": -43.0,
+          "high_52w": 15.88,
+          "pct_below_52w_high": 53.0,
+          "high_20d": 12.44,
+          "low_20d": 7.14,
+          "resistance_above": [],
+          "support_below": [
+            12.64,
+            11.2,
+            11.1
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-17",
+          "premarket_high": 34.0,
+          "premarket_low": 7.51,
+          "premarket_last": 32.19,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 1,
+          "tone": "positive",
+          "positive": 1,
+          "negative": 0,
+          "neutral": 0,
+          "top": [
+            {
+              "published_utc": "2026-11-17T12:00:00Z",
+              "title": "SELLAS Life Sciences Announces Positive Pivotal Phase 3 REGAL Trial Data Showing Immunotherapeutic Cancer Vaccine, Galinpepimut-S (GPS), Demonstrated a Statistically Significant and Clinically Meaningful Improvement in Overall Survival in Patients with Acute Myeloid Leukemia",
+              "publisher": "GlobeNewswire Inc.",
+              "sentiment": "positive",
+              "reason": "The company achieved its primary endpoint in a pivotal Phase 3 trial with statistically significant and clinically meaningful improvement in overall survival (41% reduction in death risk). This repres",
+              "url": "https://www.globenewswire.com/news-release/2026/11/17/3404429/0/en/sellas-life-sciences-announces-positive-pivotal-phase-3-regal-trial-data-showing-immunotherapeutic-cancer-vaccine-galinpepimut-s-gps-demonstrated-a-statistically-significant-and-cl.html"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "AAOI",
+      "description": "Applied Optoelectronics, Inc.",
+      "close": 45.16,
+      "premarket_close": 48.6001,
+      "premarket_change": 7.617581930912315,
+      "premarket_volume": 960293,
+      "premarket_high": 49.99,
+      "premarket_low": 43.77,
+      "float_shares_outstanding": 86091742.7271,
+      "relative_volume_10d_calc": 0.6366263557091668,
+      "average_volume_30d_calc": 13598363.8,
+      "market_cap_basic": 4099206454.9999995,
+      "sector": "Electronic Technology",
+      "earnings_release_next_date": 1803556800,
+      "symbol": "NASDAQ:AAOI",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-16",
+          "close": 45.16,
+          "prior_day_high": 47.88,
+          "prior_day_low": 44.78,
+          "ema20": 62.85,
+          "ema50": 81.55,
+          "sma200": 114.98,
+          "rsi14": 32.0,
+          "atr14": 7.54,
+          "atr_pct": 16.7,
+          "perf_1m_pct": -40.2,
+          "perf_3m_pct": -65.6,
+          "high_52w": 233.67,
+          "pct_below_52w_high": 80.7,
+          "high_20d": 83.31,
+          "low_20d": 44.78,
+          "resistance_above": [
+            57.94,
+            83.31,
+            110.74
+          ],
+          "support_below": [
+            45.15,
+            44.78
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-17",
+          "premarket_high": 49.99,
+          "premarket_low": 43.77,
+          "premarket_last": 48.63,
+          "bars_5m": 0
+        },
         "news": {
           "hours": 48,
           "count": 0,
@@ -34,6 +138,252 @@
           "neutral": 0,
           "top": []
         }
+      }
+    },
+    {
+      "name": "AS",
+      "description": "Amer Sports, Inc.",
+      "close": 29.1,
+      "premarket_close": 30.49,
+      "premarket_change": 4.7766323024054875,
+      "premarket_volume": 602823,
+      "premarket_high": 31.11,
+      "premarket_low": 28.5,
+      "float_shares_outstanding": 184934449.988,
+      "relative_volume_10d_calc": 2.389450765573424,
+      "average_volume_30d_calc": 5767215.133333334,
+      "market_cap_basic": 16931021046.999998,
+      "sector": "Consumer Durables",
+      "earnings_release_next_date": 1794913200,
+      "symbol": "NYSE:AS",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-16",
+          "close": 29.1,
+          "prior_day_high": 30.05,
+          "prior_day_low": 28.69,
+          "ema20": 30.12,
+          "ema50": 29.92,
+          "sma200": 33.36,
+          "rsi14": 44.7,
+          "atr14": 1.18,
+          "atr_pct": 4.0,
+          "perf_1m_pct": -3.1,
+          "perf_3m_pct": -13.4,
+          "high_52w": 42.76,
+          "pct_below_52w_high": 31.9,
+          "high_20d": 32.93,
+          "low_20d": 27.8,
+          "resistance_above": [
+            30.75,
+            32.93,
+            34.84
+          ],
+          "support_below": [
+            27.8,
+            26.74,
+            26.52
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-17",
+          "premarket_high": 31.1,
+          "premarket_low": 28.5,
+          "premarket_last": 30.49,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 0,
+          "tone": "none",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0,
+          "top": []
+        }
+      }
+    },
+    {
+      "name": "RZLV",
+      "description": "Rezolve AI PLC",
+      "close": 1.08,
+      "premarket_close": 1.14,
+      "premarket_change": 5.555555555555539,
+      "premarket_volume": 310832,
+      "premarket_high": 1.1488,
+      "premarket_low": 1.07,
+      "float_shares_outstanding": 250255988.65469998,
+      "relative_volume_10d_calc": 1.1275966452634376,
+      "average_volume_30d_calc": 8943986.533333333,
+      "market_cap_basic": 450218426,
+      "sector": "Technology Services",
+      "earnings_release_next_date": 1809000000,
+      "symbol": "NASDAQ:RZLV",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-16",
+          "close": 1.08,
+          "prior_day_high": 1.16,
+          "prior_day_low": 1.02,
+          "ema20": 1.43,
+          "ema50": 1.75,
+          "sma200": 2.39,
+          "rsi14": 26.7,
+          "atr14": 0.12,
+          "atr_pct": 11.3,
+          "perf_1m_pct": -38.3,
+          "perf_3m_pct": -55.9,
+          "high_52w": 4.97,
+          "pct_below_52w_high": 78.3,
+          "high_20d": 1.69,
+          "low_20d": 1.02,
+          "resistance_above": [
+            1.48,
+            1.53,
+            1.86
+          ],
+          "support_below": [
+            1.02
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-17",
+          "premarket_high": 1.15,
+          "premarket_low": 1.07,
+          "premarket_last": 1.14,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 0,
+          "tone": "none",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0,
+          "top": []
+        }
+      }
+    },
+    {
+      "name": "PCT",
+      "description": "PureCycle Technologies, Inc.",
+      "close": 1.68,
+      "premarket_close": 1.79,
+      "premarket_change": 6.547619047619054,
+      "premarket_volume": 111719,
+      "premarket_high": 1.8354,
+      "premarket_low": 1.71,
+      "float_shares_outstanding": 193180208.172,
+      "relative_volume_10d_calc": 0.44023861383041707,
+      "average_volume_30d_calc": 7970205.766666667,
+      "market_cap_basic": 337683476,
+      "sector": "Industrial Services",
+      "earnings_release_next_date": 1804680000,
+      "symbol": "NASDAQ:PCT",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-16",
+          "close": 1.68,
+          "prior_day_high": 1.82,
+          "prior_day_low": 1.63,
+          "ema20": 2.52,
+          "ema50": 3.67,
+          "sma200": 6.8,
+          "rsi14": 26.3,
+          "atr14": 0.34,
+          "atr_pct": 20.3,
+          "perf_1m_pct": -45.3,
+          "perf_3m_pct": -75.6,
+          "high_52w": 14.19,
+          "pct_below_52w_high": 88.2,
+          "high_20d": 3.53,
+          "low_20d": 1.6,
+          "resistance_above": [
+            3.53,
+            5.87,
+            6.76
+          ],
+          "support_below": [
+            1.6
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-17",
+          "premarket_high": 1.84,
+          "premarket_low": 1.71,
+          "premarket_last": 1.79,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 0,
+          "tone": "none",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0,
+          "top": []
+        }
+      }
+    },
+    {
+      "name": "FWDI",
+      "description": "Forward Industries, Inc.",
+      "close": 4.265,
+      "premarket_close": 4.46,
+      "premarket_change": 4.572098475967182,
+      "premarket_volume": 100609,
+      "premarket_high": 4.5386,
+      "premarket_low": 4.09,
+      "float_shares_outstanding": 66051010.153799996,
+      "relative_volume_10d_calc": 1.9624539235658454,
+      "average_volume_30d_calc": 1633134.7333333334,
+      "market_cap_basic": 325369230,
+      "sector": "Finance",
+      "earnings_release_next_date": 1797508800,
+      "symbol": "NASDAQ:FWDI",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-16",
+          "close": 4.27,
+          "prior_day_high": 4.62,
+          "prior_day_low": 4.21,
+          "ema20": 5.89,
+          "ema50": 6.27,
+          "sma200": 5.2,
+          "rsi14": 26.8,
+          "atr14": 0.51,
+          "atr_pct": 11.9,
+          "perf_1m_pct": -38.2,
+          "perf_3m_pct": -5.9,
+          "high_52w": 9.54,
+          "pct_below_52w_high": 55.2,
+          "high_20d": 7.63,
+          "low_20d": 4.21,
+          "resistance_above": [
+            6.78,
+            7.0,
+            7.14
+          ],
+          "support_below": [
+            4.21
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-17",
+          "premarket_high": 4.54,
+          "premarket_low": 4.18,
+          "premarket_last": 4.54,
+          "bars_5m": 0
+        },
+        "news": null
       }
     }
   ]
