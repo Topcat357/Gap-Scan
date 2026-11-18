@@ -1,39 +1,51 @@
-# Premarket Gappers - 2026-11-17 08:34 ET (standard)
-Data: live (logged-in session). 6 matches, top 6 by premarket volume.
+# Premarket Gappers - 2026-11-18 08:34 ET (standard)
+Data: live (logged-in session). 8 matches, top 8 by premarket volume.
 No news check here - the brief grades catalysts.
 
-**SLS** (NASDAQ:SLS) - SELLAS Life Sciences Group, Inc.
-- Gap 329.7% | PM $32.10 (prev close $7.47)
-- PM vol 5.8M | PM high $34.19 / low $7.46
-- Float 201.6M | Mkt cap 1.5B | Avg vol 7.0M
-- Sector: Health Technology | Next earnings: 2027-03-25
+**WULF** (NASDAQ:WULF) - TeraWulf Inc.
+- Gap 5.2% | PM $12.28 (prev close $11.67)
+- PM vol 598.3K | PM high $12.41 / low $12.11
+- Float 350.6M | Mkt cap 5.9B | Avg vol 49.1M
+- Sector: Technology Services | Next earnings: 2027-02-26
 
-**AAOI** (NASDAQ:AAOI) - Applied Optoelectronics, Inc.
-- Gap 7.6% | PM $48.60 (prev close $45.16)
-- PM vol 960.3K | PM high $49.99 / low $43.77
-- Float 86.1M | Mkt cap 4.1B | Avg vol 13.6M
-- Sector: Electronic Technology | Next earnings: 2027-02-25
+**ZIM** (NYSE:ZIM) - ZIM Integrated Shipping Services Ltd.
+- Gap 4.1% | PM $30.90 (prev close $29.69)
+- PM vol 527.6K | PM high $31.45 / low $29.88
+- Float 120.5M | Mkt cap 3.6B | Avg vol 1.1M
+- Sector: Transportation | Next earnings: 2027-03-15
 
-**AS** (NYSE:AS) - Amer Sports, Inc.
-- Gap 4.8% | PM $30.49 (prev close $29.10)
-- PM vol 602.8K | PM high $31.11 / low $28.50
-- Float 184.9M | Mkt cap 16.9B | Avg vol 5.8M
-- Sector: Consumer Durables | Next earnings: 2026-11-17 (EARNINGS SOON)
+**CIFR** (NASDAQ:CIFR) - Cipher Digital Inc.
+- Gap 4.2% | PM $6.69 (prev close $6.42)
+- PM vol 517.4K | PM high $6.89 / low $6.64
+- Float 378.8M | Mkt cap 2.9B | Avg vol 55.1M
+- Sector: Technology Services | Next earnings: 2027-03-02
 
-**RZLV** (NASDAQ:RZLV) - Rezolve AI PLC
-- Gap 5.6% | PM $1.14 (prev close $1.08)
-- PM vol 310.8K | PM high $1.15 / low $1.07
-- Float 250.3M | Mkt cap 450.2M | Avg vol 8.9M
-- Sector: Technology Services | Next earnings: 2027-04-29
+**EOSE** (NASDAQ:EOSE) - Eos Energy Enterprises, Inc.
+- Gap 4.7% | PM $1.56 (prev close $1.49)
+- PM vol 361.4K | PM high $1.59 / low $1.54
+- Float 358.8M | Mkt cap 545.9M | Avg vol 26.8M
+- Sector: Producer Manufacturing | Next earnings: 2027-02-19
 
-**PCT** (NASDAQ:PCT) - PureCycle Technologies, Inc.
-- Gap 6.5% | PM $1.79 (prev close $1.68)
-- PM vol 111.7K | PM high $1.84 / low $1.71
-- Float 193.2M | Mkt cap 337.7M | Avg vol 8.0M
-- Sector: Industrial Services | Next earnings: 2027-03-10
+**APLD** (NASDAQ:APLD) - Applied Digital Corporation
+- Gap 4.1% | PM $14.80 (prev close $14.22)
+- PM vol 257.0K | PM high $15.23 / low $14.68
+- Float 272.7M | Mkt cap 4.3B | Avg vol 28.6M
+- Sector: Technology Services | Next earnings: 2027-01-12
 
-**FWDI** (NASDAQ:FWDI) - Forward Industries, Inc.
-- Gap 4.6% | PM $4.46 (prev close $4.26)
-- PM vol 100.6K | PM high $4.54 / low $4.09
-- Float 66.1M | Mkt cap 325.4M | Avg vol 1.6M
-- Sector: Finance | Next earnings: 2026-12-17
+**BORR** (NYSE:BORR) - Borr Drilling Limited
+- Gap 8.0% | PM $3.43 (prev close $3.18)
+- PM vol 187.6K | PM high $3.48 / low $3.30
+- Float 254.1M | Mkt cap 981.1M | Avg vol 10.0M
+- Sector: Industrial Services | Next earnings: 2026-11-18 (EARNINGS SOON)
+
+**SVRA** (NASDAQ:SVRA) - Savara, Inc.
+- Gap 5.4% | PM $4.72 (prev close $4.48)
+- PM vol 161.8K | PM high $4.91 / low $4.61
+- Float 110.6M | Mkt cap 988.4M | Avg vol 2.8M
+- Sector: Health Technology | Next earnings: 2027-04-01
+
+**CAPR** (NASDAQ:CAPR) - Capricor Therapeutics, Inc.
+- Gap 5.6% | PM $8.88 (prev close $8.41)
+- PM vol 145.7K | PM high $9.15 / low $8.78
+- Float 52.7M | Mkt cap 489.0M | Avg vol 3.6M
+- Sector: Health Technology | Next earnings: 2027-03-11
