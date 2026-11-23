@@ -1,0 +1,656 @@
+{
+  "name": "cand2",
+  "title": "Custom scan: cand2",
+  "description": null,
+  "date": "2026-11-23",
+  "run_at": "2026-11-23 08:42",
+  "data": "live (logged-in session)",
+  "enrich": "enriched 8/9 daily, 9/9 intraday, with news for top 5; 53s",
+  "filters": [
+    [
+      "name",
+      "in_range",
+      [
+        "ALH",
+        "ZIM",
+        "DXC",
+        "KSS",
+        "AMPL",
+        "DOCU",
+        "OLLI",
+        "CERT",
+        "RRC",
+        "GXO",
+        "BBY",
+        "ADPT"
+      ]
+    ]
+  ],
+  "sort": [
+    "market_cap_basic",
+    "desc"
+  ],
+  "total_matches": 9,
+  "rows": [
+    {
+      "name": "BBY",
+      "description": "Best Buy Co., Inc.",
+      "close": 97.95,
+      "open": 100.55,
+      "high": 101.015,
+      "low": 97.41,
+      "change": -1.3297068600785669,
+      "change_from_open": -2.585778219791143,
+      "VWAP": 98.79166666666667,
+      "RSI": 49.174742313270826,
+      "relative_volume_intraday|5": 1.1973394203513723,
+      "relative_volume_10d_calc": 1.1558617869052132,
+      "volume": 2981028,
+      "average_volume_30d_calc": 2750811.6,
+      "market_cap_basic": 20542828251.999996,
+      "float_shares_outstanding": 197170326.272,
+      "EMA20": 99.42630081331043,
+      "EMA50": 95.28700850874728,
+      "SMA200": 77.80565,
+      "price_52_week_high": 106.83,
+      "premarket_high": 101.6321,
+      "premarket_low": 99.6,
+      "sector": "Retail Trade",
+      "earnings_release_next_date": 1795521600,
+      "symbol": "NYSE:BBY",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 97.95,
+          "prior_day_high": 101.02,
+          "prior_day_low": 97.41,
+          "ema20": 99.43,
+          "ema50": 95.29,
+          "sma200": 77.81,
+          "rsi14": 49.2,
+          "atr14": 3.72,
+          "atr_pct": 3.8,
+          "perf_1m_pct": -1.9,
+          "perf_3m_pct": 12.0,
+          "high_52w": 106.83,
+          "pct_below_52w_high": 8.3,
+          "high_20d": 106.83,
+          "low_20d": 93.18,
+          "resistance_above": [
+            100.49,
+            106.83
+          ],
+          "support_below": [
+            93.18,
+            86.77,
+            83.65
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 101.63,
+          "premarket_low": 100.29,
+          "premarket_last": 100.6,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 1,
+          "tone": "positive",
+          "positive": 1,
+          "negative": 0,
+          "neutral": 0,
+          "top": [
+            {
+              "published_utc": "2026-11-23T11:25:08Z",
+              "title": "Best Buy Reports Earnings Tomorrow. Here's What Investors Should Be Watching.",
+              "publisher": "The Motley Fool",
+              "sentiment": "positive",
+              "reason": "Company demonstrated strong Q2 earnings beat with double-digit EPS growth. Management is successfully pursuing higher-margin businesses (Best Buy Ads, Marketplace), diversifying beyond traditional PC ",
+              "url": "https://www.fool.com/investing/2026/11/23/best-buy-reports-earnings-tomorrow-here-s-what-investors-should-be-watching/?source=iedfolrf0000001"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "DOCU",
+      "description": "DocuSign, Inc.",
+      "close": 74.56,
+      "open": 74.51,
+      "high": 77.62,
+      "low": 74.15,
+      "change": -0.6661337596589395,
+      "change_from_open": 0.06710508656555786,
+      "VWAP": 75.44333333333334,
+      "RSI": 41.2806109847115,
+      "relative_volume_intraday|5": 0.9813183281858703,
+      "relative_volume_10d_calc": 1.096064723275411,
+      "volume": 2444629,
+      "average_volume_30d_calc": 2483549.2666666666,
+      "market_cap_basic": 13935446258,
+      "float_shares_outstanding": 185728442.342,
+      "EMA20": 77.90030347740131,
+      "EMA50": 74.55530714243098,
+      "SMA200": 56.42252499999999,
+      "price_52_week_high": 85.9,
+      "premarket_high": 76.51,
+      "premarket_low": 75.41,
+      "sector": "Technology Services",
+      "earnings_release_next_date": 1796331900,
+      "symbol": "NASDAQ:DOCU",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 74.56,
+          "prior_day_high": 77.62,
+          "prior_day_low": 74.15,
+          "ema20": 77.9,
+          "ema50": 74.56,
+          "sma200": 56.42,
+          "rsi14": 41.3,
+          "atr14": 3.03,
+          "atr_pct": 4.1,
+          "perf_1m_pct": -11.7,
+          "perf_3m_pct": 19.2,
+          "high_52w": 85.9,
+          "pct_below_52w_high": 13.2,
+          "high_20d": 85.9,
+          "low_20d": 74.15,
+          "resistance_above": [
+            81.48,
+            85.9
+          ],
+          "support_below": [
+            66.83,
+            65.57,
+            63.92
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": null,
+        "news": {
+          "hours": 48,
+          "count": 0,
+          "tone": "none",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0,
+          "top": []
+        }
+      }
+    },
+    {
+      "name": "RRC",
+      "description": "Range Resources Corporation",
+      "close": 47.94,
+      "open": 48.08,
+      "high": 49.29,
+      "low": 47.94,
+      "change": -1.052631578947379,
+      "change_from_open": -0.29118136439268005,
+      "VWAP": 48.38999999999999,
+      "RSI": 46.98834360038391,
+      "relative_volume_intraday|5": 0.5883710481938412,
+      "relative_volume_10d_calc": 0.5904408337036108,
+      "volume": 2131303,
+      "average_volume_30d_calc": 5042868.366666666,
+      "market_cap_basic": 11203137166.000002,
+      "float_shares_outstanding": 230057104.95,
+      "EMA20": 49.50005743969712,
+      "EMA50": 46.55344141345651,
+      "SMA200": 41.51465,
+      "price_52_week_high": 56.9,
+      "premarket_high": 48.45,
+      "premarket_low": 48,
+      "sector": "Energy Minerals",
+      "earnings_release_next_date": 1803988800,
+      "symbol": "NYSE:RRC",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 47.94,
+          "prior_day_high": 49.29,
+          "prior_day_low": 47.94,
+          "ema20": 49.5,
+          "ema50": 46.55,
+          "sma200": 41.51,
+          "rsi14": 47.0,
+          "atr14": 1.77,
+          "atr_pct": 3.7,
+          "perf_1m_pct": 9.3,
+          "perf_3m_pct": 16.2,
+          "high_52w": 56.9,
+          "pct_below_52w_high": 15.7,
+          "high_20d": 56.9,
+          "low_20d": 47.94,
+          "resistance_above": [
+            52.62,
+            56.9
+          ],
+          "support_below": [
+            42.1,
+            40.86,
+            37.17
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 48.45,
+          "premarket_low": 48.0,
+          "premarket_last": 48.21,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 0,
+          "tone": "none",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0,
+          "top": []
+        }
+      }
+    },
+    {
+      "name": "ADPT",
+      "description": "Adaptive Biotechnologies Corporation",
+      "close": 27.93,
+      "open": 27.43,
+      "high": 28.225,
+      "low": 27.1501,
+      "change": -0.4278074866310196,
+      "change_from_open": 1.822821728034998,
+      "VWAP": 27.76836666666667,
+      "RSI": 51.54511368551483,
+      "relative_volume_intraday|5": 0.7896221691494508,
+      "relative_volume_10d_calc": 1.0636778396926845,
+      "volume": 2483169,
+      "average_volume_30d_calc": 2196576.2333333334,
+      "market_cap_basic": 4521216105,
+      "float_shares_outstanding": 157087221.447,
+      "EMA20": 27.88556238358687,
+      "EMA50": 26.90848993397822,
+      "SMA200": 20.3459,
+      "price_52_week_high": 32.21,
+      "premarket_high": 28,
+      "premarket_low": 28,
+      "sector": "Health Technology",
+      "earnings_release_next_date": 1802779200,
+      "symbol": "NASDAQ:ADPT",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 27.93,
+          "prior_day_high": 28.23,
+          "prior_day_low": 27.15,
+          "ema20": 27.89,
+          "ema50": 26.91,
+          "sma200": 20.35,
+          "rsi14": 51.5,
+          "atr14": 1.69,
+          "atr_pct": 6.1,
+          "perf_1m_pct": 14.4,
+          "perf_3m_pct": 9.3,
+          "high_52w": 32.21,
+          "pct_below_52w_high": 13.3,
+          "high_20d": 32.21,
+          "low_20d": 24.8,
+          "resistance_above": [
+            29.05,
+            29.96,
+            30.74
+          ],
+          "support_below": [
+            27.29,
+            26.73,
+            24.8
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 28.0,
+          "premarket_low": 28.0,
+          "premarket_last": 28.0,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 0,
+          "tone": "none",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 0,
+          "top": []
+        }
+      }
+    },
+    {
+      "name": "ZIM",
+      "description": "ZIM Integrated Shipping Services Ltd.",
+      "close": 29.32,
+      "open": 29.3,
+      "high": 29.7,
+      "low": 29.09,
+      "change": -1.0128291694800835,
+      "change_from_open": 0.06825938566552756,
+      "VWAP": 29.37,
+      "RSI": 51.72600651280845,
+      "relative_volume_intraday|5": 1.9149044226646035,
+      "relative_volume_10d_calc": 1.686850617039456,
+      "volume": 2370475,
+      "average_volume_30d_calc": 1269396.2666666666,
+      "market_cap_basic": 3537430717.0000005,
+      "float_shares_outstanding": 120478281.66499999,
+      "EMA20": 29.15595471969264,
+      "EMA50": 28.92245640453844,
+      "SMA200": 26.97865,
+      "price_52_week_high": 30.98,
+      "premarket_high": 29.86,
+      "premarket_low": 29.36,
+      "sector": "Transportation",
+      "earnings_release_next_date": 1805112000,
+      "symbol": "NYSE:ZIM",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 29.32,
+          "prior_day_high": 29.7,
+          "prior_day_low": 29.09,
+          "ema20": 29.16,
+          "ema50": 28.92,
+          "sma200": 26.98,
+          "rsi14": 51.7,
+          "atr14": 0.79,
+          "atr_pct": 2.7,
+          "perf_1m_pct": 0.8,
+          "perf_3m_pct": 3.3,
+          "high_52w": 30.98,
+          "pct_below_52w_high": 5.4,
+          "high_20d": 30.79,
+          "low_20d": 27.27,
+          "resistance_above": [
+            29.38,
+            29.85,
+            30.4
+          ],
+          "support_below": [
+            29.2,
+            28.89,
+            28.7
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 29.86,
+          "premarket_low": 29.36,
+          "premarket_last": 29.59,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 1,
+          "tone": "positive",
+          "positive": 1,
+          "negative": 0,
+          "neutral": 0,
+          "top": [
+            {
+              "published_utc": "2026-11-21T20:17:24Z",
+              "title": "ZIM: 3 Key Takeaways for Long-Term Investors",
+              "publisher": "The Motley Fool",
+              "sentiment": "positive",
+              "reason": "Company raised full-year EBITDA guidance, achieved 53% YoY revenue growth in Q3, declared a $2.01 per share dividend, and is implementing strategic cost-reduction initiatives through LNG vessels and f",
+              "url": "https://www.fool.com/earnings/takeaways/2026/11/21/zim-3-key-takeaways-for-long-term-investors/?source=iedfolrf0000001"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "KSS",
+      "description": "Kohl's Corporation",
+      "close": 22.25,
+      "open": 22.7,
+      "high": 23.115,
+      "low": 22.175,
+      "change": -3.2187907785993843,
+      "change_from_open": -1.9823788546255476,
+      "VWAP": 22.513333333333332,
+      "RSI": 45.913610850115134,
+      "relative_volume_intraday|5": 1.1206165705964402,
+      "relative_volume_10d_calc": 1.078377099964842,
+      "volume": 3704910,
+      "average_volume_30d_calc": 4022918.033333333,
+      "market_cap_basic": 2522625834,
+      "float_shares_outstanding": 108199818.72,
+      "EMA20": 23.323149960973264,
+      "EMA50": 21.90422778371954,
+      "SMA200": 17.4215,
+      "price_52_week_high": 25.6,
+      "premarket_high": 23.19,
+      "premarket_low": 22.5,
+      "sector": "Retail Trade",
+      "earnings_release_next_date": 1795521600,
+      "symbol": "NYSE:KSS",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 22.25,
+          "prior_day_high": 23.12,
+          "prior_day_low": 22.18,
+          "ema20": 23.32,
+          "ema50": 21.9,
+          "sma200": 17.42,
+          "rsi14": 45.9,
+          "atr14": 1.22,
+          "atr_pct": 5.5,
+          "perf_1m_pct": -10.2,
+          "perf_3m_pct": 21.6,
+          "high_52w": 25.6,
+          "pct_below_52w_high": 13.1,
+          "high_20d": 25.6,
+          "low_20d": 22.18,
+          "resistance_above": [
+            22.9,
+            25.1,
+            25.6
+          ],
+          "support_below": [
+            16.21,
+            16.02
+          ],
+          "squeeze_sessions_last10": 2,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 23.19,
+          "premarket_low": 22.5,
+          "premarket_last": 22.99,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "DXC",
+      "description": "DXC Technology Company",
+      "close": 13.67,
+      "open": 13.46,
+      "high": 13.91,
+      "low": 13.2638,
+      "change": 2.5506376594148525,
+      "change_from_open": 1.560178306092118,
+      "VWAP": 13.6146,
+      "RSI": 43.907898325494806,
+      "relative_volume_intraday|5": 1.1375807625227563,
+      "relative_volume_10d_calc": 1.0519285334932238,
+      "volume": 2770574,
+      "average_volume_30d_calc": 4376080.933333334,
+      "market_cap_basic": 2125284105.9999998,
+      "float_shares_outstanding": 151509909.862,
+      "EMA20": 14.414660042471082,
+      "EMA50": 13.58253092747421,
+      "SMA200": 11.557174999999999,
+      "price_52_week_high": 16.38,
+      "premarket_high": 13.81,
+      "premarket_low": 13.68,
+      "sector": "Technology Services",
+      "earnings_release_next_date": 1801656000,
+      "symbol": "NYSE:DXC",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 13.67,
+          "prior_day_high": 13.91,
+          "prior_day_low": 13.26,
+          "ema20": 14.41,
+          "ema50": 13.58,
+          "sma200": 11.56,
+          "rsi14": 43.9,
+          "atr14": 0.72,
+          "atr_pct": 5.3,
+          "perf_1m_pct": -15.0,
+          "perf_3m_pct": 28.6,
+          "high_52w": 16.38,
+          "pct_below_52w_high": 16.5,
+          "high_20d": 16.38,
+          "low_20d": 13.26,
+          "resistance_above": [
+            15.53,
+            16.38
+          ],
+          "support_below": [
+            13.35,
+            10.87,
+            10.13
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 13.68,
+          "premarket_low": 13.68,
+          "premarket_last": 13.68,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "AMPL",
+      "description": "Amplitude, Inc.",
+      "close": 16.2,
+      "open": 16.33,
+      "high": 16.9,
+      "low": 16.065,
+      "change": -2.055622732769044,
+      "change_from_open": -0.7960808328230191,
+      "VWAP": 16.388333333333335,
+      "RSI": 46.72050476292162,
+      "relative_volume_intraday|5": 0.6479350660125451,
+      "relative_volume_10d_calc": 0.6903280887324562,
+      "volume": 1430459,
+      "average_volume_30d_calc": 1895323.6,
+      "market_cap_basic": 2065467011.0000002,
+      "float_shares_outstanding": 86066853.128388,
+      "EMA20": 16.73021232791867,
+      "EMA50": 15.59900112078823,
+      "SMA200": 10.165275000000001,
+      "price_52_week_high": 18.85,
+      "premarket_high": 16.56,
+      "premarket_low": 16.27,
+      "sector": "Technology Services",
+      "earnings_release_next_date": 1803470400,
+      "symbol": "NASDAQ:AMPL",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 16.2,
+          "prior_day_high": 16.9,
+          "prior_day_low": 16.07,
+          "ema20": 16.73,
+          "ema50": 15.6,
+          "sma200": 10.17,
+          "rsi14": 46.7,
+          "atr14": 0.87,
+          "atr_pct": 5.4,
+          "perf_1m_pct": -5.1,
+          "perf_3m_pct": 23.2,
+          "high_52w": 18.85,
+          "pct_below_52w_high": 14.1,
+          "high_20d": 18.85,
+          "low_20d": 15.62,
+          "resistance_above": [
+            17.84,
+            18.85
+          ],
+          "support_below": [
+            15.62,
+            14.63,
+            12.8
+          ],
+          "squeeze_sessions_last10": 5,
+          "squeeze_fired": true
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 16.51,
+          "premarket_low": 16.27,
+          "premarket_last": 16.3,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "CERT",
+      "description": "Certara, Inc.",
+      "close": 10.55,
+      "open": 10.56,
+      "high": 10.86,
+      "low": 10.42,
+      "change": -1.2172284644194664,
+      "change_from_open": -0.09469696969696767,
+      "VWAP": 10.610000000000001,
+      "RSI": 45.7835992937698,
+      "relative_volume_intraday|5": 0.47888999603877624,
+      "relative_volume_10d_calc": 0.8901720621168159,
+      "volume": 2781337,
+      "average_volume_30d_calc": 2550992.2333333334,
+      "market_cap_basic": 1609333018,
+      "float_shares_outstanding": 97125958.61600001,
+      "EMA20": 11.04827424420406,
+      "EMA50": 10.198143737329202,
+      "SMA200": 7.441549999999999,
+      "price_52_week_high": 12.61,
+      "premarket_high": 10.85,
+      "premarket_low": 10.67,
+      "sector": "Technology Services",
+      "earnings_release_next_date": 1804161600,
+      "symbol": "NASDAQ:CERT",
+      "enrich": {
+        "daily": null,
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 10.85,
+          "premarket_low": 10.71,
+          "premarket_last": 10.71,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    }
+  ]
+}
