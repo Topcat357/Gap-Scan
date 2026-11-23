@@ -1,77 +1,72 @@
-# Trending after the open - 2026-11-20 10:34 ET
-Data: live (logged-in session). 15 matches, top 15 by relative_volume_intraday|5.
+# Trending after the open - 2026-11-23 10:35 ET
+Data: live (logged-in session). 14 matches, top 14 by relative_volume_intraday|5.
 
-**GAP** (NYSE:GAP) - Gap, Inc. (The)
-- $21.73 | day 15.7% | from open 7.3% | VWAP $21.31
-- Intraday RVOL 8.2 | RSI 51 | Float 230.0M | Mkt cap 7.6B
-- Sector: Retail Trade | Next earnings: 2027-03-11
+**SYM** (NASDAQ:SYM) - Symbotic Inc.
+- $36.91 | day 18.7% | from open 4.8% | VWAP $36.48
+- Intraday RVOL 6.6 | RSI 51 | Float 74.0M | Mkt cap 22.3B
+- Sector: Producer Manufacturing | Next earnings: 2026-11-23 (EARNINGS SOON)
 
-**ESTC** (NYSE:ESTC) - Elastic N.V.
-- $77.61 | day 1.7% | from open 4.2% | VWAP $76.29
-- Intraday RVOL 6.8 | RSI 35 | Float 96.0M | Mkt cap 8.2B
-- Sector: Technology Services | Next earnings: 2027-03-04
+**AVR** (NASDAQ:AVR) - Anteris Technologies Global Corp.
+- $6.08 | day 21.8% | from open 12.6% | VWAP $5.82
+- Intraday RVOL 5.4 | RSI 52 | Float 81.3M | Mkt cap 592.8M
+- Sector: Health Technology | Next earnings: 2027-03-17
 
 **BSP** (NASDAQ:BSP) - Bending Spoons S.p.A.
-- $43.66 | day 4.7% | from open 4.5% | VWAP $43.06
-- Intraday RVOL 4.8 | RSI 53 | Float 245.7M | Mkt cap 28.7B
+- $47.37 | day 15.4% | from open 8.2% | VWAP $46.18
+- Intraday RVOL 4.9 | RSI 61 | Float 245.7M | Mkt cap 34.8B
 - Sector: Technology Services | Next earnings: 2027-02-25
 
-**PPLI** (NASDAQ:PPLI) - People Incorporated
-- $43.29 | day 3.6% | from open 3.5% | VWAP $42.80
-- Intraday RVOL 3.7 | RSI 60 | Float 62.0M | Mkt cap 3.2B
-- Sector: Technology Services | Next earnings: 2027-02-16
+**PRCH** (NASDAQ:PRCH) - Porch Group, Inc.
+- $21.37 | day 7.5% | from open 3.1% | VWAP $21.10
+- Intraday RVOL 2.7 | RSI 59 | Float 90.3M | Mkt cap 2.4B
+- Sector: Finance | Next earnings: 2027-03-02
 
-**FIG** (NYSE:FIG) - FIGMA INC
-- $16.76 | day 3.1% | from open 4.8% | VWAP $16.63
-- Intraday RVOL 2.4 | RSI 34 | Float 227.6M | Mkt cap 9.0B
-- Sector: Technology Services | Next earnings: 2027-02-24
+**ESTC** (NYSE:ESTC) - Elastic N.V.
+- $81.76 | day 9.3% | from open 5.1% | VWAP $80.61
+- Intraday RVOL 2.6 | RSI 43 | Float 95.9M | Mkt cap 8.7B
+- Sector: Technology Services | Next earnings: 2027-03-04
 
-**UPWK** (NASDAQ:UPWK) - Upwork Inc.
-- $9.04 | day 3.3% | from open 3.1% | VWAP $8.97
-- Intraday RVOL 2.4 | RSI 44 | Float 119.2M | Mkt cap 1.1B
-- Sector: Commercial Services | Next earnings: 2027-02-17
+**OCTV** (NASDAQ:OCTV) - Octave Intelligence plc
+- $21.25 | day 5.0% | from open 3.6% | VWAP $20.90
+- Intraday RVOL 2.5 | RSI 53 | Float 206.7M | Mkt cap 5.7B
+- Sector: Technology Services | Next earnings: 2027-02-25
 
-**AAP** (NYSE:AAP) - Advance Auto Parts Inc.
-- $46.91 | day 3.8% | from open 4.0% | VWAP $46.43
-- Intraday RVOL 2.3 | RSI 56 | Float 59.3M | Mkt cap 2.8B
-- Sector: Retail Trade | Next earnings: 2027-03-03
+**XE** (NASDAQ:XE) - X-Energy, Inc.
+- $10.31 | day 17.3% | from open 4.2% | VWAP $10.19
+- Intraday RVOL 2.4 | RSI 45 | Float 166.4M | Mkt cap 4.2B
+- Sector: Producer Manufacturing | Next earnings: 2027-03-03
 
-**PYPL** (NASDAQ:PYPL) - PayPal Holdings, Inc.
-- $55.11 | day -2.2% | from open 3.0% | VWAP $54.60
-- Intraday RVOL 2.2 | RSI 39 | Float 829.6M | Mkt cap 45.8B
-- Sector: Commercial Services | Next earnings: 2027-02-09
+**EWTX** (NASDAQ:EWTX) - Edgewise Therapeutics, Inc.
+- $42.70 | day 7.0% | from open 3.3% | VWAP $42.08
+- Intraday RVOL 2.3 | RSI 52 | Float 82.6M | Mkt cap 4.7B
+- Sector: Health Technology | Next earnings: 2027-02-25
 
-**PTON** (NASDAQ:PTON) - Peloton Interactive, Inc.
-- $5.17 | day 2.1% | from open 3.3% | VWAP $5.16
-- Intraday RVOL 2.2 | RSI 45 | Float 419.1M | Mkt cap 2.3B
-- Sector: Consumer Services | Next earnings: 2027-02-04
+**ACCV** (NASDAQ:ACCV) - Accelevation Holdings Corp.
+- $10.87 | day 13.5% | from open 3.4% | VWAP $10.77
+- Intraday RVOL 2.3 | RSI 42 | Float - | Mkt cap 2.4B
+- Sector: Producer Manufacturing | Next earnings: 2027-03-03
 
-**FND** (NYSE:FND) - Floor & Decor Holdings, Inc.
-- $48.49 | day 4.5% | from open 3.2% | VWAP $48.10
-- Intraday RVOL 2.1 | RSI 50 | Float 100.9M | Mkt cap 5.1B
-- Sector: Retail Trade | Next earnings: 2027-02-25
+**CL** (NYSE:CL) - Colgate-Palmolive Company
+- $98.08 | day -0.7% | from open 3.0% | VWAP $97.05
+- Intraday RVOL 2.2 | RSI 56 | Float 793.4M | Mkt cap 78.0B
+- Sector: Consumer Non-Durables | Next earnings: 2027-01-22
 
-**IMMX** (NASDAQ:IMMX) - Immix Biopharma, Inc.
-- $7.34 | day 4.3% | from open 4.9% | VWAP $7.25
-- Intraday RVOL 2.1 | RSI 40 | Float 69.0M | Mkt cap 615.2M
-- Sector: Health Technology | Next earnings: 2027-03-03
+**MLTX** (NASDAQ:MLTX) - MoonLake Immunotherapeutics
+- $11.99 | day 8.3% | from open 4.1% | VWAP $11.76
+- Intraday RVOL 2.2 | RSI 52 | Float 75.1M | Mkt cap 1.0B
+- Sector: Health Technology | Next earnings: 2027-03-04
 
-**ERAS** (NASDAQ:ERAS) - Erasca, Inc.
-- $13.73 | day -3.4% | from open 4.6% | VWAP $13.72
-- Intraday RVOL 2.1 | RSI 43 | Float 248.0M | Mkt cap 4.8B
-- Sector: Health Technology | Next earnings: 2027-03-25
+**VSTM** (NASDAQ:VSTM) - Verastem, Inc.
+- $6.91 | day 9.2% | from open 5.0% | VWAP $6.81
+- Intraday RVOL 2.2 | RSI 36 | Float 114.1M | Mkt cap 870.8M
+- Sector: Health Technology | Next earnings: 2027-03-18
 
-**RBLX** (NYSE:RBLX) - Roblox Corporation
-- $47.14 | day 1.7% | from open 3.0% | VWAP $46.99
-- Intraday RVOL 2.1 | RSI 47 | Float 634.9M | Mkt cap 33.7B
-- Sector: Technology Services | Next earnings: 2027-02-11
+**NHP** (NASDAQ:NHP) - National Healthcare Properties, Inc.
+- $15.30 | day 3.2% | from open 3.2% | VWAP $14.97
+- Intraday RVOL 2.1 | RSI 51 | Float - | Mkt cap 1.1B
+- Sector: Finance | Next earnings: 2027-02-19
 
-**FLYW** (NASDAQ:FLYW) - Flywire Corporation - Voting
-- $21.57 | day 0.8% | from open 3.5% | VWAP $21.32
-- Intraday RVOL 2.1 | RSI 58 | Float 114.2M | Mkt cap 2.6B
-- Sector: Commercial Services | Next earnings: 2027-03-02
-
-**LPX** (NYSE:LPX) - Louisiana-Pacific Corporation
-- $75.08 | day 2.3% | from open 3.1% | VWAP $74.44
-- Intraday RVOL 2.1 | RSI 54 | Float 68.9M | Mkt cap 5.3B
-- Sector: Non-Energy Minerals | Next earnings: 2027-02-23
+**VKTX** (NASDAQ:VKTX) - Viking Therapeutics, Inc.
+- $27.68 | day 11.7% | from open 6.3% | VWAP $27.02
+- Intraday RVOL 2.1 | RSI 51 | Float 123.8M | Mkt cap 3.5B
+- Sector: Health Technology | Next earnings: 2027-02-10
