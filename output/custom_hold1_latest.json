@@ -1,0 +1,911 @@
+{
+  "name": "hold1",
+  "title": "Custom scan: hold1",
+  "description": null,
+  "date": "2026-11-23",
+  "run_at": "2026-11-23 08:40",
+  "data": "live (logged-in session)",
+  "enrich": "enriched 11/11 daily, 11/11 intraday, with news for top 5; 52s",
+  "filters": [
+    [
+      "name",
+      "in_range",
+      [
+        "SOUN",
+        "PYPL",
+        "KO",
+        "VZ",
+        "ARCC",
+        "O",
+        "WMT",
+        "KR",
+        "MDT",
+        "WRB",
+        "CPB",
+        "FTS"
+      ]
+    ]
+  ],
+  "sort": [
+    "market_cap_basic",
+    "desc"
+  ],
+  "total_matches": 11,
+  "rows": [
+    {
+      "name": "WMT",
+      "description": "Walmart Inc.",
+      "close": 127.95,
+      "open": 127.26,
+      "high": 130.52,
+      "low": 127.18,
+      "change": 1.5153919390669601,
+      "change_from_open": 0.5421970768505404,
+      "VWAP": 128.55,
+      "RSI": 63.98448586845528,
+      "relative_volume_intraday|5": 2.027331115301898,
+      "relative_volume_10d_calc": 1.9486648682162022,
+      "volume": 42650480,
+      "average_volume_30d_calc": 22903997.8,
+      "market_cap_basic": 1015122788483,
+      "float_shares_outstanding": 4415615833.75,
+      "EMA20": 124.72499113249006,
+      "EMA50": 119.5056817404787,
+      "SMA200": 118.9912,
+      "price_52_week_high": 135.155,
+      "premarket_high": 128.9,
+      "premarket_low": 127.2694,
+      "sector": "Retail Trade",
+      "earnings_release_next_date": 1802952000,
+      "symbol": "NASDAQ:WMT",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 127.95,
+          "prior_day_high": 130.52,
+          "prior_day_low": 127.18,
+          "ema20": 124.72,
+          "ema50": 119.51,
+          "sma200": 118.99,
+          "rsi14": 64.0,
+          "atr14": 2.9,
+          "atr_pct": 2.3,
+          "perf_1m_pct": 5.6,
+          "perf_3m_pct": 20.2,
+          "high_52w": 135.16,
+          "pct_below_52w_high": 5.3,
+          "high_20d": 131.82,
+          "low_20d": 118.11,
+          "resistance_above": [
+            129.85,
+            131.82
+          ],
+          "support_below": [
+            123.03,
+            118.11,
+            116.63
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 128.9,
+          "premarket_low": 127.27,
+          "premarket_last": 128.51,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 8,
+          "tone": "neutral",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 8,
+          "top": [
+            {
+              "published_utc": "2026-11-23T11:25:08Z",
+              "title": "Best Buy Reports Earnings Tomorrow. Here's What Investors Should Be Watching.",
+              "publisher": "The Motley Fool",
+              "sentiment": "neutral",
+              "reason": "Mentioned only as a comparison point for Best Buy's Ads service offering. No specific performance data or analysis provided.",
+              "url": "https://www.fool.com/investing/2026/11/23/best-buy-reports-earnings-tomorrow-here-s-what-investors-should-be-watching/?source=iedfolrf0000001"
+            },
+            {
+              "published_utc": "2026-11-23T09:13:00Z",
+              "title": "Protect Yourself From Phishing, Smishing, and Vishing Scams",
+              "publisher": "The Motley Fool",
+              "sentiment": "neutral",
+              "reason": "Walmart is mentioned only as an example of a company whose name scammers impersonate in phishing emails. This is contextual reference with no bearing on the company's business performance or outlook.",
+              "url": "https://www.fool.com/retirement/2026/11/23/protect-yourself-from-phishing-smishing-and-vishin/?source=iedfolrf0000001"
+            },
+            {
+              "published_utc": "2026-11-22T19:51:25Z",
+              "title": "Nike vs. Procter & Gamble: Which Consumer Stock Is a Better Buy for 2027?",
+              "publisher": "The Motley Fool",
+              "sentiment": "neutral",
+              "reason": "Walmart is mentioned as a significant customer representing 16% of P&G's sales, indicating a key distribution channel but not the primary focus of the analysis.",
+              "url": "https://www.fool.com/coverage/better-buy/2026/11/22/nike-vs-procter-gamble-which-consumer-stock-is-a-better-buy-for-2027/?source=iedfolrf0000001"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "KO",
+      "description": "Coca-Cola Company (The)",
+      "close": 96.99,
+      "open": 97,
+      "high": 97.785,
+      "low": 96.745,
+      "change": 0.9366219169528478,
+      "change_from_open": -0.010309278350520737,
+      "VWAP": 97.17333333333333,
+      "RSI": 57.973266532086214,
+      "relative_volume_intraday|5": 1.365022699020949,
+      "relative_volume_10d_calc": 1.470646512421137,
+      "volume": 26015469,
+      "average_volume_30d_calc": 18552402.233333334,
+      "market_cap_basic": 417241499130.00006,
+      "float_shares_outstanding": 4272535230.6000004,
+      "EMA20": 95.99810049169669,
+      "EMA50": 92.9402718079429,
+      "SMA200": 83.883625,
+      "price_52_week_high": 100.56,
+      "premarket_high": 97.2,
+      "premarket_low": 96.32,
+      "sector": "Consumer Non-Durables",
+      "earnings_release_next_date": 1802779200,
+      "symbol": "NYSE:KO",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 96.99,
+          "prior_day_high": 97.79,
+          "prior_day_low": 96.75,
+          "ema20": 96.0,
+          "ema50": 92.94,
+          "sma200": 83.88,
+          "rsi14": 58.0,
+          "atr14": 1.79,
+          "atr_pct": 1.8,
+          "perf_1m_pct": 1.7,
+          "perf_3m_pct": 5.4,
+          "high_52w": 100.56,
+          "pct_below_52w_high": 3.6,
+          "high_20d": 100.56,
+          "low_20d": 90.58,
+          "resistance_above": [
+            97.39,
+            100.56
+          ],
+          "support_below": [
+            93.0,
+            90.58,
+            87.41
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 97.2,
+          "premarket_low": 96.32,
+          "premarket_last": 96.77,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 7,
+          "tone": "positive",
+          "positive": 4,
+          "negative": 0,
+          "neutral": 3,
+          "top": [
+            {
+              "published_utc": "2026-11-23T12:25:00Z",
+              "title": "McDonald's (MCD) Has Raised Its Dividend 50 Straight Years. I'd Buy It in November and Never Sell.",
+              "publisher": "The Motley Fool",
+              "sentiment": "positive",
+              "reason": "Cited as a Dividend King with 64 consecutive years of dividend increases, indicating strong sustained financial performance and shareholder returns.",
+              "url": "https://www.fool.com/investing/2026/11/23/mcdonalds-mcd-raise-dividend-50-year-buy-sell/?source=iedfolrf0000001"
+            },
+            {
+              "published_utc": "2026-11-22T20:27:02Z",
+              "title": "Warren Buffett\u2019s Successor, Greg Abel, Has Invested Nearly 47% of Berkshire Hathaway\u2019s $360 Billion Stock Portfolio in Just 3 Stocks (and None Are AI Hyperscalers)",
+              "publisher": "The Motley Fool",
+              "sentiment": "positive",
+              "reason": "Owned since 1988 with 400 million shares generating ~$848M in annual dividends. Valued for global brands, pricing power, and steady cash flow. Q3 showed unit case volume growth of 5%, organic revenue ",
+              "url": "https://www.fool.com/investing/2026/11/22/warren-buffett-s-successor-greg-abel-has-invested-nearly-47-of-berkshire-hathaway-s-usd360-billion-stock-portfolio-in-just-3-stocks-and-none-are-ai-hyperscalers/?source=iedfolrf0000001"
+            },
+            {
+              "published_utc": "2026-11-22T19:23:20Z",
+              "title": "e.l.f. Beauty vs. Monster Beverage: Which Consumer Goods Stock Is a Better Buy for 2027?",
+              "publisher": "The Motley Fool",
+              "sentiment": "neutral",
+              "reason": "Mentioned as Monster Beverage's critical global distribution partner, indicating importance to Monster's operations but no independent investment thesis presented.",
+              "url": "https://www.fool.com/coverage/better-buy/2026/11/22/elf-beauty-vs-monster-beverage-which-consumer-goods-stock-is-a-better-buy-for-2027/?source=iedfolrf0000001"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "VZ",
+      "description": "Verizon Communications Inc.",
+      "close": 46.52,
+      "open": 46.48,
+      "high": 47.11,
+      "low": 46.37,
+      "change": 1.7052907739396612,
+      "change_from_open": 0.08605851979347301,
+      "VWAP": 46.666666666666664,
+      "RSI": 56.1499775842038,
+      "relative_volume_intraday|5": 1.7894775541265462,
+      "relative_volume_10d_calc": 1.5542372772961146,
+      "volume": 29527943,
+      "average_volume_30d_calc": 25340137.033333335,
+      "market_cap_basic": 192806703785.14893,
+      "float_shares_outstanding": 4142382639.0000005,
+      "EMA20": 45.79131764680672,
+      "EMA50": 45.94083670021506,
+      "SMA200": 47.156825,
+      "price_52_week_high": 51.68,
+      "premarket_high": 46.62,
+      "premarket_low": 46.1346,
+      "sector": "Communications",
+      "earnings_release_next_date": 1800964800,
+      "symbol": "NYSE:VZ",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 46.48,
+          "prior_day_high": 47.11,
+          "prior_day_low": 46.37,
+          "ema20": 45.79,
+          "ema50": 45.94,
+          "sma200": 47.16,
+          "rsi14": 55.9,
+          "atr14": 1.1,
+          "atr_pct": 2.4,
+          "perf_1m_pct": 2.8,
+          "perf_3m_pct": -7.3,
+          "high_52w": 51.68,
+          "pct_below_52w_high": 10.1,
+          "high_20d": 47.15,
+          "low_20d": 42.47,
+          "resistance_above": [
+            46.98,
+            50.93,
+            51.67
+          ],
+          "support_below": [
+            46.16,
+            42.47,
+            40.81
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 46.62,
+          "premarket_low": 46.13,
+          "premarket_last": 46.47,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 3,
+          "tone": "positive",
+          "positive": 3,
+          "negative": 0,
+          "neutral": 0,
+          "top": [
+            {
+              "published_utc": "2026-11-21T23:14:02Z",
+              "title": "Best Stock to Buy: TMobile vs AT&T vs Verizon",
+              "publisher": "The Motley Fool",
+              "sentiment": "positive",
+              "reason": "The Motley Fool recommends Verizon Communications as a stock to buy, indicating it is viewed favorably as an investment option among the three telecom competitors.",
+              "url": "https://www.fool.com/investing/2026/11/21/best-stock-to-buy-tmobile-vs-at-and-t-vs-verizon/?source=iedfolrf0000001"
+            },
+            {
+              "published_utc": "2026-11-21T21:03:02Z",
+              "title": "Verizon Pays Out $11.7 Billion a Year in Dividends. Here\u2019s the Free Cash Flow Math Behind Its 6.2%-Yielding Payout.",
+              "publisher": "The Motley Fool",
+              "sentiment": "positive",
+              "reason": "Verizon demonstrates strong financial health with robust free cash flow generation nearly double its dividend obligations, 20 consecutive years of dividend increases, a solid 2.3x leverage ratio, and ",
+              "url": "https://www.fool.com/investing/2026/11/21/verizon-pays-out-usd11-7-billion-a-year-in-dividends-here-s-the-free-cash-flow-math-behind-its-6-2-yielding-payout/?source=iedfolrf0000001"
+            },
+            {
+              "published_utc": "2026-11-21T16:31:02Z",
+              "title": "3 High-Yield Dividend Stocks to Buy Now and 2 to Avoid Despite the Yield",
+              "publisher": "The Motley Fool",
+              "sentiment": "positive",
+              "reason": "Despite Starlink disruption concerns, company reported record-breaking quarter with continued subscriber additions, positive revenue growth, and 6.8% year-over-year EPS increase. Improving financial p",
+              "url": "https://www.fool.com/investing/2026/11/21/3-high-yield-dividend-stocks-to-buy-now-and-2-to-avoid-despite-the-yield/?source=iedfolrf0000001"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "MDT",
+      "description": "Medtronic plc.",
+      "close": 99.94,
+      "open": 101.42,
+      "high": 102.605,
+      "low": 99.59,
+      "change": -0.6659377795447786,
+      "change_from_open": -1.4592782488661054,
+      "VWAP": 100.71166666666666,
+      "RSI": 53.768478838763144,
+      "relative_volume_intraday|5": 1.3946408469307163,
+      "relative_volume_10d_calc": 1.5350598856524553,
+      "volume": 9034159,
+      "average_volume_30d_calc": 13479319.033333333,
+      "market_cap_basic": 127840245115,
+      "float_shares_outstanding": 1278053284.59,
+      "EMA20": 99.80062046381533,
+      "EMA50": 96.05429005732435,
+      "SMA200": 88.2246,
+      "price_52_week_high": 106.33,
+      "premarket_high": 101.8,
+      "premarket_low": 100.75,
+      "sector": "Health Technology",
+      "earnings_release_next_date": 1795520700,
+      "symbol": "NYSE:MDT",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 99.94,
+          "prior_day_high": 102.61,
+          "prior_day_low": 99.59,
+          "ema20": 99.8,
+          "ema50": 96.05,
+          "sma200": 88.22,
+          "rsi14": 53.8,
+          "atr14": 2.41,
+          "atr_pct": 2.4,
+          "perf_1m_pct": 3.5,
+          "perf_3m_pct": 7.6,
+          "high_52w": 106.33,
+          "pct_below_52w_high": 6.0,
+          "high_20d": 106.2,
+          "low_20d": 93.04,
+          "resistance_above": [
+            104.49,
+            106.2
+          ],
+          "support_below": [
+            93.04,
+            90.26,
+            85.43
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 101.8,
+          "premarket_low": 100.75,
+          "premarket_last": 101.4,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 2,
+          "tone": "neutral",
+          "positive": 0,
+          "negative": 0,
+          "neutral": 2,
+          "top": [
+            {
+              "published_utc": "2026-11-23T12:30:02Z",
+              "title": "Breakfast News: Don't Let a Correction Derail You",
+              "publisher": "The Motley Fool",
+              "sentiment": "neutral",
+              "reason": "Reporting earnings Tuesday; no specific sentiment drivers mentioned in article",
+              "url": "https://www.fool.com/investing/breakfast-news/2026/11/23/breakfast-news/?source=iedfolrf0000001"
+            },
+            {
+              "published_utc": "2026-11-21T19:07:02Z",
+              "title": "Medtronic Is About to Report Its First Earnings Since Spinning Off MiniMed. Should You Buy the Stock Before Nov. 24?",
+              "publisher": "The Motley Fool",
+              "sentiment": "neutral",
+              "reason": "Stock appears undervalued at 17x forward earnings with a 2.9% dividend yield, but near-term margin pressures from the MiniMed spin-off, manufacturing costs for new devices, and recent acquisitions war",
+              "url": "https://www.fool.com/investing/2026/11/21/medtronic-is-about-to-report-its-first-earnings-since-spinning-off-minimed-should-you-buy-the-stock-before-nov-24/?source=iedfolrf0000001"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "O",
+      "description": "Realty Income Corporation",
+      "close": 58.03,
+      "open": 58.2,
+      "high": 58.74,
+      "low": 57.88,
+      "change": 0.6416926812348327,
+      "change_from_open": -0.2920962199312744,
+      "VWAP": 58.21666666666667,
+      "RSI": 51.290520947315215,
+      "relative_volume_intraday|5": 1.5389241499336965,
+      "relative_volume_10d_calc": 1.3785301354326354,
+      "volume": 7846313,
+      "average_volume_30d_calc": 7226141.666666667,
+      "market_cap_basic": 55186358828.99999,
+      "float_shares_outstanding": 949236704.553,
+      "EMA20": 58.05123833081886,
+      "EMA50": 57.97334830172795,
+      "SMA200": 61.44145,
+      "price_52_week_high": 67.935,
+      "premarket_high": 58.1911,
+      "premarket_low": 57.56,
+      "sector": "Finance",
+      "earnings_release_next_date": 1803384000,
+      "symbol": "NYSE:O",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 58.03,
+          "prior_day_high": 58.74,
+          "prior_day_low": 57.88,
+          "ema20": 58.05,
+          "ema50": 57.97,
+          "sma200": 61.44,
+          "rsi14": 51.3,
+          "atr14": 0.97,
+          "atr_pct": 1.7,
+          "perf_1m_pct": 1.7,
+          "perf_3m_pct": -8.1,
+          "high_52w": 67.94,
+          "pct_below_52w_high": 14.6,
+          "high_20d": 60.08,
+          "low_20d": 55.91,
+          "resistance_above": [
+            60.0,
+            61.97,
+            63.1
+          ],
+          "support_below": [
+            55.91,
+            55.28,
+            53.33
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 58.16,
+          "premarket_low": 57.56,
+          "premarket_last": 58.16,
+          "bars_5m": 0
+        },
+        "news": {
+          "hours": 48,
+          "count": 2,
+          "tone": "positive",
+          "positive": 2,
+          "negative": 0,
+          "neutral": 0,
+          "top": [
+            {
+              "published_utc": "2026-11-22T16:18:02Z",
+              "title": "Don't Give Up on Realty Income in a Rising-Rate Environment; It Can Easily Survive Until the Property Market Adjusts",
+              "publisher": "The Motley Fool",
+              "sentiment": "positive",
+              "reason": "The article presents a bullish case for Realty Income despite near-term headwinds from rising rates. Key positive factors include: 32 consecutive years of dividend increases, largest public net lease ",
+              "url": "https://www.fool.com/investing/2026/11/22/don-t-give-up-on-realty-income-in-a-rising-rate-environment-it-can-easily-survive-until-the-property-market-adjusts/?source=iedfolrf0000001"
+            },
+            {
+              "published_utc": "2026-11-21T23:33:02Z",
+              "title": "Realty Income Pays Dividends Every Month. Here's What You Can Expect $10,000 Invested to Pay Monthly in 2027.",
+              "publisher": "The Motley Fool",
+              "sentiment": "positive",
+              "reason": "Strong track record with 56+ years of consecutive monthly dividend payments, 29+ years of quarterly dividend increases, high occupancy rate (98.8%), diversified portfolio across 96 industries, and rel",
+              "url": "https://www.fool.com/investing/2026/11/21/realty-income-pays-dividends-every-month-heres-what-you-can-expect-10000-invested-to-pay-monthly-in-2027/?source=iedfolrf0000001"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "PYPL",
+      "description": "PayPal Holdings, Inc.",
+      "close": 53.29,
+      "open": 53.49,
+      "high": 55.37,
+      "low": 53.1,
+      "change": -5.463899237182896,
+      "change_from_open": -0.3739016638624095,
+      "VWAP": 53.919999999999995,
+      "RSI": 34.22118588986109,
+      "relative_volume_intraday|5": 2.0790646264285932,
+      "relative_volume_10d_calc": 1.9945021044224451,
+      "volume": 16934653,
+      "average_volume_30d_calc": 10878811.066666666,
+      "market_cap_basic": 44265782910,
+      "float_shares_outstanding": 829617185.5259999,
+      "EMA20": 57.47511007105871,
+      "EMA50": 56.6254526054151,
+      "SMA200": 50.424549999999996,
+      "price_52_week_high": 63.9298,
+      "premarket_high": 54.4,
+      "premarket_low": 53.77,
+      "sector": "Commercial Services",
+      "earnings_release_next_date": 1802174400,
+      "symbol": "NASDAQ:PYPL",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 53.29,
+          "prior_day_high": 55.37,
+          "prior_day_low": 53.1,
+          "ema20": 57.48,
+          "ema50": 56.63,
+          "sma200": 50.42,
+          "rsi14": 34.2,
+          "atr14": 1.63,
+          "atr_pct": 3.1,
+          "perf_1m_pct": -7.4,
+          "perf_3m_pct": -13.6,
+          "high_52w": 63.93,
+          "pct_below_52w_high": 16.6,
+          "high_20d": 60.87,
+          "low_20d": 53.1,
+          "resistance_above": [
+            54.6,
+            55.54,
+            56.96
+          ],
+          "support_below": [
+            52.29,
+            51.92,
+            50.8
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 54.4,
+          "premarket_low": 53.77,
+          "premarket_last": 54.03,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "KR",
+      "description": "Kroger Company (The)",
+      "close": 68.44,
+      "open": 68.92,
+      "high": 69.875,
+      "low": 68.06,
+      "change": 0.7359434795407712,
+      "change_from_open": -0.696459663377835,
+      "VWAP": 68.79166666666667,
+      "RSI": 55.40256909619193,
+      "relative_volume_intraday|5": 2.144121240160679,
+      "relative_volume_10d_calc": 1.6494253610323588,
+      "volume": 8517559,
+      "average_volume_30d_calc": 6238232.4,
+      "market_cap_basic": 40419890980,
+      "float_shares_outstanding": 588684941.064,
+      "EMA20": 67.97095553794591,
+      "EMA50": 65.01406613579793,
+      "SMA200": 64.05995,
+      "price_52_week_high": 76.58,
+      "premarket_high": 68.77,
+      "premarket_low": 68.7298,
+      "sector": "Retail Trade",
+      "earnings_release_next_date": 1796308200,
+      "symbol": "NYSE:KR",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 68.44,
+          "prior_day_high": 69.88,
+          "prior_day_low": 68.06,
+          "ema20": 67.97,
+          "ema50": 65.01,
+          "sma200": 64.06,
+          "rsi14": 55.4,
+          "atr14": 1.86,
+          "atr_pct": 2.7,
+          "perf_1m_pct": 0.8,
+          "perf_3m_pct": 15.8,
+          "high_52w": 76.58,
+          "pct_below_52w_high": 10.6,
+          "high_20d": 71.82,
+          "low_20d": 64.96,
+          "resistance_above": [
+            71.64
+          ],
+          "support_below": [
+            64.96,
+            61.82,
+            57.75
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 68.73,
+          "premarket_low": 67.44,
+          "premarket_last": 68.73,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "WRB",
+      "description": "W.R. Berkley Corporation",
+      "close": 78.31,
+      "open": 79,
+      "high": 79.7,
+      "low": 78.13,
+      "change": 1.175710594315241,
+      "change_from_open": -0.8734177215189844,
+      "VWAP": 78.71333333333332,
+      "RSI": 63.6701862524415,
+      "relative_volume_intraday|5": 1.633506442811254,
+      "relative_volume_10d_calc": 1.5154777032273712,
+      "volume": 2324420,
+      "average_volume_30d_calc": 2025431.4666666666,
+      "market_cap_basic": 29093399636,
+      "float_shares_outstanding": 220520009.088,
+      "EMA20": 76.12320857819901,
+      "EMA50": 73.89930468779592,
+      "SMA200": 69.8602,
+      "price_52_week_high": 79.7,
+      "premarket_high": 77.79,
+      "premarket_low": 77.79,
+      "sector": "Finance",
+      "earnings_release_next_date": 1801137600,
+      "symbol": "NYSE:WRB",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 78.31,
+          "prior_day_high": 79.7,
+          "prior_day_low": 78.13,
+          "ema20": 76.12,
+          "ema50": 73.9,
+          "sma200": 69.86,
+          "rsi14": 63.7,
+          "atr14": 1.63,
+          "atr_pct": 2.1,
+          "perf_1m_pct": 3.7,
+          "perf_3m_pct": 12.4,
+          "high_52w": 79.7,
+          "pct_below_52w_high": 1.7,
+          "high_20d": 79.7,
+          "low_20d": 71.36,
+          "resistance_above": [
+            78.89,
+            79.7
+          ],
+          "support_below": [
+            72.8,
+            71.36,
+            67.36
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 77.79,
+          "premarket_low": 77.79,
+          "premarket_last": 77.79,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "ARCC",
+      "description": "Ares Capital Corporation",
+      "close": 18.43,
+      "open": 18.6,
+      "high": 18.77,
+      "low": 18.4,
+      "change": -0.913978494623665,
+      "change_from_open": -0.913978494623665,
+      "VWAP": 18.533333333333335,
+      "RSI": 38.229404989009296,
+      "relative_volume_intraday|5": 1.102538543374671,
+      "relative_volume_10d_calc": 1.10605131685798,
+      "volume": 3888849,
+      "average_volume_30d_calc": 4312546.433333334,
+      "market_cap_basic": 13310054205,
+      "float_shares_outstanding": 717925383.16,
+      "EMA20": 18.949381345246703,
+      "EMA50": 19.027942615442907,
+      "SMA200": 18.9377,
+      "price_52_week_high": 21.14,
+      "premarket_high": 18.6325,
+      "premarket_low": 18.5237,
+      "sector": "Finance",
+      "earnings_release_next_date": 1802260800,
+      "symbol": "NASDAQ:ARCC",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 18.43,
+          "prior_day_high": 18.77,
+          "prior_day_low": 18.4,
+          "ema20": 18.95,
+          "ema50": 19.03,
+          "sma200": 18.94,
+          "rsi14": 38.2,
+          "atr14": 0.33,
+          "atr_pct": 1.8,
+          "perf_1m_pct": -1.9,
+          "perf_3m_pct": -8.1,
+          "high_52w": 21.14,
+          "pct_below_52w_high": 12.8,
+          "high_20d": 19.7,
+          "low_20d": 18.32,
+          "resistance_above": [
+            18.81,
+            19.02,
+            19.48
+          ],
+          "support_below": [
+            18.32
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 18.63,
+          "premarket_low": 18.52,
+          "premarket_last": 18.63,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "CPB",
+      "description": "The Campbell's Company",
+      "close": 23.78,
+      "open": 23.65,
+      "high": 24.37,
+      "low": 23.635,
+      "change": 1.8415417558886495,
+      "change_from_open": 0.5496828752642815,
+      "VWAP": 23.92833333333333,
+      "RSI": 62.80350719359101,
+      "relative_volume_intraday|5": 1.6569730922955346,
+      "relative_volume_10d_calc": 1.5127755488745465,
+      "volume": 8845834,
+      "average_volume_30d_calc": 6368905.266666667,
+      "market_cap_basic": 7092020899,
+      "float_shares_outstanding": 194020954.54,
+      "EMA20": 22.548304515408613,
+      "EMA50": 21.767972283900363,
+      "SMA200": 22.1411,
+      "price_52_week_high": 31.6607,
+      "premarket_high": 23.8851,
+      "premarket_low": 23.57,
+      "sector": "Consumer Non-Durables",
+      "earnings_release_next_date": 1796818500,
+      "symbol": "NASDAQ:CPB",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 23.78,
+          "prior_day_high": 24.37,
+          "prior_day_low": 23.64,
+          "ema20": 22.55,
+          "ema50": 21.77,
+          "sma200": 22.14,
+          "rsi14": 62.8,
+          "atr14": 0.87,
+          "atr_pct": 3.7,
+          "perf_1m_pct": 11.9,
+          "perf_3m_pct": -1.6,
+          "high_52w": 32.04,
+          "pct_below_52w_high": 25.8,
+          "high_20d": 24.39,
+          "low_20d": 20.28,
+          "resistance_above": [
+            24.16,
+            24.39
+          ],
+          "support_below": [
+            21.58,
+            20.69,
+            19.26
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 23.89,
+          "premarket_low": 23.7,
+          "premarket_last": 23.89,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    },
+    {
+      "name": "SOUN",
+      "description": "SoundHound AI, Inc.",
+      "close": 2.61,
+      "open": 2.8,
+      "high": 2.94,
+      "low": 2.6,
+      "change": -10.309278350515473,
+      "change_from_open": -6.785714285714284,
+      "VWAP": 2.716666666666667,
+      "RSI": 14.139692890763072,
+      "relative_volume_intraday|5": 1.2460926950126183,
+      "relative_volume_10d_calc": 1.2127928681321327,
+      "volume": 26209436,
+      "average_volume_30d_calc": 18111220.566666666,
+      "market_cap_basic": 1274706748,
+      "float_shares_outstanding": 442523697.642,
+      "EMA20": 3.7299828674234723,
+      "EMA50": 4.634569739474735,
+      "SMA200": 6.739199999999999,
+      "price_52_week_high": 13.12,
+      "premarket_high": 2.8,
+      "premarket_low": 2.69,
+      "sector": "Technology Services",
+      "earnings_release_next_date": 1804161600,
+      "symbol": "NASDAQ:SOUN",
+      "enrich": {
+        "daily": {
+          "as_of": "2026-11-20",
+          "close": 2.61,
+          "prior_day_high": 2.94,
+          "prior_day_low": 2.6,
+          "ema20": 3.73,
+          "ema50": 4.63,
+          "sma200": 6.74,
+          "rsi14": 14.1,
+          "atr14": 0.27,
+          "atr_pct": 10.4,
+          "perf_1m_pct": -42.0,
+          "perf_3m_pct": -62.7,
+          "high_52w": 13.19,
+          "pct_below_52w_high": 80.2,
+          "high_20d": 4.5,
+          "low_20d": 2.6,
+          "resistance_above": [
+            4.43,
+            6.21,
+            6.65
+          ],
+          "support_below": [
+            2.6
+          ],
+          "squeeze_sessions_last10": 0,
+          "squeeze_fired": false
+        },
+        "intraday": {
+          "date": "2026-11-23",
+          "premarket_high": 2.8,
+          "premarket_low": 2.7,
+          "premarket_last": 2.78,
+          "bars_5m": 0
+        },
+        "news": null
+      }
+    }
+  ]
+}
