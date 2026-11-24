@@ -1,0 +1,3 @@
+symbol,name,description,close,premarket_close,premarket_change,premarket_volume,premarket_high,premarket_low,float_shares_outstanding,relative_volume_10d_calc,average_volume_30d_calc,market_cap_basic,sector,earnings_release_next_date
+NASDAQ:FLNC,FLNC,"Fluence Energy, Inc.",3.8,4.6995,23.67105263157894,2279327,4.71,4.27,110703966.07571,1.6396055347264644,7070005,701466199,Producer Manufacturing,1802347200
+NYSE:KSS,KSS,Kohl's Corporation,21.2,22.8614,7.836792452830191,164374,24.2143,21.08,108199818.72,2.4335162603151264,4125883.066666667,2403580656.0000005,Retail Trade,1803988800
