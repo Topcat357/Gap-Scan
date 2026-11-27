@@ -1,72 +1,87 @@
-# Trending after the open (loosened) - 2026-10-13 10:47 ET
-Data: MAY BE DELAYED - TV_SESSIONID not set. 14 matches, top 14 by relative_volume_intraday|5.
+# Trending after the open (loosened) - 2026-11-27 10:35 ET
+Data: live (logged-in session). 17 matches, top 17 by relative_volume_intraday|5.
 
-**RSI** (NYSE:RSI) - Rush Street Interactive, Inc.
-- $19.14 | day 2.3% | from open 2.2% | VWAP $19.02
-- Intraday RVOL 4.8 | RSI 31 | Float 112.2M | Mkt cap 4.4B
-- Sector: Consumer Services | Next earnings: 2026-10-28
+**KNTK** (NYSE:KNTK) - Kinetik Holdings Inc.
+- $60.02 | day 9.7% | from open 2.3% | VWAP $59.65
+- Intraday RVOL 5.1 | RSI 68 | Float 64.4M | Mkt cap 9.7B
+- Sector: Industrial Services | Next earnings: 2027-03-03
 
-**ACI** (NYSE:ACI) - Albertsons Companies, Inc.
-- $12.86 | day 2.5% | from open 4.5% | VWAP $12.68
-- Intraday RVOL 4.3 | RSI 63 | Float 325.0M | Mkt cap 6.2B
-- Sector: Retail Trade | Next earnings: 2027-01-12
+**HLF** (NYSE:HLF) - Herbalife Ltd.
+- $17.25 | day 3.0% | from open 3.7% | VWAP $17.04
+- Intraday RVOL 3.2 | RSI 71 | Float 101.9M | Mkt cap 1.8B
+- Sector: Consumer Non-Durables | Next earnings: 2027-02-17
 
-**S** (NYSE:S) - SentinelOne, Inc.
-- $25.00 | day -2.6% | from open 6.6% | VWAP $24.60
-- Intraday RVOL 2.8 | RSI 58 | Float 324.7M | Mkt cap 8.7B
-- Sector: Technology Services | Next earnings: 2026-12-08
+**CLBK** (NASDAQ:CLBK) - Columbia Financial, Inc.
+- $10.90 | day 0.1% | from open 2.3% | VWAP $10.83
+- Intraday RVOL 2.7 | RSI 47 | Float 263.7M | Mkt cap 2.9B
+- Sector: Finance | Next earnings: 2027-01-27
 
-**RNG** (NYSE:RNG) - RingCentral, Inc.
-- $78.76 | day 0.8% | from open 2.4% | VWAP $78.13
-- Intraday RVOL 2.6 | RSI 60 | Float 72.5M | Mkt cap 6.6B
-- Sector: Technology Services | Next earnings: 2026-10-22
+**BKSY** (NYSE:BKSY) - BlackSky Technology Inc.
+- $17.29 | day 8.2% | from open 3.0% | VWAP $17.03
+- Intraday RVOL 2.5 | RSI 42 | Float 35.9M | Mkt cap 715.6M
+- Sector: Technology Services | Next earnings: 2027-03-10
 
-**CORZ** (NASDAQ:CORZ) - Core Scientific, Inc.
-- $14.90 | day -0.8% | from open 2.3% | VWAP $14.76
-- Intraday RVOL 2.6 | RSI 34 | Float 308.4M | Mkt cap 4.8B
-- Sector: Technology Services | Next earnings: 2026-11-11
+**MO** (NYSE:MO) - Altria Group, Inc.
+- $76.50 | day 0.3% | from open 2.1% | VWAP $75.77
+- Intraday RVOL 2.5 | RSI 54 | Float 1.7B | Mkt cap 127.3B
+- Sector: Consumer Non-Durables | Next earnings: 2027-02-04
 
-**DXC** (NYSE:DXC) - DXC Technology Company
-- $13.05 | day 4.1% | from open 4.0% | VWAP $12.93
-- Intraday RVOL 2.4 | RSI 70 | Float 155.7M | Mkt cap 2.1B
-- Sector: Technology Services | Next earnings: 2026-11-04
+**IP** (NYSE:IP) - International Paper Company
+- $34.12 | day 6.3% | from open 6.3% | VWAP $33.51
+- Intraday RVOL 2.1 | RSI 54 | Float 518.8M | Mkt cap 18.1B
+- Sector: Process Industries | Next earnings: 2027-02-04
 
-**SEI** (NYSE:SEI) - Solaris Energy Infrastructure, Inc.
-- $77.90 | day -1.7% | from open 2.2% | VWAP $77.29
-- Intraday RVOL 2.0 | RSI 62 | Float 56.7M | Mkt cap 6.2B
-- Sector: Industrial Services | Next earnings: 2026-11-04
+**VYX** (NYSE:VYX) - NCR Voyix Corporation
+- $11.04 | day 4.5% | from open 4.3% | VWAP $10.93
+- Intraday RVOL 1.9 | RSI 66 | Float 134.3M | Mkt cap 1.5B
+- Sector: Technology Services | Next earnings: 2027-02-09
 
-**GPRE** (NASDAQ:GPRE) - Green Plains, Inc.
-- $15.07 | day 3.2% | from open 3.4% | VWAP $14.86
-- Intraday RVOL 2.0 | RSI 50 | Float 68.5M | Mkt cap 1.1B
-- Sector: Process Industries | Next earnings: 2026-10-29
+**CTRI** (NYSE:CTRI) - Centuri Holdings, Inc.
+- $22.76 | day 4.5% | from open 2.3% | VWAP $22.57
+- Intraday RVOL 1.8 | RSI 57 | Float 86.0M | Mkt cap 2.3B
+- Sector: Utilities | Next earnings: 2027-03-03
 
-**CTSH** (NASDAQ:CTSH) - Cognizant Technology Solutions Corporation
-- $61.99 | day 3.9% | from open 2.4% | VWAP $61.47
-- Intraday RVOL 1.8 | RSI 59 | Float 448.3M | Mkt cap 27.9B
-- Sector: Technology Services | Next earnings: 2026-10-29
+**RVLV** (NYSE:RVLV) - Revolve Group, Inc.
+- $20.29 | day 5.4% | from open 5.6% | VWAP $19.92
+- Intraday RVOL 1.7 | RSI 52 | Float 40.8M | Mkt cap 1.4B
+- Sector: Retail Trade | Next earnings: 2027-03-02
 
-**FSLY** (NASDAQ:FSLY) - Fastly, Inc.
-- $27.09 | day 2.5% | from open 3.4% | VWAP $26.94
-- Intraday RVOL 1.7 | RSI 55 | Float 149.0M | Mkt cap 4.3B
-- Sector: Technology Services | Next earnings: 2026-11-04
+**ACCO** (NYSE:ACCO) - Acco Brands Corporation
+- $5.58 | day 1.8% | from open 2.2% | VWAP $5.54
+- Intraday RVOL 1.7 | RSI 64 | Float 89.7M | Mkt cap 515.2M
+- Sector: Producer Manufacturing | Next earnings: 2027-02-25
 
-**ONDS** (NASDAQ:ONDS) - Ondas Inc
-- $6.63 | day -0.5% | from open 2.1% | VWAP $6.62
-- Intraday RVOL 1.7 | RSI 33 | Float 538.4M | Mkt cap 3.9B
-- Sector: Electronic Technology | Next earnings: 2026-11-16
+**GRND** (NYSE:GRND) - Grindr Inc.
+- $14.43 | day 4.7% | from open 2.3% | VWAP $14.36
+- Intraday RVOL 1.7 | RSI 55 | Float 27.0M | Mkt cap 2.6B
+- Sector: Technology Services | Next earnings: 2027-03-10
 
-**SONO** (NASDAQ:SONO) - Sonos, Inc.
-- $17.61 | day 1.6% | from open 2.5% | VWAP $17.52
-- Intraday RVOL 1.7 | RSI 59 | Float 116.2M | Mkt cap 2.1B
-- Sector: Consumer Durables | Next earnings: 2026-11-18
+**OMDA** (NASDAQ:OMDA) - Omada Health, Inc.
+- $12.38 | day 4.6% | from open 3.5% | VWAP $12.29
+- Intraday RVOL 1.7 | RSI 31 | Float 50.4M | Mkt cap 767.7M
+- Sector: Technology Services | Next earnings: 2027-03-11
 
-**HPQ** (NYSE:HPQ) - HP Inc.
-- $30.87 | day 3.3% | from open 2.8% | VWAP $30.68
-- Intraday RVOL 1.6 | RSI 47 | Float 899.4M | Mkt cap 27.8B
-- Sector: Technology Services | Next earnings: 2026-12-01
+**ARLO** (NYSE:ARLO) - Arlo Technologies, Inc.
+- $13.04 | day 3.6% | from open 3.5% | VWAP $12.92
+- Intraday RVOL 1.7 | RSI 53 | Float 104.5M | Mkt cap 1.4B
+- Sector: Electronic Technology | Next earnings: 2027-03-04
 
-**HUT** (NASDAQ:HUT) - Hut 8 Corp.
-- $83.19 | day -2.4% | from open 2.9% | VWAP $82.12
-- Intraday RVOL 1.6 | RSI 43 | Float 112.4M | Mkt cap 10.3B
-- Sector: Technology Services | Next earnings: 2026-11-04
+**AMPL** (NASDAQ:AMPL) - Amplitude, Inc.
+- $17.56 | day 2.7% | from open 2.4% | VWAP $17.43
+- Intraday RVOL 1.7 | RSI 59 | Float 86.1M | Mkt cap 2.2B
+- Sector: Technology Services | Next earnings: 2027-02-24
+
+**OI** (NYSE:OI) - O-I Glass, Inc.
+- $5.00 | day 3.3% | from open 2.9% | VWAP $4.92
+- Intraday RVOL 1.6 | RSI 48 | Float 151.2M | Mkt cap 769.7M
+- Sector: Process Industries | Next earnings: 2027-02-03
+
+**FOUR** (NYSE:FOUR) - Shift4 Payments, Inc.
+- $45.70 | day 4.9% | from open 4.8% | VWAP $45.11
+- Intraday RVOL 1.6 | RSI 61 | Float 52.7M | Mkt cap 3.4B
+- Sector: Commercial Services | Next earnings: 2027-03-02
+
+**CNH** (NYSE:CNH) - CNH Industrial N.V.
+- $12.27 | day 3.3% | from open 2.7% | VWAP $12.14
+- Intraday RVOL 1.5 | RSI 56 | Float 865.4M | Mkt cap 15.2B
+- Sector: Producer Manufacturing | Next earnings: 2027-02-16
